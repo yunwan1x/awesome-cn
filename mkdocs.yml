@@ -2,15 +2,15 @@
 site_name: 超赞合集 awesome list chinese
 site_description: 超赞列表合集 awesome list chinese zh CN 中文 awesome-python awesome-nodejs
 site_author: chenjiajia
-site_url: https://asmcn.icopy.site
+site_url: https://yunwan1x.github.io/awesome-cn
 
 # Repository
-repo_name: 'icopy-site/awesome-cn'
-repo_url: 'https://github.com/icopy-site/awesome-cn'
+repo_name: 'yunwan1x/awesome-cn'
+repo_url: 'https://github.com/yunwan1x/awesome-cn'
 edit_uri: 'blob/master/docs/'
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2019'
+copyright: 'Copyright &copy; 2016 - 2021'
 
 # Contents
 nav:

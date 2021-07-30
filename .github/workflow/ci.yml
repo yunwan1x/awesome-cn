@@ -2,14 +2,14 @@ name: Publish docs via GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
+      - name: Checkout master
         uses: actions/checkout@v2
 
       - name: Deploy docs
@@ -18,6 +18,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CUSTOM_DOMAIN: optionaldomain.com
-          CONFIG_FILE: folder/mkdocs.yml
+          #CONFIG_FILE: folder/mkdocs.yml
           EXTRA_PACKAGES: build-base
           # GITHUB_DOMAIN: github.myenterprise.com

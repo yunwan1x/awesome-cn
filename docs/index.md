@@ -14,9 +14,14 @@
 
 [alternativeto chinese](https://zh.altapps.net/)
 
+[开源中国](https://www.oschina.net/project)
+
+[apache开源基金会](https://www.apache.org/)
+
+[gnu开源基金会](https://www.gnu.org/software/software.zh-cn.html)
 
 
-[![Build Status](https://travis-ci.org/icopy-site/icopy-site.github.io.svg?branch=develop)](https://travis-ci.org/icopy-site/icopy-site.github.io)
+[![Build Status](https://travis-ci.org/icopy-site/icopy-site.github.io.svg?branch=develop)](https://github.com/yunwan1x/awesome-cn/actions)
 
 
 

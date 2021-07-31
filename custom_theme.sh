@@ -2,7 +2,7 @@
 # Push HTML files to gh-pages automatically.
 
 # Fill this out with the correct org/repo
-ORG=icopy-site
+ORG=yunwan1x
 REPO=awesome-cn
 # This probably should match an email for one of your users.
 EMAIL=chenjiajia1@gmail.com

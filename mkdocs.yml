@@ -1,7 +1,7 @@
 # Project Information
 site_name: 超赞合集 awesome list chinese
 site_description: 超赞列表合集 awesome list chinese zh CN 中文 awesome-python awesome-nodejs
-site_author: chenjiajia
+site_author: wangyun
 site_url: https://yunwan1x.github.io/awesome-cn
 
 # Repository
@@ -10,7 +10,7 @@ repo_url: 'https://github.com/yunwan1x/awesome-cn'
 edit_uri: 'blob/master/docs/'
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2021'
+copyright: 'Copyright &copy; 2020 - 2021'
 
 # Contents
 nav:

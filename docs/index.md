@@ -4,7 +4,7 @@
 ## awesome 列表中文版，友情列表
 [github中文社区](https://www.githubs.cn/feed)
 
-[libs.garden](https://www.githubs.cn/feed)
+[libs.garden](https://libs.garden/)
 
 [open source libs](https://opensourcelibs.com/)
 

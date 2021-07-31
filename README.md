@@ -1,5 +1,5 @@
 
-## 超赞列表合集 地址 : [asmcn.icopy.site](https://asmcn.icopy.site)
+## 超赞列表合集 地址 : [yunwan1x.github.io/awesome-cn](https://yunwan1x.github.io/awesome-cn)
 
 [![Build Status](https://travis-ci.org/icopy-site/awesome-cn.svg?branch=master)](https://travis-ci.org/icopy-site/awesome-cn)
 
@@ -10,5 +10,6 @@
 特别感谢 ctf-wiki 作者 ,项目配置直接照搬的这个项目
 
 ### 英文原版地址: [asmen.icopy.site](https://asmen.icopy.site) 
+### 友情版本地址: [asmcn.icopy.site](https://asmcn.icopy.site)
 
 ![show case](showcase.jpg)

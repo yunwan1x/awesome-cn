@@ -22,6 +22,8 @@ jobs:
         run: |
           ls -an  .
           whoami
-          find /opt/az/lib/python3.6/site-packages/mkdocs/contrib  -name 'search' -type d 
+          python --version
+          find /opt/az/lib/python3.6/site-packages/  -name 'mkdocs' -type d 
+          tree /opt/az/lib/python3.6/site-packages/mkdocs
           # chmod +x custom_theme.sh && ./custom_theme.sh
           # chmod +x deploy.sh && ./deploy.sh

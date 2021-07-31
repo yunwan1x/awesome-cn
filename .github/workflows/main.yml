@@ -15,19 +15,13 @@ jobs:
       - uses: BSFishy/pip-action@v1
         with:
           requirements: requirements.txt
-      - uses: shaowenchen/debugger-action@v1
-        name: debugger
-        timeout-minutes: 5
-        continue-on-error: true
-        with:
-          frp_server_addr: 139.198.113.238
-          frp_server_port: 5443
-          frp_token: jqhVb79zYjxZWGtw
-          ssh_port: 31000    
+    
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
           ls -an  .
-          chmod +x custom_theme.sh && ./custom_theme.sh
-          chmod +x deploy.sh && ./deploy.sh
+          whoami
+          find /  -name 'site-packages' -type d 
+
+

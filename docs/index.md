@@ -22,6 +22,7 @@
 
 [cncf基金会](https://www.cncf.io/projects/)
 
+[cheetsheet](https://cheatography.com/)
 
 [![Build Status](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/yunwan1x/awesome-cn/actions)
 

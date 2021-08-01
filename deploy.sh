@@ -26,7 +26,7 @@ cp search_index.py ${pythonVersion}/mkdocs/contrib/search/search_index.py
 git clone --depth 1  -b master --single-branch https://github.com/icopy-site/awesome-cn.git
 cp -f  awesome-cn/docs/awesome/*  ./docs/awesome/
 cp awesome-cn/mkdocs.yml ./
-
+TZ='Asia/Shanghai'
 time=`date +'%Y-%m-%d %H:%M %Z'`
 sed -i 's/chenjiajia/wangyun/g' ./mkdocs.yml
 sed -i 's/asmcn.icopy.site/yunwan1x.github.io/g' ./mkdocs.yml

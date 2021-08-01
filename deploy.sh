@@ -27,13 +27,15 @@ git clone --depth 1  -b master --single-branch https://github.com/icopy-site/awe
 cp -f  awesome-cn/docs/awesome/*  ./docs/awesome/
 cp awesome-cn/mkdocs.yml ./
 
+time=`date +'%Y-%m-%d %H:%M %Z'`
 sed -i 's/chenjiajia/wangyun/g' ./mkdocs.yml
 sed -i 's/asmcn.icopy.site/yunwan1x.github.io/g' ./mkdocs.yml
 sed -i 's/icopy-site/yunwan1x/g' ./mkdocs.yml
+sed -i "s/.*本文档采用.*构建.*/**本文档采用 [mkdocs](https://github.com/mkdocs/mkdocs) 构建，构建时间: $time **/g" ./docs/index.md
 rm -rf awesome-cn/
 git config --global user.email "512458266@qq.com"
 git config --global user.name "githubAction"
-git add .&&git commit -m "`date` build"
+git add .&&git commit -m "$time build by githubAction"
 git push
 
 mkdocs gh-deploy -v --clean --force --remote-name gh-token;

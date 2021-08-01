@@ -505,15 +505,15 @@ theme:
     - 404.html
   language: 'zh'
   palette:
-    primary: 'white'
-    accent: 'blue'
+    primary: 'red'
+    accent: 'red'
   logo:
     icon: 'school'
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
   feature:
-    tabs: false
+    tabs: true
 # Customization
 extra:
   search:

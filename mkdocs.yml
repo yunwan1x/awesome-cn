@@ -505,8 +505,8 @@ theme:
     - 404.html
   language: 'zh'
   palette:
-    primary: 'red'
-    accent: 'red'
+    primary: 'white'
+    accent: 'blue'
   logo:
     icon: 'school'
   font:

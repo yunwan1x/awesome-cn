@@ -24,7 +24,7 @@
 
 [cheetsheet](https://cheatography.com/)
 
-[![Build Status](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/yunwan1x/awesome-cn/actions)
+[![CI](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml/badge.svg)](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml)
 
 
 

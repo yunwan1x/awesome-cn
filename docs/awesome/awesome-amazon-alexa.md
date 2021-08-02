@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="miguelmota/awesome-amazon-alexa"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 
 &gt;精选了很棒的资源清单 [Amazon Alexa](https://developer.amazon.com/alexa) 平台.
 

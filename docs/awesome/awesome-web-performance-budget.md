@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="pajaydev/awesome-web-performance-budget"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Web Performance Budget [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
  &gt; Web性能预算是对影响网站性能的某些值的一组限制，在任何Web项目的设计和开发中都不应超过这些限制. 通过设置效果预算，我们可以将更多精力放在性能上，从而可以提高网站的速度和整体用户体验. 此列表可帮助我们提供指向各种文章，项目，工具和技术的链接，以维护绩效预算.
 

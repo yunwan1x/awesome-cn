@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="jorgebucaran/awesome-fish"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## awsm.fish [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > [Fish](https://fishshell.com/) 是适用于Linux，macOS和该系列其他产品的智能且用户友好的命令行外壳. 与其他默认禁用某些功能以节省系统资源的外壳程序不同，Fish默认情况下启用所有功能-最后是90年代的命令行外壳程序！

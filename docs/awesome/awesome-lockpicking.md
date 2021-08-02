@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="fabacab/awesome-lockpicking"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Lockpicking [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 &gt;精选的精妙指南，工具和其他与锁，保险箱和钥匙的安全性和折衷有关的资源清单.

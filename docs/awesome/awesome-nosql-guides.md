@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="erictleung/awesome-nosql-guides"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome NoSQL Guides [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 &gt; 有关*使用* NoSQL 数据库的资源和链接的精选列表以及决定使用一个数据库时要查找的内容.

@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="beardicus/awesome-plotters"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Plotters [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 用于计算机控制的绘图机和其他视觉艺术机器人的精选代码和资源清单.

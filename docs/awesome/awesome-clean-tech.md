@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="nglgzz/awesome-clean-tech"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Clean Tech [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 &gt;清洁技术是指通过显着提高能效，资源的可持续利用或环境保护活动来减少负面环境影响的任何过程，产品或服务.

@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="marcobiedermann/search-engine-optimization"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Search Engine Optimization (SEO) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 搜索引擎优化（SEO）技巧和技术的有用清单/集合.

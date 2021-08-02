@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="danielecook/Awesome-Bioinformatics"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Bioinformatics [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![URL Check](https://github.com/danielecook/Awesome-Bioinformatics/workflows/URL%20Check/badge.svg) ![TOC](https://github.com/danielecook/Awesome-Bioinformatics/workflows/TOC/badge.svg)
 
  &gt; 生物信息学是一个跨学科领域，开发用于理解生物数据的方法和软件工具.  — [Wikipedia](https://en.wikipedia.org/wiki/Bioinformatics)

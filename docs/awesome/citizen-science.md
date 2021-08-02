@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="dylanrees/citizen-science"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Digital Tools for Citizen Science
 
 以下是精选软件和其他资源的清单，以使那些希望使用科学工具增强社区能力和/或实践各种形式的非机构科学的人能够使用. 它在很大程度上受到了启发 [this repository](https://github.com/drewrwilson/toolsforactivism) 列出维权人士的数字工具. 随时分享建议. 如果您将软件添加到列表中，则强烈建议您使用免费和开源软件，而不要使用专有软件.

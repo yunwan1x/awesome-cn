@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="RayBB/awesome-social-enterprise"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Social Enterprise [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 进入社会企业世界的资源  
 
@@ -223,4 +223,4 @@ Coursera
   * Teresa Chahine 社会创业简介
   * Sara Calvo 为可持续发展和社会企业发展大规模教育 
 
-<script async data-id="1fc566b4-8dda-4926-ad18-22bb88e42ecc" src="https://tinyads.io/e"></script>
+

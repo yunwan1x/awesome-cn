@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="liuchong/awesome-roadmaps"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Roadmaps [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Build Status](https://travis-ci.org/liuchong/awesome-roadmaps.svg?branch=master)](https://travis-ci.org/liuchong/awesome-roadmaps)
 
 路线图的精选清单，主要涉及软件开发，可为您提供清晰的途径来提高您的知识或技能.

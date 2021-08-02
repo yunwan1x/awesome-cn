@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="academic/awesome-datascience"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 <div align="center"><img src="https://raw.githubusercontent.com/academic/awesome-datascience/master/./assets/head.jpg"></div>
 
 ## AWESOME DATA SCIENCE
@@ -816,7 +816,7 @@ Our favorite programming language is _Python_ nowadays for #DataScience. Python'
 - [Awesome Explainable Graph Reasoning](https://github.com/AstraZeneca/awesome-explainable-graph-reasoning)
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YL0RV0E5XZ"></script>
+
 <script>
    window.dataLayer = window.dataLayer ||  [];
   函数 gtag(){dataLayer.push(arguments);}

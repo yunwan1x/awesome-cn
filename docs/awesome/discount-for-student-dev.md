@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="AchoArnold/discount-for-student-dev"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## discount-for-student-dev [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 这是软件折扣（SaaS，PaaS，IaaS等）的折扣清单，以及为碰巧是学生的开发人员提供的其他优惠.
 此列表的灵感来自 [free-for-dev list](https://github.com/ripienaar/free-for-dev).

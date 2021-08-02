@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="fliptheweb/motion-ui-design"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Motion UI Design [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 什么是运动设计？ 界面上充满了魔力，使用户对UI更改感到满意.
 它精选了与运动UI设计，UI动画和过渡有关的资源，软件，库，视频和文章.

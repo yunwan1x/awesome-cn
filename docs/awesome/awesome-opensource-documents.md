@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="44bits/awesome-opensource-documents"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Open Source Documents
 
 这不是免费的编程书籍清单. 这是开放源代码或开放源代码许可的文档，指南和书籍的精选列表，可以在相同的许可下阅读，使用，修改，翻译，重新分发甚至重写.

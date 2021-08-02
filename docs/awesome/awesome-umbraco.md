@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="umbraco-community/awesome-umbraco"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Umbraco! [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/main/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 &gt;很棒的收藏 [Umbraco CMS](https://github.com/umbraco/Umbraco-CMS/) 包装，资源和闪亮的东西.

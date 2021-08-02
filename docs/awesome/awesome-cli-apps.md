@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="agarrharr/awesome-cli-apps"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 <p align="center">
 	<img width="763" src="https://cdn.rawgit.com/aharris88/awesome-cli-apps/master/media/banner.png" alt="awesome cli apps">
 </p>

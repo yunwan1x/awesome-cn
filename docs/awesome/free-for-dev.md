@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="ripienaar/free-for-dev"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## free-for.dev
 
 开发人员和开源作者现在拥有大量提供免费套餐的服务，但很难找到所有这些服务来做出明智的决定.

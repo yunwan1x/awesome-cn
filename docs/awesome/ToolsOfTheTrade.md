@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="cjbarber/ToolsOfTheTrade"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Hacker News Tools of the Trade [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f3/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 &gt; 交易工具，来自 [Hacker News](https://news.ycombinator.com).

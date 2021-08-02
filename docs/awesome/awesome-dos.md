@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="balintkissdev/awesome-dos"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome DOS [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 在 1980 年代和 1990 年代初期流行的基于 x86 的个人计算机的操作系统.

@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="johnjago/awesome-free-software"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Free Software [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 此列表中的软件以允许任何人出于任何目的使用，修改和共享该软件的条款进行分发. 最受欢迎的两个许可证是 [MIT License](https://choosealicense.com/licenses/mit/) 和 [GNU GPL](https://choosealicense.com/licenses/gpl-3.0/)， 但是这里有 [many other licenses](https://choosealicense.com/appendix/) 授予这些权限.

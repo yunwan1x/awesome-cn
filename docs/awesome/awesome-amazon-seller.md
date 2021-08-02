@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="ScaleLeap/awesome-amazon-seller"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Amazon Seller [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 &gt; 为亚马逊卖家精心挑选的工具和资源列表.

@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="tayllan/awesome-algorithms"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Algorithms
 
 精选的学习和/或练习算法的绝佳场所列表.

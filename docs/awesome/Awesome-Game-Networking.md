@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="MFatihMAR/Awesome-Game-Networking"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 
 游戏网络是计算机网络的子集，通常涵盖传输协议，数据复制，实体同步，滞后补偿，客户端预测，服务器协调，兴趣管理，带宽优化，物理回滚/快进模拟，反作弊等许多其他领域参与多人在线游戏开发.
 

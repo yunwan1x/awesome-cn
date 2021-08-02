@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="apsdehal/awesome-ctf"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome CTF [![Build Status](https://travis-ci.org/apsdehal/awesome-ctf.svg?branch=master)](https://travis-ci.org/apsdehal/awesome-ctf) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 精选清单 [Capture The Flag](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security)  （CTF）框架，库，资源，软件和教程.  该列表旨在帮助初学者以及经验丰富的CTF玩家在一个地方找到与CTF相关的所有内容.

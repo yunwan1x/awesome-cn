@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="mbiesiad/awesome-translations"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Translations [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 &gt;将文本的含义从一种语言转移到另一种语言.

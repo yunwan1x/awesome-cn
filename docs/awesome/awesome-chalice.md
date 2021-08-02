@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="chalice-dev/awesome-chalice"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Chalice
 <a href="https://raw.githubusercontent.com/sindresorhus/awesome"><img src="https://theory.ninja/awesome-square.svg"></a>&nbsp;<a href="https://join.slack.com/t/chalicedev/shared_invite/zt-naadmddi-MRwgFq40Ge3qfcPJR_RaDQ"><img height="20px" src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"></a>&nbsp;<img src="https://end4gy838edhwnq.m.pipedream.net">
 &gt;有关AWS Chalice的资源的社区列表.

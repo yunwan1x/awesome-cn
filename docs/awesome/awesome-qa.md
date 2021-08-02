@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="seriousran/awesome-qa"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## Awesome Question Answering [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome) 
 
 _精选的清单 __[Question Answering (QA)](https://en.wikipedia.org/wiki/Question_answering)__信息检索和自然语言处理（NLP）领域中的计算机科学学科，致力于使用机器学习和深度学习_

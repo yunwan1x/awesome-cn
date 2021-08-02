@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="_static/css/main.css">
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## awesome 列表中文版，友情列表
 [github中文社区](https://www.githubs.cn/feed)
 
@@ -28,7 +28,7 @@
 
 
 
-**本文档采用 [mkdocs](https://github.com/mkdocs/mkdocs) 构建，构建时间: 2021-08-02 14:11 UTC **
+**本文档采用 [mkdocs](https://github.com/mkdocs/mkdocs) 构建，构建时间: 2021-08-02 14:15 UTC **
 
 
 

@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="tiimgreen/github-cheat-sheet"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
+
 ## GitHub Cheat Sheet [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
  Git和GitHub的很酷的隐藏功能和非隐藏功能的集合. 该备忘单的灵感来自 [Zach Holman](https://github.com/holman)'s [Git and GitHub Secrets](http://confreaks.tv/videos/aloharuby2012-git-and-github-secrets) 在Aloha Ruby Conference 2012上的演讲（[slides](https://speakerdeck.com/holman/git-and-github-secrets)） 和他 [More Git and GitHub Secrets](https://vimeo.com/72955426) 在WDCNZ 2013上的演讲（[slides](https://speakerdeck.com/holman/more-git-and-github-secrets)).
 

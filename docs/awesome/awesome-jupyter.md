@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="markusschanta/awesome-jupyter"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## Awesome Jupyter [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 一个很棒的精选清单 [Jupyter](http://jupyter.org) 项目、图书馆和资源.  Jupyter 是一个开源 Web 应用程序，允许您创建和共享包含实时代码、方程、可视化和叙述文本的文档.

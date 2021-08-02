@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="transitive-bullshit/awesome-ffmpeg"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## Awesome FFmpeg [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > [FFmpeg](http://ffmpeg.org) 是用于记录，转换和流式传输音频和视频的跨平台解决方案.

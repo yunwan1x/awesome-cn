@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="chrislatorres/awesome-contexture"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## Awesome Contexture [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > [Contexture](https://github.com/smartprocure/contexture) 从诸如ElasticSearch和MongoDB之类的不同后备数据存储中抽象查询/过滤器和结果/聚合.

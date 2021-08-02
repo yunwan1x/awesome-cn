@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="componently-com/awesome-building-blocks-for-web-apps"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## Awesome Building Blocks for Web Apps [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Here%27s%20a%20list%20of%20standalone%20features%20you%20can%20integrate%20into%20your%20web%20app&url=https://github.com/componently-com/awesome-building-blocks-for-web-apps&via=componently&hashtags=webdev,componently,react,blocks,developers)
 
 **要集成到Web应用程序中的独立功能的累积列表：获得其他人构建的完整功能，而不必自己编写所有内容.**

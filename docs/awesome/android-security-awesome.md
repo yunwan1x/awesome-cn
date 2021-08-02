@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="ashishb/android-security-awesome"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## android-security-awesome ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg) <a href="https://github.com/ashishb/android-security-awesome/actions">![Lint](https://github.com/ashishb/android-security-awesome/workflows/Lint/badge.svg)</a> <a href="https://github.com/ashishb/android-security-awesome/actions"> ![Test](https://github.com/ashishb/android-security-awesome/workflows/Test/badge.svg) </a>
 
 安卓安全相关资源的集合.

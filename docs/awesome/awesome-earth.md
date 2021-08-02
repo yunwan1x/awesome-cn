@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="philsturgeon/awesome-earth"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## Awesome Earth ![Ecologi (Carbon Offset)](https://img.shields.io/ecologi/carbon/philsturgeon) ![Ecologi (Trees)](https://img.shields.io/ecologi/trees/philsturgeon) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) <!-- omit in toc -->
 
 世界同时在水下和着火中，人们想知道他们能做些什么. 让我们分享资源、服务、产品和想法，您可以使用它们来停止对地球的打击.

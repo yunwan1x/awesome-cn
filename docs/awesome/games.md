@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="leereilly/games"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## Games on GitHub <img src="http://i.imgur.com/Cj4rMrS.gif" height="40" alt="Swimming Octocat" title="Games on GitHub">
 
 以下是可在GitHub上找到的开源游戏和游戏相关项目的列表 - 旧学校文本冒险，教育游戏，8位平台游戏，基于浏览器的游戏，独立游戏，GameJam项目，附加组件/地图/ hacks / plugins用于商业游戏，库，框架，引擎，你可以命名.

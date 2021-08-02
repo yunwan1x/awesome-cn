@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="sindresorhus/awesome-observables"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## Awesome Observables [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 &gt;一个 [Observable](https://github.com/zenparsing/es-observable)  是随着时间的推移而出现的集合.  可观察对象可用于为基于推式的数据源建模，例如事件，计时器间隔，异步请求和动画.  可观察变量可以使用类似数组的方法进行转换，合并和使用.

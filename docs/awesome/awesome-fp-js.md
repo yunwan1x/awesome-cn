@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="stoeffel/awesome-fp-js"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## Awesome FP JS [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 这是一个很棒的精选清单 [functional programming](https://en.wikipedia.org/wiki/Functional_programming)  JavaScript的代码和学习资源. 作为一种多范例编程语言，JavaScript可以用多种样式编写. 借助这些资源，我们希望帮助您更好地利用JavaScript对以_functional_方式编写程序的支持.

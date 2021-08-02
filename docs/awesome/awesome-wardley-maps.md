@@ -1,5 +1,5 @@
 <div class="github-widget" data-repo="wardley-maps-community/awesome-wardley-maps"></div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 ## Wardley Maps Community Hub [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > [Wardley Mapping](https://en.wikipedia.org/wiki/Wardley_map) 是一种技术，可帮助您检查环境、识别即将发生的变化并正确选择您的操作. 通过检查需要什么、将使用什么组件、它们的依赖关系和特征是什么，您可以构建您的世界的视觉表示，玩假设游戏，并选择您的方向和最佳行动来支持它.

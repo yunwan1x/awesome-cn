@@ -7,9 +7,8 @@
 
 使用mkdocs material 构建, 部署在github pages
 
-特别感谢 asmcn.icopy.site 作者 ,项目配置直接照搬的这个项目
+特别感谢 [asmcn.icopy.site](https://asmcn.icopy.site) 作者 ,项目配置直接照搬的这个项目
 
-### 英文原版地址: [asmen.icopy.site](https://asmen.icopy.site) 
-### 友情版本地址: [asmcn.icopy.site](https://asmcn.icopy.site)
+### 英文原版地址: [asmen.icopy.site](https://asmen.icopy.site)
 
 ![show case](showcase.jpg)

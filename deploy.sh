@@ -34,7 +34,8 @@ sed -i "s/tabs: false/tabs: true/g" ./mkdocs.yml
 
 sed -i "s/.*本文档采用.*构建.*/**本文档采用 [mkdocs](https:\/\/github.com\/mkdocs\/mkdocs) 构建，构建时间: $time **/g" ./docs/index.md
 rm -rf awesome-cn/
-find ./docs -name *.md -type f|xargs sed -i  "s/<script>.*<\/script>/ /g"
+find ./docs -name *.md -type f|xargs echo
+sed -i  "s/<script>.*<\/script>/ /g"
 git config --global user.email "512458266@qq.com"
 git config --global user.name "githubAction"
 git add .&&git commit -m "$time build by githubAction"

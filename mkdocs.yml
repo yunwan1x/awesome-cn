@@ -513,7 +513,7 @@ theme:
     text: 'Fira Sans'
     code: 'Fira Mono'
   feature:
-    tabs: true
+    tabs: false
 # Customization
 extra:
   search:

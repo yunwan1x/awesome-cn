@@ -1,5 +1,4 @@
 
-## 超赞列表合集 地址 : [yunwan1x.github.io/awesome-cn](https://yunwan1x.github.io/awesome-cn)
 
 [![CI](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml/badge.svg)](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml)
 

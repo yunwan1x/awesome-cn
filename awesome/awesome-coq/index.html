@@ -6684,7 +6684,7 @@
 <li><a href="https://iris-project.org">Iris</a> - 高阶并发分离逻辑框架.</li>
 <li><a href="https://querycert.github.io">Q*cert</a> - 用于实现和验证查询编译器的平台.</li>
 <li><a href="https://github.com/uwplse/verdi">Verdi</a> - 正式验证分布式系统实现的框架.</li>
-<li><a href="https://vst.cs.princeton.edu">VST</a> - 用于在高阶并发、不可预测的分离逻辑中验证 Coq 中的 C 代码的工具链，该逻辑与 CompCert 编译器的 Clight 语言相符.</li>
+<li><a href="https://vst.cs.princeton.edu">VST</a> - 用于在高阶并发、不可预测分离逻辑中验证 Coq 中的 C 代码的工具链，该逻辑与 CompCert 编译器的 Clight 语言相符.</li>
 </ul>
 <h3 id="user-interfaces">User Interfaces<a class="headerlink" href="#user-interfaces" title="Permanent link">&para;</a></h3>
 <ul>
@@ -6698,7 +6698,7 @@
 </ul>
 <h3 id="libraries">Libraries<a class="headerlink" href="#libraries" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/coq-community/alea">ALEA</a> - 用于推理随机算法的库.</li>
+<li><a href="https://github.com/coq-community/alea">ALEA</a> - Library for reasoning on randomized algorithms.</li>
 <li><a href="https://github.com/coq/bignums">Bignums</a> - 任意大数库.</li>
 <li><a href="http://color.inria.fr">CoLoR</a> - 关于重写理论、lambda 演算和终止的库，以及扩展 Coq 标准库的公共数据结构子库.</li>
 <li><a href="https://github.com/jwiegley/coq-haskell">coq-haskell</a> - 库为 Haskell 用户平滑过渡到 Coq.</li>
@@ -6720,12 +6720,13 @@
 <h3 id="package-and-build-management">Package and Build Management<a class="headerlink" href="#package-and-build-management" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="https://coq.inria.fr/refman/practical-tools/utilities.html">coq_makefile</a> - 与 Coq 一起分发并基于生成 makefile 的构建工具.</li>
+<li><a href="https://github.com/coq-community/coq-nix-toolbox">Coq Nix Toolbox</a> - Nix 帮助程序脚本来自动化 Coq 的本地构建和 CI.</li>
 <li><a href="https://coq.inria.fr/packages.html">Coq Package Index</a> - 基于 OPAM 的 Coq 包集合.</li>
-<li><a href="https://github.com/MSoegtropIMC/coq-platform">Coq Platform</a> - 实验性策划的软件包集合，以支持 Coq 在工业、教育和研究中的使用.</li>
-<li><a href="https://github.com/coq-community/templates">Coq-community Templates</a> - 用于为 Coq 项目生成配置文件的模板.</li>
+<li><a href="https://github.com/coq/platform">Coq platform</a> - 精选的软件包集合，以支持 Coq 在工业、教育和研究中的使用.</li>
+<li><a href="https://github.com/coq-community/templates">coq-community Templates</a> - 用于为 Coq 项目生成配置文件的模板.</li>
 <li><a href="https://github.com/coq-community/docker-coq">Docker-Coq</a> - 多版本 Coq 的 Docker 镜像.</li>
 <li><a href="https://github.com/math-comp/docker-mathcomp">Docker-MathComp</a> - 用于 Coq 和数学组件库版本的多种组合的 Docker 映像.</li>
-<li><a href="https://github.com/marketplace/actions/docker-coq-action">Docker-Coq-action</a> - 可与 Docker-Coq 或 Docker-MathComp 一起使用的 GitHub 容器操作.</li>
+<li><a href="https://github.com/marketplace/actions/docker-coq-action">Docker-Coq GitHub Action</a> - 可与 Docker-Coq 或 Docker-MathComp 一起使用的 GitHub 容器操作.</li>
 <li><a href="https://dune.build">Dune</a> - Coq 和 OCaml（前 jbuilder）的可组合和自以为是的构建系统.</li>
 <li><a href="https://nixos.org/nix/">Nix</a> - Linux 和其他 Unix 系统的包管理器，支持原子升级和回滚.</li>
 <li><a href="https://search.nixos.org/packages?channel=unstable&amp;query=coqPackages">Nix Coq packages</a> - Nix 的 Coq 相关包的集合.</li>
@@ -6749,6 +6750,7 @@
 </ul>
 <h3 id="tools">Tools<a class="headerlink" href="#tools" title="Permanent link">&para;</a></h3>
 <ul>
+<li><a href="https://github.com/cpitclaudel/alectryon">Alectryon</a> - 用于编写混合 Coq 代码和散文的技术文档的工具集合.</li>
 <li><a href="https://gitlab.inria.fr/charguer/cfml2">CFML</a> - 用于证明 OCaml 程序在分离逻辑中的属性的工具.</li>
 <li><a href="https://github.com/xavierleroy/coq2html">coq2html</a> - Coq 的替代 HTML 文档生成器.</li>
 <li><a href="https://github.com/clarus/coq-of-ocaml">CoqOfOCaml</a> - 从 OCaml 代码生成惯用 Coq 的工具.</li>
@@ -6776,6 +6778,7 @@
 <li><a href="https://github.com/math-comp/fourcolor">Four Color Theorem</a> - 四色定理的正式证明，图论的一个里程碑式的结果.</li>
 <li><a href="https://github.com/coq-community/gaia">Gaia</a> - 实施布尔巴基的《数学原理》，包括集合论和数论.</li>
 <li><a href="https://github.com/GeoCoq/GeoCoq">GeoCoq</a> - 基于塔斯基公理系统的几何形式化.</li>
+<li><a href="https://github.com/coq-community/goedel">Goedel</a> - Gödel-Rosser 不完备定理的构造性证明.</li>
 <li><a href="https://github.com/coq-community/graph-theory">Graph Theory</a> - 形式化的图论结果.</li>
 <li><a href="https://github.com/HoTT/HoTT">Homotopy Type Theory</a> - 同伦理论思想的发展.</li>
 <li><a href="https://github.com/affeldt-aist/infotheo">Infotheo</a> - 信息论和线性纠错码的形式化.</li>
@@ -6788,8 +6791,9 @@
 <h3 id="verified-software">Verified Software<a class="headerlink" href="#verified-software" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="http://compcert.inria.fr">CompCert</a> - 几乎所有 C 语言 (ISO C99) 的高保证编译器，为 PowerPC、ARM、RISC-V 和 x86 处理器生成高效代码.</li>
+<li><a href="https://github.com/certichain/ceramist">Ceramist</a> - 经过验证的基于散列的近似成员结构，例如布隆过滤器.</li>
 <li><a href="https://github.com/mit-plv/fiat-crypto">Fiat-Crypto</a> - 加密原始代码生成.</li>
-<li><a href="https://gitlab.inria.fr/agueneau/incremental-cycles">Incremental Cycles</a> - Verified OCaml implementation of an algorithm for incremental cycle detection in graphs.</li>
+<li><a href="https://gitlab.inria.fr/agueneau/incremental-cycles">Incremental Cycles</a> - 已验证的 OCaml 实现了一种用于图形中增量循环检测的算法.</li>
 <li><a href="https://github.com/jscert/jscert">JSCert</a> - 带有经过验证的参考解释器的 ECMAScript 5 (JavaScript) 的 Coq 规范.</li>
 <li><a href="https://gitlab.mpi-sws.org/iris/lambda-rust">lambda-rust</a> - Rust 核心语言和类型系统的正式模型、类型系统的逻辑关系以及一些 Rust 库的安全证明.</li>
 <li><a href="http://velus.inria.fr/">Vélus</a> - 经过验证的编译器，用于类似 Lustre/Scade 的数据流同步语言.</li>
@@ -6806,6 +6810,7 @@
 <li><a href="https://sympa.inria.fr/sympa/arc/coq-club">Official Coq-Club mailing list</a></li>
 <li><a href="https://github.com/coq/coq/wiki">Official Coq wiki</a></li>
 <li><a href="https://twitter.com/CoqLang">Official Coq Twitter</a></li>
+<li><a href="https://github.com/coq-community/coq-100-theorems">100 famous theorems proved using Coq</a></li>
 <li><a href="https://github.com/coq-community/manifesto">coq-community package maintenance project</a></li>
 <li><a href="https://www.reddit.com/r/coq/">Coq subreddit</a></li>
 <li><a href="https://stackoverflow.com/questions/tagged/coq">Coq tag on Stack Overflow</a></li>
@@ -6847,7 +6852,9 @@
 <li><a href="https://www.codewars.com/kata/search/coq">CodeWars' Coq kata</a> - 在线证明挑战.</li>
 <li><a href="https://github.com/coq-community/coq-art">Coq'Art Exercises and Tutorials</a> - Coq&#39;Art 书中的 Coq 代码和练习，包括附加教程.</li>
 <li><a href="http://cel.archives-ouvertes.fr/inria-00001173">Coq in a Hurry</a> - 介绍如何使用 Coq 来定义逻辑概念和函数以及对它们的推理.</li>
+<li><a href="https://github.com/coq-community/hydra-battles">Hydra battles and Cie</a> - 关于柯比和帕里斯的九头蛇战斗以及 Coq 中其他有趣数学的变化，包括文档和练习.</li>
 <li><a href="https://github.com/coq-community/lemma-overloading">Lemma Overloading</a> - 使用规范结构进行编程和证明的设计模式演示.</li>
+<li><a href="https://github.com/math-comp/tutorial_material">MathComp Tutorial Materials</a> - 数学组件教程的源代码.</li>
 <li><a href="https://mdnahas.github.io/doc/nahas_tutorial.html">Mike Nahas's Coq Tutorial</a> - 使用 Coq 编写形式证明的基础知识.</li>
 <li><a href="https://github.com/tchajed/coq-tricks">Tricks in Coq</a> - 难以发现的提示、技巧和功能.</li>
 </ul>

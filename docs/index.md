@@ -23,7 +23,7 @@
 
 ## cheatsheet
 1. [cheetsheet](https://cheatography.com/)
-
+2. [awesome cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets)
 
 
 

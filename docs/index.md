@@ -19,7 +19,7 @@
 2. [书栈网](https://www.bookstack.cn/)
 
 # cheatsheet
-[cheetsheet](https://cheatography.com/)
+1. [cheetsheet](https://cheatography.com/)
 
 
 

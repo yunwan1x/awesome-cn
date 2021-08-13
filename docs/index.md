@@ -17,6 +17,7 @@
 ## 开源软件
 1. [alternativeto](https://alternativeto.net/)
 1. [alternativeto chinese](https://zh.altapps.net/)
+1. [清华开源镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
 
 ## 精品教程
 1. [bash教程](https://wangdoc.com/bash/intro.html)

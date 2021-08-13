@@ -5,7 +5,7 @@
 
 [![CI](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml/badge.svg)](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml)
 ## 开源社区
-1. [github中文社区](https://www.githubs.cn/feed)
+1. [github排行榜](https://www.githubs.cn/top)
 2. [libs.garden](https://libs.garden/)
 2. [open source libs](https://opensourcelibs.com/)
 3. [开源中国](https://www.oschina.net/project)

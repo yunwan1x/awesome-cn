@@ -38,6 +38,6 @@ find ./docs -name "*.md" -type f|xargs sed -i  "s/<script.*>.*<\/script>//g"
 git config --global user.email "512458266@qq.com"
 git config --global user.name "githubAction"
 git add .&&git commit -m "$time build by githubAction"
-git push
+git pull && git push
 
 mkdocs gh-deploy -v --clean --force --remote-name gh-token;

@@ -20,6 +20,7 @@
 ## 精品教程
 1. [bash教程](https://wangdoc.com/bash/intro.html)
 2. [书栈网](https://www.bookstack.cn/)
+3. [build your own](https://github.com/danistefanovic/build-your-own-x)
 
 ## cheatsheet
 1. [cheetsheet](https://cheatography.com/)

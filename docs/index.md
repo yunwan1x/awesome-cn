@@ -11,7 +11,6 @@
 3. [开源中国](https://www.oschina.net/project)
 4. [apache开源基金会](https://www.apache.org/)
 5. [gnu开源基金会](https://www.gnu.org/software/software.zh-cn.html)
-
 6. [cncf基金会](https://www.cncf.io/projects/)
 
 ## 开源软件
@@ -20,11 +19,9 @@
 1. [清华开源镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
 
 ## 精品教程
-1. [bash教程](https://wangdoc.com/bash/intro.html)
 2. [书栈网](https://www.bookstack.cn/)
 3. [build your own](https://github.com/danistefanovic/build-your-own-x)
-3. [linux命令行](
-https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html)
+
 ## cheatsheet
 1. [cheetsheet](https://cheatography.com/)
 2. [awesome cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets)
@@ -33,3 +30,10 @@ https://github.com/yunwan1x/awesome-cheatsheets)
 
 ## 博客
 1. [阮一峰](https://www.ruanyifeng.com/blog/archives.html)
+
+## linux专题
+1. [man pages](https://linux.die.net/)
+2. [linux命令大全](https://wangchujiang.com/linux-command/#!kw=sed)
+3. [linux命令行](
+https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/index.html)
+4. [bash教程](https://wangdoc.com/bash/intro.html)

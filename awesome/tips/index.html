@@ -8910,13 +8910,13 @@
                 <div class="github-widget" data-repo="git-tips/tips"></div>
 
 <h2 id="git-tips">git-tips<a class="headerlink" href="#git-tips" title="Permanent link">&para;</a></h2>
-<p>&gt; git-tips的集合，要添加您的提示吗？ 查看 <a href="https://github.com/git-tips/tips/blob/master/./contributing.md">contributing.md</a></p>
-<p><a href="http://git.io/git-tips">English</a> | <a href="https://github.com/521xueweihan/git-tips">中文</a> | <a href="https://github.com/Imangazaliev/git-tips">Русский</a> | <a href="https://github.com/mingrammer/git-tips">한국어</a> | <a href="https://github.com/hprobotic/git-tips">Tiếng Việt</a> | <a href="https://github.com/isotai/git-tips">日本語</a> | <a href="https://github.com/amarduwal/git-tips">नेपाली</a> | <a href="https://github.com/mbiesiad/tips">Polski</a></p>
+<p>&gt; <code>git-tips</code> 合集，想添加你的小窍门吗？ 查看 <a href="https://github.com/git-tips/tips/blob/master/./contributing.md">contributing.md</a></p>
+<p><a href="http://git.io/git-tips">English</a> | <a href="https://github.com/521xueweihan/git-tips">中文</a> | <a href="https://github.com/Imangazaliev/git-tips">Русский</a> | <a href="https://github.com/mingrammer/git-tips">한국어</a> | <a href="https://github.com/hprobotic/git-tips">Tiếng Việt</a> | <a href="https://github.com/isotai/git-tips">日本語</a> | <a href="https://github.com/amarduwal/git-tips">नेपाली</a> | <a href="https://github.com/mbiesiad/tips">Polski</a> | <a href="https://github.com/javadnikbakht/git-tips">فارسی</a></p>
 <h3 id="tools"><strong>Tools:</strong><a class="headerlink" href="#tools" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://www.npmjs.com/package/git-tip">git-tip</a>  -方便的CLI，可最佳利用这些技巧.  （<a href="https://github.com/djoudi5/docker-git-tip">Here in Docker container</a>)</li>
+<li><a href="https://www.npmjs.com/package/git-tip">git-tip</a>  - 一个方便的 CLI，可以充分利用这些技巧.  (<a href="https://github.com/djoudi5/docker-git-tip">Here in Docker container</a>)</li>
 </ul>
-<p>PS：所有这些命令都在git版本2.7.4（Apple Git-66）上进行了测试.</p>
+<p>PS：所有这些命令都在 <code>git version 2.7.4 (Apple Git-66)</code> 上进行了测试.</p>
 <!-- @doxie.inject start toc -->
 
 <!-- Don’t remove or change the comment above – that can break automatic updates. -->
@@ -8933,11 +8933,11 @@
 <!-- Don’t remove or change the comment above – that can break automatic updates. -->
 
 <h2 id="everyday-git-in-twenty-commands-or-so">Everyday Git in twenty commands or so<a class="headerlink" href="#everyday-git-in-twenty-commands-or-so" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git每天帮助
+<div class="codehilite"><pre><span></span>git帮助每天
 </pre></div>
 
 <h2 id="show-helpful-guides-that-come-with-git">Show helpful guides that come with Git<a class="headerlink" href="#show-helpful-guides-that-come-with-git" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git <span class="nb">help</span> -g
+<div class="codehilite"><pre><span></span>git 帮助 -g
 </pre></div>
 
 <div class="codehilite"><pre><span></span>git log -S<span class="p">&amp;</span><span class="c1">#39; &lt;a term in the source&gt;&amp;#39;&lt;/a&gt;</span>
@@ -8948,11 +8948,11 @@
 </pre></div>
 
 <h2 id="remove-sensitive-data-from-history-after-a-push">Remove sensitive data from history, after a push<a class="headerlink" href="#remove-sensitive-data-from-history-after-a-push" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git filter-branch --force --index-filter<span class="p">&amp;</span><span class="c1">#39;git rm --cached --ignore-unmatch&lt;path-to-your-file&gt;  &amp;#39;--prune-empty --tag-name-filter cat---all &amp;amp;&amp;amp; git push origin --force --all</span>
+<div class="codehilite"><pre><span></span> git filter-branch --force --index-filter <span class="p">&amp;</span><span class="c1">#39;git rm --cached --ignore-unmatch&lt;path-to-your-file&gt;  &amp;#39; --prune-empty --tag-name-filter cat --all &amp;amp;&amp;amp; git push origin --force --all</span>
 </pre></div>
 
 <h2 id="sync-with-remote-overwrite-local-changes">Sync with remote, overwrite local changes<a class="headerlink" href="#sync-with-remote-overwrite-local-changes" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git fetch origin <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git reset --hard origin / master <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git clean -f -d
+<div class="codehilite"><pre><span></span>git fetch origin <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git reset --hard origin/master <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git clean -f -d
 </pre></div>
 
 <h2 id="list-of-all-files-till-a-commit">List of all files till a commit<a class="headerlink" href="#list-of-all-files-till-a-commit" title="Permanent link">&para;</a></h2>
@@ -8960,15 +8960,15 @@
 </pre></div>
 
 <h2 id="git-reset-first-commit">Git reset first commit<a class="headerlink" href="#git-reset-first-commit" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git update-ref -d头
+<div class="codehilite"><pre><span></span>git update-ref -d HEAD
 </pre></div>
 
 <h2 id="reset-preserve-uncommitted-local-changes">Reset: preserve uncommitted local changes<a class="headerlink" href="#reset-preserve-uncommitted-local-changes" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git reset-保持&lt;commit&gt;
+<div class="codehilite"><pre><span></span>git reset --keep&lt;commit&gt;
 </pre></div>
 
 <h2 id="list-all-the-conflicted-files">List all the conflicted files<a class="headerlink" href="#list-all-the-conflicted-files" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git diff-仅名称--diff-filter <span class="o">=</span> U
+<div class="codehilite"><pre><span></span>git diff --name-only --diff-filter<span class="o">=</span>U
 </pre></div>
 
 <h2 id="list-of-all-files-changed-in-a-commit">List of all files changed in a commit<a class="headerlink" href="#list-of-all-files-changed-in-a-commit" title="Permanent link">&para;</a></h2>
@@ -8976,58 +8976,58 @@
 </pre></div>
 
 <h2 id="unstaged-changes-since-last-commit">Unstaged changes since last commit<a class="headerlink" href="#unstaged-changes-since-last-commit" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git diff
+<div class="codehilite"><pre><span></span>混帐差异
 </pre></div>
 
 <h2 id="changes-staged-for-commit">Changes staged for commit<a class="headerlink" href="#changes-staged-for-commit" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git diff-缓存
+<div class="codehilite"><pre><span></span>git diff --cached
 </pre></div>
 
 <p><strong>Alternatives:</strong>
 <div class="codehilite"><pre><span></span>git diff --staged
 </pre></div></p>
 <h2 id="show-both-staged-and-unstaged-changes">Show both staged and unstaged changes<a class="headerlink" href="#show-both-staged-and-unstaged-changes" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git diff头
+<div class="codehilite"><pre><span></span>git diff 头
 </pre></div>
 
 <h2 id="list-all-branches-that-are-already-merged-into-master">List all branches that are already merged into master<a class="headerlink" href="#list-all-branches-that-are-already-merged-into-master" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git branch-合并的主
+<div class="codehilite"><pre><span></span>git branch --merged master
 </pre></div>
 
 <h2 id="quickly-switch-to-the-previous-branch">Quickly switch to the previous branch<a class="headerlink" href="#quickly-switch-to-the-previous-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git checkout-
+<div class="codehilite"><pre><span></span>git 结帐 -
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git checkout @ <span class="o">{</span>-1<span class="o">}</span>
+<div class="codehilite"><pre><span></span>git 结帐@<span class="o">{</span>-1<span class="o">}</span>
 </pre></div></p>
 <h2 id="remove-branches-that-have-already-been-merged-with-master">Remove branches that have already been merged with master<a class="headerlink" href="#remove-branches-that-have-already-been-merged-with-master" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git branch-合并的主<span class="p">|</span>  grep -v<span class="p">&amp;</span><span class="c1">#39;^ \ *&amp;#39;|  xargs -n 1 git分支-d</span>
+<div class="codehilite"><pre><span></span> git branch --merged master <span class="p">|</span>  grep -v <span class="p">&amp;</span><span class="c1">#39;^\*&amp;#39; |  xargs -n 1 git 分支 -d</span>
 </pre></div>
 
 <p><strong>Alternatives:</strong>
 <div class="codehilite"><pre><span></span>git branch --merged master <span class="p">|</span> grep -v <span class="s1">&#39;^\*\|  master&#39;</span> <span class="p">|</span> xargs -n <span class="m">1</span> git branch -d <span class="c1"># will not delete master if master is not checked out</span>
 </pre></div></p>
 <h2 id="list-all-branches-and-their-upstreams-as-well-as-last-commit-on-branch">List all branches and their upstreams, as well as last commit on branch<a class="headerlink" href="#list-all-branches-and-their-upstreams-as-well-as-last-commit-on-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git分支-vv
+<div class="codehilite"><pre><span></span>git 分支 -vv
 </pre></div>
 
 <h2 id="track-upstream-branch">Track upstream branch<a class="headerlink" href="#track-upstream-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git branch -u来源/ mybranch
+<div class="codehilite"><pre><span></span>git branch -u origin/mybranch
 </pre></div>
 
 <h2 id="delete-local-branch">Delete local branch<a class="headerlink" href="#delete-local-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git分支-d&lt;local_branchname&gt;
+<div class="codehilite"><pre><span></span>git 分支 -d&lt;local_branchname&gt;
 </pre></div>
 
 <h2 id="delete-remote-branch">Delete remote branch<a class="headerlink" href="#delete-remote-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git push origin-删除&lt;remote_branchname&gt;
+<div class="codehilite"><pre><span></span>git push origin --delete&lt;remote_branchname&gt;
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git push来源：&lt;remote_branchname&gt;
+<div class="codehilite"><pre><span></span>git push 原点：&lt;remote_branchname&gt;
 </pre></div></p>
-<div class="codehilite"><pre><span></span>git分支-dr&lt;remote/branch&gt;
+<div class="codehilite"><pre><span></span>git 分支 -dr&lt;remote/branch&gt;
 </pre></div>
 
 <h2 id="create-local-tag">Create local tag<a class="headerlink" href="#create-local-tag" title="Permanent link">&para;</a></h2>
@@ -9035,34 +9035,34 @@
 </pre></div>
 
 <h2 id="delete-local-tag">Delete local tag<a class="headerlink" href="#delete-local-tag" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git标签-d&lt;tag-name&gt;
+<div class="codehilite"><pre><span></span>git标签 -d&lt;tag-name&gt;
 </pre></div>
 
 <h2 id="delete-remote-tag">Delete remote tag<a class="headerlink" href="#delete-remote-tag" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git push origin：参考/标签/&lt;tag-name&gt;
+<div class="codehilite"><pre><span></span>git push origin :refs/tags/&lt;tag-name&gt;
 </pre></div>
 
-<div class="codehilite"><pre><span></span>git checkout-&lt;file_name&gt;
+<div class="codehilite"><pre><span></span>git 结帐 --&lt;file_name&gt;
 </pre></div>
 
 <h2 id="revert-undo-a-commit-by-creating-a-new-commit">Revert: Undo a commit by creating a new commit<a class="headerlink" href="#revert-undo-a-commit-by-creating-a-new-commit" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git还原&lt;commit-ish&gt;
+<div class="codehilite"><pre><span></span>去恢复&lt;commit-ish&gt;
 </pre></div>
 
 <h2 id="reset-discard-commits-advised-for-private-branch">Reset: Discard commits, advised for private branch<a class="headerlink" href="#reset-discard-commits-advised-for-private-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git重置&lt;commit-ish&gt;
+<div class="codehilite"><pre><span></span>重置&lt;commit-ish&gt;
 </pre></div>
 
 <h2 id="reword-the-previous-commit-message">Reword the previous commit message<a class="headerlink" href="#reword-the-previous-commit-message" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git commit -v-修改
+<div class="codehilite"><pre><span></span>git commit -v --amend
 </pre></div>
 
 <h2 id="see-commit-history-for-just-the-current-branch">See commit history for just the current branch<a class="headerlink" href="#see-commit-history-for-just-the-current-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git cherry -v主控
+<div class="codehilite"><pre><span></span>git 樱桃 -v 大师
 </pre></div>
 
 <h2 id="amend-author">Amend author.<a class="headerlink" href="#amend-author" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git commit --amend --author <span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;作者姓名&lt;email@address.com&gt; &amp;#39;</span>
+<div class="codehilite"><pre><span></span> git commit --amend --author<span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;作者姓名&lt;email@address.com&gt; &amp;#39;</span>
 </pre></div>
 
 <h2 id="reset-author-after-author-has-been-changed-in-the-global-config">Reset author, after author has been changed in the global config.<a class="headerlink" href="#reset-author-after-author-has-been-changed-in-the-global-config" title="Permanent link">&para;</a></h2>
@@ -9070,7 +9070,7 @@
 </pre></div>
 
 <h2 id="changing-a-remotes-url">Changing a remote's URL<a class="headerlink" href="#changing-a-remotes-url" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git remote set-url的起源&lt;URL&gt;
+<div class="codehilite"><pre><span></span>git remote set-url origin&lt;URL&gt;
 </pre></div>
 
 <h2 id="get-list-of-all-remote-references">Get list of all remote references<a class="headerlink" href="#get-list-of-all-remote-references" title="Permanent link">&para;</a></h2>
@@ -9081,50 +9081,50 @@
 <div class="codehilite"><pre><span></span>git远程显示
 </pre></div></p>
 <h2 id="get-list-of-all-local-and-remote-branches">Get list of all local and remote branches<a class="headerlink" href="#get-list-of-all-local-and-remote-branches" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git分支-a
+<div class="codehilite"><pre><span></span>git 分支 -a
 </pre></div>
 
 <h2 id="get-only-remote-branches">Get only remote branches<a class="headerlink" href="#get-only-remote-branches" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git分支-r
+<div class="codehilite"><pre><span></span>git 分支 -r
 </pre></div>
 
 <h2 id="stage-parts-of-a-changed-file-instead-of-the-entire-file">Stage parts of a changed file, instead of the entire file<a class="headerlink" href="#stage-parts-of-a-changed-file-instead-of-the-entire-file" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git添加-p
+<div class="codehilite"><pre><span></span>git add -p
 </pre></div>
 
 <h2 id="get-git-bash-completion">Get git bash completion<a class="headerlink" href="#get-git-bash-completion" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> curl -L http://git.io/vfhol<span class="p">&amp;</span>gt<span class="p">;</span>〜/ .git-completion.bash <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> echo<span class="p">&amp;</span><span class="c1">#39;[-f〜/ .git-completion.bash] &amp;amp;&amp;amp;.  〜/ .git-completion.bash&amp;#39;&amp;gt;&amp;gt;〜/ .bashrc</span>
+<div class="codehilite"><pre><span></span> curl -L http://git.io/vfhol <span class="p">&amp;</span>gt<span class="p">;</span> ~/.git-completion.bash <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> <span class="nb">echo</span> <span class="p">&amp;</span><span class="c1">#39;[ -f ~/.git-completion.bash ] &amp;amp;&amp;amp; .  ~/.git-completion.bash&amp;#39; &amp;gt;&amp;gt; ~/.bashrc</span>
 </pre></div>
 
 <h2 id="what-changed-since-two-weeks">What changed since two weeks?<a class="headerlink" href="#what-changed-since-two-weeks" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git log --no-merges --raw --since <span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;2周前&amp;#39;</span>
+<div class="codehilite"><pre><span></span>git log --no-merges --raw --since<span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;2 周前&amp;#39;</span>
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git whatchanged --since <span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;2周前&amp;#39;</span>
+<div class="codehilite"><pre><span></span>git whatchanged --since<span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;2 周前&amp;#39;</span>
 </pre></div></p>
 <h2 id="see-all-commits-made-since-forking-from-master">See all commits made since forking from master<a class="headerlink" href="#see-all-commits-made-since-forking-from-master" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git log --no-merges --stat --reverse master ..
+<div class="codehilite"><pre><span></span>git log --no-merges --stat --reverse master..
 </pre></div>
 
 <h2 id="pick-commits-across-branches-using-cherry-pick">Pick commits across branches using cherry-pick<a class="headerlink" href="#pick-commits-across-branches-using-cherry-pick" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git结帐&lt;branch-name&gt; <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git cherry-pick&lt;commit-ish&gt;
+<div class="codehilite"><pre><span></span>结帐&lt;branch-name&gt; <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git 樱桃挑选&lt;commit-ish&gt;
 </pre></div>
 
 <h2 id="find-out-branches-containing-commit-hash">Find out branches containing commit-hash<a class="headerlink" href="#find-out-branches-containing-commit-hash" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git branch -a-包含&lt;commit-ish&gt;
+<div class="codehilite"><pre><span></span>git branch -a --contains&lt;commit-ish&gt;
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git branch-包含&lt;commit-ish&gt;
+<div class="codehilite"><pre><span></span>git 分支 --contains&lt;commit-ish&gt;
 </pre></div></p>
 <h2 id="git-aliases">Git Aliases<a class="headerlink" href="#git-aliases" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git config-全局别名&lt;handle&gt;&lt;command&gt; 
-git config --global alias.st状态
+<div class="codehilite"><pre><span></span>git config --全局别名.&lt;handle&gt;&lt;command&gt; 
+git config --global alias.st 状态
 </pre></div>
 
 <h2 id="saving-current-state-of-tracked-files-without-commiting">Saving current state of tracked files without commiting<a class="headerlink" href="#saving-current-state-of-tracked-files-without-commiting" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git stash
+<div class="codehilite"><pre><span></span>混帐
 </pre></div>
 
 <p><strong>Alternatives:</strong>
@@ -9155,7 +9155,7 @@ git config --global alias.st状态
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git stash push-消息&lt;message&gt;
+<div class="codehilite"><pre><span></span>git stash push --message&lt;message&gt;
 </pre></div></p>
 <h2 id="saving-current-state-of-all-files-ignored-untracked-and-tracked">Saving current state of all files (ignored, untracked, and tracked)<a class="headerlink" href="#saving-current-state-of-all-files-ignored-untracked-and-tracked" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>git stash -a
@@ -9164,18 +9164,18 @@ git config --global alias.st状态
 <p><strong>Alternatives:</strong>
 <div class="codehilite"><pre><span></span>git stash --all
 </pre></div></p>
-<div class="codehilite"><pre><span></span>git stash push-全部
+<div class="codehilite"><pre><span></span>git stash push --all
 </pre></div>
 
 <h2 id="show-list-of-all-saved-stashes">Show list of all saved stashes<a class="headerlink" href="#show-list-of-all-saved-stashes" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git存储列表
+<div class="codehilite"><pre><span></span>git 存储列表
 </pre></div>
 
-<div class="codehilite"><pre><span></span>git stash show -p&lt;stash@<span class="o">{</span>n<span class="o">}</span>&gt;
+<div class="codehilite"><pre><span></span>git stash 显示 -p&lt;stash@<span class="o">{</span>n<span class="o">}</span>&gt;
 </pre></div>
 
 <h2 id="apply-any-stash-without-deleting-from-the-stashed-list">Apply any stash without deleting from the stashed list<a class="headerlink" href="#apply-any-stash-without-deleting-from-the-stashed-list" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git stash适用&lt;stash@<span class="o">{</span>n<span class="o">}</span>&gt;
+<div class="codehilite"><pre><span></span>git stash 应用&lt;stash@<span class="o">{</span>n<span class="o">}</span>&gt;
 </pre></div>
 
 <h2 id="apply-last-stashed-state-and-delete-it-from-stashed-list">Apply last stashed state and delete it from stashed list<a class="headerlink" href="#apply-last-stashed-state-and-delete-it-from-stashed-list" title="Permanent link">&para;</a></h2>
@@ -9183,28 +9183,28 @@ git config --global alias.st状态
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git stash apply stash @ <span class="o">{</span><span class="m">0</span><span class="o">}</span> <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git stash drop藏匿@ <span class="o">{</span><span class="m">0</span><span class="o">}</span>
+<div class="codehilite"><pre><span></span>git stash apply stash@<span class="o">{</span><span class="m">0</span><span class="o">}</span> <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git stash drop stash@<span class="o">{</span><span class="m">0</span><span class="o">}</span>
 </pre></div></p>
 <h2 id="delete-all-stored-stashes">Delete all stored stashes<a class="headerlink" href="#delete-all-stored-stashes" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git隐藏
+<div class="codehilite"><pre><span></span>git stash 清除
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git藏起来&lt;stash@<span class="o">{</span>n<span class="o">}</span>&gt;
+<div class="codehilite"><pre><span></span>git 藏匿处&lt;stash@<span class="o">{</span>n<span class="o">}</span>&gt;
 </pre></div></p>
 <h2 id="grab-a-single-file-from-a-stash">Grab a single file from a stash<a class="headerlink" href="#grab-a-single-file-from-a-stash" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git结帐&lt;stash@<span class="o">{</span>n<span class="o">}</span>&gt; --&lt;file_path&gt;
+<div class="codehilite"><pre><span></span>结帐&lt;stash@<span class="o">{</span>n<span class="o">}</span>&gt; ——&lt;file_path&gt;
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git checkout stash @ <span class="o">{</span><span class="m">0</span><span class="o">}</span>-&lt;file_path&gt;
+<div class="codehilite"><pre><span></span>git checkout stash@<span class="o">{</span><span class="m">0</span><span class="o">}</span> --&lt;file_path&gt;
 </pre></div></p>
 <h2 id="show-all-tracked-files">Show all tracked files<a class="headerlink" href="#show-all-tracked-files" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git ls文件-t
+<div class="codehilite"><pre><span></span>git ls-files -t
 </pre></div>
 
 <h2 id="show-all-untracked-files">Show all untracked files<a class="headerlink" href="#show-all-untracked-files" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git ls-files-其他
+<div class="codehilite"><pre><span></span>git ls-files --others
 </pre></div>
 
 <h2 id="show-all-ignored-files">Show all ignored files<a class="headerlink" href="#show-all-ignored-files" title="Permanent link">&para;</a></h2>
@@ -9212,26 +9212,26 @@ git config --global alias.st状态
 </pre></div>
 
 <h2 id="create-new-working-tree-from-a-repository-git-25">Create new working tree from a repository (git 2.5)<a class="headerlink" href="#create-new-working-tree-from-a-repository-git-25" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git工作树添加-b&lt;branch-name&gt;&lt;path&gt;&lt;start-point&gt;
+<div class="codehilite"><pre><span></span>git 工作树添加 -b&lt;branch-name&gt;&lt;path&gt;&lt;start-point&gt;
 </pre></div>
 
 <h2 id="create-new-working-tree-from-head-state">Create new working tree from HEAD state<a class="headerlink" href="#create-new-working-tree-from-head-state" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git worktree添加--detach&lt;path&gt; 头
+<div class="codehilite"><pre><span></span> git worktree 添加 --detach&lt;path&gt; 头
 </pre></div>
 
 <h2 id="untrack-files-without-deleting">Untrack files without deleting<a class="headerlink" href="#untrack-files-without-deleting" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git rm-缓存&lt;file_path&gt;
+<div class="codehilite"><pre><span></span>git rm --cached&lt;file_path&gt;
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git rm-缓存-r&lt;directory_path&gt;
+<div class="codehilite"><pre><span></span>git rm --cached -r&lt;directory_path&gt;
 </pre></div></p>
 <h2 id="before-deleting-untracked-filesdirectory-do-a-dry-run-to-get-the-list-of-these-filesdirectories">Before deleting untracked files/directory, do a dry run to get the list of these files/directories<a class="headerlink" href="#before-deleting-untracked-filesdirectory-do-a-dry-run-to-get-the-list-of-these-filesdirectories" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git clean -n
+<div class="codehilite"><pre><span></span>git 清理 -n
 </pre></div>
 
 <h2 id="forcefully-remove-untracked-files">Forcefully remove untracked files<a class="headerlink" href="#forcefully-remove-untracked-files" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git clean -f
+<div class="codehilite"><pre><span></span>git 清理 -f
 </pre></div>
 
 <h2 id="forcefully-remove-untracked-directory">Forcefully remove untracked directory<a class="headerlink" href="#forcefully-remove-untracked-directory" title="Permanent link">&para;</a></h2>
@@ -9239,35 +9239,35 @@ git config --global alias.st状态
 </pre></div>
 
 <h2 id="update-all-the-submodules">Update all the submodules<a class="headerlink" href="#update-all-the-submodules" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git子模块foreach git pull
+<div class="codehilite"><pre><span></span>git submodule foreach git pull
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git子模块更新--init --recursive
+<div class="codehilite"><pre><span></span>git 子模块更新 --init --recursive
 </pre></div></p>
-<div class="codehilite"><pre><span></span>git子模块更新-远程
+<div class="codehilite"><pre><span></span>git 子模块更新 --remote
 </pre></div>
 
 <h2 id="show-all-commits-in-the-current-branch-yet-to-be-merged-to-master">Show all commits in the current branch yet to be merged to master<a class="headerlink" href="#show-all-commits-in-the-current-branch-yet-to-be-merged-to-master" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git cherry -v主控
+<div class="codehilite"><pre><span></span>git 樱桃 -v 大师
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git cherry -v主控&lt;branch-to-be-merged&gt;
+<div class="codehilite"><pre><span></span>git 樱桃 -v 大师&lt;branch-to-be-merged&gt;
 </pre></div></p>
 <h2 id="rename-a-branch">Rename a branch<a class="headerlink" href="#rename-a-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git分支-m&lt;new-branch-name&gt;
+<div class="codehilite"><pre><span></span>git 分支 -m&lt;new-branch-name&gt;
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span> git branch -m <span class="o">[</span>&lt;old-branch-name&gt;  <span class="o">]</span>&lt;new-branch-name&gt;
+<div class="codehilite"><pre><span></span> git 分支 -m <span class="o">[</span>&lt;old-branch-name&gt;  <span class="o">]</span>&lt;new-branch-name&gt;
 </pre></div></p>
 <h2 id="rebases-feature-to-master-and-merges-it-in-to-master">Rebases 'feature' to 'master' and merges it in to master<a class="headerlink" href="#rebases-feature-to-master-and-merges-it-in-to-master" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git rebase master功能<span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git checkout master <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git merge-
+<div class="codehilite"><pre><span></span>git rebase master 特性 <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git checkout master <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git merge -
 </pre></div>
 
 <h2 id="archive-the-master-branch">Archive the <code>master</code> branch<a class="headerlink" href="#archive-the-master-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git archive master --format <span class="o">=</span> zip --output <span class="o">=</span> master.zip
+<div class="codehilite"><pre><span></span>git 存档主 --format<span class="o">=</span>zip --output<span class="o">=</span>master.zip
 </pre></div>
 
 <h2 id="modify-previous-commit-without-modifying-the-commit-message">Modify previous commit without modifying the commit message<a class="headerlink" href="#modify-previous-commit-without-modifying-the-commit-message" title="Permanent link">&para;</a></h2>
@@ -9279,53 +9279,53 @@ git config --global alias.st状态
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git remote prune起源
+<div class="codehilite"><pre><span></span>git远程修剪起源
 </pre></div></p>
 <h2 id="delete-local-branches-that-has-been-squash-and-merged-in-the-remote">Delete local branches that has been squash and merged in the remote.<a class="headerlink" href="#delete-local-branches-that-has-been-squash-and-merged-in-the-remote" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git branch -vv <span class="p">|</span>  grep<span class="p">&amp;</span><span class="c1">#39;：走了]&amp;#39;|  awk&amp;#39;{print&lt;!-- @doxie.inject start --&gt;  }&amp;#39;|  xargs git分支-D</span>
+<div class="codehilite"><pre><span></span> git 分支 -vv <span class="p">|</span>  grep <span class="p">&amp;</span><span class="c1">#39;: 不见了]&amp;#39; |  awk &amp;#39;{打印&lt;!-- @doxie.inject start --&gt; }&amp;#39; |  xargs git 分支 -D</span>
 </pre></div>
 
 <h2 id="retrieve-the-commit-hash-of-the-initial-revision">Retrieve the commit hash of the initial revision.<a class="headerlink" href="#retrieve-the-commit-hash-of-the-initial-revision" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>  git rev-list --reverse HEAD <span class="p">|</span>复制代码头-1
+<div class="codehilite"><pre><span></span>  git rev-list --reverse HEAD <span class="p">|</span> 头-1
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git rev-list --max-parents <span class="o">=</span> 0头
+<div class="codehilite"><pre><span></span>git rev-list --max-parents<span class="o">=</span><span class="m">0</span> HEAD
 </pre></div></p>
-<div class="codehilite"><pre><span></span> git log --pretty <span class="o">=</span> oneline <span class="p">|</span> 尾巴-1 <span class="p">|</span> 切-c <span class="m">1</span>-40
+<div class="codehilite"><pre><span></span> git log --pretty<span class="o">=</span>oneline <span class="p">|</span> 尾-1 <span class="p">|</span> 切-c <span class="m">1</span>-40
 </pre></div>
 
-<div class="codehilite"><pre><span></span> git log --pretty <span class="o">=</span> oneline --reverse <span class="p">|</span> 头-1 <span class="p">|</span> 切-c <span class="m">1</span>-40
+<div class="codehilite"><pre><span></span> git log --pretty<span class="o">=</span>oneline --reverse <span class="p">|</span> 头-1 <span class="p">|</span> 切-c <span class="m">1</span>-40
 </pre></div>
 
 <h2 id="visualize-the-version-tree">Visualize the version tree.<a class="headerlink" href="#visualize-the-version-tree" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git log --pretty <span class="o">=</span> oneline --graph --decorate --all
+<div class="codehilite"><pre><span></span>git log --pretty<span class="o">=</span>oneline --graph --decorate --all
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>gitk-全部
+<div class="codehilite"><pre><span></span>gitk --all
 </pre></div></p>
-<div class="codehilite"><pre><span></span> git log --graph --pretty <span class="o">=</span>格式：<span class="p">&amp;</span><span class="c1">#39;％C（auto）％h |  ％s |  ％an |  ％ar％d&amp;#39;</span>
+<div class="codehilite"><pre><span></span> git log --graph --pretty<span class="o">=</span>format:<span class="p">&amp;</span><span class="c1">#39;%C(auto) %h |  %s |  %an |  %ar%d&amp;#39;</span>
 </pre></div>
 
 <h2 id="visualize-the-tree-including-commits-that-are-only-referenced-from-reflogs">Visualize the tree including commits that are only referenced from reflogs<a class="headerlink" href="#visualize-the-tree-including-commits-that-are-only-referenced-from-reflogs" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git log --graph --decorate --oneline $（git rev-list --walk-reflogs --all）
+<div class="codehilite"><pre><span></span>git log --graph --decorate --oneline <span class="k">$(</span>git rev-list --walk-reflogs --all<span class="k">)</span>
 </pre></div>
 
 <h2 id="deploying-git-tracked-subfolder-to-gh-pages">Deploying git tracked subfolder to gh-pages<a class="headerlink" href="#deploying-git-tracked-subfolder-to-gh-pages" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git subtree push --prefix subfolder_name原始gh-pages
+<div class="codehilite"><pre><span></span>git subtree push --prefix subfolder_name origin gh-pages
 </pre></div>
 
 <h2 id="adding-a-project-to-repo-using-subtree">Adding a project to repo using subtree<a class="headerlink" href="#adding-a-project-to-repo-using-subtree" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git子树添加--prefix <span class="o">=</span>&lt;directory_name&gt;  /&lt;project_name&gt;  --squash git@github.com：&lt;username&gt;  /&lt;project_name&gt;  .git master
+<div class="codehilite"><pre><span></span> git 子树添加 --prefix<span class="o">=</span>&lt;directory_name&gt;  /&lt;project_name&gt;  --squash git@github.com：&lt;username&gt;  /&lt;project_name&gt;  .git 大师
 </pre></div>
 
 <h2 id="get-latest-changes-in-your-repo-for-a-linked-project-using-subtree">Get latest changes in your repo for a linked project using subtree<a class="headerlink" href="#get-latest-changes-in-your-repo-for-a-linked-project-using-subtree" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git subtree pull --prefix <span class="o">=</span>&lt;directory_name&gt;  /&lt;project_name&gt;  --squash git@github.com：&lt;username&gt;  /&lt;project_name&gt;  .git master
+<div class="codehilite"><pre><span></span> git subtree pull --prefix<span class="o">=</span>&lt;directory_name&gt;  /&lt;project_name&gt;  --squash git@github.com：&lt;username&gt;  /&lt;project_name&gt;  .git 大师
 </pre></div>
 
 <h2 id="export-a-branch-with-history-to-a-file">Export a branch with history to a file.<a class="headerlink" href="#export-a-branch-with-history-to-a-file" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git bundle创建&lt;file&gt;&lt;branch-name&gt;
+<div class="codehilite"><pre><span></span>git包创建&lt;file&gt;&lt;branch-name&gt;
 </pre></div>
 
 <h2 id="import-from-a-bundle">Import from a bundle<a class="headerlink" href="#import-from-a-bundle" title="Permanent link">&para;</a></h2>
@@ -9333,11 +9333,11 @@ git config --global alias.st状态
 </pre></div>
 
 <h2 id="get-the-name-of-current-branch">Get the name of current branch.<a class="headerlink" href="#get-the-name-of-current-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git rev-parse --abbrev-ref头
+<div class="codehilite"><pre><span></span>git rev-parse --abbrev-ref HEAD
 </pre></div>
 
 <h2 id="ignore-one-file-on-commit-eg-changelog">Ignore one file on commit (e.g. Changelog).<a class="headerlink" href="#ignore-one-file-on-commit-eg-changelog" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git update-index-假定不变的变更日志<span class="p">;</span>  git commit -a<span class="p">;</span>  git update-index-无假设不变的变更日志
+<div class="codehilite"><pre><span></span> git update-index --assume-unchanged 变更日志；  git commit -a<span class="p">;</span>  git update-index --no-assume-unchanged 变更日志
 </pre></div>
 
 <h2 id="stash-changes-before-rebasing">Stash changes before rebasing<a class="headerlink" href="#stash-changes-before-rebasing" title="Permanent link">&para;</a></h2>
@@ -9345,14 +9345,14 @@ git config --global alias.st状态
 </pre></div>
 
 <h2 id="fetch-pull-request-by-id-to-a-local-branch">Fetch pull request by ID to a local branch<a class="headerlink" href="#fetch-pull-request-by-id-to-a-local-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git fetch origin pull /&lt;id&gt;  /头：&lt;branch-name&gt;
+<div class="codehilite"><pre><span></span> git fetch 原点拉/&lt;id&gt;  /头：&lt;branch-name&gt;
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span> git pull origin pull /&lt;id&gt;  /头：&lt;branch-name&gt;
+<div class="codehilite"><pre><span></span> git pull origin pull/&lt;id&gt;  /头：&lt;branch-name&gt;
 </pre></div></p>
 <h2 id="show-the-most-recent-tag-on-the-current-branch">Show the most recent tag on the current branch.<a class="headerlink" href="#show-the-most-recent-tag-on-the-current-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git describe --tags --abbrev <span class="o">=</span> <span class="m">0</span>
+<div class="codehilite"><pre><span></span>git describe --tags --abbrev<span class="o">=</span><span class="m">0</span>
 </pre></div>
 
 <h2 id="show-inline-word-diff">Show inline word diff.<a class="headerlink" href="#show-inline-word-diff" title="Permanent link">&para;</a></h2>
@@ -9364,11 +9364,11 @@ git config --global alias.st状态
 </pre></div>
 
 <h2 id="dont-consider-changes-for-tracked-file">Don’t consider changes for tracked file.<a class="headerlink" href="#dont-consider-changes-for-tracked-file" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git update-index-假定不变&lt;file_name&gt;
+<div class="codehilite"><pre><span></span>git update-index --assume-unchanged&lt;file_name&gt;
 </pre></div>
 
 <h2 id="undo-assume-unchanged">Undo assume-unchanged.<a class="headerlink" href="#undo-assume-unchanged" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git update-index-无假设不变&lt;file_name&gt;
+<div class="codehilite"><pre><span></span>git update-index --no-assume-unchanged&lt;file_name&gt;
 </pre></div>
 
 <h2 id="clean-the-files-from-gitignore">Clean the files from <code>.gitignore</code>.<a class="headerlink" href="#clean-the-files-from-gitignore" title="Permanent link">&para;</a></h2>
@@ -9376,31 +9376,31 @@ git config --global alias.st状态
 </pre></div>
 
 <h2 id="restore-deleted-file">Restore deleted file.<a class="headerlink" href="#restore-deleted-file" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git结帐&lt;deleting_commit&gt; --&lt;file_path&gt;
+<div class="codehilite"><pre><span></span>结帐&lt;deleting_commit&gt; ——&lt;file_path&gt;
 </pre></div>
 
 <h2 id="restore-file-to-a-specific-commit-hash">Restore file to a specific commit-hash<a class="headerlink" href="#restore-file-to-a-specific-commit-hash" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git结帐&lt;commit-ish&gt; --&lt;file_path&gt;
+<div class="codehilite"><pre><span></span>结帐&lt;commit-ish&gt; ——&lt;file_path&gt;
 </pre></div>
 
 <h2 id="always-rebase-instead-of-merge-on-pull">Always rebase instead of merge on pull.<a class="headerlink" href="#always-rebase-instead-of-merge-on-pull" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git config --global pull.rebase是
+<div class="codehilite"><pre><span></span>git config --global pull.rebase <span class="nb">true</span>
 </pre></div>
 
 <p><strong>Alternatives:</strong>
 <div class="codehilite"><pre><span></span><span class="c1">#git &lt; 1.7.9</span>
-git config --global branch.autosetuprebase总是
+git config --global branch.autosetuprebase 总是
 </pre></div></p>
 <h2 id="list-all-the-alias-and-configs">List all the alias and configs.<a class="headerlink" href="#list-all-the-alias-and-configs" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git config --list
+<div class="codehilite"><pre><span></span>git 配置 --list
 </pre></div>
 
 <h2 id="make-git-case-sensitive">Make git case sensitive.<a class="headerlink" href="#make-git-case-sensitive" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git config --global core.ignorecase否
+<div class="codehilite"><pre><span></span>git config --global core.ignorecase <span class="nb">false</span>
 </pre></div>
 
 <h2 id="add-custom-editors">Add custom editors.<a class="headerlink" href="#add-custom-editors" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git config --global core.editor<span class="p">&amp;</span><span class="c1">#39;$ EDITOR&amp;#39;</span>
+<div class="codehilite"><pre><span></span>git config --global core.editor <span class="p">&amp;</span><span class="c1">#39;$EDITOR&amp;#39;</span>
 </pre></div>
 
 <h2 id="auto-correct-typos">Auto correct typos.<a class="headerlink" href="#auto-correct-typos" title="Permanent link">&para;</a></h2>
@@ -9408,7 +9408,7 @@ git config --global branch.autosetuprebase总是
 </pre></div>
 
 <h2 id="check-if-the-change-was-a-part-of-a-release">Check if the change was a part of a release.<a class="headerlink" href="#check-if-the-change-was-a-part-of-a-release" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git name-rev-仅名称&lt;SHA-1&gt;
+<div class="codehilite"><pre><span></span>git name-rev --name-only&lt;SHA-1&gt;
 </pre></div>
 
 <h2 id="dry-run-any-command-that-supports-dry-run-flag-should-do">Dry run. (any command that supports dry-run flag should do.)<a class="headerlink" href="#dry-run-any-command-that-supports-dry-run-flag-should-do" title="Permanent link">&para;</a></h2>
@@ -9420,15 +9420,15 @@ git config --global branch.autosetuprebase总是
 </pre></div>
 
 <h2 id="squash-fixup-commits-normal-commits">Squash fixup commits normal commits.<a class="headerlink" href="#squash-fixup-commits-normal-commits" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git rebase -i-自动压扁
+<div class="codehilite"><pre><span></span>git rebase -i --autosquash
 </pre></div>
 
 <h2 id="skip-staging-area-during-commit">Skip staging area during commit.<a class="headerlink" href="#skip-staging-area-during-commit" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git commit-仅&lt;file_path&gt;
+<div class="codehilite"><pre><span></span>git commit --only&lt;file_path&gt;
 </pre></div>
 
 <h2 id="interactive-staging">Interactive staging.<a class="headerlink" href="#interactive-staging" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git添加-i
+<div class="codehilite"><pre><span></span>git add -i
 </pre></div>
 
 <h2 id="list-ignored-files">List ignored files.<a class="headerlink" href="#list-ignored-files" title="Permanent link">&para;</a></h2>
@@ -9436,15 +9436,15 @@ git config --global branch.autosetuprebase总是
 </pre></div>
 
 <h2 id="status-of-ignored-files">Status of ignored files.<a class="headerlink" href="#status-of-ignored-files" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git status-忽略
+<div class="codehilite"><pre><span></span>git status --ignored
 </pre></div>
 
 <h2 id="commits-in-branch1-that-are-not-in-branch2">Commits in Branch1 that are not in Branch2<a class="headerlink" href="#commits-in-branch1-that-are-not-in-branch2" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git log Branch1 ^ Branch2
+<div class="codehilite"><pre><span></span>git log Branch1 ^Branch2
 </pre></div>
 
 <h2 id="list-n-last-commits">List n last commits<a class="headerlink" href="#list-n-last-commits" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git日志-&lt;n&gt;
+<div class="codehilite"><pre><span></span>git 日志 -&lt;n&gt;
 </pre></div>
 
 <p><strong>Alternatives:</strong>
@@ -9455,19 +9455,19 @@ git config --global branch.autosetuprebase总是
 </pre></div>
 
 <h2 id="open-all-conflicted-files-in-an-editor">Open all conflicted files in an editor.<a class="headerlink" href="#open-all-conflicted-files-in-an-editor" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git diff-仅名称<span class="p">|</span>  uniq <span class="p">|</span>  xargs $ EDITOR
+<div class="codehilite"><pre><span></span> git diff --name-only <span class="p">|</span> 唯一<span class="p">|</span>  xargs <span class="nv">$EDITOR</span>
 </pre></div>
 
 <h2 id="count-unpacked-number-of-objects-and-their-disk-consumption">Count unpacked number of objects and their disk consumption.<a class="headerlink" href="#count-unpacked-number-of-objects-and-their-disk-consumption" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git count-objects-可读
+<div class="codehilite"><pre><span></span>git count-objects --human-readable
 </pre></div>
 
 <h2 id="prune-all-unreachable-objects-from-the-object-database">Prune all unreachable objects from the object database.<a class="headerlink" href="#prune-all-unreachable-objects-from-the-object-database" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git gc --prune <span class="o">=</span> now --aggressive
+<div class="codehilite"><pre><span></span>git gc --prune<span class="o">=</span>now --aggressive
 </pre></div>
 
 <h2 id="instantly-browse-your-working-repository-in-gitweb">Instantly browse your working repository in gitweb.<a class="headerlink" href="#instantly-browse-your-working-repository-in-gitweb" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git instaweb <span class="o">[</span>--local<span class="o">]</span> <span class="o">[</span>--httpd <span class="o">=</span>&lt;httpd&gt;  <span class="o">]</span> <span class="o">[</span>--port <span class="o">=</span>&lt;port&gt;  <span class="o">]</span> <span class="o">[</span>--browser <span class="o">=</span>&lt;browser&gt;  <span class="o">]</span>
+<div class="codehilite"><pre><span></span> git instaweb <span class="o">[</span>--local<span class="o">]</span> <span class="o">[</span>--httpd<span class="o">=</span>&lt;httpd&gt;  <span class="o">]</span> <span class="o">[</span>--端口<span class="o">=</span>&lt;port&gt;  <span class="o">]</span> <span class="o">[</span>--浏览器<span class="o">=</span>&lt;browser&gt;  <span class="o">]</span>
 </pre></div>
 
 <h2 id="view-the-gpg-signatures-in-the-commit-log">View the GPG signatures in the commit log<a class="headerlink" href="#view-the-gpg-signatures-in-the-commit-log" title="Permanent link">&para;</a></h2>
@@ -9475,7 +9475,7 @@ git config --global branch.autosetuprebase总是
 </pre></div>
 
 <h2 id="remove-entry-in-the-global-config">Remove entry in the global config.<a class="headerlink" href="#remove-entry-in-the-global-config" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git config --global --unset&lt;entry-name&gt;
+<div class="codehilite"><pre><span></span>git 配置 --global --unset&lt;entry-name&gt;
 </pre></div>
 
 <h2 id="checkout-a-new-branch-without-any-history">Checkout a new branch without any history<a class="headerlink" href="#checkout-a-new-branch-without-any-history" title="Permanent link">&para;</a></h2>
@@ -9483,7 +9483,7 @@ git config --global branch.autosetuprebase总是
 </pre></div>
 
 <h2 id="extract-file-from-another-branch">Extract file from another branch.<a class="headerlink" href="#extract-file-from-another-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git show&lt;branch_name&gt;  ：&lt;file_name&gt;
+<div class="codehilite"><pre><span></span> git 显示&lt;branch_name&gt; ：&lt;file_name&gt;
 </pre></div>
 
 <h2 id="list-only-the-root-and-merge-commits">List only the root and merge commits.<a class="headerlink" href="#list-only-the-root-and-merge-commits" title="Permanent link">&para;</a></h2>
@@ -9491,11 +9491,11 @@ git config --global branch.autosetuprebase总是
 </pre></div>
 
 <h2 id="change-previous-two-commits-with-an-interactive-rebase">Change previous two commits with an interactive rebase.<a class="headerlink" href="#change-previous-two-commits-with-an-interactive-rebase" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git rebase-交互式HEAD〜2
+<div class="codehilite"><pre><span></span>git rebase --interactive HEAD~2
 </pre></div>
 
 <h2 id="list-all-branch-is-wip">List all branch is WIP<a class="headerlink" href="#list-all-branch-is-wip" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git checkout master <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git分支-不合并
+<div class="codehilite"><pre><span></span>git checkout master <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git branch --no-merged
 </pre></div>
 
 <h2 id="find-guilty-with-binary-search">Find guilty with binary search<a class="headerlink" href="#find-guilty-with-binary-search" title="Permanent link">&para;</a></h2>
@@ -9512,25 +9512,25 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <h2 id="list-commits-and-changes-to-a-specific-file-even-through-renaming">List commits and changes to a specific file (even through renaming)<a class="headerlink" href="#list-commits-and-changes-to-a-specific-file-even-through-renaming" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git log-关注-p-&lt;file_path&gt;
+<div class="codehilite"><pre><span></span>git log --follow -p --&lt;file_path&gt;
 </pre></div>
 
 <h2 id="clone-a-single-branch">Clone a single branch<a class="headerlink" href="#clone-a-single-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git clone -b&lt;branch-name&gt;  --single-branch https://github.com/user/repo.git
+<div class="codehilite"><pre><span></span> git克隆 -b&lt;branch-name&gt;  --single-branch https://github.com/user/repo.git
 </pre></div>
 
 <h2 id="create-and-switch-new-branch">Create and switch new branch<a class="headerlink" href="#create-and-switch-new-branch" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git checkout -b&lt;branch-name&gt;
+<div class="codehilite"><pre><span></span>git 结帐 -b&lt;branch-name&gt;
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span> git分支&lt;branch-name&gt; <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git结帐&lt;branch-name&gt;
+<div class="codehilite"><pre><span></span> git 分支&lt;branch-name&gt; <span class="p">&amp;</span>amp<span class="p">;&amp;</span>amp<span class="p">;</span> git 结帐&lt;branch-name&gt;
 </pre></div></p>
-<div class="codehilite"><pre><span></span>git开关-c&lt;branch-name&gt;
+<div class="codehilite"><pre><span></span>git 开关 -c&lt;branch-name&gt;
 </pre></div>
 
 <h2 id="ignore-file-mode-changes-on-commits">Ignore file mode changes on commits<a class="headerlink" href="#ignore-file-mode-changes-on-commits" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git config core.fileMode错误
+<div class="codehilite"><pre><span></span>git 配置 core.fileMode 假
 </pre></div>
 
 <h2 id="turn-off-git-colored-terminal-output">Turn off git colored terminal output<a class="headerlink" href="#turn-off-git-colored-terminal-output" title="Permanent link">&para;</a></h2>
@@ -9538,15 +9538,15 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <h2 id="specific-color-settings">Specific color settings<a class="headerlink" href="#specific-color-settings" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git config --global&lt;specific <span class="nb">command</span> e.g branch, diff&gt;&lt;true, <span class="nb">false</span> or always&gt;
+<div class="codehilite"><pre><span></span>git 配置 --global&lt;specific <span class="nb">command</span> e.g branch, diff&gt;&lt;true, <span class="nb">false</span> or always&gt;
 </pre></div>
 
 <h2 id="show-all-local-branches-ordered-by-recent-commits">Show all local branches ordered by recent commits<a class="headerlink" href="#show-all-local-branches-ordered-by-recent-commits" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git <span class="k">for</span>-each-ref --sort <span class="o">=</span> -committerdate --format <span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;％（refname：short）&amp;#39;refs / heads /</span>
+<div class="codehilite"><pre><span></span>git <span class="k">for</span>-each-ref --sort<span class="o">=</span>-committerdate --format<span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;%(refname:short)&amp;#39; refs/heads/</span>
 </pre></div>
 
 <h2 id="find-lines-matching-the-pattern-regex-or-string-in-tracked-files">Find lines matching the pattern (regex or string) in tracked files<a class="headerlink" href="#find-lines-matching-the-pattern-regex-or-string-in-tracked-files" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git grep --heading --line-number<span class="p">&amp;</span><span class="c1">#39;foo bar&amp;#39;</span>
+<div class="codehilite"><pre><span></span>git grep --heading --line-number <span class="p">&amp;</span><span class="c1">#39;foo bar&amp;#39;</span>
 </pre></div>
 
 <h2 id="clone-a-shallow-copy-of-a-repository">Clone a shallow copy of a repository<a class="headerlink" href="#clone-a-shallow-copy-of-a-repository" title="Permanent link">&para;</a></h2>
@@ -9554,18 +9554,18 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <h2 id="search-commit-log-across-all-branches-for-given-text">Search Commit log across all branches for given text<a class="headerlink" href="#search-commit-log-across-all-branches-for-given-text" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git log --all --grep <span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;&lt;given-text&gt;  &amp;#39;</span>
+<div class="codehilite"><pre><span></span> git log --all --grep<span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;&lt;given-text&gt;  &amp;#39;</span>
 </pre></div>
 
 <h2 id="get-first-commit-in-a-branch-from-master">Get first commit in a branch (from master)<a class="headerlink" href="#get-first-commit-in-a-branch-from-master" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git log --oneline主站&lt;branch-name&gt; <span class="p">|</span> 尾-1
+<div class="codehilite"><pre><span></span> git log --oneline master..&lt;branch-name&gt;  <span class="p">|</span> 尾-1
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span> git log --reverse master ..&lt;branch-name&gt;  <span class="p">|</span> 头-6
+<div class="codehilite"><pre><span></span> git log --reverse master..&lt;branch-name&gt;  <span class="p">|</span> 头-6
 </pre></div></p>
 <h2 id="unstaging-staged-file">Unstaging Staged file<a class="headerlink" href="#unstaging-staged-file" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git reset HEAD&lt;file-name&gt;
+<div class="codehilite"><pre><span></span>git重置头&lt;file-name&gt;
 </pre></div>
 
 <h2 id="force-push-to-remote-repository">Force push to Remote Repository<a class="headerlink" href="#force-push-to-remote-repository" title="Permanent link">&para;</a></h2>
@@ -9577,32 +9577,32 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <h2 id="list-all-currently-configured-remotes">List all currently configured remotes<a class="headerlink" href="#list-all-currently-configured-remotes" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git remote -v
+<div class="codehilite"><pre><span></span>git远程 -v
 </pre></div>
 
 <h2 id="show-the-author-time-and-last-revision-made-to-each-line-of-a-given-file">Show the author, time and last revision made to each line of a given file<a class="headerlink" href="#show-the-author-time-and-last-revision-made-to-each-line-of-a-given-file" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>吉特怪&lt;file-name&gt;
+<div class="codehilite"><pre><span></span>怪罪&lt;file-name&gt;
 </pre></div>
 
 <h2 id="group-commits-by-authors-and-title">Group commits by authors and title<a class="headerlink" href="#group-commits-by-authors-and-title" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git shortlog
+<div class="codehilite"><pre><span></span>git短日志
 </pre></div>
 
 <h2 id="forced-push-but-still-ensure-you-dont-overwrite-others-work">Forced push but still ensure you don't overwrite other's work<a class="headerlink" href="#forced-push-but-still-ensure-you-dont-overwrite-others-work" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git push-强制租赁&lt;remote-name&gt;&lt;branch-name&gt;
+<div class="codehilite"><pre><span></span>git push --force-with-lease&lt;remote-name&gt;&lt;branch-name&gt;
 </pre></div>
 
 <h2 id="show-how-many-lines-does-an-author-contribute">Show how many lines does an author contribute<a class="headerlink" href="#show-how-many-lines-does-an-author-contribute" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git log --author <span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;_ Your_Name_Here_&amp;#39;--pretty = tformat：--numstat |  gawk&amp;#39;{添加+ =&lt;!-- @doxie.inject start --&gt;  ; 潜艇+ =&lt;!-- @doxie.inject end --&gt;  ;  loc + =&lt;!-- @doxie.inject start --&gt;  --&lt;!-- @doxie.inject end --&gt;  } END {printf“添加了行：％s已删除行：％s总行：％s</span>
-“，添加，订阅，位置<span class="o">}</span><span class="p">&amp;</span><span class="c1">#39;-</span>
+<div class="codehilite"><pre><span></span> git log --author<span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;_Your_Name_Here_&amp;#39; --pretty=tformat: --numstat | 呆呆 &amp;#39;{ 添加 +=&lt;!-- @doxie.inject start --&gt;  ; 订阅号 +=&lt;!-- @doxie.inject end --&gt;  ; 位置 +=&lt;!-- @doxie.inject start --&gt;  ——&lt;!-- @doxie.inject end --&gt;  } END { printf &amp;quot;添加行: %s 删除行: %s 总行: %s</span>
+<span class="p">&amp;</span>quot<span class="p">;</span>, 添加, 订阅, loc <span class="o">}</span><span class="p">&amp;</span><span class="c1">#39; -</span>
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span> git log --author <span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;_ Your_Name_Here_&amp;#39;--pretty = tformat：--numstat |  awk&amp;#39;{添加+ =&lt;!-- @doxie.inject start --&gt;  ; 潜艇+ =&lt;!-- @doxie.inject end --&gt;  ;  loc + =&lt;!-- @doxie.inject start --&gt;  --&lt;!-- @doxie.inject end --&gt;  } END {printf“添加了行：％s，已删除的行：％s，总行：％s</span>
+<div class="codehilite"><pre><span></span> git log --author<span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;_Your_Name_Here_&amp;#39; --pretty=tformat: --numstat |  awk &amp;#39;{ 添加 +=&lt;!-- @doxie.inject start --&gt;  ; 订阅号 +=&lt;!-- @doxie.inject end --&gt;  ; 位置 +=&lt;!-- @doxie.inject start --&gt;  ——&lt;!-- @doxie.inject end --&gt;  } END { printf &amp;quot;添加行：%s，删除行：%s，总行数：%s</span>
 <span class="s2">&quot;, add, subs, loc }&#39; - # on Mac OSX</span>
 </pre></div></p>
 <h2 id="revert-reverting-an-entire-merge">Revert: Reverting an entire merge<a class="headerlink" href="#revert-reverting-an-entire-merge" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git revert -m <span class="m">1</span>&lt;commit-ish&gt;
+<div class="codehilite"><pre><span></span>git 回复 -m <span class="m">1</span>&lt;commit-ish&gt;
 </pre></div>
 
 <h2 id="number-of-commits-in-a-branch">Number of commits in a branch<a class="headerlink" href="#number-of-commits-in-a-branch" title="Permanent link">&para;</a></h2>
@@ -9610,23 +9610,23 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <h2 id="alias-git-undo">Alias: git undo<a class="headerlink" href="#alias-git-undo" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git config --global alias.undo<span class="p">&amp;</span><span class="c1">#39;！f（）{git reset --hard $（git rev-parse --abbrev-ref HEAD）@ {$ {1-1}};  };  F&amp;#39;</span>
+<div class="codehilite"><pre><span></span> git config --global alias.undo <span class="p">&amp;</span><span class="c1">#39;!f() { git reset --hard $(git rev-parse --abbrev-ref HEAD)@{${1-1}};  };  F&amp;#39;</span>
 </pre></div>
 
 <h2 id="add-object-notes">Add object notes<a class="headerlink" href="#add-object-notes" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git notes add -m<span class="p">&amp;</span><span class="c1">#39;关于上一次提交的注释....</span>
+<div class="codehilite"><pre><span></span>git notes add -m <span class="p">&amp;</span><span class="c1">#39;注意上一次提交....&amp;#39;</span>
 </pre></div>
 
 <h2 id="show-all-the-git-notes">Show all the git-notes<a class="headerlink" href="#show-all-the-git-notes" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git log --show-notes <span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;*&amp;#39;</span>
+<div class="codehilite"><pre><span></span>git log --show-notes<span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;*&amp;#39;</span>
 </pre></div>
 
 <h2 id="apply-commit-from-another-repository">Apply commit from another repository<a class="headerlink" href="#apply-commit-from-another-repository" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git --git-dir <span class="o">=</span>&lt;source-dir&gt;  /.git format-patch -k -1 --stdout&lt;SHA1&gt;  <span class="p">|</span>  git am -3 -k
+<div class="codehilite"><pre><span></span> git --git-dir<span class="o">=</span>&lt;source-dir&gt;  /.git 格式补丁 -k -1 --stdout&lt;SHA1&gt;  <span class="p">|</span> 去上午-3 -k
 </pre></div>
 
 <h2 id="specific-fetch-reference">Specific fetch reference<a class="headerlink" href="#specific-fetch-reference" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git fetch origin master：引用/远程/源/ mymaster
+<div class="codehilite"><pre><span></span>git fetch origin master:refs/remotes/origin/mymaster
 </pre></div>
 
 <h2 id="find-common-ancestor-of-two-branches">Find common ancestor of two branches<a class="headerlink" href="#find-common-ancestor-of-two-branches" title="Permanent link">&para;</a></h2>
@@ -9638,9 +9638,9 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span>git log @ <span class="o">{</span>u<span class="o">}</span> ..
+<div class="codehilite"><pre><span></span>git log @<span class="o">{</span>u<span class="o">}</span>..
 </pre></div></p>
-<div class="codehilite"><pre><span></span>吉特樱桃-v
+<div class="codehilite"><pre><span></span>git 樱桃 -v
 </pre></div>
 
 <h2 id="add-everything-but-whitespace-changes">Add everything, but whitespace changes<a class="headerlink" href="#add-everything-but-whitespace-changes" title="Permanent link">&para;</a></h2>
@@ -9652,7 +9652,7 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <h2 id="blame-on-certain-range">blame on certain range<a class="headerlink" href="#blame-on-certain-range" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git怪-L&lt;start&gt;  ，&lt;end&gt;
+<div class="codehilite"><pre><span></span> git 责备 -L&lt;start&gt;  ,&lt;end&gt;
 </pre></div>
 
 <h2 id="show-a-git-logical-variable">Show a Git logical variable.<a class="headerlink" href="#show-a-git-logical-variable" title="Permanent link">&para;</a></h2>
@@ -9660,7 +9660,7 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <h2 id="preformatted-patch-file">Preformatted patch file.<a class="headerlink" href="#preformatted-patch-file" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git format-patch -M上游..主题
+<div class="codehilite"><pre><span></span>git format-patch -M upstream..topic
 </pre></div>
 
 <h2 id="get-the-repo-name">Get the repo name.<a class="headerlink" href="#get-the-repo-name" title="Permanent link">&para;</a></h2>
@@ -9668,38 +9668,38 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <h2 id="logs-between-date-range">logs between date range<a class="headerlink" href="#logs-between-date-range" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git log --since <span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;FEB 1 2017&amp;#39;--until =&amp;#39;FEB 14 2017&amp;#39;</span>
+<div class="codehilite"><pre><span></span>git log --since<span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;FEB 1 2017&amp;#39; --until=&amp;#39;FEB 14 2017&amp;#39;</span>
 </pre></div>
 
 <h2 id="exclude-author-from-logs">Exclude author from logs<a class="headerlink" href="#exclude-author-from-logs" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git log --perl-regexp --author <span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;^（（?!排除作者正则表达式）.*）</span>
+<div class="codehilite"><pre><span></span>git log --perl-regexp --author<span class="o">=</span><span class="p">&amp;</span><span class="c1">#39;^((?!excluded-author-regex).*)</span>
 </pre></div>
 
 <h2 id="generates-a-summary-of-pending-changes">Generates a summary of pending changes<a class="headerlink" href="#generates-a-summary-of-pending-changes" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git request-pull v1.0 https：//git.ko.xz/project master：for-linus
+<div class="codehilite"><pre><span></span>git request-pull v1.0 https://git.ko.xz/project master:for-linus
 </pre></div>
 
 <h2 id="list-references-in-a-remote-repository">List references in a remote repository<a class="headerlink" href="#list-references-in-a-remote-repository" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git ls-remote git：//git.kernel.org/pub/scm/git/git.git
+<div class="codehilite"><pre><span></span>git ls-remote git://git.kernel.org/pub/scm/git/git.git
 </pre></div>
 
 <h2 id="backup-untracked-files">Backup untracked files.<a class="headerlink" href="#backup-untracked-files" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git ls文件--others -i --exclude-standard <span class="p">|</span>  xargs zip untracked.zip
+<div class="codehilite"><pre><span></span> git ls-files --others -i --exclude-standard <span class="p">|</span>  xargs zip untracked.zip
 </pre></div>
 
 <h2 id="list-all-git-aliases">List all git aliases<a class="headerlink" href="#list-all-git-aliases" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span> git config -l <span class="p">|</span>  grep其他<span class="p">|</span>  sed的/ ^其他<span class="se">\ </span>.// G<span class="p">&amp;</span><span class="c1">#39;</span>
+<div class="codehilite"><pre><span></span> git 配置 -l <span class="p">|</span>  grep 其他 <span class="p">|</span>  sed <span class="p">&amp;</span><span class="c1">#39;s / ^ other \ .// G&amp;#39;</span>
 </pre></div>
 
 <p><strong>Alternatives:</strong>
-<div class="codehilite"><pre><span></span> git config -l <span class="p">|</span>  grep别名<span class="p">|</span> 切-d<span class="p">&amp;</span><span class="c1">#39;.&amp;#39;  -f 2</span>
+<div class="codehilite"><pre><span></span> git 配置 -l <span class="p">|</span>  grep 别名 <span class="p">|</span> 切 -d <span class="p">&amp;</span><span class="c1">#39;.&amp;#39;  -f 2</span>
 </pre></div></p>
 <h2 id="show-git-status-short">Show git status short<a class="headerlink" href="#show-git-status-short" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git status --short-分支
+<div class="codehilite"><pre><span></span>git status --short --branch
 </pre></div>
 
 <h2 id="checkout-a-commit-prior-to-a-day-ago">Checkout a commit prior to a day ago<a class="headerlink" href="#checkout-a-commit-prior-to-a-day-ago" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git checkout master @ <span class="o">{</span>昨天<span class="o">}</span>
+<div class="codehilite"><pre><span></span>git checkout master@<span class="o">{</span>昨天<span class="o">}</span>
 </pre></div>
 
 <h2 id="push-the-current-branch-to-the-same-name-on-the-remote-repository">Push the current branch to the same name on the remote repository<a class="headerlink" href="#push-the-current-branch-to-the-same-name-on-the-remote-repository" title="Permanent link">&para;</a></h2>
@@ -9707,7 +9707,7 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <h2 id="push-a-new-local-branch-to-remote-repository-and-track">Push a new local branch to remote repository and track<a class="headerlink" href="#push-a-new-local-branch-to-remote-repository-and-track" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git push -u起源&lt;branch_name&gt;
+<div class="codehilite"><pre><span></span>git push -u 原点&lt;branch_name&gt;
 </pre></div>
 
 <h2 id="change-a-branch-base">Change a branch base<a class="headerlink" href="#change-a-branch-base" title="Permanent link">&para;</a></h2>
@@ -9715,19 +9715,19 @@ git bisect reset                    <span class="c1"># Finish search </span>
 </pre></div>
 
 <h2 id="use-ssh-instead-of-https-for-remotes">Use SSH instead of HTTPs for remotes<a class="headerlink" href="#use-ssh-instead-of-https-for-remotes" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git config --global url.<span class="p">&amp;</span><span class="c1">#39;git@github.com：&amp;#39;.insteadOf&amp;#39;https://github.com/&amp;#39;</span>
+<div class="codehilite"><pre><span></span>git config --global url.<span class="p">&amp;</span><span class="c1">#39;git@github.com:&amp;#39;.insteadOf &amp;#39;https://github.com/&amp;#39;</span>
 </pre></div>
 
 <h2 id="update-a-submodule-to-the-latest-commit">Update a submodule to the latest commit<a class="headerlink" href="#update-a-submodule-to-the-latest-commit" title="Permanent link">&para;</a></h2>
 <div class="codehilite"><pre><span></span>光盘&lt;path-to-submodule&gt;
-git pull起源&lt;branch&gt;
+git pull 原点&lt;branch&gt;
 光盘&lt;root-of-your-main-project&gt;
-git添加&lt;path-to-submodule&gt;
-git commit -m“子模块已更新”
+添加&lt;path-to-submodule&gt;
+git commit -m <span class="p">&amp;</span>quot<span class="p">;</span>子模块更新<span class="p">&amp;</span>quot<span class="p">;</span>
 </pre></div>
 
 <h2 id="prevent-auto-replacing-lf-with-crlf">Prevent auto replacing LF with CRLF<a class="headerlink" href="#prevent-auto-replacing-lf-with-crlf" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>git config --global core.autocrlf否
+<div class="codehilite"><pre><span></span>git config --global core.autocrlf <span class="nb">false</span>
 </pre></div>
 
 <!-- Don’t remove or change the comment below – that can break automatic updates. More info at <http://npm.im/doxie.inject>. -->

@@ -25,12 +25,9 @@ cp search_index.py ${pythonVersion}/mkdocs/contrib/search/search_index.py
 # 合并icopy-site的爬虫更新内容并提交
 git clone --depth 1  -b master --single-branch https://github.com/icopy-site/awesome-cn.git
 cp -f  awesome-cn/docs/awesome/*  ./docs/awesome/
-cp awesome-cn/mkdocs.yml ./
+sed  -ri '/nav:/,/#.*Theme/d' mkdocs.yml
+sed  -n '/nav:/,/#.*Theme/p' awesome-cn/mkdocs.yml>> mkdocs.yml
 time=`date +'%Y-%m-%d %H:%M %Z'`
-sed -i 's/chenjiajia/wangyun/g' ./mkdocs.yml
-sed -i 's/asmcn.icopy.site/yunwan1x.github.io/g' ./mkdocs.yml
-sed -i 's/icopy-site/yunwan1x/g' ./mkdocs.yml
-sed -i -e 's/repo_name:.*//g'  -e 's/repo_url:.*//g'   ./mkdocs.yml
 sed -i "s/.*本文档采用.*构建.*/**本文档采用 [mkdocs](https:\/\/github.com\/mkdocs\/mkdocs) 构建，构建时间: $time **/g" ./docs/index.md
 
 rm -rf awesome-cn/

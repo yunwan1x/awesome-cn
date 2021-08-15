@@ -30,7 +30,7 @@ time=`date +'%Y-%m-%d %H:%M %Z'`
 sed -i 's/chenjiajia/wangyun/g' ./mkdocs.yml
 sed -i 's/asmcn.icopy.site/yunwan1x.github.io/g' ./mkdocs.yml
 sed -i 's/icopy-site/yunwan1x/g' ./mkdocs.yml
-sed -i -e 's/repo_name:.*//g' -e 's/edit_uri:.*//g' -e 's/repo_url:.*//g'   ./mkdocs.yml
+sed -i -e 's/repo_name:.*//g'  -e 's/repo_url:.*//g'   ./mkdocs.yml
 sed -i "s/.*本文档采用.*构建.*/**本文档采用 [mkdocs](https:\/\/github.com\/mkdocs\/mkdocs) 构建，构建时间: $time **/g" ./docs/index.md
 
 rm -rf awesome-cn/

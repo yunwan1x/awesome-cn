@@ -5,12 +5,14 @@ site_author: wangyun
 site_url: https://yunwan1x.github.io
 
 # Repository
-
-
+repo_name: 'icopy-site/awesome-cn'
+repo_url: 'https://github.com/icopy-site/awesome-cn'
 edit_uri: 'blob/master/docs/'
 
 # Copyright
 copyright: 'Copyright &copy; 2016 - 2019'
+
+
 
 # Contents
 nav:

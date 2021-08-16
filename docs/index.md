@@ -4,6 +4,8 @@
 **本文档采用 [mkdocs](https://github.com/mkdocs/mkdocs) 构建，构建时间: 2021-08-15 20:14 UTC **
 
 [![CI](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml/badge.svg)](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml)
+## 剑指offer
+1. [csnote](https://www.cyc2018.xyz/)
 ## 开源社区
 1. [github排行榜](https://www.githubs.cn/top)
 2. [libs.garden](https://libs.garden/)

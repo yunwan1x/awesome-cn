@@ -7079,36 +7079,36 @@
 
 <p><a href="https://spark.apache.org/"><img src="https://cdn.rawgit.com/awesome-spark/awesome-spark/f78a16db/spark-logo-trademark.svg" align="right"></a></p>
 <h2 id="awesome-spark">Awesome Spark <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a><a class="headerlink" href="#awesome-spark" title="Permanent link">&para;</a></h2>
-<p>精选的很棒的清单 <a href="https://spark.apache.org/">Apache Spark</a> 包和资源.</p>
-<p><em>Apache Spark是一个开放源代码群集计算框架. 最初开发于 <a href="https://www.universityofcalifornia.edu/">University of California</a>, <a href="https://amplab.cs.berkeley.edu/">Berkeley's AMPLab</a>，后来将Spark代码库捐赠给了 <a href="https://www.apache.org/">Apache Software Foundation</a> ，此后一直保持下去.  Spark提供了一个接口，用于使用隐式数据并行性和Fault-tolerance</em>（<a href="#wikipedia-2017">Wikipedia 2017</a>).</p>
-<p>Apache Spark的用户可以选择不同的Python，R，Scala和Java编程语言来与Apache Spark API进行接口.</p>
+<p>一个很棒的精选清单 <a href="https://spark.apache.org/">Apache Spark</a> 包和资源.</p>
+<p><em>Apache Spark 是一个开源集群计算框架. 最初开发于 <a href="https://www.universityofcalifornia.edu/">University of California</a>, <a href="https://amplab.cs.berkeley.edu/">Berkeley's AMPLab</a>，Spark 代码库后来被捐赠给了 <a href="https://www.apache.org/">Apache Software Foundation</a> ，从那以后一直保持着它.  Spark 提供了一个接口，用于对具有隐式数据并行性和容错性的整个集群进行编程</em>（<a href="#wikipedia-2017">Wikipedia 2017</a>).</p>
+<p>Apache Spark 的用户可以选择不同的 Python、R、Scala 和 Java 编程语言来与 Apache Spark API 交互.</p>
 <h2 id="packages">Packages<a class="headerlink" href="#packages" title="Permanent link">&para;</a></h2>
 <h3 id="language-bindings">Language Bindings<a class="headerlink" href="#language-bindings" title="Permanent link">&para;</a></h3>
 <h3 id="notebooks-and-ides">Notebooks and IDEs<a class="headerlink" href="#notebooks-and-ides" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://almond.sh/">almond</a> <img src="https://img.shields.io/github/last-commit/almond-sh/almond.svg"> -用于的scala内核 <a href="https://jupyter.org/">Jupyter</a>.</li>
-<li><a href="https://zeppelin.incubator.apache.org/">Apache Zeppelin</a> <img src="https://img.shields.io/github/last-commit/apache/zeppelin.svg"> -基于Web的笔记本电脑，可通过即插即用的后端，集成的绘图功能和广泛的Spark支持进行交互式数据分析.</li>
-<li><a href="https://polynote.org/">Polynote</a>  <img src="https://img.shields.io/github/last-commit/polynote/polynote.svg">  -Polynote：灵感来自IDE的多国语言笔记本. 它支持在一个笔记本中混合多种语言，并在它们之间无缝共享数据. 它通过不可变的数据模型来鼓励可复制的笔记本电脑. 始于 <a href="https://medium.com/netflix-techblog/open-sourcing-polynote-an-ide-inspired-polyglot-notebook-7f929d3f447">Netflix</a>.</li>
+<li><a href="https://almond.sh/">almond</a> <img src="https://img.shields.io/github/last-commit/almond-sh/almond.svg"> - 一个Scala内核 <a href="https://jupyter.org/">Jupyter</a>.</li>
+<li><a href="https://zeppelin.incubator.apache.org/">Apache Zeppelin</a> <img src="https://img.shields.io/github/last-commit/apache/zeppelin.svg"> - 基于 Web 的笔记本，可通过可插入后端、集成绘图和开箱即用的广泛 Spark 支持实现交互式数据分析.</li>
+<li><a href="https://polynote.org/">Polynote</a>  <img src="https://img.shields.io/github/last-commit/polynote/polynote.svg">  - Polynote：受 IDE 启发的多语言笔记本. 它支持在一个笔记本中混合多种语言，并在它们之间无缝共享数据. 它鼓励具有不可变数据模型的可复制笔记本. 起源于 <a href="https://medium.com/netflix-techblog/open-sourcing-polynote-an-ide-inspired-polyglot-notebook-7f929d3f447">Netflix</a>.</li>
 </ul>
 <h3 id="general-purpose-libraries">General Purpose Libraries<a class="headerlink" href="#general-purpose-libraries" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="http://succinct.cs.berkeley.edu/">Succinct</a> <img src="https://img.shields.io/github/last-commit/amplab/succinct.svg">-支持对压缩数据进行有效查询.</li>
+<li><a href="http://succinct.cs.berkeley.edu/">Succinct</a> <img src="https://img.shields.io/github/last-commit/amplab/succinct.svg">- 支持对压缩数据的高效查询.</li>
 </ul>
 <h3 id="sql-data-sources">SQL Data Sources<a class="headerlink" href="#sql-data-sources" title="Permanent link">&para;</a></h3>
-<p>SparkSQL有 <a href="https://spark.apache.org/docs/latest/sql-data-sources-load-save-functions.html#manually-specifying-options">serveral built-in Data Sources</a> 用于文件. 其中包括<code>csv</code>，<code>json</code>，<code>parquet</code>，<code>orc</code>和<code>avro</code>. 它还支持JDBC数据库以及Apache Hive. 可以通过包括以下列出的软件包或编写自己的软件包来添加其他数据源. </p>
+<p>SparkSQL 有 <a href="https://spark.apache.org/docs/latest/sql-data-sources-load-save-functions.html#manually-specifying-options">serveral built-in Data Sources</a> 对于文件. 这些包括 <code>csv</code>、<code>json</code>、<code>parquet</code>、<code>orc</code> 和 <code>avro</code>. 它还支持 JDBC 数据库以及 Apache Hive. 可以通过包含下面列出的包或编写自己的包来添加其他数据源. </p>
 <h3 id="storage">Storage<a class="headerlink" href="#storage" title="Permanent link">&para;</a></h3>
 <h3 id="bioinformatics">Bioinformatics<a class="headerlink" href="#bioinformatics" title="Permanent link">&para;</a></h3>
 <h3 id="gis">GIS<a class="headerlink" href="#gis" title="Permanent link">&para;</a></h3>
 <h3 id="time-series-analytics">Time Series Analytics<a class="headerlink" href="#time-series-analytics" title="Permanent link">&para;</a></h3>
 <h3 id="graph-processing">Graph Processing<a class="headerlink" href="#graph-processing" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="http://sparkling.ml">SparklingGraph</a> <img src="https://img.shields.io/github/last-commit/sparkling-graph/sparkling-graph.svg"> -库扩展了GraphX功能，具有多种功能，可用于图形分析（度量，生成器，链接预测等）.</li>
+<li><a href="http://sparkling.ml">SparklingGraph</a> <img src="https://img.shields.io/github/last-commit/sparkling-graph/sparkling-graph.svg"> - 扩展 GraphX 特性的库，具有在图形分析中有用的多种功能（度量、生成器、链接预测等）.</li>
 </ul>
 <h3 id="machine-learning-extension">Machine Learning Extension<a class="headerlink" href="#machine-learning-extension" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://systemml.apache.org/">Apache SystemML</a> <img src="https://img.shields.io/github/last-commit/apache/systemml.svg"> -在Spark之上的声明性机器学习框架.</li>
-<li><a href="https://mahout.apache.org/users/sparkbindings/home.html">Mahout Spark Bindings</a>  [状态未知]-具有类似R语法的线性代数DSL和优化器.</li>
-<li><a href="http://keystone-ml.org/">KeystoneML</a> -使用RDD键入安全的机器学习管道.</li>
+<li><a href="https://systemml.apache.org/">Apache SystemML</a> <img src="https://img.shields.io/github/last-commit/apache/systemml.svg"> - 基于 Spark 的声明式机器学习框架.</li>
+<li><a href="https://mahout.apache.org/users/sparkbindings/home.html">Mahout Spark Bindings</a> [status unknown] - 线性代数 DSL 和具有类似 R 语法的优化器.</li>
+<li><a href="http://keystone-ml.org/">KeystoneML</a> - 使用 RDD 键入安全的机器学习管道.</li>
 </ul>
 <h3 id="middleware">Middleware<a class="headerlink" href="#middleware" title="Permanent link">&para;</a></h3>
 <h3 id="monitoring">Monitoring<a class="headerlink" href="#monitoring" title="Permanent link">&para;</a></h3>
@@ -7116,11 +7116,11 @@
 <h3 id="natural-language-processing">Natural Language Processing<a class="headerlink" href="#natural-language-processing" title="Permanent link">&para;</a></h3>
 <h3 id="streaming">Streaming<a class="headerlink" href="#streaming" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://bahir.apache.org/">Apache Bahir</a> <img src="https://img.shields.io/github/last-commit/apache/bahir.svg"> -收集Spark 2.0之外的流连接器（Akka，MQTT，Twitter.ZeroMQ）.</li>
+<li><a href="https://bahir.apache.org/">Apache Bahir</a> <img src="https://img.shields.io/github/last-commit/apache/bahir.svg"> - 从 Spark 2.0 中排除的流连接器的集合（Akka、MQTT、Twitter.ZeroMQ）.</li>
 </ul>
 <h3 id="interfaces">Interfaces<a class="headerlink" href="#interfaces" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://beam.apache.org/">Apache Beam</a> <img src="https://img.shields.io/github/last-commit/apache/beam.svg">  -统一的数据处理引擎，支持批处理和流应用程序.  Apache Spark是受支持的执行环境之一.</li>
+<li><a href="https://beam.apache.org/">Apache Beam</a> <img src="https://img.shields.io/github/last-commit/apache/beam.svg">  - 支持批处理和流应用程序的统一数据处理引擎.  Apache Spark 是受支持的执行环境之一.</li>
 </ul>
 <h3 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">&para;</a></h3>
 <h3 id="web-archives">Web Archives<a class="headerlink" href="#web-archives" title="Permanent link">&para;</a></h3>
@@ -7128,50 +7128,50 @@
 <h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
 <h3 id="books">Books<a class="headerlink" href="#books" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="http://shop.oreilly.com/product/0636920028512.do">Learning Spark, Lightning-Fast Big Data Analysis</a>  -Spark API的过时介绍（Spark 1.3）. 有关基本概念的丰富知识来源.</li>
-<li><a href="http://shop.oreilly.com/product/0636920035091.do">Advanced Analytics with Spark</a>  -有用的Spark处理模式集合. 随附的GitHub存储库： <a href="https://github.com/sryza/aas">sryza/aas</a>.</li>
-<li><a href="https://jaceklaskowski.gitbooks.io/mastering-apache-spark/">Mastering Apache Spark</a> -有趣的笔记汇编 <a href="https://github.com/jaceklaskowski">Jacek Laskowski</a> . 专注于Spark内部的不同方面.</li>
-<li><a href="https://github.com/awesome-spark/spark-gotchas">Spark Gotchas</a> -提示，技巧和常见编程错误的主观汇编.</li>
+<li><a href="https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/">Learning Spark, 2<sup>nd</sup> Edition</a>  - 包含 Spark 3.0 的 Spark API 简介. 关于基本概念的良好知识来源.</li>
+<li><a href="http://shop.oreilly.com/product/0636920035091.do">Advanced Analytics with Spark</a>  - 有用的 Spark 处理模式集合. 附带 GitHub 存储库： <a href="https://github.com/sryza/aas">sryza/aas</a>.</li>
+<li><a href="https://jaceklaskowski.gitbooks.io/mastering-apache-spark/">Mastering Apache Spark</a> - 有趣的笔记汇编 <a href="https://github.com/jaceklaskowski">Jacek Laskowski</a> . 专注于 Spark 内部的不同方面.</li>
+<li><a href="https://github.com/awesome-spark/spark-gotchas">Spark Gotchas</a> - 提示、技巧和常见编程错误的主观汇编.</li>
 </ul>
 <h3 id="papers">Papers<a class="headerlink" href="#papers" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://arxiv.org/pdf/2009.08044.pdf">Large-Scale Intelligent Microservices</a> -Microsoft的论文提出了基于Apache Spark的微服务编排框架，该框架扩展了数据库操作以包括Web服务原语.</li>
-<li><a href="https://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf">Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing</a> -介绍核心分布式内存抽象的论文.</li>
-<li>[结构化流：实时的声明性API
- Apache Spark中的应用程序]（<a href="https://cs.stanford.edu/~matei/papers/2018/sigmod_structured_streaming.pdf">https://cs.stanford.edu/~matei/papers/2018/sigmod_structured_streaming.pdf</a>）-结构化流是一种新的高级流API，它是基于自动递增静态值的声明性API关系查询.</li>
+<li><a href="https://arxiv.org/pdf/2009.08044.pdf">Large-Scale Intelligent Microservices</a> - Microsoft 论文，提出了一个基于 Apache Spark 的微服务编排框架，该框架将数据库操作扩展为包括 Web 服务原语.</li>
+<li><a href="https://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf">Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing</a> - 介绍核心分布式内存抽象的论文.</li>
+<li><a href="https://cs.stanford.edu/~matei/papers/2018/sigmod_structured_streaming.pdf">结构化流媒体：实时的声明式 API
+ Apache Spark 中的应用</a> - Structured Streaming 是一个新的高级流 API，它是一个基于自动递增静态的声明式 API关系查询.</li>
 </ul>
 <h3 id="moocs">MOOCS<a class="headerlink" href="#moocs" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://www.edx.org/xseries/data-science-engineering-apache-spark">Data Science and Engineering with Apache Spark (edX XSeries)</a> -系列五门课程（<a href="https://www.edx.org/course/introduction-apache-spark-uc-berkeleyx-cs105x">Introduction to Apache Spark</a>, <a href="https://www.edx.org/course/distributed-machine-learning-apache-uc-berkeleyx-cs120x">Distributed Machine Learning with Apache Spark</a>, <a href="https://www.edx.org/course/big-data-analysis-apache-spark-uc-berkeleyx-cs110x">Big Data Analysis with Apache Spark</a>, <a href="https://www.edx.org/course/advanced-apache-spark-data-science-data-uc-berkeleyx-cs115x">Advanced Apache Spark for Data Science and Data Engineering</a>, <a href="https://www.edx.org/course/advanced-distributed-machine-learning-uc-berkeleyx-cs125x">Advanced Distributed Machine Learning with Apache Spark</a> ），涵盖软件工程和数据科学的不同方面. 面向Python.</li>
-<li><a href="https://www.coursera.org/learn/big-data-analysys">Big Data Analysis with Scala and Spark (Coursera)</a>  -面向Scala的入门课程. 部分 <a href="https://www.coursera.org/specializations/scala">Functional Programming in Scala Specialization</a>.</li>
+<li><a href="https://www.edx.org/xseries/data-science-engineering-apache-spark">Data Science and Engineering with Apache Spark (edX XSeries)</a> - 五门课程系列（<a href="https://www.edx.org/course/introduction-apache-spark-uc-berkeleyx-cs105x">Introduction to Apache Spark</a>, <a href="https://www.edx.org/course/distributed-machine-learning-apache-uc-berkeleyx-cs120x">Distributed Machine Learning with Apache Spark</a>, <a href="https://www.edx.org/course/big-data-analysis-apache-spark-uc-berkeleyx-cs110x">Big Data Analysis with Apache Spark</a>, <a href="https://www.edx.org/course/advanced-apache-spark-data-science-data-uc-berkeleyx-cs115x">Advanced Apache Spark for Data Science and Data Engineering</a>, <a href="https://www.edx.org/course/advanced-distributed-machine-learning-uc-berkeleyx-cs125x">Advanced Distributed Machine Learning with Apache Spark</a> ) 涵盖软件工程和数据科学的不同方面. 面向 Python.</li>
+<li><a href="https://www.coursera.org/learn/big-data-analysys">Big Data Analysis with Scala and Spark (Coursera)</a>  - 面向 Scala 的入门课程. 部分 <a href="https://www.coursera.org/specializations/scala">Functional Programming in Scala Specialization</a>.</li>
 </ul>
 <h3 id="workshops">Workshops<a class="headerlink" href="#workshops" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="http://ampcamp.berkeley.edu">AMP Camp</a> -定期举办的培训活动 <a href="https://amplab.cs.berkeley.edu/">UC Berkeley AMPLab</a> . 有用的练习来源和录制的讲习班，涵盖了来自 <a href="https://amplab.cs.berkeley.edu/software/">Berkeley Data Analytics Stack</a>.</li>
+<li><a href="http://ampcamp.berkeley.edu">AMP Camp</a> - 定期举办的培训活动 <a href="https://amplab.cs.berkeley.edu/">UC Berkeley AMPLab</a> . 有用的练习和录制的研讨会的来源，涵盖了来自 <a href="https://amplab.cs.berkeley.edu/software/">Berkeley Data Analytics Stack</a>.</li>
 </ul>
 <h3 id="projects-using-spark">Projects Using Spark<a class="headerlink" href="#projects-using-spark" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/OryxProject/oryx">Oryx 2</a> - <a href="http://lambda-architecture.net/">Lambda architecture</a> 基于Apache Spark和 <a href="http://kafka.apache.org/">Apache Kafka</a> 专门用于实时大规模机器学习.</li>
-<li><a href="https://github.com/linkedin/photon-ml">Photon ML</a> -支持经典广义混合模型和广义加性混合效应模型的机器学习库.</li>
-<li><a href="https://prediction.io/">PredictionIO</a> -面向开发人员和数据科学家的机器学习服务器，可在短时间内构建和部署预测性应用程序.</li>
-<li><a href="https://github.com/Stratio/Crossdata">Crossdata</a> -具有扩展的DataSource API和多用户环境的数据集成平台.</li>
+<li><a href="https://github.com/OryxProject/oryx">Oryx 2</a> - <a href="http://lambda-architecture.net/">Lambda architecture</a> 基于 Apache Spark 的平台和 <a href="http://kafka.apache.org/">Apache Kafka</a> 专注于实时大规模机器学习.</li>
+<li><a href="https://github.com/linkedin/photon-ml">Photon ML</a> - 支持经典广义混合模型和广义加性混合效应模型的机器学习库.</li>
+<li><a href="https://prediction.io/">PredictionIO</a> - 机器学习服务器，供开发人员和数据科学家在很短的时间内构建和部署预测应用程序.</li>
+<li><a href="https://github.com/Stratio/Crossdata">Crossdata</a> - 具有扩展数据源 API 和多用户环境的数据集成平台.</li>
 </ul>
 <h3 id="blogs">Blogs<a class="headerlink" href="#blogs" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="http://spark.tc/blog/">Spark Technology Center</a>  -与Spark生态系统相关的高度多样化的帖子的大量来源. 从实用建议到Spark提交者个人资料.</li>
+<li><a href="http://spark.tc/blog/">Spark Technology Center</a>  - 与 Spark 生态系统相关的高度多样化帖子的重要来源. 从实用建议到 Spark 提交者配置文件.</li>
 </ul>
 <h3 id="docker-images">Docker Images<a class="headerlink" href="#docker-images" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/jupyter/docker-stacks/tree/master/pyspark-notebook">jupyter/docker-stacks/pyspark-notebook</a> -具有Jupyter Notebook和Mesos客户端的PySpark.</li>
-<li><a href="https://github.com/sequenceiq/docker-spark">sequenceiq/docker-spark</a> -来自的纱线图像 <a href="http://www.sequenceiq.com/">SequenceIQ</a>.</li>
+<li><a href="https://github.com/jupyter/docker-stacks/tree/master/pyspark-notebook">jupyter/docker-stacks/pyspark-notebook</a> - 带有 Jupyter Notebook 和 Mesos 客户端的 PySpark.</li>
+<li><a href="https://github.com/sequenceiq/docker-spark">sequenceiq/docker-spark</a> - 纱线图像来自 <a href="http://www.sequenceiq.com/">SequenceIQ</a>.</li>
 </ul>
 <h3 id="miscellaneous">Miscellaneous<a class="headerlink" href="#miscellaneous" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://gitter.im/spark-scala/Lobby">Spark with Scala Gitter channel</a> -“由_讨论并提出有关使用Scala进行Spark编程的问题_” <a href="https://github.com/deanwampler">@deanwampler</a>.</li>
+<li><a href="https://gitter.im/spark-scala/Lobby">Spark with Scala Gitter channel</a> - “<em>一个讨论和提问有关使用 Scala 进行 Spark 编程的地方</em>”开始于 <a href="https://github.com/deanwampler">@deanwampler</a>.</li>
 <li><a href="http://apache-spark-user-list.1001560.n3.nabble.com/">Apache Spark User List</a> 和 <a href="http://apache-spark-developers-list.1001551.n3.nabble.com/">Apache Spark Developers List</a> - Mailing lists dedicated to usage questions 和 development topics respectively.</li>
 </ul>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
-<p id="wikipedia-2017">维基百科.  2017年.“ Apache Spark-维基百科，免费百科全书”.  <a href="https://en.wikipedia.org/w/index.php?title=Apache_Spark&amp;oldid=781182753" class="uri">https://en.wikipedia.org/w/index.php?title=Apache_Spark&amp;oldid=781182753</a> .</p>
+<p id="wikipedia-2017">维基百科.  2017. “Apache Spark — 维基百科，免费的百科全书.”  <a href="https://en.wikipedia.org/w/index.php?title=Apache_Spark&amp;oldid=781182753" class="uri">https://en.wikipedia.org/w/index.php?title=Apache_Spark&amp;oldid=781182753</a> .</p>
 
 <h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">&para;</a></h2>
 <p xmlns:dct="http://purl.org/dc/terms/">
@@ -7180,12 +7180,12 @@
      style="border-style: none;" alt="Public Domain Mark" />
 </a>
 <br />
-<a href="https://github.com/zero323" rel="dct:publisher"><span property="dct:title">Maciej Szymkiewicz</span></a>确认的这项工作（ <span property="dct:title">Awesome Spark</span> ， <a href="https://github.com/awesome-spark/awesome-spark" rel="dct:creator">https：//github.com/awesome-spark/awesome-spark</a> ）不受已知的版权限制.
+这项工作（ <span property="dct:title">Awesome Spark</span> ，来自<a href="https://github.com/awesome-spark/awesome-spark" rel="dct:creator">https://github.com/awesome-spark/awesome-spark</a> ）由<a href="https://github.com/zero323" rel="dct:publisher"><span property="dct:title">Maciej Szymkiewicz</span></a>标识，不受已知版权限制.
 </p>
 
-<p>Apache Spark，Spark，Apache和Spark徽标是的<a href="https://www.apache.org/foundation/marks/">商标</a>
-   <a href="http://www.apache.org">Apache软件基金会</a>. 该编译未得到Apache软件基金会的认可.</p>
-<p>受启发 <a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a>.</p>
+<p>Apache的火花，火花，Apache和星火标识是<a href="https://www.apache.org/foundation/marks/">商标</a>
+   <a href="http://www.apache.org">Apache 软件基金会</a>. 此编译未得到 Apache 软件基金会的认可.</p>
+<p>灵感来自 <a href="https://github.com/sindresorhus/awesome">sindresorhus/awesome</a>.</p>
                 
                   
                 

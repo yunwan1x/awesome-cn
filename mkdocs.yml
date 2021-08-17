@@ -37,6 +37,11 @@ extra:
   search:
     language: 'jp'
   copyright: 'CC BY-NC-SA 4.0'
+  social:
+    - icon: fontawesome/brands/github
+      link: https://yunwan1x.github.com
+      name: 汪云的博客
+  
 
 extra_javascript:
   - 'https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js'

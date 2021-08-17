@@ -6,6 +6,7 @@
 [![CI](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml/badge.svg)](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml)
 ## 剑指offer
 1. [csnote](https://www.cyc2018.xyz/)
+2. [小浩算法](https://github.com/geekxh/hello-algorithm)
 ## 开源社区
 1. [github排行榜](https://www.githubs.cn/top)
 2. [libs.garden](https://libs.garden/)

@@ -39,6 +39,7 @@ extra:
   copyright: 'CC BY-NC-SA 4.0'
   social:
     - link: https://yunwan1x.github.io
+      icon: fontawesome/brands/github
       name: 汪云的博客
   
 

@@ -38,8 +38,7 @@ extra:
     language: 'jp'
   copyright: 'CC BY-NC-SA 4.0'
   social:
-    - icon: fontawesome/brands/github
-      link: https://yunwan1x.github.com
+    - link: https://yunwan1x.github.io
       name: 汪云的博客
   
 

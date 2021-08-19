@@ -21,6 +21,7 @@
 1. [alternativeto](https://alternativeto.net/)
 1. [alternativeto chinese](https://zh.altapps.net/)
 1. [清华开源镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
+1. [github中文排名](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
 
 ## 精品教程
 2. [书栈网](https://www.bookstack.cn/)

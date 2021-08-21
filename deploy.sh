@@ -28,7 +28,7 @@ cp -f  awesome-cn/docs/awesome/*  ./docs/awesome/
 sed  -ri '/nav:/,/#.*Theme/d' mkdocs.yml
 sed  -n '/nav:/,/#.*Theme/p' awesome-cn/mkdocs.yml>> mkdocs.yml
 time=`date +'%Y-%m-%d %H:%M %Z'`
-sed -i "s/.*本文档采用.*构建.*/**本文档采用 [mkdocs](https:\/\/github.com\/mkdocs\/mkdocs) 构建，构建时间: $time **/g" ./docs/index.md
+sed -i "s/.*本文档采用.*构建.*/本文档采用 [mkdocs](https:\/\/github.com\/mkdocs\/mkdocs) 构建，构建时间: $time /g" ./docs/index.md
 
 rm -rf awesome-cn/
 find ./docs -name "*.md" -type f|xargs sed -i  "s/<script.*>.*<\/script>//g"

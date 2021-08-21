@@ -16,6 +16,7 @@
 4. [apache开源基金会](https://www.apache.org/)
 5. [gnu开源基金会](https://www.gnu.org/software/software.zh-cn.html)
 6. [cncf基金会](https://www.cncf.io/projects/)
+7. [awesome list](https://github.com/sindresorhus/awesome#programming-languages)
 
 ## 开源软件
 1. [alternativeto](https://alternativeto.net/)

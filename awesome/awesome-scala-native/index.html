@@ -6690,124 +6690,125 @@
 
 <h2 id="awesome-scala-native">Awesome Scala Native <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a><a class="headerlink" href="#awesome-scala-native" title="Permanent link">&para;</a></h2>
 <p><a href="http://www.scala-native.org/"><img alt="Scala Native" align="right" width="250" height="250" src="https://raw.githubusercontent.com/tindzk/awesome-scala-native/master/logo.png"></a></p>
-<p><a href="http://www.scala-native.org/">Scala Native</a> 是针对 <a href="https://www.scala-lang.org/">Scala programming language</a> . 传统上，虚拟机 <a href="https://en.wikipedia.org/wiki/Java_virtual_machine">JVM</a> ，是运行Scala程序所必需的.  Scala Native进入编译器以发出 <a href="http://llvm.org/docs/LangRef.html">LLVM intermediate representation</a> 而不是JVM字节码. 然后， <a href="http://llvm.org/">LLVM</a> 编译器基础结构用于生成本机库和可执行文件. 由于Scala Native可执行文件是独立程序，因此它们通常具有较短的启动时间和较低的内存消耗. 这为部署Scala程序开辟了新途径，而以前虚拟机将成为限制因素. 例如，开发人员可以为命令行或嵌入式设备编写程序.</p>
+<p><a href="http://www.scala-native.org/">Scala Native</a> 是一个优化的提前编译器 <a href="https://www.scala-lang.org/">Scala programming language</a> . 传统上，虚拟机， <a href="https://en.wikipedia.org/wiki/Java_virtual_machine">JVM</a> , 是运行 Scala 程序所必需的.  Scala Native 利用编译器发出 <a href="http://llvm.org/docs/LangRef.html">LLVM intermediate representation</a> 而不是 JVM 字节码. 然后，该 <a href="http://llvm.org/">LLVM</a> 编译器基础结构用于生成本机库和可执行文件. 鉴于 Scala Native 可执行文件是独立程序，它们通常具有较短的启动时间和较低的内存消耗. 这开辟了部署 Scala 程序的新途径，而以前虚拟机是限制因素. 例如，开发人员可以为命令行或嵌入式设备编写程序.</p>
 <h2 id="tutorials-and-examples">Tutorials and Examples<a class="headerlink" href="#tutorials-and-examples" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/scala-native/scala-native.g8">Giter8 template for a minimal Scala Native project</a> -官方 <a href="http://www.foundweekends.org/giter8/">Giter8</a> 一个最小的Scala Native项目的模板.</li>
-<li><a href="https://github.com/MasseGuillaume/hands-on-scala-native">Hands on Scala Native</a> -使用Ncurses实现带宽监视器的教程.</li>
-<li><a href="https://github.com/GnaneshKunal/scala-native-starter">Starter for Scala Native</a> -链接到自定义C库的Scala Native项目.</li>
-<li><a href="https://github.com/nadavwr/scala-native-sbt-jni-example">Building C code using sbt-jni</a> -使用以下命令在Scala Native项目中编译C代码的示例 <a href="https://github.com/jodersky/sbt-jni">sbt-jni</a>.</li>
-<li><a href="https://github.com/lihaoyi/scala-native-example-app">Example project with external dependencies</a> -使用外部依赖项生成HTML并运行测试套件的示例项目.</li>
-<li><a href="https://github.com/jokade/scalanative-gtk-seed.g8">Starter for Gtk+ Projects</a> - <a href="http://www.foundweekends.org/giter8/">Giter8</a> Scala Native GUI项目的模板，使用 <a href="https://developer.gnome.org/gtk3/stable/index.html">Gtk+</a>.</li>
+<li><a href="https://github.com/scala-native/scala-native.g8">Giter8 template for a minimal Scala Native project</a> - 官方 <a href="http://www.foundweekends.org/giter8/">Giter8</a> 用于最小 Scala Native 项目的模板.</li>
+<li><a href="https://github.com/MasseGuillaume/hands-on-scala-native">Hands on Scala Native</a> - 使用 Ncurses 实现带宽监视器的教程.</li>
+<li><a href="https://github.com/GnaneshKunal/scala-native-starter">Starter for Scala Native</a> - 链接到自定义 C 库的 Scala 本机项目.</li>
+<li><a href="https://github.com/nadavwr/scala-native-sbt-jni-example">Building C code using sbt-jni</a> - 使用在 Scala Native 项目中编译 C 代码的示例 <a href="https://github.com/jodersky/sbt-jni">sbt-jni</a>.</li>
+<li><a href="https://github.com/lihaoyi/scala-native-example-app">Example project with external dependencies</a> - 使用外部依赖项生成 HTML 并运行测试套件的示例项目.</li>
+<li><a href="https://github.com/jokade/scalanative-gtk-seed.g8">Starter for Gtk+ Projects</a> - <a href="http://www.foundweekends.org/giter8/">Giter8</a> Scala Native GUI 项目的模板使用 <a href="https://developer.gnome.org/gtk3/stable/index.html">Gtk+</a>.</li>
 <li><a href="https://pragprog.com/titles/rwscala/modern-systems-programming-with-scala-native/">Modern systems programming with scala native</a> 书.</li>
 </ul>
 <h2 id="build-tools">Build Tools<a class="headerlink" href="#build-tools" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://www.scala-sbt.org/">sbt</a> -Scala的标准构建工具.</li>
-<li><a href="https://github.com/lihaoyi/mill">Mill</a> -灵感来自简单的构建工具 <a href="https://www.bazel.build/">Bazel</a>.</li>
-<li><a href="https://github.com/scalacenter/bloop">Bloop</a> -Scala构建服务器和命令行工具，用于快速的开发人员工作流程.</li>
-<li><a href="https://github.com/tindzk/seed">Seed</a>  -基于Bloop的构建工具. 受用户启发，专注于用户体验和跨平台构建 <a href="https://github.com/rust-lang/cargo">Cargo</a>.</li>
+<li><a href="https://www.scala-sbt.org/">sbt</a> - Scala 的标准构建工具.</li>
+<li><a href="https://github.com/lihaoyi/mill">Mill</a> - 构建工具力求简单，灵感来自 <a href="https://www.bazel.build/">Bazel</a>.</li>
+<li><a href="https://github.com/scalacenter/bloop">Bloop</a> - Scala 构建服务器和命令行工具，用于快速开发人员工作流程.</li>
+<li><a href="https://github.com/tindzk/seed">Seed</a>  - 基于 Bloop 的构建工具. 专注于用户体验和跨平台构建，灵感来自 <a href="https://github.com/rust-lang/cargo">Cargo</a>.</li>
 </ul>
 <h2 id="functional-programming">Functional Programming<a class="headerlink" href="#functional-programming" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/milessabin/shapeless">Shapeless</a> -用于通用编程的库.</li>
-<li><a href="https://github.com/typelevel/squants">Squants</a> -DSL用于数量，度量单位和尺寸分析.</li>
-<li><a href="https://github.com/scalaz/scalaz">scalaz</a> -为数据结构键入类和实例.</li>
-<li><a href="https://github.com/xuwei-k/nobox">nobox</a> -不带包装的不可变原始数组包装器.</li>
-<li><a href="https://github.com/lihaoyi/PPrint">PPrint</a> -漂亮的打印值和类型.</li>
-<li><a href="https://github.com/lihaoyi/sourcecode">SourceCode</a> -隐式提供类似于C中的“ <strong>LINE</strong>”的元数据.</li>
-<li><a href="https://github.com/outr/reactify">reactify</a> -Scala的功能性反应式编程框架.</li>
-<li><a href="https://github.com/scalalandio/chimney">chimney</a> -无样板的数据转换.</li>
-<li><a href="https://github.com/softwaremill/quicklens">Quicklens</a> -修改深度嵌套的案例类字段.</li>
+<li><a href="https://github.com/milessabin/shapeless">Shapeless</a> - 通用编程库.</li>
+<li><a href="https://github.com/typelevel/squants">Squants</a> - 用于数量、测量单位和尺寸分析的 DSL.</li>
+<li><a href="https://github.com/scalaz/scalaz">scalaz</a> - 数据结构的类型类和实例.</li>
+<li><a href="https://github.com/xuwei-k/nobox">nobox</a> - 不可变的原始数组包装器，无需装箱.</li>
+<li><a href="https://github.com/lihaoyi/PPrint">PPrint</a> - 漂亮的打印值和类型.</li>
+<li><a href="https://github.com/lihaoyi/sourcecode">SourceCode</a> - 隐式提供类似于 C 中<code>__LINE__</code> 的元数据.</li>
+<li><a href="https://github.com/outr/reactify">reactify</a> - Scala 的函数式响应式编程框架.</li>
+<li><a href="https://github.com/scalalandio/chimney">chimney</a> - 无样板数据转换.</li>
+<li><a href="https://github.com/softwaremill/quicklens">Quicklens</a> - 修改深度嵌套的案例类字段.</li>
 </ul>
 <h2 id="unit-tests">Unit Tests<a class="headerlink" href="#unit-tests" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/lihaoyi/utest">µTest</a> -单元测试库.</li>
-<li><a href="https://github.com/monix/minitest">minitest</a> -轻量级测试库.</li>
-<li><a href="https://github.com/scalaprops/scalaprops">scalaprops</a> -用于基于属性的测试的库.</li>
-<li><a href="https://github.com/scalaprops/scalaprops-shapeless">scalaprops-shapeless</a> -生成任意ADT实例.</li>
-<li><a href="https://github.com/scalaprops/scalaprops-cross-example">scalaprops-cross-example</a> -跨平台示例.</li>
-<li><a href="https://github.com/typelevel/scalacheck">ScalaCheck</a> -基于属性的Scala测试.</li>
-<li><a href="https://github.com/scalatest/scalatest">ScalaTest</a> -测试库.</li>
-<li><a href="https://github.com/etorreborre/specs2">specs2</a> -Scala的软件规格.</li>
-<li><a href="https://github.com/nadavwr/makeshift">Makeshift</a> -单元测试库.</li>
-<li><a href="https://github.com/scalameta/munit">MUnit</a> -具有可操作错误和可扩展API的Scala测试库.</li>
+<li><a href="https://github.com/lihaoyi/utest">µTest</a> - 单元测试库.</li>
+<li><a href="https://github.com/monix/minitest">minitest</a> - 轻量级测试库.</li>
+<li><a href="https://github.com/scalaprops/scalaprops">scalaprops</a> - 用于基于属性的测试的库.</li>
+<li><a href="https://github.com/scalaprops/scalaprops-shapeless">scalaprops-shapeless</a> - 生成任意 ADT 实例.</li>
+<li><a href="https://github.com/scalaprops/scalaprops-cross-example">scalaprops-cross-example</a> - 跨平台示例.</li>
+<li><a href="https://github.com/typelevel/scalacheck">ScalaCheck</a> - 基于属性的 Scala 测试.</li>
+<li><a href="https://github.com/scalatest/scalatest">ScalaTest</a> - 测试库.</li>
+<li><a href="https://github.com/etorreborre/specs2">specs2</a> - Scala 的软件规范.</li>
+<li><a href="https://github.com/nadavwr/makeshift">Makeshift</a> - 单元测试库.</li>
+<li><a href="https://github.com/scalameta/munit">MUnit</a> - 带有可操作错误和可扩展 API 的 Scala 测试库.</li>
 </ul>
 <h2 id="bindings">Bindings<a class="headerlink" href="#bindings" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/sparsetech/cmark-scala">cmark</a> -的绑定 <a href="https://github.com/commonmark/cmark">cmark</a> CommonMark解析器库.</li>
-<li><a href="https://github.com/TimothyKlim/scala-native-libuv">libuv</a> -的绑定 <a href="https://github.com/libuv/libuv">libuv</a>，用于异步I / O的库.</li>
-<li><a href="https://github.com/regb/scalanative-graphics-bindings">SDL2 和 OpenGL</a> -图形框架的绑定 <a href="https://www.libsdl.org/">SDL2</a> 和 <a href="https://www.opengl.org">OpenGL</a>.</li>
-<li><a href="https://github.com/jokade/scalanative-cocoa">Cocoa</a> -macOS图形框架的绑定 <a href="https://en.wikipedia.org/wiki/Cocoa_(API)">Cocoa</a>.</li>
-<li><a href="https://github.com/ruivieira/scala-gsl">GNU Scientific Library</a> -的绑定 <a href="https://www.gnu.org/software/gsl">GNU Scientific Library (GSL)</a>.</li>
-<li><a href="https://github.com/ekrich/sblas">BLAS</a> -的绑定 <a href="http://www.netlib.org/blas/">BLAS</a>，是线性代数的库.</li>
-<li><a href="https://github.com/jokade/scalanative-gtk">Gtk+</a> -的绑定 <a href="https://www.gtk.org/">GTK+</a> 图形工具包.</li>
-<li><a href="https://github.com/jokade/scalanative-libsoup">libsoup</a> -的绑定 <a href="https://wiki.gnome.org/Projects/libsoup">libsoup</a> HTTP客户端/服务器库.</li>
-<li><a href="https://github.com/lolgab/scalaui">libui</a> -基于的GUI框架 <a href="https://github.com/andlabs/libui">libui</a>.</li>
-<li><a href="https://github.com/jokade/scalanative-gstreamer">GStreamer</a> -的绑定 <a href="https://gstreamer.freedesktop.org">GStreamer</a> 多媒体框架.</li>
-<li><a href="https://github.com/jokade/scalanative-qt5">Qt</a> -的绑定 <a href="https://www.qt.io">Qt</a>.</li>
+<li><a href="https://github.com/sparsetech/cmark-scala">cmark</a> - 绑定 <a href="https://github.com/commonmark/cmark">cmark</a> CommonMark 解析器库.</li>
+<li><a href="https://github.com/TimothyKlim/scala-native-libuv">libuv</a> - 绑定 <a href="https://github.com/libuv/libuv">libuv</a>，用于异步 I/O 的库.</li>
+<li><a href="https://github.com/regb/scalanative-graphics-bindings">SDL2 和 OpenGL</a> - 图形框架的绑定 <a href="https://www.libsdl.org/">SDL2</a> 和 <a href="https://www.opengl.org">OpenGL</a>.</li>
+<li><a href="https://github.com/jokade/scalanative-cocoa">Cocoa</a> - macOS 图形框架的绑定 <a href="https://en.wikipedia.org/wiki/Cocoa_(API)">Cocoa</a>.</li>
+<li><a href="https://github.com/ruivieira/scala-gsl">GNU Scientific Library</a> - 绑定 <a href="https://www.gnu.org/software/gsl">GNU Scientific Library (GSL)</a>.</li>
+<li><a href="https://github.com/ekrich/sblas">BLAS</a> - 绑定 <a href="http://www.netlib.org/blas/">BLAS</a>，线性代数库.</li>
+<li><a href="https://github.com/jokade/scalanative-gtk">Gtk+</a> - 绑定 <a href="https://www.gtk.org/">GTK+</a> 图形工具包.</li>
+<li><a href="https://github.com/jokade/scalanative-libsoup">libsoup</a> - 绑定 <a href="https://wiki.gnome.org/Projects/libsoup">libsoup</a> HTTP 客户端/服务器库.</li>
+<li><a href="https://github.com/lolgab/scalaui">libui</a> - 基于图形界面的框架 <a href="https://github.com/andlabs/libui">libui</a>.</li>
+<li><a href="https://github.com/jokade/scalanative-gstreamer">GStreamer</a> - 绑定 <a href="https://gstreamer.freedesktop.org">GStreamer</a> 多媒体框架.</li>
+<li><a href="https://github.com/jokade/scalanative-qt5">Qt</a> - 绑定 <a href="https://www.qt.io">Qt</a>.</li>
+<li><a href="https://github.com/edadma/ncurses">ncurses</a> - 绑定 <a href="https://www.gnu.org/software/ncurses/">GNU Ncurses Library</a>.</li>
 </ul>
 <h2 id="file-formats-and-parsers">File Formats and Parsers<a class="headerlink" href="#file-formats-and-parsers" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/msgpack4z/msgpack4z-native">msgpack4z</a> - 实施 <a href="https://msgpack.org/">MessagePack</a>，一种二进制序列化格式.</li>
-<li><a href="https://github.com/lihaoyi/fastparse">FastParse</a> -用于定义和运行解析器的库.</li>
-<li><a href="https://github.com/lihaoyi/scalatags">scalatags</a> -HTML / XML构建和渲染.</li>
-<li><a href="https://github.com/sparsetech/pine">Pine</a> -HTML / XML解析，操作和渲染.</li>
-<li><a href="https://github.com/MediaMath/scala-json">scala-json</a> -JSON解析器.</li>
-<li><a href="http://www.lihaoyi.com/upickle/#uJson">uJson</a> -用于Scala的快速，灵活和直观的JSON</li>
-<li><a href="https://github.com/sparsetech/toml-scala">toml-scala</a> - <a href="https://github.com/toml-lang/toml">TOML</a> 编解码器派生的语法分析器.</li>
-<li><a href="https://github.com/argonaut-io/argonaut">argonaut</a> -纯功能的JSON解析器和库.</li>
-<li><a href="https://github.com/scalapb/ScalaPB">ScalaPB</a> - <a href="https://developers.google.com/protocol-buffers/">Protocol Buffer</a> Scala的编译器.</li>
-<li><a href="https://github.com/scalapb-json/scalapb-argonaut">scalapb-argonaut</a> -基于ScalaPB的JSON和协议缓冲区转换器 <a href="http://argonaut.io">Argonaut</a>.</li>
+<li><a href="https://github.com/lihaoyi/fastparse">FastParse</a> - 用于定义和运行解析器的库.</li>
+<li><a href="https://github.com/lihaoyi/scalatags">scalatags</a> - HTML/XML 构造和渲染.</li>
+<li><a href="https://github.com/sparsetech/pine">Pine</a> - HTML/XML 解析、操作和渲染.</li>
+<li><a href="https://github.com/MediaMath/scala-json">scala-json</a> - JSON 解析器.</li>
+<li><a href="http://www.lihaoyi.com/upickle/#uJson">uJson</a> - 用于 Scala 的快速、灵活和直观的 JSON</li>
+<li><a href="https://github.com/sparsetech/toml-scala">toml-scala</a> - <a href="https://github.com/toml-lang/toml">TOML</a> 带有编解码器派生的解析器.</li>
+<li><a href="https://github.com/argonaut-io/argonaut">argonaut</a> - 纯功能的 JSON 解析器和库.</li>
+<li><a href="https://github.com/scalapb/ScalaPB">ScalaPB</a> - <a href="https://developers.google.com/protocol-buffers/">Protocol Buffer</a> Scala 编译器.</li>
+<li><a href="https://github.com/scalapb-json/scalapb-argonaut">scalapb-argonaut</a> - 基于 ScalaPB 的 JSON 和协议缓冲区转换器 <a href="http://argonaut.io">Argonaut</a>.</li>
 <li><a href="https://github.com/ekrich/sconfig">sconfig</a> - <a href="https://github.com/ekrich/sconfig/blob/master/docs/original/HOCON.md">HOCON</a> 解析器.</li>
 </ul>
 <h2 id="databases">Databases<a class="headerlink" href="#databases" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/jokade/scalanative-jdbc">JDBC</a> -数据库访问层的端口 <a href="https://en.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a> 到Scala Native.</li>
-<li><a href="https://github.com/david-bouyssie/sqlite4s">SQLite4S</a> -Java库的端口 <a href="https://bitbucket.org/almworks/sqlite4java">Sqlite4java</a> . 包括SQLite本机库的绑定.</li>
+<li><a href="https://github.com/jokade/scalanative-jdbc">JDBC</a> - 数据库访问层端口 <a href="https://en.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a> 到 Scala 原生.</li>
+<li><a href="https://github.com/david-bouyssie/sqlite4s">SQLite4S</a> - Java 库的端口 <a href="https://bitbucket.org/almworks/sqlite4java">Sqlite4java</a> . 包括 SQLite 本机库的绑定.</li>
 </ul>
 <h2 id="web-development">Web Development<a class="headerlink" href="#web-development" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/sparsetech/trail">Trail</a> -路由库.</li>
-<li><a href="https://github.com/softwaremill/sttp">sttp</a> -HTTP客户端库.</li>
-<li><a href="https://github.com/lolgab/snunit">snunit</a> -基于NGINX单元的Scala本机HTTP服务器.</li>
+<li><a href="https://github.com/sparsetech/trail">Trail</a> - 路由库.</li>
+<li><a href="https://github.com/softwaremill/sttp">sttp</a> - HTTP 客户端库.</li>
+<li><a href="https://github.com/lolgab/snunit">snunit</a> - 基于 NGINX 单元的 Scala 原生 HTTP 服务器.</li>
 </ul>
 <h2 id="concurrency">Concurrency<a class="headerlink" href="#concurrency" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/scala-native/scala-native-loop">scala-native-loop</a> -Scala Native的事件循环和面向异步的IO</li>
-<li><a href="https://github.com/lihaoyi/castor">castor</a> -用于Scala的轻型打字演员库.</li>
+<li><a href="https://github.com/scala-native/scala-native-loop">scala-native-loop</a> - Scala Native 的事件循环和面向异步的 IO</li>
+<li><a href="https://github.com/lihaoyi/castor">castor</a> - 用于 Scala 的轻量级类型化 Actor 库.</li>
 </ul>
 <h2 id="logging">Logging<a class="headerlink" href="#logging" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/outr/scribe">scribe</a> -快速简单的日志库.</li>
-<li><a href="https://github.com/jokade/slogging">slogging</a> - <a href="https://github.com/lightbend/scala-logging">Typesafe-logging</a> 和 <a href="https://www.slf4j.org/">SLF4J</a>宏的兼容日志记录库.</li>
+<li><a href="https://github.com/outr/scribe">scribe</a> - 快速简单的日志库.</li>
+<li><a href="https://github.com/jokade/slogging">slogging</a> - <a href="https://github.com/lightbend/scala-logging">Typesafe-logging</a> 和 <a href="https://www.slf4j.org/">SLF4J</a>-基于宏的兼容日志库.</li>
 </ul>
 <h2 id="console">Console<a class="headerlink" href="#console" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/lihaoyi/fansi">fansi</a> -用于创建的库 <a href="https://en.wikipedia.org/wiki/ANSI_escape_code">ANSI-coloured strings</a>.</li>
-<li><a href="https://github.com/scopt/scopt">scopt</a> -命令行参数解析器.</li>
-<li><a href="https://github.com/xuwei-k/optparse-applicative">scala-optparse-applicative</a> -Haskell的CLI参数解析库的端口 <a href="https://hackage.haskell.org/package/optparse-applicative">optparse-applicative</a>.</li>
-<li><a href="https://github.com/scallop/scallop">scallop</a> -一个简单的Scala CLI解析库.</li>
+<li><a href="https://github.com/lihaoyi/fansi">fansi</a> - 用于创建的库 <a href="https://en.wikipedia.org/wiki/ANSI_escape_code">ANSI-coloured strings</a>.</li>
+<li><a href="https://github.com/scopt/scopt">scopt</a> - 命令行参数解析器.</li>
+<li><a href="https://github.com/xuwei-k/optparse-applicative">scala-optparse-applicative</a> - Haskell 的 CLI 参数解析库的端口 <a href="https://hackage.haskell.org/package/optparse-applicative">optparse-applicative</a>.</li>
+<li><a href="https://github.com/scallop/scallop">scallop</a> - 一个简单的 Scala CLI 解析库.</li>
 </ul>
 <h2 id="robotics">Robotics<a class="headerlink" href="#robotics" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/Team846/potassium">Potassium</a> -编写机器人软件的框架.</li>
-<li><a href="https://github.com/Team846/scala-native-wpilib">WPILib</a> -重新实现 <a href="http://first.wpi.edu/FRC/roborio/release/docs/java/">FIRST Robotics WPILib libraries</a>.</li>
+<li><a href="https://github.com/Team846/potassium">Potassium</a> - 编写机器人软件的框架.</li>
+<li><a href="https://github.com/Team846/scala-native-wpilib">WPILib</a> - 重新实施 <a href="http://first.wpi.edu/FRC/roborio/release/docs/java/">FIRST Robotics WPILib libraries</a>.</li>
 </ul>
 <h2 id="programs">Programs<a class="headerlink" href="#programs" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/Milyardo/sglgears">sglgears</a> -GL港口 <a href="https://github.com/JoakimSoderberg/mesademos/blob/master/src/xdemos/glxgears.c">gears.c</a>.</li>
-<li><a href="https://github.com/fsat/k8s-cli">k8s-cli</a> -CLI工具生成 <a href="https://kubernetes.io/">Kubernetes</a> 的资源 <a href="https://akka.io/">Akka</a>, <a href="https://www.playframework.com/">Play Framework</a> 和 <a href="https://www.lagomframework.com/">Lagom</a>基于应用程序.</li>
-<li><a href="https://github.com/coursier/coursier">Coursier</a> -快递 <a href="https://get-coursier.io/docs/cli-native-bootstrap"><code>bootstrap</code> command</a> 生成本地启动器.</li>
-<li><a href="https://github.com/Rusty-Bike/fractals">fractals</a> -具有基本动画支持的自相似分形生成器.</li>
+<li><a href="https://github.com/Milyardo/sglgears">sglgears</a> - GL 港口 <a href="https://github.com/JoakimSoderberg/mesademos/blob/master/src/xdemos/glxgears.c">gears.c</a>.</li>
+<li><a href="https://github.com/fsat/k8s-cli">k8s-cli</a> - CLI 工具生成 <a href="https://kubernetes.io/">Kubernetes</a> 资源 <a href="https://akka.io/">Akka</a>, <a href="https://www.playframework.com/">Play Framework</a> 和 <a href="https://www.lagomframework.com/">Lagom</a>基于应用程序.</li>
+<li><a href="https://github.com/coursier/coursier">Coursier</a> - 快递员 <a href="https://get-coursier.io/docs/cli-native-bootstrap"><code>bootstrap</code> command</a> 生成本机启动器.</li>
+<li><a href="https://github.com/Rusty-Bike/fractals">fractals</a> - 具有基本动画支持的自相似分形生成器.</li>
 </ul>
 <h2 id="infrastructure">Infrastructure<a class="headerlink" href="#infrastructure" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://hub.docker.com/r/tindzk/seed/tags">Seed Docker image</a> -用于跨平台构建的Docker映像 <a href="https://github.com/tindzk/seed">Seed</a>.</li>
-<li><a href="https://github.com/ScalaWilliam/scala-native-sbt-docker">scala-native-sbt-docker</a> -Scala Native和sbt的Docker映像.</li>
+<li><a href="https://hub.docker.com/r/tindzk/seed/tags">Seed Docker image</a> - 用于跨平台构建的 Docker 镜像 <a href="https://github.com/tindzk/seed">Seed</a>.</li>
+<li><a href="https://github.com/ScalaWilliam/scala-native-sbt-docker">scala-native-sbt-docker</a> - 用于 Scala Native 和 sbt 的 Docker 镜像.</li>
 </ul>
 <h2 id="licence">Licence<a class="headerlink" href="#licence" title="Permanent link">&para;</a></h2>
-<p><a rel="licence" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" /><br />这项工作是根据<a rel="licence" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名4.0国际许可授权的</a>.</p>
+<p><a rel="licence" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" /><br />本作品已根据<a rel="licence" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议获得许可</a>.</p>
                 
                   
                 

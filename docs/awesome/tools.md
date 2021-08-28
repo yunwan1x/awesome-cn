@@ -2,7 +2,7 @@
 
 ## Web Tools [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-&gt;大量的网页开发托管工具.
+&gt; 一个很棒的 Web 开发托管工具列表.
 
 ### Response
 
@@ -124,6 +124,7 @@
 * [FontSquirrel](http://www.fontsquirrel.com/)
 * [Fontface Ninja](http://fontface.ninja/)
 * [Easy Fonts](https://pagecdn.com/lib/easyfonts)
+* [Brick](https://brick.im/)
 
 ### API Debugging
 

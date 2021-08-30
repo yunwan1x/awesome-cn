@@ -10,4 +10,4 @@
 
 ### 英文原版地址: [asmen.icopy.site](https://asmen.icopy.site)
 
-![show case](showcase.jpg)
+

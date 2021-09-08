@@ -6920,7 +6920,7 @@
 
 <!--lint disable double-link-->
 
-<p><a href="https://en.wikipedia.org/wiki/Identity_management">IAM</a> stands for Identity and Access Management. But is more than handling user accounts: it encompass authentication, authorization and privacy, making this perimeter quite complex. It is an essential pillar of the cloud stack, where users, products and security meets. The <a href="https://github.com/kdeldycke/awesome-billing/">other pillar being billing &amp; payments 💰</a>.</p>
+<p><a href="https://en.wikipedia.org/wiki/Identity_management">IAM</a> 代表身份和访问管理. 但不仅仅是处理用户帐户：它包含身份验证、授权和隐私，使这个边界变得非常复杂. 它是云堆栈的重要支柱，用户、产品和安全在这里相遇. 这 <a href="https://github.com/kdeldycke/awesome-billing/">other pillar being billing &amp; payments 💰</a>.</p>
 <p>该知识库以全面且可操作的方式公开了该领域的所有技术、协议和术语.</p>
 <!--lint enable double-link-->
 
@@ -6941,7 +6941,7 @@
 <p><a href="https://www.enterpriseready.io">The EnterpriseReady SaaS Feature Guides</a> - 使 B2B 用户满意的大部分功能将由 IAM 边界实现.</p>
 </li>
 <li>
-<p><a href="https://twitter.com/kmcquade3/status/1291801858676228098">IAM is hard. It's really hard.</a>  - “过于宽松的 AWS IAM 政策允许 <code>s3:GetObject</code> 访问 <code>*</code>（所有）资源”，导致 Capital One 被罚款 8000 万美元. 作为企业主，您不能忽视 IAM 的唯一原因.</p>
+<p><a href="https://twitter.com/kmcquade3/status/1291801858676228098">IAM is hard. It's really hard.</a>  - “过于宽松的 AWS IAM 策略允许 <code>s3:GetObject</code> 访问 <code>*</code>（所有）资源”，导致 Capital One 被罚款 8000 万美元. 作为企业主，您不能忽视 IAM 的唯一原因.</p>
 </li>
 <li>
 <p><a href="https://forrestbrazeal.com/2019/02/18/cloud-irregular-iam-is-the-real-cloud-lock-in/">IAM Is The Real Cloud Lock-In</a>  - 有点<em>点击诱饵</em>，但作者承认“这取决于你对他们的信任程度 1.继续经营；  2. 不抬高价格；  3. 不贬低您的服务；  4. 在业务加速方面为您提供的价值多于灵活性方面的损失.”</p>
@@ -6964,7 +6964,7 @@
 </li>
 </ul>
 <h2 id="account-management">Account Management<a class="headerlink" href="#account-management" title="Permanent link">&para;</a></h2>
-<p>IAM 的基础：用户、组、角色和权限的定义和生命周期.</p>
+<p>The foundation of IAM: the definition and life-cycle of users, groups, roles and permissions.</p>
 <ul>
 <li>
 <p><a href="https://mobile.twitter.com/oktopushup/status/1030457418206068736">As a user, I want…</a> - 帐户管理的元批评，其中业务期望的功能与真实用户需求发生冲突，以虚构的项目经理编写的用户故事的形式出现.</p>
@@ -6979,7 +6979,7 @@
 <p><a href="https://lord.io/blog/2020/usernames/">Identity Beyond Usernames</a> - 关于用户名作为标识符的概念，以及当 unicode 字符满足唯一性要求时引入的复杂性.</p>
 </li>
 <li>
-<p><a href="https://github.com/ory/kratos">Kratos</a> - User login, user registration, 2FA and profile management.</p>
+<p><a href="https://github.com/ory/kratos">Kratos</a> - 用户登录、用户注册、2FA 和个人资料管理.</p>
 </li>
 <li>
 <p><a href="https://github.com/cyberark/conjur">Conjur</a> - 自动保护特权用户和机器身份使用的机密.</p>
@@ -7204,7 +7204,7 @@
 <p><a href="https://auth0.com/blog/denylist-json-web-token-api-keys/">Adding JSON Web Token API Keys to a DenyList</a> - 关于令牌失效.</p>
 </li>
 <li>
-<p><a href="http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/">Stop using JWT for sessions</a> - 和 <a href="http://cryto.net/%7Ejoepie91/blog/2016/06/19/stop-using-jwt-for-sessions-part-2-why-your-solution-doesnt-work/">why your "solution" doesn't work</a>， 因为 <a href="https://news.ycombinator.com/item?id=18354141">stateless JWT tokens cannot be invalidated or updated</a> . 根据您存储它们的位置，它们会引入大小问题或安全问题. 有状态 JWT 令牌在功能上与会话 cookie 相同，但没有经过实战测试和良好审查的实现或客户端支持.</p>
+<p><a href="http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/">Stop using JWT for sessions</a> - And <a href="http://cryto.net/%7Ejoepie91/blog/2016/06/19/stop-using-jwt-for-sessions-part-2-why-your-solution-doesnt-work/">why your "solution" doesn't work</a>， 因为 <a href="https://news.ycombinator.com/item?id=18354141">stateless JWT tokens cannot be invalidated or updated</a> . 根据您存储它们的位置，它们会引入大小问题或安全问题. 有状态 JWT 令牌在功能上与会话 cookie 相同，但没有经过实战测试和良好审查的实现或客户端支持.</p>
 </li>
 <li>
 <p><a href="https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3">JWT, JWS and JWE for Not So Dummies!</a>  - 签名的 JWT 称为 JWS（JSON Web 签名）. 事实上，JWT 本身并不存在——它必须是 JWS 或 JWE（JSON Web 加密）. 它就像一个抽象类——JWS 和 JWE 是具体的实现.</p>
@@ -7216,7 +7216,7 @@
 <p><a href="https://jwt.io">JWT.io</a> - 允许您解码、验证和生成 JWT.</p>
 </li>
 <li>
-<p><a href="https://github.com/tarent/loginsrv"><code>loginsrv</code></a> - 独立的简约登录服务器，为多个登录后端（htpasswd、OSIAM、用户/密码、HTTP 基本身份验证、OAuth2：GitHub、Google、Bitbucket、Facebook、Gitlab）提供 JWT 登录.</p>
+<p><a href="https://github.com/tarent/loginsrv"><code>loginsrv</code></a> - 独立简约登录服务器，为多个登录后端（htpasswd、OSIAM、用户/密码、HTTP 基本身份验证、OAuth2：GitHub、Google、Bitbucket、Facebook、Gitlab）提供 JWT 登录.</p>
 </li>
 </ul>
 <h3 id="oauth2-openid">OAuth2 &amp; OpenID<a class="headerlink" href="#oauth2-openid" title="Permanent link">&para;</a></h3>
@@ -7230,7 +7230,7 @@
 <p><a href="https://aaronparecki.com/oauth-2-simplified/">OAuth 2 Simplified</a> - 以简化格式描述协议的参考文章，以帮助开发人员和服务提供商实现它.</p>
 </li>
 <li>
-<p><a href="https://www.youtube.com/watch?v=996OiexHze0">OAuth 2.0 and OpenID Connect (in plain English)</a> - 从关于这些标准如何形成的历史背景开始，澄清词汇中的不准确之处，然后详细说明协议及其陷阱以使其不那么令人生畏.</p>
+<p><a href="https://www.youtube.com/watch?v=996OiexHze0">OAuth 2.0 and OpenID Connect (in plain English)</a> - 从关于这些标准如何形成的历史背景开始，澄清词汇中的不准确之处，然后详细说明协议及其陷阱，以使其不那么令人生畏.</p>
 </li>
 <li>
 <p><a href="https://gravitational.com/blog/everything-you-need-to-know-about-oauth/">Everything You Need to Know About OAuth (2.0)</a> - 关于 Teleport（一种开源远程访问工具）如何允许用户通过 GitHub SSO 登录的实用案例研究的一个很好的概述.</p>
@@ -7251,7 +7251,7 @@
 <p><a href="https://developer.mastercard.com/blog/why-mastercard-doesnt-use-oauth-20">Why Mastercard Doesn't Use OAuth 2.0</a>  - “他们这样做是为了提供消息级别的完整性.  OAuth 2 切换到传输级机密性/完整性.”  （由 TLS 提供）（<a href="https://news.ycombinator.com/item?id=17486165">source</a>).</p>
 </li>
 <li>
-<p><a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics-16">OAuth 2.0 Security Best Current Practice</a> - “更新并扩展了 OAuth 2.0 安全威胁模型，以结合自 OAuth 2.0 发布以来收集的实践经验，并涵盖由于更广泛的应用而相关的新威胁”.</p>
+<p><a href="https://tools.ietf.org/html/draft-ietf-oauth-security-topics-16">OAuth 2.0 Security Best Current Practice</a> - “更新和扩展 OAuth 2.0 安全威胁模型，以结合自 OAuth 2.0 发布以来收集的实践经验，并涵盖由于更广泛的应用而产生的相关新威胁”.</p>
 </li>
 <li>
 <p><a href="https://portswigger.net/web-security/oauth">Hidden OAuth attack vectors</a> - 如何识别和利用 OAuth 2.0 身份验证机制中发现的一些关键漏洞.</p>
@@ -7317,10 +7317,13 @@
 <p>作为一个概念，访问控制策略可以设计为遵循非常不同的原型，从经典 <a href="https://en.wikipedia.org/wiki/Access-control_list">Access Control Lists</a> 到 <a href="https://en.wikipedia.org/wiki/Role-based_access_control">Role Based Access Control</a> . 在本节中，我们将探索许多不同的模式和架构.</p>
 <ul>
 <li>
-<p><a href="https://goteleport.com/blog/access-controls/">In Search For a Perfect Access Control System</a> - 最流行的授权方案类型及其历史起源的概述.</p>
+<p><a href="https://tailscale.com/blog/rbac-like-it-was-meant-to-be/">RBAC like it was meant to be</a>  - 我们如何从 DAC（unix 权限、秘密 URL）到 MAC（DRM、MFA、2FA、SELinux），再到 RBAC. 详细说明后者如何允许对策略、ACL、用户和组进行更好的建模.</p>
 </li>
 <li>
-<p><a href="https://csrc.nist.gov/projects/role-based-access-control">Role Based Access Control</a> - 一个 NIST 项目，用于解释 RBAC 概念、成本和收益、RBAC 的经济影响、设计和实施问题、标准本身以及高级研究主题.</p>
+<p><a href="https://cerbos.dev/blog/the-case-for-granular-permissions">The Case for Granular Permissions</a> - 讨论 RBAC 的局限性以及 ABAC（基于属性的访问控制）如何解决这些局限性.</p>
+</li>
+<li>
+<p><a href="https://goteleport.com/blog/access-controls/">In Search For a Perfect Access Control System</a>  - 授权方案的历史渊源. 暗示不同团队和组织之间共享、信任和委派的未来.</p>
 </li>
 <li>
 <p><a href="https://d1.awsstatic.com/Security/pdfs/Semantic_Based_Automated_Reasoning_for_AWS_Access_Policies_Using_SMT.pdf">Semantic-based Automated Reasoning for AWS Access Policies using SMT</a>  - 榉树是 AWS 的做法. 该系统对IAM策略进行符号分析，根据用户的权限和访问约束解决资源的可达性. 另请参阅更高级别 <a href="https://youtu.be/x6wsTFnU3eY?t=2111">introduction given at re:inforce 2019</a>.</p>
@@ -7358,6 +7361,9 @@
 </li>
 <li>
 <p><a href="https://github.com/osohq/oso">Oso</a> - 包含电池的库，用于在您的应用程序中构建授权.</p>
+</li>
+<li>
+<p><a href="https://github.com/cerbos/cerbos">Cerbos</a> - 用于编写上下文感知访问控制策略的授权端点.</p>
 </li>
 </ul>
 <h3 id="aws-policy-tools">AWS policy tools<a class="headerlink" href="#aws-policy-tools" title="Permanent link">&para;</a></h3>
@@ -7398,7 +7404,7 @@
 <p><a href="https://ai.google/research/pubs/pub41892">Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud</a> - 谷歌的原始论文.</p>
 </li>
 <li>
-<p><a href="https://news.ycombinator.com/item?id=14294463">Google paper's author compares Macaroons and JWTs</a> - As a consumer/verifier of macaroons, they allow you (through third-party caveats) to defer some authorization decisions to someone else. JWTs don't.</p>
+<p><a href="https://news.ycombinator.com/item?id=14294463">Google paper's author compares Macaroons and JWTs</a>  - 作为杏仁饼的消费者/验证者，他们允许您（通过第三方警告）将某些授权决定推迟给其他人.  JWT 没有.</p>
 </li>
 </ul>
 <h2 id="secret-management">Secret Management<a class="headerlink" href="#secret-management" title="Permanent link">&para;</a></h2>
@@ -7411,7 +7417,7 @@
 <p><a href="https://www.youtube.com/watch?v=5T_c-lqgjso">High Availability in Google's Internal KMS</a>  - 不是 GCP 的 KMS，而是位于其基础架构核心的 KMS. 见 <a href="https://rwc.iacr.org/2018/Slides/Kanagala.pdf">slides</a>.</p>
 </li>
 <li>
-<p><a href="https://www.vaultproject.io"><code>vault</code></a> - Secure, store and tightly control access to tokens, passwords, certificates, encryption keys.</p>
+<p><a href="https://www.vaultproject.io"><code>vault</code></a> - 保护、存储和严格控制对令牌、密码、证书、加密密钥的访问.</p>
 </li>
 <li>
 <p><a href="https://github.com/mozilla/sops"><code>sops</code></a> - 加密 YAML 和 JSON 文件的值，而不是密钥.</p>
@@ -7453,7 +7459,7 @@
 </ul>
 <h2 id="trust-safety">Trust &amp; Safety<a class="headerlink" href="#trust-safety" title="Permanent link">&para;</a></h2>
 <p>一旦你拥有了大量的用户群，它就被称为社区. 然后，您将负责保护它：客户、人员、公司、业务，并促进其中发生的所有交互和交易.</p>
-<p>A critical intermediation complex driven by a policy and constraint by local laws, the Trust &amp; Safety department is likely embodied by a cross-functional team of 24/7 operators and systems of highly advanced moderation and administration tools. You can see it as an extension of customer support services, specialized in edge-cases like manual identity checks, moderation of harmful content, stopping harassment, handling of warrants and copyright claims, data sequestration and other credit card disputes.</p>
+<p>信任与安全部门是由政策和当地法律约束驱动的关键中介复合体，可能由一个由 24/7 操作员和高度先进的调节和管理工具系统组成的跨职能团队体现. 您可以将其视为客户支持服务的扩展，专门用于边缘情况，例如手动身份检查、有害内容的审核、停止骚扰、授权和版权索赔的处理、数据隔离和其他信用卡纠纷.</p>
 <ul>
 <li>
 <p><a href="https://www.csoonline.com/article/3206127/trust-and-safety-101.html">Trust and safety 101</a> - 关于领域及其职责的精彩介绍.</p>
@@ -7514,7 +7520,7 @@
 <p><a href="https://twosided.substack.com/p/keep-out-the-bad-apples-how-to-moderate">Keep out the bad apples: How to moderate a marketplace</a>  - “拥有权利的同时也被赋予了重大的责任. 我的一些提示和技巧可以让您的市场变得更安全.”</p>
 </li>
 <li>
-<p><a href="https://restofworld.org/2020/facebook-international-content-moderators/">The despair and darkness of people will get to you</a>  - 大量的外包分包商负责管理庞大的社交网络. 这些人处于最糟糕的境地，通常最终会患上创伤后应激障碍.</p>
+<p><a href="https://restofworld.org/2020/facebook-international-content-moderators/">The despair and darkness of people will get to you</a> - Moderation of huge social networks is performed by an army of outsourced subcontractors. These people are exposed to the worst and generally ends up with PTSD.</p>
 </li>
 <li>
 <p><a href="https://thoughtmaybe.com/the-cleaners/">The Cleaners</a> - 一部关于这些薪酬过低的人删除帖子和删除帐户的团队的纪录片.</p>
@@ -7542,7 +7548,7 @@
 <p><a href="https://speakerdeck.com/ange/the-challenges-of-file-formats">The challenges of file formats</a>  - 在某一时刻，您将允许用户在您的系统中上传文件. 这里有一个 <a href="https://github.com/corkami/pocs">corpus of suspicious media files</a> 诈骗者可以利用它来绕过安全性或欺骗用户.</p>
 </li>
 <li>
-<p><a href="https://github.com/danielmiessler/SecLists">SecLists</a>  - 收集在安全评估期间使用的多种类型的列表，收集在一个地方. 列表类型包括用户名、密码、URL、敏感数据模式、fuzzing 有效载荷、web shell 等等.</p>
+<p><a href="https://github.com/danielmiessler/SecLists">SecLists</a> - Collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.</p>
 </li>
 <li>
 <p><a href="https://github.com/neonprimetime/PhishingKitTracker">PhishingKitTracker</a> - 网络钓鱼工具包中威胁参与者使用的电子邮件地址的 CSV 数据库.</p>
@@ -7574,7 +7580,7 @@
 <p>防止滥用的第一道机械防线是简单明了的拒绝列表. 这是打击欺诈的唾手可得的成果，但您会惊讶于它们仍然有效.</p>
 <ul>
 <li>
-<p><a href="https://en.wikipedia.org/wiki/Bloom_filter">Bloom Filter</a>  - 非常适合此用例，因为布隆过滤器旨在快速检查元素是否不在（大）集合中. 特定数据类型存在布隆过滤器的变体.</p>
+<p><a href="https://en.wikipedia.org/wiki/Bloom_filter">Bloom Filter</a> - Perfect for this use-case, as bloom filters are designed to quickly check if an element is not in a (large) set. Variations of bloom filters exist for specific data types.</p>
 </li>
 <li>
 <p><a href="https://blog.sqreen.com/demystifying-radix-trees/">How Radix trees made blocking IPs 5000 times faster</a> - 基数树可能会派上用场来加速 IP 阻止列表.</p>
@@ -7688,7 +7694,7 @@
 <p><a href="https://freedom-to-tinker.com/2018/04/09/four-cents-to-deanonymize-companies-reverse-hashed-email-addresses/">Four cents to deanonymize: Companies reverse hashed email addresses</a> - “散列的电子邮件地址可以很容易地反转并链接到个人”.</p>
 </li>
 <li>
-<p><a href="https://desfontain.es/privacy/differential-privacy-awesomeness.html">Why differential privacy is awesome</a> - 解释背后的直觉 <a href="https://en.wikipedia.org/wiki/Differential_privacy">differential privacy</a> ，一种理论框架，允许在不影响机密性的情况下共享聚合数据. 见后续文章 <a href="https://desfontain.es/privacy/differential-privacy-in-more-detail.html">more details</a> and <a href="https://desfontain.es/privacy/differential-privacy-in-practice.html">practical aspects</a>.</p>
+<p><a href="https://desfontain.es/privacy/differential-privacy-awesomeness.html">Why differential privacy is awesome</a> - 解释背后的直觉 <a href="https://en.wikipedia.org/wiki/Differential_privacy">differential privacy</a> ，一种理论框架，允许在不影响机密性的情况下共享聚合数据. 见后续文章 <a href="https://desfontain.es/privacy/differential-privacy-in-more-detail.html">more details</a> 和 <a href="https://desfontain.es/privacy/differential-privacy-in-practice.html">practical aspects</a>.</p>
 </li>
 <li>
 <p><a href="https://www.privitar.com/listing/k-anonymity-an-introduction">k-anonymity: an introduction</a> - 另一种匿名隐私模型.</p>
@@ -7772,10 +7778,10 @@
 <p><a href="https://aws.amazon.com/about-aws/whats-new/security_identity_and_compliance/">AWS Security, Identity &amp; Compliance announcements</a> - 添加到 IAM 边界的所有新功能的来源.</p>
 </li>
 <li>
-<p><a href="https://cloud.google.com/iam/docs/release-notes">GCP IAM release notes</a> - 还要注意： <a href="https://cloud.google.com/identity/docs/release-notes">Identity</a>, <a href="https://cloud.google.com/identity-platform/docs/release-notes">Identity Platform</a>, <a href="https://cloud.google.com/resource-manager/docs/release-notes">Resource Manager</a>, <a href="https://cloud.google.com/kms/docs/release-notes">Key Management Service/HSM</a>, <a href="https://cloud.google.com/access-context-manager/docs/release-notes">Access Context Manager</a>, <a href="https://cloud.google.com/iap/docs/release-notes">Identity-Aware Proxy</a>, <a href="https://cloud.google.com/dlp/docs/release-notes">Data Loss Prevention</a> and <a href="https://cloud.google.com/security-scanner/docs/release-notes">Security Scanner</a>.</p>
+<p><a href="https://cloud.google.com/iam/docs/release-notes">GCP IAM release notes</a> - 还要注意： <a href="https://cloud.google.com/identity/docs/release-notes">Identity</a>, <a href="https://cloud.google.com/identity-platform/docs/release-notes">Identity Platform</a>, <a href="https://cloud.google.com/resource-manager/docs/release-notes">Resource Manager</a>, <a href="https://cloud.google.com/kms/docs/release-notes">Key Management Service/HSM</a>, <a href="https://cloud.google.com/access-context-manager/docs/release-notes">Access Context Manager</a>, <a href="https://cloud.google.com/iap/docs/release-notes">Identity-Aware Proxy</a>, <a href="https://cloud.google.com/dlp/docs/release-notes">Data Loss Prevention</a> 和 <a href="https://cloud.google.com/security-scanner/docs/release-notes">Security Scanner</a>.</p>
 </li>
 <li>
-<p><a href="https://www.gcpweekly.com">Unofficial Weekly Google Cloud Platform newsletter</a> - 相关关键词： <a href="https://www.gcpweekly.com/gcp-resources/tag/iam/"><code>IAM</code></a> and <a href="https://www.gcpweekly.com/gcp-resources/tag/security/"><code>Security</code></a>.</p>
+<p><a href="https://www.gcpweekly.com">Unofficial Weekly Google Cloud Platform newsletter</a> - 相关关键词： <a href="https://www.gcpweekly.com/gcp-resources/tag/iam/"><code>IAM</code></a> 和 <a href="https://www.gcpweekly.com/gcp-resources/tag/security/"><code>Security</code></a>.</p>
 </li>
 <li>
 <p><a href="http://docs.digitalocean.com/release-notes/accounts/">DigitalOcean Accounts changelog</a> - DO 上的所有最新帐户更新.</p>
@@ -7794,7 +7800,7 @@
 <h2 id="contributing">Contributing<a class="headerlink" href="#contributing" title="Permanent link">&para;</a></h2>
 <p>随时欢迎您的贡献\！ 请看一下 <a href="https://github.com/kdeldycke/awesome-iam/blob/master/.github/contributing.md">contribution guidelines</a> 第一的.</p>
 <h2 id="footnotes">Footnotes<a class="headerlink" href="#footnotes" title="Permanent link">&para;</a></h2>
-<p>The <a href="https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg">header image</a> 基于修改 <a href="https://unsplash.com/photos/2LowviVHZ-E">photo</a> 经过 <a href="https://unsplash.com/@benjaminsweet">Ben Sweet</a>.</p>
+<p>The <a href="https://github.com/kdeldycke/awesome-iam/blob/main/assets/awesome-iam-header.jpg">header image</a> 基于修改 <a href="https://unsplash.com/photos/2LowviVHZ-E">photo</a> by <a href="https://unsplash.com/@benjaminsweet">Ben Sweet</a>.</p>
 <!--lint disable no-undefined-references-->
 
 <p><a name="intro-quote-def">[1]</a>: <a href="https://amzn.com/0778324338/?tag=kevideld-20"><em>Poison Study</em></a> (Mira, 2007). <a href="#intro-quote-ref">[↑]</a></p>

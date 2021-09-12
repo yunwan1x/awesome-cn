@@ -6,6 +6,6 @@
 [![CI](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml/badge.svg)](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml)
 
 
-# :star: [我的文档](https://yunwan1x.github.io/my-document/)
-# :apple: [playground](https://yunwan1x.github.io/playground/)
-# :8ball: [主页](https://yunwan1x.github.io/)
+# [我的文档](https://yunwan1x.github.io/my-document/)
+# [playground](https://yunwan1x.github.io/playground/)
+# [主页](https://yunwan1x.github.io/)

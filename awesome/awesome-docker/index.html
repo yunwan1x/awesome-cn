@@ -7539,7 +7539,7 @@
 <li>货币化：heavy_dollar_sign：</li>
 </ul>
 <h2 id="what-is-docker">What is Docker<a class="headerlink" href="#what-is-docker" title="Permanent link">&para;</a></h2>
-<p>&gt; Docker 是一个开放平台，供开发人员和系统管理员构建、发布和运行分布式应用程序.  Docker 由可移植的轻量级运行时和打包工具 Docker Engine 和用于共享应用程序和自动化工作流的云服务 Docker Hub 组成，使应用程序能够从组件快速组装，并消除开发、QA 和生产环境之间的摩擦. 因此，IT 可以更快地交付并在笔记本电脑、数据中心 VM 和任何云上运行相同的应用程序，无需更改.</p>
+<p>&gt; Docker 是一个开放平台，供开发人员和系统管理员构建、发布和运行分布式应用程序.  Docker 由可移植的轻量级运行时和打包工具 Docker Engine 和用于共享应用程序和自动化工作流的云服务 Docker Hub 组成，Docker 使应用程序能够从组件快速组装，并消除开发、QA 和生产环境之间的摩擦. 因此，IT 可以更快地交付并在笔记本电脑、数据中心虚拟机和任何云上运行相同的应用程序，无需更改.</p>
 <p><em>Source:</em> <a href="https://www.docker.com/why-docker">What is Docker</a></p>
 <h2 id="where-to-start">Where to start<a class="headerlink" href="#where-to-start" title="Permanent link">&para;</a></h2>
 <ul>
@@ -7623,6 +7623,7 @@
 </ul>
 <h3 id="deployment-and-infrastructure">Deployment and Infrastructure<a class="headerlink" href="#deployment-and-infrastructure" title="Permanent link">&para;</a></h3>
 <ul>
+<li><a href="https://github.com/ethibox/awesome-stacks">awesome-stacks</a> - 使用一个 Docker 命令部署 80 多个开源 Web 应用程序</li>
 <li><a href="https://gitlab.com/blackfish/blackfish">blackfish</a> - 一个 CoreOS VM，用于为开发和生产构建 swarm 集群 <a href="https://gitlab.com/blackfish/">@blackfish</a></li>
 <li><a href="https://gitlab.com/n0r1sk/bosnd">BosnD</a> - BosnD，船长守护进程 - 动态配置文件编写器和服务重新加载器，用于动态更改容器环境.</li>
 <li><a href="https://github.com/newrelic/centurion">Centurion</a>  - Centurion 是 Docker 车队的大规模部署工具. 它从 Docker 注册表中获取容器，并在一组具有正确环境变量、主机卷映射和端口映射的主机上运行它们. 经过 <a href="https://github.com/newrelic">@newrelic</a></li>
@@ -7771,7 +7772,7 @@
 <li><a href="https://github.com/blockbridge/blockbridge-docker-volume">Blockbridge</a>  <img alt="💲" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f4b2.svg" title=":heavy_dollar_sign:" />- Blockbridge 插件是一个卷插件，提供对一组可扩展的基于容器的持久存储选项的访问. 它支持单主机和多主机 Docker 环境，其功能包括租户隔离、自动配置、加密、安全删除、快照和 QoS. 经过 <a href="https://github.com/blockbridge">@blockbridge</a></li>
 <li><a href="https://github.com/rancher/convoy">Convoy</a>  - 一个开源的 Docker 卷驱动程序，可以在任何地方对 Docker 卷进行快照、备份和恢复. 由 [@rancher][rancher]</li>
 <li><a href="https://github.com/adlogix/docker-machine-nfs">Docker Machine NFS</a> 为通过 OS X 上的 Docker Machine 创建的现有 boot2docker box 激活 NFS.</li>
-<li><a href="https://github.com/leighmcculloch/docker-unison">Docker Unison</a> A docker volume container using Unison for fast two-way folder sync. Created as an alternative to slow boot2docker volumes on OS X. By <a href="https://github.com/leighmcculloch">@leighmcculloch</a></li>
+<li><a href="https://github.com/leighmcculloch/docker-unison">Docker Unison</a> 使用 Unison 进行快速双向文件夹同步的 docker 卷容器. 创建作为 OS X 上慢速 boot2docker 卷的替代方案. <a href="https://github.com/leighmcculloch">@leighmcculloch</a></li>
 <li><a href="https://github.com/MatchbookLab/local-persist">Local Persist</a> 为您的本地卷指定一个挂载点（通过 <code>docker volume create</code> 创建），以便文件将始终存在，因此您可以挂载到不同容器中的不同目录.</li>
 <li><a href="https://github.com/minio/minio">Minio</a> - Docker 容器中的 S3 兼容对象存储服务器</li>
 <li><a href="https://github.com/ContainX/docker-volume-netshare">Netshare</a>  Docker NFS、AWS EFS、Ceph 和 Samba/CIFS 卷插件. 由 [@ContainX][containx]</li>
@@ -7810,7 +7811,7 @@
 <li><a href="https://github.com/GhostWriters/DockSTARTer">DockSTARTer</a> - DockSTARTer 通过以下方式帮助您开始使用在 Docker 中运行的家庭服务器应用程序 <a href="https://github.com/GhostWriters">GhostWriters</a></li>
 <li><a href="https://github.com/skanehira/docui">docui</a>  - 用于管理 Docker 容器的交互式 shell UI. 也适用于 Windows. 由 [@skanehira]</li>
 <li><a href="https://github.com/moncho/dry">dry</a> - Docker 容器的交互式 CLI <a href="https://github.com/moncho">@moncho</a></li>
-<li><a href="https://github.com/jesseduffield/lazydocker">lazydocker</a>  - 管理 docker 一切的懒惰方式. 一个简单的 docker 和 docker-compose 终端用户界面，用 gocui 库用 Go 编写. 经过 <a href="https://github.com/jesseduffield">@jesseduffield</a></li>
+<li><a href="https://github.com/jesseduffield/lazydocker">lazydocker</a>  - 更懒惰的方式来管理 docker 的一切. 一个简单的 docker 和 docker-compose 终端用户界面，用 gocui 库用 Go 编写. 经过 <a href="https://github.com/jesseduffield">@jesseduffield</a></li>
 <li><a href="https://github.com/TomasTomecek/sen">sen</a> - <img alt="💀" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f480.svg" title=":skull:" /> docker 引擎的终端用户界面，作者 [@TomasTomecek][tomastomecek]</li>
 </ul>
 <h5 id="cli-tools">CLI tools<a class="headerlink" href="#cli-tools" title="Permanent link">&para;</a></h5>
@@ -7848,7 +7849,7 @@
 <li><a href="https://github.com/francescou/docker-compose-ui">Docker Compose UI</a>  - 通过 HTTP 管理 docker-compose.  docker-compose-ui 在 Docker 容器中运行，挂载主机 docker socket 并公开 RESTful API 和 AngularJS GUI</li>
 <li><a href="https://github.com/klausmeyer/docker-registry-browser">Docker Registry Browser</a> - Docker Registry HTTP API v2 的 Web 界面由 <a href="https://github.com/klausmeyer">@klausmeyer</a></li>
 <li><a href="https://github.com/Joxit/docker-registry-ui">Docker Registry UI (Joxit)</a> - 最简单、最干净的私有注册用户界面 <a href="https://github.com/Joxit">@Joxit</a></li>
-<li><a href="https://github.com/atcol/docker-registry-ui">Docker Registry UI</a> - 一个 Web UI，用于轻松进行私有/本地 Docker Registry 集成 <a href="https://github.com/atcol">@atcol</a></li>
+<li><a href="https://github.com/atcol/docker-registry-ui">Docker Registry UI</a> - 用于轻松进行私有/本地 Docker Registry 集成的 Web UI <a href="https://github.com/atcol">@atcol</a></li>
 <li><a href="https://github.com/mkuchin/docker-registry-web">docker-registry-web</a> - 私有 docker registry v2 的 Web UI、身份验证服务和事件记录器 <a href="https://github.com/mkuchin">@mkuchin</a></li>
 <li><a href="https://github.com/dockersamples/docker-swarm-visualizer">docker-swarm-visualizer</a> - 在 Docker Swarm 上可视化 Docker 服务（用于运行演示）.</li>
 <li><a href="https://github.com/Electrofenster/dockerding-on-rails">dockering-on-rails</a> <img alt="💀" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f480.svg" title=":skull:" /> - 具有许多功能的 Docker 的简单 Web 界面 <a href="https://github.com/Electrofenster/">@Electrofenster</a></li>
@@ -7898,7 +7899,7 @@
 <li><a href="https://github.com/mdlavin/copy-docker-image">copy-docker-image</a> - 在没有完整 Docker 安装的情况下在注册表之间复制 Docker 镜像 <a href="https://github.com/mdlavin">@mdlavin</a></li>
 <li><a href="https://github.com/alibaba/derrick">Derrick</a>  - 一个工具可以帮助您通过扫描代码自动生成 Dockerfile 和 dockerize 应用程序. 经过 <a href="https://github.com/alibaba">@alibaba</a>.</li>
 <li><a href="https://github.com/orisano/dlayer">dlayer</a> - docker 层分析器 <a href="https://github.com/orisano">@orisano</a></li>
-<li><a href="https://github.com/mudler/docker-companion">docker-companion</a> - 一个用 Golang 编写的命令行工具，用于压缩和解压 docker 镜像 <a href="https://github.com/mudler/">@mudler</a></li>
+<li><a href="https://github.com/mudler/docker-companion">docker-companion</a> - A command line tool written in Golang to squash and unpack docker images by <a href="https://github.com/mudler/">@mudler</a></li>
 <li><a href="https://github.com/CtripCloud/docker-make">docker-make</a> - 通过单个命令构建、标记和推送一堆相关的 docker 镜像.</li>
 <li><a href="https://github.com/bcicen/docker-replay">docker-replay</a>  - 从正在运行的容器生成<code>docker run</code>命令和选项. 经过 <a href="https://github.com/bcicen">bcicen</a></li>
 <li><a href="https://github.com/avirshup/DockerMake">DockerMake</a>  - 用于复杂软件堆栈的可重现 Docker 映像构建系统. 经过 <a href="https://github.com/avirshup">@avirshup</a></li>
@@ -7907,7 +7908,7 @@
 <li><a href="https://github.com/jlhawn/dockramp">dockramp</a> <img alt="💀" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f480.svg" title=":skull:" /> - 概念证明：客户端驱动的 Docker 映像生成器 <a href="https://github.com/jlhawn">@jlhawn</a></li>
 <li><a href="https://github.com/utensils/essex">essex</a> - 基于 Docker 的项目的样板：Essex 是一个用 bash 编写的 CLI 实用程序，用于使用 Makefile 驱动的工作流快速设置干净且一致的 Docker 项目. <a href="https://github.com/jamesbrink">@jamesbrink</a></li>
 <li><a href="https://github.com/NVIDIA/hpc-container-maker">HPC Container Maker</a> - 从高级 Python 配方生成 Dockerfile，包括由 [@NVIDIA][nvidia] 构建的高性能计算组件的构建块</li>
-<li><a href="https://github.com/genuinetools/img">img</a> - [@genuinetools][genuinetools] 的独立、无守护进程、无特权的 Dockerfile 和 OCI 兼容容器映像构建器</li>
+<li><a href="https://github.com/genuinetools/img">img</a> - [@genuinetools][genuinetools] 的独立、无守护进程、无特权的 Dockerfile 和 OCI 兼容容器映像生成器</li>
 <li><a href="https://github.com/GoogleContainerTools/kaniko">kaniko</a>  - 在 Kubernetes 中构建容器镜像. 由 [@GoogleContainerTools][googlecontainertools]</li>
 <li><a href="https://github.com/uber/makisu">makisu</a>  - Uber 为 Mesos 和 Kubernetes 提供的快速灵活的非特权图像构建器，具有分布式缓存支持. 经过 <a href="https://github.com/uber">@uber</a></li>
 <li><a href="https://microbadger.com">MicroBadger</a> <img alt="💀" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f480.svg" title=":skull:" /> - Analyze the contents of images and add metadata labels</li>
@@ -7948,7 +7949,7 @@
 <li><a href="https://github.com/wemake-services/docker-image-size-limit">docker-image-size-limit</a> - 一种监视 docker 图像大小的工具.</li>
 <li><a href="https://github.com/buddy-works/dockerfile-linter">Dockerfile Linter action</a> - linter 可让您验证 Dockerfile 语法，以确保它遵循构建高效 Docker 映像的最佳实践.</li>
 <li><a href="https://github.com/jessfraz/dockfmt">dockfmt</a> <img alt="🚧" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f6a7.svg" title=":construction:" /> - [@jessfraz][jessfraz] 的 Dockerfile 格式化程序和解析器</li>
-<li><a href="https://github.com/replicatedhq/dockerfilelint">FROM:latest</a> - 一个自以为是的 Dockerfile linter <a href="https://github.com/replicatedhq">@replicatedhq</a></li>
+<li><a href="https://github.com/replicatedhq/dockerfilelint">FROM:latest</a> - 一个固执的 Dockerfile linter 由 <a href="https://github.com/replicatedhq">@replicatedhq</a></li>
 <li><a href="https://github.com/hadolint/hadolint">Hadolint</a>  - 一个 Dockerfile linter，用于检查最佳实践、常见错误，并且还能够 lint 任何用 <code>RUN</code> 指令编写的 bash； 经过 <a href="https://github.com/lukasmartinelli">@lukasmartinelli</a></li>
 <li><a href="https://github.com/jeromepin/whale-linter">Whale-linter</a> - 一个用 Python3+ 编写的简单小巧的 Dockerfile linter，没有依赖 <a href="https://github.com/jeromepin">@jeromepin</a></li>
 </ul>

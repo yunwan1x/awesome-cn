@@ -4024,6 +4024,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#peek" class="md-nav__link">
+    Peek 💰
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#provisionql" class="md-nav__link">
     ProvisionQL
   </a>
@@ -6925,6 +6932,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#peek" class="md-nav__link">
+    Peek 💰
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#provisionql" class="md-nav__link">
     ProvisionQL
   </a>
@@ -6988,93 +7002,101 @@
                 <div class="github-widget" data-repo="sindresorhus/quick-look-plugins"></div>
 
 <h2 id="quick-look-plugins">Quick Look plugins <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a><a class="headerlink" href="#quick-look-plugins" title="Permanent link">&para;</a></h2>
-<p>&gt;有用的清单 <a href="https://en.wikipedia.org/wiki/Quick_Look">Quick Look</a> 开发人员插件</p>
+<p>&gt; 有用的列表 <a href="https://en.wikipedia.org/wiki/Quick_Look">Quick Look</a> 开发者插件</p>
 <h2 id="install">Install<a class="headerlink" href="#install" title="Permanent link">&para;</a></h2>
 <h3 id="using-homebrew">Using <a href="https://brew.sh">Homebrew</a><a class="headerlink" href="#using-homebrew" title="Permanent link">&para;</a></h3>
-<p>-运行<code>brew install&lt;package&gt;</code></p>
+<ul>
+<li>运行<code>brew install&lt;package&gt;</code></li>
+</ul>
 <h4 id="install-all">Install all<a class="headerlink" href="#install-all" title="Permanent link">&para;</a></h4>
-<div class="codehilite"><pre><span></span>酿造安装qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize可疑程序包外观quicklookase qlvideo
+<div class="codehilite"><pre><span></span>brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize 可疑包外观 quicklookase qlvideo
 </pre></div>
 
 <h5 id="catalina-notes">Catalina notes<a class="headerlink" href="#catalina-notes" title="Permanent link">&para;</a></h5>
-<p>要使插件在Catalina中正常工作，您需要删除隔离属性.</p>
+<p>要让插件在 Catalina 中工作，您需要删除隔离属性.</p>
 <p>运行此命令以查看属性：</p>
-<div class="codehilite"><pre><span></span>xattr -r〜/库/ QuickLook
+<div class="codehilite"><pre><span></span>xattr -r ~/Library/QuickLook
 </pre></div>
 
-<p>并运行以下命令删除属性：</p>
-<div class="codehilite"><pre><span></span>xattr -d -r com.apple.quarantine〜/ Library / QuickLook
+<p>并运行它以删除属性：</p>
+<div class="codehilite"><pre><span></span>xattr -d -r com.apple.quarantine ~/Library/QuickLook
 </pre></div>
 
 <h3 id="manually">Manually<a class="headerlink" href="#manually" title="Permanent link">&para;</a></h3>
-<p>-点击“手动下载”
--将下载的.qlgenerator文件移动到<code>〜/ Library / QuickLook</code>
--运行<code>qlmanage -r</code></p>
+<ul>
+<li>点击“手动下载”</li>
+<li>将下载的 .qlgenerator 文件移动到 <code>~/Library/QuickLook</code></li>
+<li>运行<code>qlmanage -r</code></li>
+</ul>
 <h2 id="plugins">Plugins<a class="headerlink" href="#plugins" title="Permanent link">&para;</a></h2>
 <h3 id="qlcolorcode"><a href="https://github.com/anthonygelibert/QLColorCode">QLColorCode</a><a class="headerlink" href="#qlcolorcode" title="Permanent link">&para;</a></h3>
-<p>&gt;使用语法突出显示预览源代码文件</p>
-<p>运行<code>brew install qlcolorcode</code>或 <a href="https://github.com/anthonygelibert/QLColorCode/releases/latest">download manually</a></p>
+<p>&gt; 使用语法高亮预览源代码文件</p>
+<p>运行 <code>brew install qlcolorcode</code> 或 <a href="https://github.com/anthonygelibert/QLColorCode/releases/latest">download manually</a></p>
 <p><a href="https://github.com/anthonygelibert/QLColorCode"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/QLColorCode.png" /></a></p>
 <h3 id="qlstephen"><a href="https://github.com/whomwah/qlstephen">QLStephen</a><a class="headerlink" href="#qlstephen" title="Permanent link">&para;</a></h3>
-<p>&gt;预览没有或带有未知文件扩展名的纯文本文件. 示例：README，CHANGELOG，index.styl等.</p>
-<p>运行<code>brew install qlstephen</code>或 <a href="https://github.com/whomwah/qlstephen/releases/latest">download manually</a></p>
+<p>&gt; 预览没有或有未知文件扩展名的纯文本文件. 示例：README、CHANGELOG、index.styl 等.</p>
+<p>运行 <code>brew install qlstephen</code> 或 <a href="https://github.com/whomwah/qlstephen/releases/latest">download manually</a></p>
 <p><a href="https://github.com/whomwah/qlstephen"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/QLStephen.png" /></a></p>
 <h3 id="qlmarkdown"><a href="https://github.com/toland/qlmarkdown">QLMarkdown</a><a class="headerlink" href="#qlmarkdown" title="Permanent link">&para;</a></h3>
-<p>&gt;预览Markdown文件</p>
-<p>运行<code>brew install qlmarkdown</code>或 <a href="https://github.com/downloads/toland/qlmarkdown/QLMarkdown-1.3.zip">download manually</a></p>
+<p>&gt; 预览 Markdown 文件</p>
+<p>运行 <code>brew install qlmarkdown</code> 或 <a href="https://github.com/downloads/toland/qlmarkdown/QLMarkdown-1.3.zip">download manually</a></p>
 <p><a href="https://github.com/toland/qlmarkdown"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/QLMarkdown.png" /></a></p>
 <h3 id="quicklookjson"><a href="http://www.sagtau.com/quicklookjson.html">QuickLookJSON</a><a class="headerlink" href="#quicklookjson" title="Permanent link">&para;</a></h3>
-<p>&gt;预览JSON文件</p>
-<p>运行<code>brew install quicklook-json</code>或 <a href="http://www.sagtau.com/media/QuickLookJSON.qlgenerator.zip">download manually</a></p>
+<p>&gt; 预览 JSON 文件</p>
+<p>运行<code>brew install quicklook-json</code> 或 <a href="http://www.sagtau.com/media/QuickLookJSON.qlgenerator.zip">download manually</a></p>
 <p><a href="http://www.sagtau.com/quicklookjson.html"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/QuickLookJSON.png" /></a></p>
 <h3 id="betterzipql"><a href="https://macitbetter.com/downloads/">BetterZipQL</a><a class="headerlink" href="#betterzipql" title="Permanent link">&para;</a></h3>
-<p>&gt;预览档案</p>
-<p>&gt;注意：BetterZipQL插件已与BetterZip应用程序集成.</p>
-<p>运行<code>brew install betterzip</code>以安装BetterZip应用及其快速外观插件，或者 <a href="https://macitbetter.com/BetterZip.zip">download manually</a></p>
-<p>旧版的BetterZipQL插件可以是 <a href="https://macitbetter.com/dl/BetterZipQL-1.5.zip">downloaded here</a>.</p>
+<p>&gt; 预览档案</p>
+<p>&gt; 注意：BetterZipQL 插件已与 BetterZip 应用程序集成.</p>
+<p>运行 <code>brew install betterzip</code> 来安装 BetterZip 应用程序和它的 Quick Look 插件，或者 <a href="https://macitbetter.com/BetterZip.zip">download manually</a></p>
+<p>传统的 BetterZipQL 插件可以是 <a href="https://macitbetter.com/dl/BetterZipQL-1.5.zip">downloaded here</a>.</p>
 <p><a href="https://macitbetter.com/BetterZip-Quick-Look-Generator/"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/BetterZipQL.png" /></a></p>
 <h3 id="qlimagesize"><a href="https://github.com/Nyx0uf/qlImageSize">qlImageSize</a><a class="headerlink" href="#qlimagesize" title="Permanent link">&para;</a></h3>
-<p>&gt;显示图像尺寸和分辨率</p>
-<p>运行<code>brew install qlimagesize</code>或 <a href="https://github.com/Nyx0uf/qlImageSize#installation">download manually</a></p>
+<p>&gt; 显示图像大小和分辨率</p>
+<p>运行 <code>brew install qlimagesize</code> 或 <a href="https://github.com/Nyx0uf/qlImageSize#installation">download manually</a></p>
 <p><a href="https://github.com/Nyx0uf/qlImageSize"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/qlImageSize.png" /></a></p>
 <h3 id="suspicious-package"><a href="https://www.mothersruin.com/software/SuspiciousPackage/">Suspicious Package</a><a class="headerlink" href="#suspicious-package" title="Permanent link">&para;</a></h3>
-<p>&gt;预览标准Apple安装程序包的内容</p>
-<p>运行<code>brew install suspicious-package</code>或 <a href="https://www.mothersruin.com/software/downloads/SuspiciousPackage.xip">download manually</a></p>
+<p>&gt; 预览标准 Apple 安装程序包的内容</p>
+<p>运行 <code>brew install 可疑包</code> 或 <a href="https://www.mothersruin.com/software/downloads/SuspiciousPackage.xip">download manually</a></p>
 <p><a href="https://www.mothersruin.com/software/SuspiciousPackage/"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/SuspiciousPackage.png" /></a></p>
 <h3 id="apparency"><a href="https://www.mothersruin.com/software/Apparency/">Apparency</a><a class="headerlink" href="#apparency" title="Permanent link">&para;</a></h3>
-<p>&gt;预览macOS应用程序的内容</p>
-<p>运行<code>brew install apparency</code>或 <a href="https://mothersruin.com/software/downloads/Apparency.dmg">download manually</a></p>
+<p>&gt; 预览 macOS 应用程序的内容</p>
+<p>运行<code>brew install apparency</code> 或 <a href="https://mothersruin.com/software/downloads/Apparency.dmg">download manually</a></p>
 <p><a href="https://mothersruin.com/software/Apparency/"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/Apparency.png" /></a></p>
 <h3 id="quicklookase"><a href="https://github.com/rsodre/QuickLookASE">QuickLookASE</a><a class="headerlink" href="#quicklookase" title="Permanent link">&para;</a></h3>
-<p>&gt;预览使用Adobe Photoshop，Adobe Illustrator， <a href="https://color.adobe.com">Adobe Color CC</a>, <a href="http://www.eigenlogik.com/spectrum/mac">Spectrum</a>, <a href="https://www.colourlovers.com">COLOURlovers</a>, <a href="http://www.codeadventure.com">Prisma</a>等等.</p>
-<p>运行<code>brew install quicklookase</code>或 <a href="https://github.com/rsodre/QuickLookASE/releases/latest">download manually</a></p>
+<p>&gt; 预览使用 Adob​​e Photoshop、Adobe Illustrator、 <a href="https://color.adobe.com">Adobe Color CC</a>, <a href="http://www.eigenlogik.com/spectrum/mac">Spectrum</a>, <a href="https://www.colourlovers.com">COLOURlovers</a>, <a href="http://www.codeadventure.com">Prisma</a>，等等.</p>
+<p>运行 <code>brew install quicklookase</code> 或 <a href="https://github.com/rsodre/QuickLookASE/releases/latest">download manually</a></p>
 <p><a href="https://github.com/rsodre/QuickLookASE"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/QuickLookASE.png" /></a></p>
 <h3 id="qlvideo"><a href="https://github.com/Marginal/QLVideo">QLVideo</a><a class="headerlink" href="#qlvideo" title="Permanent link">&para;</a></h3>
-<p>&gt;预览大多数类型的视频文件及其缩略图，封面和元数据</p>
-<p>运行<code>brew install qlvideo</code>或 <a href="https://github.com/Marginal/QLVideo/releases/latest">download manually</a></p>
+<p>&gt; 预览大多数类型的视频文件，以及它们的缩略图、封面和元数据</p>
+<p>运行 <code>brew install qlvideo</code> 或 <a href="https://github.com/Marginal/QLVideo/releases/latest">download manually</a></p>
 <p><a href="https://github.com/Marginal/QLVideo"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/QLVideo.png" /></a></p>
 <h2 id="more">More<a class="headerlink" href="#more" title="Permanent link">&para;</a></h2>
 <p><em>这些不包括在 <a href="#install-all">Install all</a>.</em></p>
+<h3 id="peek"><a href="https://bigzlabs.com/peek">Peek</a> 💰<a class="headerlink" href="#peek" title="Permanent link">&para;</a></h3>
+<p>&gt; Peek 允许您在 300 多个文件扩展名的快速查看预览中复制和查找文本、跳转到行号、使用生成的目录渲染 Github 风格的 Markdown、恢复滚动位置、突出显示语法等.</p>
+<p>在购买 <a href="https://apps.apple.com/app/peek-quick-look-extension/id1554235898">Mac App Store</a></p>
+<p><a href="https://bigzlabs.com/peek"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/Peek.png" /></a></p>
 <h3 id="provisionql"><a href="https://github.com/ealeksandrov/ProvisionQL">ProvisionQL</a><a class="headerlink" href="#provisionql" title="Permanent link">&para;</a></h3>
-<p>&gt;预览iOS / macOS应用和配置信息</p>
-<p>运行<code>brew install Provisionql</code>或 <a href="https://github.com/ealeksandrov/ProvisionQL/releases/latest">download manually</a></p>
+<p>&gt; 预览 iOS / macOS 应用程序和配置信息</p>
+<p>运行<code>brew install provisionql</code> 或 <a href="https://github.com/ealeksandrov/ProvisionQL/releases/latest">download manually</a></p>
 <p><a href="https://github.com/ealeksandrov/ProvisionQL"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/ProvisionQL.png" /></a></p>
 <h3 id="quicklookapk"><a href="https://github.com/hezi/QuickLookAPK">QuickLookAPK</a><a class="headerlink" href="#quicklookapk" title="Permanent link">&para;</a></h3>
-<p>&gt;预览Android APK文件</p>
-<p>运行<code>brew install quicklookapk</code>或 <a href="https://github.com/hezi/QuickLookAPK/blob/master/QuickLookAPK.qlgenerator.zip">download manually</a></p>
+<p>&gt; 预览 Android APK 文件</p>
+<p>运行<code>brew install quicklookapk</code> 或 <a href="https://github.com/hezi/QuickLookAPK/blob/master/QuickLookAPK.qlgenerator.zip">download manually</a></p>
 <p><a href="https://github.com/hezi/QuickLookAPK"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/QuickLookAPK.png" /></a></p>
 <h3 id="quicklook-pat"><a href="https://github.com/pixelrowdies/quicklook-pat">quicklook-pat</a><a class="headerlink" href="#quicklook-pat" title="Permanent link">&para;</a></h3>
-<p>&gt;预览Adobe Photoshop图案文件</p>
-<p>运行<code>brew install quicklook-pat</code>或 <a href="https://github.com/pixelrowdies/quicklook-pat/releases">download manually</a></p>
+<p>&gt; 预览 Adob​​e Photoshop 图案文件</p>
+<p>运行<code>brew install quicklook-pat</code> 或 <a href="https://github.com/pixelrowdies/quicklook-pat/releases">download manually</a></p>
 <p><a href="https://github.com/pixelrowdies/quicklook-pat"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/quicklook-pat.png" /></a></p>
 <h3 id="webp"><a href="https://github.com/dchest/webp-quicklook">WebP</a><a class="headerlink" href="#webp" title="Permanent link">&para;</a></h3>
-<p>&gt;预览WebP图像</p>
-<p>&gt;注意：<code>qlImageSize</code>已经覆盖了它，因此仅在您不喜欢<code>qlImageSize</code>的情况下在此列出此插件.</p>
-<p>运行<code>brew install webpquicklook</code>或 <a href="https://github.com/dchest/webp-quicklook/releases/latest">download manually</a></p>
+<p>&gt; 预览 WebP 图像</p>
+<p>&gt; 注意：<code>qlImageSize</code> 已经涵盖了这一点，因此仅在您不喜欢 <code>qlImageSize</code> 的情况下才在此处列出此插件.</p>
+<p>运行<code>brew install webpquicklook</code> 或 <a href="https://github.com/dchest/webp-quicklook/releases/latest">download manually</a></p>
 <p><a href="https://github.com/dchest/webp-quicklook"><img alt="" src="https://raw.githubusercontent.com/sindresorhus/quick-look-plugins/master/screenshots/WebP.png" /></a></p>
 <h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">&para;</a></h2>
 <p><a href="https://creativecommons.org/publicdomain/zero/1.0/"><img alt="CC0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" /></a></p>
-<p>在法律允许的范围内， <a href="https://sindresorhus.com">Sindre Sorhus</a> 放弃了此作品的所有版权以及相关或邻近的权利.</p>
+<p>在法律允许的范围内， <a href="https://sindresorhus.com">Sindre Sorhus</a> 已放弃本作品的所有版权和相关或邻接权.</p>
                 
                   
                 

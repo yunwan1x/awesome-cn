@@ -6754,14 +6754,14 @@
 <p>如果您想贡献并遵循指南，请提交 PR <a href="https://github.com/margaretmz/awesome-tensorflow-lite/blob/master/CONTRIBUTING.md">here</a>.</p>
 <h2 id="what-is-new">What is new<a class="headerlink" href="#what-is-new" title="Permanent link">&para;</a></h2>
 <p>以下是 TensorFlow Lite 的新功能和工具： <img src="https://raw.githubusercontent.com/margaretmz/awesome-tensorflow-lite/master/images/icons/new.png" width='32' height='32'/>
-* <a href="https://groups.google.com/a/tensorflow.org/d/msg/tflite/Z_h7706dt8Q/sNrjPj4yGgAJ">Announcement of the new converter</a> - <a href="https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d">MLIR</a>基于并支持新类别模型的转换，如 Mask R-CNN 和 Mobile BERT 等，支持功能控制流和更好的转换过程中的错误处理. 默认情况下在每晚构建中启用.
+* <a href="https://groups.google.com/a/tensorflow.org/d/msg/tflite/Z_h7706dt8Q/sNrjPj4yGgAJ">Announcement of the new converter</a> - <a href="https://medium.com/tensorflow/mlir-a-new-intermediate-representation-and-compiler-framework-beba999ed18d">MLIR</a>基于并支持新类别模型的转换，例如 Mask R-CNN 和 Mobile BERT 等，支持功能控制流和更好的转换过程中的错误处理. 默认情况下在每晚构建中启用.
 * <a href="https://github.com/tensorflow/tflite-support/tree/master/tensorflow_lite_support/java">Android Support Library</a> - 使移动开发更容易（<a href="https://github.com/tensorflow/examples/blob/master/lite/examples/image_classification/android/EXPLORE_THE_CODE.md">Android</a> 示例代码）.
 * <a href="https://www.tensorflow.org/lite/guide/model_maker">Model Maker</a> - 创建您的自定义 <a href="https://github.com/tensorflow/examples/tree/master/tensorflow_examples/lite/model_maker">image &amp; text</a> 只需几行代码即可轻松进行分类模型. 请参阅下面的图标分类器以获取社区教程.
 * <a href="https://blog.tensorflow.org/2019/12/example-on-device-model-personalization.html">On-device training</a>  - 终于来了！ 目前仅限于图像分类的迁移学习，但这是一个很好的开始. 看官方 <a href="https://github.com/tensorflow/examples/blob/master/lite/examples/model_personalization/README.md">Android</a> 示例代码和来自社区的另一个（<a href="https://aqibsaeed.github.io/on-device-activity-recognition">Blog</a> | <a href="https://github.com/aqibsaeed/on-device-activity-recognition">Android</a>).
 * <a href="https://github.com/tensorflow/tensorflow/blob/master/tensorflow/lite/g3doc/performance/hexagon_delegate.md">Hexagon delegate</a>  - 如何使用 Hexagon Delegate 加速移动和边缘设备上的模型推理. 另见博文  <a href="https://blog.tensorflow.org/2019/12/accelerating-tensorflow-lite-on-qualcomm.html">Accelerating TensorFlow Lite on Qualcomm Hexagon DSPs</a>.
 * <a href="https://www.tensorflow.org/lite/convert/metadata">Model Metadata</a> - 提供模型描述的标准，这也使 <a href="https://www.tensorflow.org/lite/inference_with_metadata/codegen">Code Gen and Android Studio ML Model Binding</a>.</p>
 <h2 id="models-with-samples">Models with samples<a class="headerlink" href="#models-with-samples" title="Permanent link">&para;</a></h2>
-<p>Here are the TensorFlow Lite models with app / device implementations, and references.
+<p>以下是带有应用/设备实现和参考的 TensorFlow Lite 模型.
 注意：包含来自 MediaPipe 的预训练 TensorFlow Lite 模型，您可以使用或不使用 MediaPipe 来实现这些模型.</p>
 <h3 id="computer-vision">Computer vision<a class="headerlink" href="#computer-vision" title="Permanent link">&para;</a></h3>
 <table>
@@ -6874,6 +6874,12 @@
 <td>细分</td>
 <td>不同的变种 <a href="https://github.com/tensorflow/models/blob/master/research/deeplab/g3doc/model_zoo.md">DeepLab V3 models</a></td>
 <td>型号 <a href="https://tfhub.dev/s?module-type=image-segmentation&amp;publisher=sayakpaul">TF Hub</a> 使用 Colab 笔记本</td>
+<td>社区</td>
+</tr>
+<tr>
+<td>细分</td>
+<td><a href="https://tfhub.dev/tensorflow/lite-model/deeplabv3/1/metadata/2?lite-format=tflite">DeepLab V3 model</a></td>
+<td><a href="https://github.com/farmaker47/Update_image_segmentation">Android</a> | <a href="https://farmaker47.medium.com/use-camerax-with-image-segmentation-android-project-d8656f35cea3">Tutorial</a></td>
 <td>社区</td>
 </tr>
 <tr>
@@ -7080,7 +7086,7 @@
 * 2018-05-22 <a href="https://medium.com/google-developer-experts/exploring-firebase-mlkit-on-android-introducing-mlkit-part-one-98fcfedbeee0">ML Kit on Android 1: Intro</a>.</p>
 <h2 id="plugins-and-sdks">Plugins and SDKs<a class="headerlink" href="#plugins-and-sdks" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://www.edgeimpulse.com/">Edge Impulse</a> - 由...制作 <a href="https://twitter.com/EdgeImpulse">@EdgeImpulse</a> 帮助您为云中的嵌入式设备训练 TensorFlow Lite 模型.</li>
+<li><a href="https://www.edgeimpulse.com/">Edge Impulse</a> - Created by <a href="https://twitter.com/EdgeImpulse">@EdgeImpulse</a> 帮助您为云中的嵌入式设备训练 TensorFlow Lite 模型.</li>
 <li><a href="https://www.fritz.ai/">Fritz.ai</a> - 一个机器学习平台 <a href="https://twitter.com/fritzlabs">@fritzlabs</a> 这使得移动开发更容易：使用预先训练的 ML 模型和端到端平台来构建和部署自定义训练模型.</li>
 <li><a href="https://github.com/google/mediapipe">MediaPipe</a>  - Google AI 的跨平台（移动、桌面和 Edge TPU）AI 管道.  （下午 <a href="https://twitter.com/realmgyong">Ming Yong</a>) | <a href="https://mediapipe.readthedocs.io/en/latest/examples.html">MediaPipe examples</a>.</li>
 <li><a href="https://coral.ai/">Coral Edge TPU</a> - 谷歌的边缘硬件. <a href="https://coral.ai/examples/">Coral Edge TPU examples</a>.</li>

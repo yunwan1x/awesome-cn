@@ -1,6 +1,6 @@
 <div class="github-widget" data-repo="brunopulis/awesome-a11y"></div>
 
-.;.;/# Awesome Accessibility [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+## Awesome Accessibility [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 *有关此文件的葡萄牙语版本，请参阅 [README.pt-BR](https://github.com/brunopulis/awesome-a11y/blob/master/README-pt-br.md).*
 

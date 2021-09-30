@@ -1,6 +1,6 @@
 <div class="github-widget" data-repo="EbookFoundation/free-programming-books"></div>
 
-此页面是一个易于阅读的网站，网址为 [https://ebookfoundation.github.io/](https://ebookfoundation.github.io/free-programming-books/).
+该页面是一个易于阅读的网站，网址为 [https://ebookfoundation.github.io/](https://ebookfoundation.github.io/free-programming-books/).
 
 ## List of Free Learning Resources In Many Languages [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
@@ -28,7 +28,9 @@ The [Free Ebook Foundation](https://ebookfoundation.org) 现在管理 repo，这
 
 ### Books
 
-[English](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md)
+[English, By Programming Language](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-langs.md)
+[English, By Subject](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books-subjects.md)
+
 
 #### Other Languages
 

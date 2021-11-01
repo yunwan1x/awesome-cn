@@ -6705,7 +6705,7 @@
 <h2 id="build-tools">Build Tools<a class="headerlink" href="#build-tools" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://www.scala-sbt.org/">sbt</a> - Scala 的标准构建工具.</li>
-<li><a href="https://github.com/lihaoyi/mill">Mill</a> - 构建工具力求简单，灵感来自 <a href="https://www.bazel.build/">Bazel</a>.</li>
+<li><a href="https://github.com/com-lihaoyi/mill">Mill</a> - 构建工具力求简单，灵感来自 <a href="https://www.bazel.build/">Bazel</a>.</li>
 <li><a href="https://github.com/scalacenter/bloop">Bloop</a> - Scala 构建服务器和命令行工具，用于快速开发人员工作流程.</li>
 <li><a href="https://github.com/tindzk/seed">Seed</a>  - 基于 Bloop 的构建工具. 专注于用户体验和跨平台构建，灵感来自 <a href="https://github.com/rust-lang/cargo">Cargo</a>.</li>
 </ul>
@@ -6720,6 +6720,7 @@
 <li><a href="https://github.com/outr/reactify">reactify</a> - Scala 的函数式响应式编程框架.</li>
 <li><a href="https://github.com/scalalandio/chimney">chimney</a> - 无样板数据转换.</li>
 <li><a href="https://github.com/softwaremill/quicklens">Quicklens</a> - 修改深度嵌套的案例类字段.</li>
+<li><a href="https://github.com/typelevel/cats">Cats</a> - Scala 中函数式编程的抽象.</li>
 </ul>
 <h2 id="unit-tests">Unit Tests<a class="headerlink" href="#unit-tests" title="Permanent link">&para;</a></h2>
 <ul>
@@ -6759,11 +6760,11 @@
 <h2 id="file-formats-and-parsers">File Formats and Parsers<a class="headerlink" href="#file-formats-and-parsers" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/msgpack4z/msgpack4z-native">msgpack4z</a> - 实施 <a href="https://msgpack.org/">MessagePack</a>，一种二进制序列化格式.</li>
-<li><a href="https://github.com/lihaoyi/fastparse">FastParse</a> - 用于定义和运行解析器的库.</li>
-<li><a href="https://github.com/lihaoyi/scalatags">scalatags</a> - HTML/XML 构造和渲染.</li>
+<li><a href="https://github.com/com-lihaoyi/fastparse">FastParse</a> - 用于定义和运行解析器的库.</li>
+<li><a href="https://github.com/com-lihaoyi/scalatags">scalatags</a> - HTML/XML 构造和渲染.</li>
 <li><a href="https://github.com/sparsetech/pine">Pine</a> - HTML/XML 解析、操作和渲染.</li>
 <li><a href="https://github.com/MediaMath/scala-json">scala-json</a> - JSON 解析器.</li>
-<li><a href="http://www.lihaoyi.com/upickle/#uJson">uJson</a> - 用于 Scala 的快速、灵活和直观的 JSON</li>
+<li><a href="https://com-lihaoyi.github.io/upickle/#uJson">uJson</a> - 用于 Scala 的快速、灵活和直观的 JSON</li>
 <li><a href="https://github.com/sparsetech/toml-scala">toml-scala</a> - <a href="https://github.com/toml-lang/toml">TOML</a> 带有编解码器派生的解析器.</li>
 <li><a href="https://github.com/argonaut-io/argonaut">argonaut</a> - 纯功能的 JSON 解析器和库.</li>
 <li><a href="https://github.com/scalapb/ScalaPB">ScalaPB</a> - <a href="https://developers.google.com/protocol-buffers/">Protocol Buffer</a> Scala 编译器.</li>
@@ -6775,6 +6776,7 @@
 <ul>
 <li><a href="https://github.com/jokade/scalanative-jdbc">JDBC</a> - 数据库访问层端口 <a href="https://en.wikipedia.org/wiki/Java_Database_Connectivity">JDBC</a> 到 Scala 原生.</li>
 <li><a href="https://github.com/david-bouyssie/sqlite4s">SQLite4S</a> - Java 库的端口 <a href="https://bitbucket.org/almworks/sqlite4java">Sqlite4java</a> . 包括 SQLite 本机库的绑定.</li>
+<li><a href="https://github.com/david-bouyssie/libpq4s">libpq4s</a> - 围绕异步 PostgreSQL C 库 libpq 的 Scala 包装器.</li>
 </ul>
 <h2 id="web-development">Web Development<a class="headerlink" href="#web-development" title="Permanent link">&para;</a></h2>
 <ul>
@@ -6785,7 +6787,7 @@
 <h2 id="concurrency">Concurrency<a class="headerlink" href="#concurrency" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/scala-native/scala-native-loop">scala-native-loop</a> - Scala Native 的事件循环和面向异步的 IO</li>
-<li><a href="https://github.com/lihaoyi/castor">castor</a> - 用于 Scala 的轻量级类型化 Actor 库.</li>
+<li><a href="https://github.com/com-lihaoyi/castor">castor</a> - 用于 Scala 的轻量级类型化 Actor 库.</li>
 </ul>
 <h2 id="logging">Logging<a class="headerlink" href="#logging" title="Permanent link">&para;</a></h2>
 <ul>
@@ -6794,10 +6796,12 @@
 </ul>
 <h2 id="console">Console<a class="headerlink" href="#console" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/lihaoyi/fansi">fansi</a> - 用于创建的库 <a href="https://en.wikipedia.org/wiki/ANSI_escape_code">ANSI-coloured strings</a>.</li>
+<li><a href="https://github.com/com-lihaoyi/fansi">fansi</a> - 用于创建的库 <a href="https://en.wikipedia.org/wiki/ANSI_escape_code">ANSI-coloured strings</a>.</li>
 <li><a href="https://github.com/scopt/scopt">scopt</a> - 命令行参数解析器.</li>
 <li><a href="https://github.com/xuwei-k/optparse-applicative">scala-optparse-applicative</a> - Haskell 的 CLI 参数解析库的端口 <a href="https://hackage.haskell.org/package/optparse-applicative">optparse-applicative</a>.</li>
 <li><a href="https://github.com/scallop/scallop">scallop</a> - 一个简单的 Scala CLI 解析库.</li>
+<li><a href="https://github.com/com-lihaoyi/mainargs">mainargs</a> - 用于在 Scala 中解析命令行参数的小型、无依赖库.</li>
+<li><a href="https://github.com/bkirwi/decline">decline</a> - Scala 的可组合命令行解析器.</li>
 </ul>
 <h2 id="robotics">Robotics<a class="headerlink" href="#robotics" title="Permanent link">&para;</a></h2>
 <ul>

@@ -7831,7 +7831,7 @@
 <li>报告（来自插件加载 - 插件不再是黑匣子）</li>
 <li>插件卸载（允许例如：动态主题切换）</li>
 <li><code>bindkey</code> 捕获和重新映射</li>
-<li>包裹</li>
+<li>packages</li>
 <li>清理 <code>fpath</code>（数组 <code>$fpath</code> 没有被用于添加完成和自动加载函数，因此它保持简洁，不臃肿）</li>
 <li>服务 ↔ 单实例、后台插件</li>
 <li>此外，一般而言：ZSH 插件标准中的所有机制——Zinit 是该标准的参考实现.</li>
@@ -7879,10 +7879,10 @@
 <li>缓存机制减少 <a href="https://github.com/zplug/zplug#vs">the startup time</a></li>
 </ul>
 <h3 id="zpm"><a href="https://github.com/zpm-zsh/zpm">zpm</a><a class="headerlink" href="#zpm" title="Permanent link">&para;</a></h3>
-<p><strong>zpm</strong> ( ZSH Plugin Manager ) 是一个插件管理器 <a href="http://www.zsh.org/">ZSH</a> 谁结合了命令式和声明式方法. 首次运行时，zpm 会做复杂的逻辑并生成缓存，之后将只使用缓存，所以这使得这个框架非常快.</p>
+<p><strong>zpm</strong> ( ZSH Plugin Manager ) 是一个插件管理器 <a href="http://www.zsh.org/">ZSH</a> who combines the imperative and declarative approach. At first run, zpm will do complex logic and generate cache, after that will be used cache only, so it makes this framework to be very fast.</p>
 <ul>
 <li>最快的插件管理器（真的，第一次运行后，根本不会使用zpm）</li>
-<li>Support for async loading</li>
+<li>支持异步加载</li>
 <li>包之间的依赖</li>
 <li>zpm 在 Linux、macOS、FreeBSD 和 Android 上运行.</li>
 <li>zpm 插件兼容 <a href="http://ohmyz.sh/">oh-my-zsh</a>.</li>
@@ -7934,7 +7934,7 @@
 <li>170 多个 perl、python、bash、zsh 脚本</li>
 <li>2.8k 行 README.md</li>
 <li>46k + LOC</li>
-<li>1 行安装</li>
+<li>1 line install</li>
 </ul>
 <h2 id="tutorials">Tutorials<a class="headerlink" href="#tutorials" title="Permanent link">&para;</a></h2>
 <h3 id="generic-zsh">Generic ZSH<a class="headerlink" href="#generic-zsh" title="Permanent link">&para;</a></h3>
@@ -8064,11 +8064,11 @@
 <li><a href="https://github.com/dirkk/zsh-basex">basex</a> - 增加了几个 <a href="http://basex.org/">BaseX</a> 简化使用的别名.</li>
 <li><a href="https://github.com/jtprog/bash-quote">bash-quote</a> - 从 Bash.im 获取随机报价.</li>
 <li><a href="https://github.com/chrissicool/zsh-bash">bash</a>  - 使 ZSH 更兼容 Bash. 它重新定义了 source 命令以使其更像<code>bash</code>. 它还启用了 <code>bash</code> 补全.</li>
-<li><a href="https://github.com/Jactry/zsh_battery_state">battery_state</a> - 在右侧提示中显示电池状态.</li>
+<li><a href="https://github.com/Jactry/zsh_battery_state">battery_state</a> - Show battery state in right-prompt.</li>
 <li><a href="https://github.com/Tarrasch/zsh-bd">bd</a> - 跳回特定目录，无需执行 <code>cd ../../..</code>.</li>
 <li><a href="https://github.com/sheoak/zsh-bepoptimist">bepoptimist</a> - 为法语重新映射 ZSH <code>vi</code>-mode <a href="http://bepo.fr/wiki/Accueil">bépo keyboard</a>.</li>
 <li><a href="https://github.com/timothyrowan/betterbrew-zsh-plugin">betterbrew</a> - 为 <code>brew</code> 添加更多命令别名</li>
-<li><a href="https://github.com/unixorn/bitbucket-git-helpers.plugin.zsh">bitbucket-git-helpers</a> - Adds helper scripts to allow you to create bitbucket PRs or open a directory in the current branch.</li>
+<li><a href="https://github.com/unixorn/bitbucket-git-helpers.plugin.zsh">bitbucket-git-helpers</a> - 添加辅助脚本以允许您创建 bitbucket PR 或在当前分支中打开目录.</li>
 <li><a href="https://github.com/Game4Move78/zsh-bitwarden">bitwarden</a> - 增加管理功能 <a href="https://bitwarden.com/">bitwarden</a> 会议.</li>
 <li><a href="https://github.com/StackExchange/blackbox">blackbox</a> - <a href="https://stackexchange.com">Stack Exchange</a>的工具包，用于将密钥/凭据安全地存储在“git”存储库中.</li>
 <li><a href="https://github.com/fundor333/bofh">bofh</a> - 添加了显示随机财富的功能.</li>
@@ -8096,7 +8096,7 @@
 <li><a href="https://github.com/willghatch/zsh-cdr">cdr</a> - 为 ZSH 轻松设置 cdr.</li>
 <li><a href="https://github.com/mtxr/zsh-change-case">change-case</a>  - 用于在命令行中快速切换大小写的插件.  ：太阳镜：</li>
 <li><a href="https://github.com/0b10/cheatsheet">cheatsheet</a> - 可轻松查看、创建和编辑备忘单的插件.</li>
-<li><a href="https://github.com/zpm-zsh/check-deps">check-deps</a>  - ZSH 插件的助手，允许他们展示如何安装任何缺少的依赖项. 适用于 Debian（以及 Ubuntu 等衍生产品）、Arch 及其衍生产品、Nodejs 和 ZSH 插件（如果您使用的是 <a href="https://github.com/zpm-zsh/zpm">zpm</a> framework.</li>
+<li><a href="https://github.com/zpm-zsh/check-deps">check-deps</a>  - ZSH 插件的助手，允许他们展示如何安装任何缺少的依赖项. 适用于 Debian（以及 Ubuntu 等衍生产品）、Arch 及其衍生产品、Nodejs 和 ZSH 插件（如果您使用的是 <a href="https://github.com/zpm-zsh/zpm">zpm</a> 框架.</li>
 <li><a href="https://github.com/sbfaulkner/chgo-plugin-zsh">chgo</a> - 修改了 chruby 的克隆，以便在多个 Go 版本之间轻松切换.</li>
 <li><a href="https://github.com/wwilsman/zsh-clean-project">clean-project</a>  - 从项目中删除文件（默认情况下自动）. 用于防止 <code>.DS_Store</code> 和 <code>Thumbs.db</code> 文件弄乱你的目录.</li>
 <li><a href="https://github.com/zpm-zsh/clipboard">clipboard</a>  - 增加跨平台访问系统剪贴板的助手功能. 适用于 macOS、X11（和 Wayland）和 Cygwin.</li>
@@ -8144,7 +8144,7 @@
 <li><a href="https://github.com/asuran/zsh-docker-machine">docker-machine</a> - ZSH 的 docker-machine 插件.</li>
 <li><a href="https://github.com/rawkode/zsh-docker-run">docker-run</a> - 返回“自然地”运行您的命令，我们将处理容器.</li>
 <li><a href="https://github.com/keithhamilton/oh-my-dogesh">dogesh</a> - 狗化插件.</li>
-<li><a href="https://github.com/kazhala/dotbare">dotbare</a> - 借助 <code>fzf</code> 进行交互式点文件管理.</li>
+<li><a href="https://github.com/kazhala/dotbare">dotbare</a> - Interactive dotfile management with the help of <code>fzf</code>.</li>
 <li><a href="https://github.com/vladmyr/dotfiles-plugin">dotfiles</a> - 使用 <code>git</code> 使您的点文件在多台机器上保持同步.</li>
 <li><a href="https://github.com/jeanpantoja/dotpyvenv">dotpyvenv</a> - 当你进入一个目录时，自动切换到一个名为 .pyvenv 的目录中的 python 虚拟环境（你之前用 virtualenv 程序创建的）.</li>
 <li><a href="https://github.com/zpm-zsh/dropbox">dropbox</a> - ZSH 的 dropbox 插件，提供 <code>dropbox-cli</code> 和 <code>dropbox-uploader</code> 命令.</li>
@@ -8235,7 +8235,7 @@
 <li><a href="https://github.com/sobolevn/git-secret">git-secret</a> - 用于将您的私人数据存储在<code>git</code> 存储库中的 bash 工具.</li>
 <li><a href="https://github.com/seletskiy/zsh-git-smart-commands">git-smart-commands</a> - 添加额外的 <code>git</code> 命令以使一些常见的 <code>git</code> 用法更有效.</li>
 <li><a href="https://github.com/caarlos0/zsh-git-sync">git-sync</a> - 用于同步 <code>git</code> 存储库并清理它们的 ZSH 插件.</li>
-<li><a href="https://github.com/davidde/git">git</a>  - 替换现有的 oh-my-zsh git 插件. 提供了很多有用的别名和函数. 替换默认插件的动机源于它带有一些不一致的事实，这使得一些流行的命令相当不直观，所以这个插件使别名保持一致.</li>
+<li><a href="https://github.com/davidde/git">git</a> - Replacement for the stock oh-my-zsh git plugin. Provides quite a few useful aliases and functions. The motivation to replace the default plugin stems from the fact that it comes with some inconsistencies that make a few popular commands rather unintuitive, so this plugin makes the aliases consistent.</li>
 <li><a href="https://github.com/SukkaW/zsh-gitcd">gitcd (SukkaW)</a> - 将命令添加到 <code>git clone</code> 一个存储库和 <code>cd</code> 到结果目录中.</li>
 <li><a href="https://github.com/viko16/gitcd.plugin.zsh">gitcd (viko16)</a> - 克隆后自动<code>cd</code>到<code>git</code>工作目录.</li>
 <li><a href="https://github.com/tevren/gitfast-zsh-plugin">gitfast</a> - 更新了 oh-my-zsh gitfast 插件的分支.</li>
@@ -8271,7 +8271,7 @@
 <li><a href="https://github.com/robertzk/hipchat.zsh">hipchat</a> - 从 shell 发送 hipchat 消息.</li>
 <li><a href="https://github.com/marlonrichert/zsh-hist">hist</a> - 在 ZSH 中编辑您的历史记录，无需离开命令行.</li>
 <li><a href="https://github.com/larkery/zsh-histdb">histdb</a>  - 将您的历史记录存储在 SQLite 数据库中. 可与 <a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a>.</li>
-<li><a href="https://github.com/zthxxx/zsh-history-enquirer">history-enquirer</a>  - 通过更多交互和多行选择菜单增强历史搜索. 需要 nodejs.</li>
+<li><a href="https://github.com/zthxxx/zsh-history-enquirer">history-enquirer</a> - Enhances history search with more interaction and a multiline selection menu. Requires nodejs.</li>
 <li><a href="https://github.com/MichaelAquilina/zsh-history-filter">history-filter</a>  - 允许您指定将自动排除命令插入永久历史记录的模式. 对于防止写入机密特别有用.</li>
 <li><a href="https://github.com/leonjza/history-here">history-here</a> - 绑定<code>^G</code> 以快速切换当前shell 历史文件位置.</li>
 <li><a href="https://github.com/lcrespom/oh-my-zsh-history-popup">history-popup</a> - 捕获 PageUp 键并使用 <code>dialog</code> 打开带有历史记录的弹出菜单，因此用户可以交互式导航并选择历史记录行以返回提示.</li>
@@ -8351,6 +8351,7 @@
 <li><a href="https://github.com/zakariaGatter/MarkEdit">markedit</a> - 标记文件并使用现有标记的自动完成功能对其进行编辑.</li>
 <li><a href="https://github.com/zakariaGatter/MarkGate">markgate</a> - 允许您标记目录，以便您可以直接跳转到它们.</li>
 <li><a href="https://github.com/KyleChamberlin/zsh_maven_plugin">maven-plugin</a> - oh-my-zsh maven 插件的一个分支.</li>
+<li><a href="https://github.com/redxtech/zsh-media-sync">media-sync</a> - 一个有助于在两个 rclone 位置之间复制媒体的插件.</li>
 <li><a href="https://github.com/hcgraf/zsh-mercurial">mercurial</a> - 从 oh-my-zsh 中提取，因此您可以在没有 oh-my-zsh 的情况下使用它.</li>
 <li><a href="https://github.com/hlohm/mfunc">mfunc</a>  - 允许您即时定义持久函数，而无需将它们添加到您的配置文件中. 这些功能将永久可用，直到您将其删除.</li>
 <li><a href="https://github.com/Gyumeijie/mode-switch.CLI">mode-switch.CLI</a> - 一个 ZSH 插件，用于在普通模式和 <code>vi</code> 模式之间切换命令行.</li>
@@ -8406,7 +8407,7 @@
 <li><a href="https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin">pantheon-terminal-notify</a>  - 长时间运行的命令的后台通知. 支持基本操作系统 Freya.</li>
 <li><a href="https://github.com/jgogstad/passwordless-history">passwordless-history</a> - 防止密码进入您的命令行历史记录.</li>
 <li><a href="https://github.com/sha1n/path-ethic">path-ethic</a>  - 帮助快速轻松地管理您的“$PATH”. 不会触及您现有的<code>.zshrc</code>、<code>.zprofile</code>，而是添加到您现有的环境之上.</li>
-<li><a href="https://github.com/ytet5uy4/pctl">pctl</a> - Toggle the environment variables for proxying.</li>
+<li><a href="https://github.com/ytet5uy4/pctl">pctl</a> - 切换用于代理的环境变量.</li>
 <li><a href="https://github.com/jimeh/zsh-peco-history">peco-history</a> - 按 ctrl+R 时使用 Peco 搜索 shell 历史记录.</li>
 <li><a href="https://github.com/jhwohlgemuth/oh-my-zsh-pentest-plugin">pentest</a> - 懒惰渗透测试人员的别名和功能.</li>
 <li><a href="https://github.com/jimhester/per-directory-history">per-directory-history</a> - ZSH 的每个目录历史记录，以及全局历史记录，以及使用“^G”在它们之间切换的能力.</li>
@@ -8441,7 +8442,7 @@
 <li><a href="https://github.com/zpm-zsh/pr-node">pr-node</a> - 设置一个环境变量，可用于在自定义提示中显示 nodeJS 信息.</li>
 <li><a href="https://github.com/zpm-zsh/pr-return">pr-return</a> - ZSH 插件，显示上次命令运行的退出状态.</li>
 <li><a href="https://github.com/idadzie/zsh-presenter-mode">presenter-mode</a>  - 在演示期间扩展别名. 它还增加了终端窗口的对比度以增强可见性.</li>
-<li><a href="https://github.com/sindresorhus/pretty-time-zsh">pretty-time (sindresorhus)</a> - 将秒转换为人类可读的字符串：165392 → 1d 21h 56m 32s.</li>
+<li><a href="https://github.com/sindresorhus/pretty-time-zsh">pretty-time (sindresorhus)</a> - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.</li>
 <li><a href="https://github.com/zpm-zsh/pretty-time">pretty-time (zpm-zsh)</a> - 将原始秒数转换为人类可读的字符串.</li>
 <li><a href="https://github.com/brymck/print-alias">print-alias</a> - 每当您在命令行中使用别名时，都会打印扩展别名的命令.</li>
 <li><a href="https://github.com/philFernandez/printc">printc</a> - 允许您通过简单的 <code>printc</code> 调用在 RGB 空间中以任何颜色打印.</li>
@@ -8472,7 +8473,7 @@
 <li><a href="https://github.com/aubreypwd/zsh-plugin-reload">reload</a> - 添加了快速重新加载<code>.zshrc</code> 的功能.</li>
 <li><a href="https://github.com/AlexisBRENON/oh-my-zsh-reminder">reminder</a> - 在每个提示上方显示提醒的插件.</li>
 <li><a href="https://github.com/momo-lab/zsh-replace-multiple-dots">replace-multiple-dots</a> - 将 <code>...</code> 转换为 <code>../..</code></li>
-<li><a href="https://github.com/molovo/revolver">revolver</a> - A progress spinner for ZSH scripts.</li>
+<li><a href="https://github.com/molovo/revolver">revolver</a> - ZSH 脚本的进度微调器.</li>
 <li><a href="https://github.com/vkolagotla/zsh-riddle-me">riddle-me</a> - 显示随机谜语.</li>
 <li><a href="https://github.com/jedahan/ripz">ripz</a>  - 提醒您别名，以便您更多地使用它们. 取决于 <a href="https://github.com/BurntSushi/ripgrep">ripgrep</a>.</li>
 <li><a href="https://github.com/shengyou/robo-zsh-plugin">robo</a> - 一个 ZSH 插件 <a href="https://github.com/consolidation/robo/">Robo</a>.</li>
@@ -8486,6 +8487,7 @@
 <li><a href="https://github.com/onyxraven/zsh-saml2aws">saml2aws</a> - 添加支持 <a href="https://github.com/Versent/saml2aws">saml2aws</a>.</li>
 <li><a href="https://github.com/benvan/sandboxd">sandboxd</a> - 通过仅在需要时运行设置命令（例如，<code>eval &amp;quot;$(rbenv init -)&amp;quot;</code> 等），通过延迟加载加速你的 <code>.zshrc</code> 和 shell 启动.</li>
 <li><a href="https://github.com/willghatch/zsh-saneopt">saneopt</a> - 本着 vim-sensible 的精神，Sane 默认为 ZSH 选项.</li>
+<li><a href="https://github.com/redxtech/zsh-sb-upgrade">sb-upgrade</a> - 自动更新种子箱上的应用程序的脚本.</li>
 <li><a href="https://github.com/fshp/schroot.plugin.zsh">schroot</a> - 在提示中显示当前的 <code>chroot</code> 名称.</li>
 <li><a href="https://github.com/ptavares/zsh-sdkman">sdkman</a> - 安装 <a href="https://github.com/sdkman">sdkman</a> 并为其添加补全和别名.</li>
 <li><a href="https://github.com/cmaahs/search-directory-history">search-directory-history</a> - 允许对使用创建的每个目录历史进行复杂搜索 <a href="https://github.com/jimhester/per-directory-history">per-directory-history</a> 插入.</li>
@@ -8550,7 +8552,7 @@
 <li><a href="https://github.com/nichus/zsh-tmux-multisession">tmux-multisession</a> - 插件 <a href="https://tmux.github.io">tmux</a> 在单个服务器进程上支持多个会话.</li>
 <li><a href="https://github.com/sei40kr/zsh-tmux-rename">tmux-rename</a> - 改名 <a href="https://tmux.github.io">tmux</a> 窗口自动.</li>
 <li><a href="https://github.com/TBSliver/zsh-plugin-tmux-simple">tmux-simple</a> - 简单的插件使用 <a href="https://tmux.github.io">tmux</a> 与 ZSH.</li>
-<li><a href="https://github.com/jsahlen/tmux-vim-integration.plugin.zsh">tmux-vim-integration</a> - 在正在运行的 <code>vim</code>（或 NeoVim）会话中打开来自相邻的文件 <a href="https://tmux.github.io">tmux</a> pane.</li>
+<li><a href="https://github.com/jsahlen/tmux-vim-integration.plugin.zsh">tmux-vim-integration</a> - 在正在运行的 <code>vim</code>（或 NeoVim）会话中打开来自相邻的文件 <a href="https://tmux.github.io">tmux</a> 面包.</li>
 <li><a href="https://github.com/MikeDacre/tmux-zsh-vim-titles">tmux-zsh-vim-titles</a> - 为<code>tmux</code>、ZSH 和 Vim/NVIM 创建统一的终端标题，模块化.</li>
 <li><a href="https://github.com/zpm-zsh/tmux">tmux</a> - 插件 <a href="https://tmux.github.io">tmux</a>.</li>
 <li><a href="https://github.com/csurfer/tmuxrepl">tmuxrepl</a> - 拥有 R-EP-L 的简单 ZSH 插件 <a href="https://tmux.github.io">tmux</a> 会议.</li>
@@ -8564,6 +8566,7 @@
 <li><a href="https://github.com/GuilleDF/zsh-ubuntualiases">ubuntualiases</a> - Ubuntu 16 别名.</li>
 <li><a href="https://github.com/Bhupesh-V/ugit">ugit</a> - 允许您撤消上一次 <code>git</code> 操作.</li>
 <li><a href="https://github.com/zpm-zsh/undollar">undollar</a> - 从终端提示的开头去掉美元符号.</li>
+<li><a href="https://github.com/redxtech/zsh-unix-simple">unix-simple</a> - 显示有关 unix 简单性的图形的命令.</li>
 <li><a href="https://github.com/cjayross/up">up (cjayross)</a> - 向上浏览目录的简单方法.</li>
 <li><a href="https://github.com/peterhurford/up.zsh">up (peterhurford)</a> - 将向上命令添加到 <code>cd</code> 多个级别.</li>
 <li><a href="https://github.com/AndrewHaluza/zsh-update-plugin">update-zsh</a>  - 更新自定义 oh-my-zsh 插件. 仅适用于 oh-my-zsh 框架.</li>
@@ -8580,7 +8583,7 @@
 <li><a href="https://github.com/jeffreytse/zsh-vi-mode">vi-mode (jeffreytse)</a> - 一个更好更友好的 ZSH 的 vi(vim) 模式插件.</li>
 <li><a href="https://github.com/Nyquase/vi-mode">vi-mode (nyquase)</a> 添加额外的类似 vi 的功能.</li>
 <li><a href="https://github.com/sinetoami/vi-mode">vi-mode (sinetoami)</a> - 向 ZSH 添加更多类似 <code>vi</code> 的功能.</li>
-<li><a href="https://github.com/zsh-vi-more/vi-motions">vi-motions</a> - Add new motions and text objects including quoted/bracketed text and commands.</li>
+<li><a href="https://github.com/zsh-vi-more/vi-motions">vi-motions</a> - 添加新的动作和文本对象，包括带引号/带括号的文本和命令.</li>
 <li><a href="https://github.com/zsh-vi-more/vi-quote">vi-quote</a> - 添加引用或取消引用动作的操作.</li>
 <li><a href="https://github.com/okapia/zsh-viexchange">viexchange</a> - 一个 <code>vi</code> 模式插件，用于在缓冲区中的两个位置之间轻松交换文本，如 vim-exchange.</li>
 <li><a href="https://github.com/softmoth/zsh-vim-mode">vim-mode</a> - 友好的 <code>vi</code> 模式绑定，添加基本 Emacs 键、增量搜索、模式指示器等.</li>
@@ -8759,13 +8762,13 @@
 <li><a href="https://github.com/jayree/sfdx-autocomplete-plugin">sfdx-autocomplete</a> - sfdx 的自动完成插件.</li>
 <li><a href="https://github.com/linux-china/oh-my-zsh-spring-boot-plugin">spring-boot-plugin</a> - 添加自动完成 <a href="http://projects.spring.io/spring-boot/">spring-boot</a> 命令.</li>
 <li><a href="https://github.com/bobsoppe/zsh-ssh-agent">ssh-agent (bobsoppe)</a> - 管理<code>ssh-agent</code>.</li>
-<li><a href="https://github.com/hkupty/ssh-agent">ssh-agent (hkupty)</a> - Automatically starts <code>ssh-agent</code> to set up and load whichever credentials you want for <code>ssh</code> connections.</li>
+<li><a href="https://github.com/hkupty/ssh-agent">ssh-agent (hkupty)</a> - 自动启动 <code>ssh-agent</code> 以设置和加载您想要的用于 <code>ssh</code> 连接的凭据.</li>
 <li><a href="https://github.com/zpm-zsh/ssh">ssh</a> - 为<code>ssh</code>添加主机完成.</li>
 <li><a href="https://github.com/beardcoder/surf.plugin.zsh">surf</a> - 添加冲浪完成.</li>
 <li><a href="https://github.com/TheGrowingPlant/symfony.plugin.zsh">symphony (TheGrowingPlant)</a> - Symfony 3 和 4 命令的自动完成.</li>
 <li><a href="https://github.com/pelletiermaxime/test-kitchen-zsh-plugin">test-kitchen-zsh-plugin</a> - 添加完成 <a href="https://github.com/test-kitchen/test-kitchen">Test Kitchen</a>).</li>
 <li><a href="https://github.com/sago35/tinygo-autocmpl">tinygo</a> - 为 tinygo 添加选项卡补全.</li>
-<li><a href="https://gist.github.com/blueyed/6856354">tmux pane words</a> - 键绑定来完成你的单词 <a href="https://tmux.github.io">tmux</a> pane.</li>
+<li><a href="https://gist.github.com/blueyed/6856354">tmux pane words</a> - 键绑定来完成你的单词 <a href="https://tmux.github.io">tmux</a> 面包.</li>
 <li><a href="https://github.com/DimitriSteyaert/Zsh-tugboat">tugboat</a> - 添加自动完成 <a href="https://github.com/petems/tugboat">tugboat</a> 命令.</li>
 <li><a href="https://github.com/zlsun/umake">umake</a> - 标记了 Ubuntu 的选项卡完成.</li>
 <li><a href="https://github.com/davidafsilva/vert.x-omz-plugin">vert.x</a> - 提供自动完成功能 <a href="https://vertx.io/">vertx</a> 命令.</li>
@@ -8775,7 +8778,7 @@
 <li><a href="https://github.com/ctil/zargparse">zargparse</a> - 将使用 <code>argparse</code> 的脚本传递给它，它会将 ZSH 完成写入您的当前目录.</li>
 </ul>
 <h2 id="themes">Themes<a class="headerlink" href="#themes" title="Permanent link">&para;</a></h2>
-<p>如果您正在使用 <a href="https://github.com/zsh-users/antigen">Antigen</a>, you can test these themes in a running ZSH with <code>antigen theme githubuser/repo</code>. 如果您正在使用 <a href="https://github.com/jandamm/zgenom">zgenom</a>, add them to your <code>init.zsh</code> with <code>zgenom load githubuser/reponame</code>.</p>
+<p>如果您正在使用 <a href="https://github.com/zsh-users/antigen">Antigen</a>, you can test these themes in a running ZSH with <code>antigen theme githubuser/repo</code>. 如果您正在使用 <a href="https://github.com/jandamm/zgenom">zgenom</a>，使用 <code>zgenom load githubuser/reponame</code> 将它们添加到你的 <code>init.zsh</code>.</p>
 <ul>
 <li><a href="https://github.com/Abid-Ahmad/oh-my-zsh-000-theme">000</a> - 带有用户名、主机名、完整路径、返回状态和<code>git</code> 装饰的多行提示.</li>
 <li><a href="https://github.com/0i0/0i0.zsh-theme">0i0</a> - 针对暗终端窗口进行了优化，使用 nerdfont <code>git</code> 状态装饰.</li>
@@ -8793,7 +8796,7 @@
 <li><a href="https://github.com/agkozak/agkozak-zsh-prompt">agkozak</a>  - 使用三种异步方法来保持 ZSH 提示响应，同时显示 <code>git</code> 状态和 SSH 连接、退出代码和 <code>vi</code> 模式的指示器，以及缩写的 <code>PROMPT_DIRTRIM</code> 样式的路径. 非常可定制. 即使在 Cygwin 和 MSYS2 上也是异步的.</li>
 <li><a href="https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor">agnoster-fcamblor</a> - 日晒 <a href="https://gist.github.com/agnoster/3712874">Agnoster</a> 带有 <code>git</code> 状态信息的变体. 需要 unicode 字体并且最适合使用 <a href="https://github.com/altercation/solarized">solarized</a> 终端.</li>
 <li><a href="https://github.com/fsegouin/oh-my-zsh-agnoster-mod-theme">agnoster-fseguin</a> - <a href="https://gist.github.com/agnoster/3712874">agnoster</a> 带有正确提示的变体.</li>
-<li><a href="https://github.com/r7l/agnoster-gentoo-zsh-theme">agnoster-gentoo</a> - Gentoo 风味的版本 <a href="https://github.com/agnoster/agnoster-zsh-theme">Agnoster ZSH Theme</a> 包括 user@hostname 和 <code>git</code> 状态装饰. 使用 unicode 字体效果更好.</li>
+<li><a href="https://github.com/r7l/agnoster-gentoo-zsh-theme">agnoster-gentoo</a> - Gentoo 风味的版本 <a href="https://github.com/agnoster/agnoster-zsh-theme">Agnoster ZSH Theme</a> that includes user@hostname and <code>git</code> status decorations. Works better with a unicode font.</li>
 <li><a href="https://github.com/apjanke/agnosterj-zsh-theme">agnoster-j</a> - 优化 <a href="https://ethanschoonover.com/solarized/">solarized</a> 配色方案，<code>git</code> 或其他 VCS 工具，以及兼容 unicode 的字体. 包括上次命令运行的状态、user@hostname、<code>git</code> 状态修饰、工作目录、是否以 root 身份运行、后台作业是否正在运行等信息.</li>
 <li><a href="https://github.com/fsegouin/oh-my-zsh-agnoster-mod-theme">agnoster-mod</a> - <a href="https://gist.github.com/agnoster/3712874">Agnoster</a> 带有右键提示的变体.</li>
 <li><a href="https://github.com/jiahut/agnoster-plus.zsh-theme">agnoster-plus</a> - <a href="https://gist.github.com/agnoster/3712874">Agnoster</a> 优化使用的变体 <a href="https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors">Solarized Dark</a> 终端配色方案. 包括 <code>git</code> 状态.</li>
@@ -9045,7 +9048,7 @@
 <li><a href="https://github.com/fusion809/zsh-theme">hfulldate</a> - 显示时间、日期、操作系统（包括 Linux 上的发行版）、目录以及是否以 root 身份运行.</li>
 <li><a href="https://github.com/hhktony/hhktony.zsh-theme">hhktony</a> - 灵感来自 robbyrussell 主题 + ssh 连接状态提示.</li>
 <li><a href="https://github.com/ucpr/hina">hina</a> - 用 <code>golang</code> 编写，包括 <code>git</code> 状态修饰和 kubernetes 上下文.</li>
-<li><a href="https://github.com/haitaim/hip-fellow">hip-fellow</a> - 包括 <code>git</code> 状态装饰并使用标准字体.</li>
+<li><a href="https://github.com/haitaim/hip-fellow">hip-fellow</a> - Includes <code>git</code> status decorations and works with standard fonts.</li>
 <li><a href="https://github.com/hipstersmoothie/PowerlevelHipstersmoothie">hipstersmoothie-p9x</a> - 一个变种 <a href="https://github.com/bhilburn/powerlevel9k">powerlevel9k</a>.</li>
 <li><a href="https://github.com/sheerun/home">home</a> - 漂亮而简短的单行主题，让您有宾至如归的感觉.</li>
 <li><a href="https://github.com/oskarkrawczyk/honukai-iterm-zsh">honukai-iterm</a> - oh-my-zsh 和 iTerm 2 的 Honukai 主题和颜色.</li>
@@ -9248,7 +9251,7 @@
 <li><a href="https://github.com/sdcampbell/lpha3cho-Oh-My-Zsh-theme-for-pentesters">pentesters</a> - 修改版 <a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/intheloop.zsh-theme">intheloop</a> 渗透测试者的主题，包括渗透测试日志的日期、时间和 IP 地址.</li>
 <li><a href="https://github.com/persiliao/persi-zsh-theme">persi</a>  - 包括<code>git</code> 装饰. 适用于浅色和深色背景.</li>
 <li><a href="https://github.com/d-danilov/phalanx-zsh-theme">phalanx</a> - 本着精神的最小主题 <a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme">robbyrussell</a> 和纯壳主题.</li>
-<li><a href="https://github.com/phantomk/phantomk.zsh-theme">phantomk</a> - Colorful theme, includes go version, node version and <code>git</code> status.</li>
+<li><a href="https://github.com/phantomk/phantomk.zsh-theme">phantomk</a> - 丰富多彩的主题，包括 go 版本、node 版本和 <code>git</code> 状态.</li>
 <li><a href="https://github.com/LasaleFamine/phi-zsh-theme">phi φ</a> - 一个干净简单的 ZSH 主题，灵感来自于 <a href="https://github.com/halfo/lambda-mod-zsh-theme">Lambda (Mod) ZSH</a> 主题.</li>
 <li><a href="https://github.com/tobyjamesthomas/pi">pi</a> - 带有 <code>git</code> 状态装饰的简约主题.</li>
 <li><a href="https://github.com/purveshpatel511/plain-ui">plain-ui</a> - 极简主义，但包括 <code>git</code> 状态装饰.</li>
@@ -9520,7 +9523,7 @@
 3. 打开一个新的 ZSH 终端窗口或选项卡</p>
 <h3 id="oh-my-zsh_2"><a href="http://ohmyz.sh/">Oh-My-Zsh</a><a class="headerlink" href="#oh-my-zsh_2" title="Permanent link">&para;</a></h3>
 <p>1.<code>cd ~/.oh-my-zsh/custom/plugins</code>
-2. <code>git clone repo</code>
+2.<code>git clone repo</code>
 3. 将 repo 添加到您的插件列表中</p>
 <h3 id="prezto_2"><a href="https://github.com/sorin-ionescu/prezto">Prezto</a><a class="headerlink" href="#prezto_2" title="Permanent link">&para;</a></h3>
 <ol>

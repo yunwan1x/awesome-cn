@@ -6707,6 +6707,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#scala" class="md-nav__link">
+    Scala
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -6787,7 +6794,7 @@
 <ul>
 <li><a href="https://channels.nix.gsc.io">Channel History</a> - 获取 Nix 频道的历史 git 提交.</li>
 <li><a href="https://status.nixos.org">Nix Infra Status</a> - 获取每个 Nix 频道的年龄和当前 git commit.</li>
-<li><a href="https://nixpk.gs/pr-tracker.html">nixpkgs PR tracker</a> - 一个 PR 是否已经进入频道的跟踪器.</li>
+<li><a href="https://nixpk.gs/pr-tracker.html">nixpkgs PR tracker</a> - PR 是否已进入频道的跟踪器.</li>
 </ul>
 <h2 id="deployment-tools">Deployment Tools<a class="headerlink" href="#deployment-tools" title="Permanent link">&para;</a></h2>
 <ul>
@@ -6796,7 +6803,7 @@
 <li><a href="https://github.com/xtruder/kubenix">KubeNix</a> - 使用 Nix 的 Kubernetes 资源构建器.</li>
 <li><a href="https://github.com/saschagrunert/kubernix">KuberNix</a> - 通过 Nix 包的单依赖 Kubernetes 集群.</li>
 <li><a href="https://github.com/DBCDK/morph">morph</a> - 用于管理现有 NixOS 主机的工具.</li>
-<li><a href="https://github.com/google/nixery">Nixery</a> - 一个与 Docker 兼容的容器注册表，它通过 Nix 临时构建图像.</li>
+<li><a href="https://github.com/google/nixery">Nixery</a> - A Docker-compatible container registry which builds images ad-hoc via Nix.</li>
 <li><a href="https://github.com/NixOS/nixops">NixOps</a> - 官方 Nix 部署工具，兼容 AWS、Hetzner 等.</li>
 <li><a href="https://github.com/Mic92/nixos-shell">nixos-shell</a> - 使用 Nix 的简单无头 VM 配置（类似于 Vagrant）.</li>
 <li><a href="https://github.com/arnarg/pushnix">pushnix</a> - 简单的 cli 实用程序，可推送 NixOS 配置并使用 ssh 触发重建.</li>
@@ -6808,7 +6815,7 @@
 <li><a href="https://github.com/Shopify/comma">comma</a>  - 快速运行任何二进制文件； 将 <code>nix run</code> 和 <code>nix-index</code> 包装在一起.</li>
 <li><a href="https://github.com/serokell/nixfmt">nixfmt</a> - Nix 代码的格式化程序，旨在轻松应用统一样式.</li>
 <li><a href="https://github.com/nix-community/nixpkgs-fmt">nixpkgs-fmt</a> - 用于 nixpkgs 的 Nix 代码格式化程序.</li>
-<li><a href="https://github.com/jtojnar/nixpkgs-hammering">nixpkgs-hammering</a> - Beat your package expressions into a shape.</li>
+<li><a href="https://github.com/jtojnar/nixpkgs-hammering">nixpkgs-hammering</a> - 将您的包装表达打成一个形状.</li>
 <li><a href="https://github.com/Gabriel439/nix-diff">nix-diff</a> - 解释为什么两个 Nix 派生不同的工具.</li>
 <li><a href="https://github.com/bennofs/nix-index">nix-index</a> - 快速定位包含特定文件的 Nix 包.</li>
 <li><a href="https://github.com/msteen/nix-prefetch">nix-prefetch</a> - 用于更新源校验和的通用工具.</li>
@@ -6817,12 +6824,12 @@
 <h2 id="development">Development<a class="headerlink" href="#development" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/hercules-ci/arion">Arion</a> - 在 Nix/NixOS 的帮助下运行 <code>docker-compose</code>.</li>
-<li><a href="https://github.com/xzfc/cached-nix-shell">cached-nix-shell</a> - 一个 <code>nix-shell</code> 替代品，它使用缓存快速打开后续 shell.</li>
+<li><a href="https://github.com/xzfc/cached-nix-shell">cached-nix-shell</a> - <code>nix-shell</code> 替代品，它使用缓存快速打开后续 shell.</li>
 <li><a href="https://cachix.org/">Cachix</a>  - 托管二进制缓存服务； 开源项目免费.</li>
-<li><a href="https://github.com/numtide/devshell">devshell</a> - 带有额外位和 toml 配置选项的 <code>mkShell</code>，以便能够加入非 nix 用户.</li>
+<li><a href="https://github.com/numtide/devshell">devshell</a> - 带有额外位和 toml 配置选项的 <code>mkShell</code> 能够载入非 nix 用户.</li>
 <li><a href="https://github.com/numtide/flake-utils">flake-utils</a> - 纯 Nix 薄片实用程序功能可帮助编写薄片.</li>
 <li><a href="https://github.com/hercules-ci/gitignore.nix">gitignore.nix</a> - 功能最完整且易于使用的<code>.gitignore</code> 集成.</li>
-<li><a href="https://github.com/target/lorri/">lorri</a> - 一个更好的<code>nix-shell</code> 用于增强direnv 的开发.</li>
+<li><a href="https://github.com/target/lorri/">lorri</a> - 一个更好的<code>nix-shell</code> 用于开发，增强了 direnv.</li>
 <li><a href="https://github.com/nmattia/niv/">niv</a> - 使用包固定对 Nix 项目进行简单的依赖管理.</li>
 <li><a href="https://github.com/nix-community/nix-direnv">nix-direnv</a> - 用于 direnv 环境自动加载器的快速加载器和 flake 兼容配置.</li>
 <li><a href="https://github.com/Mic92/nixpkgs-review">nixpkgs-review</a> - 验证 Nixpkgs 中的拉取请求是否正确构建的最佳工具.</li>
@@ -6885,6 +6892,10 @@
 <li><a href="https://github.com/yusdacra/rust-nix-templater">rust-nix-templater</a> - 为 Rust 项目生成 Nix 构建和开发文件.</li>
 <li><a href="https://github.com/oxalica/rust-overlay">rust-overlay</a> - 二进制分布式 Rust 工具链的纯且可重现的 nix 覆盖.</li>
 </ul>
+<h3 id="scala">Scala<a class="headerlink" href="#scala" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/zaninime/sbt-derivation">sbt-derivation</a> - sbt 的 mkDerivation，类似于 buildGoModule.</li>
+</ul>
 <h2 id="nixos-modules">NixOS Modules<a class="headerlink" href="#nixos-modules" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/musnix/musnix">musnix</a> - 在 NixOS 中进行实时音频工作.</li>
@@ -6896,7 +6907,7 @@
 <li><a href="https://github.com/freuk/awesome-nix-hpc">awesome-nix-hpc</a> - 高性能计算包集.</li>
 <li><a href="https://github.com/nix-community/home-manager">Home Manager</a> - 像 NixOS 一样管理您的用户配置.</li>
 <li><a href="https://github.com/fort-nix/nix-bitcoin">nix-bitcoin</a> - 用于比特币节点的 Nix 包和 NixOS 模块，具有更高层的协议，强调安全性.</li>
-<li><a href="https://github.com/LnL7/nix-darwin">nix-darwin</a> - 像在 NixOS 上一样管理 macOS 配置.</li>
+<li><a href="https://github.com/LnL7/nix-darwin">nix-darwin</a> - 就像在 NixOS 上一样管理 macOS 配置.</li>
 <li><a href="https://github.com/colemickens/nixpkgs-wayland">nixpkgs-wayland</a> - 流血边缘的 Wayland 包.</li>
 <li><a href="https://github.com/nix-community/NUR/">NUR</a>  - Nix 用户存储库. 所有覆盖的母体，允许访问用户存储库并通过属性安装包.</li>
 </ul>

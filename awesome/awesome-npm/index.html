@@ -7168,7 +7168,6 @@
 <li><a href="http://npm-introspect.z3d.tech">npm-introspect</a> - 基于 npms 的实用程序，用于直观地探索包依赖项的质量.</li>
 </ul>
 </li>
-<li><a href="http://npmsearch.com">npmsearch</a> - 快速包搜索，根据星级、家属、发布频率等指标进行排名.</li>
 <li><a href="http://node-modules.com">node-modules</a> - 基于您的 GitHub 社交图的个性化包搜索.</li>
 <li><a href="https://nodei.co/">NodeICO</a> - 包装徽章.</li>
 <li><a href="https://libraries.io/npm">Libraries.io</a> - 包发现.</li>
@@ -7212,7 +7211,7 @@
 <li><a href="https://github.com/sindresorhus/latest-version-cli">latest-version</a> - 获取最新版本的 npm 包.</li>
 <li><a href="https://github.com/sindresorhus/npm-keyword">npm-keyword</a> - 获取带有特定关键字的 npm 包列表.</li>
 <li><a href="https://github.com/sindresorhus/npm-user">npm-user</a> - 获取 npm 用户的用户信息.</li>
-<li><a href="https://github.com/sindresorhus/npm-email">npm-email</a> - Get the email of an npm user.</li>
+<li><a href="https://github.com/sindresorhus/npm-email">npm-email</a> - 获取 npm 用户的电子邮件.</li>
 <li><a href="https://github.com/kevva/npm-user-packages-cli">npm-user-packages</a> - 通过 npm 用户获取包.</li>
 <li><a href="https://github.com/gillstrom/dpn">dpn</a> - 获取用户 npm 包的依赖项.</li>
 <li><a href="https://github.com/hughsk/npm-stats">npm-stats</a> - 从 npm 注册表中获取数据.</li>
@@ -7272,7 +7271,7 @@
 <ul>
 <li><code>npm and</code> → <code>npm install</code></li>
 <li><code>npm i -D</code> → <code>npm install --save-dev</code></li>
-<li><code>asl t</code> →<code>asl test</code></li>
+<li><code>asl t</code> →<code>asl 测试</code></li>
 <li><code>npm it</code> →<code>npm install &amp;amp;&amp;amp; npm test</code></li>
 <li><code>npm r</code> →<code>npm uninstall</code></li>
 <li><code>npm un</code> →<code>npm uninstall</code></li>
@@ -7405,7 +7404,7 @@ awesome-package
 <div class="codehilite"><pre><span></span><span class="gp">$ </span>npm 测试
 </pre></div>
 
-<p>这将在运行测试之前整理您的文件. 如果 linting 失败，测试将不会运行. 或者更一般地说：如果按顺序运行的脚本之一退出时的退出代码不是 0，则不会执行以下脚本.</p>
+<p>This will lint your files before running your tests. The tests will not run if linting fails. Or more generally spoken: the following script won’t be executed if one of the scripts running in sequence exits with an exit code other than 0.</p>
 <p><em>注意：<code>pre</code> 和 <code>post</code> 脚本也可用于您的自定义 npm 脚本. 所以 <code>npm run foo</code> 也将运行 <code>prefoo</code> 和 <code>postfoo</code> 如果定义.</em></p>
 <h3 id="run-script-with-npx">Run script with <code>npx</code><a class="headerlink" href="#run-script-with-npx" title="Permanent link">&para;</a></h3>
 <p><code>npm</code> <a href="https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b">comes bundled</a> 使用 <code>npx</code>（自 v5.2.0 起）——一种执行包二进制文件的工具. 每个命令都从本地 <code>node_modules/.bin</code> 目录或中央缓存执行，安装任何需要的包，以便 <code>&lt;command&gt;</code> 运行.</p>

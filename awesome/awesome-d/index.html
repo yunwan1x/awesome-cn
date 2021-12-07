@@ -1414,6 +1414,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#wip-compilers" class="md-nav__link">
+    WIP Compilers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#dev-tools" class="md-nav__link">
     Dev Tools
   </a>
@@ -1555,6 +1562,13 @@
         <li class="md-nav__item">
   <a href="#game-bindings" class="md-nav__link">
     Game Bindings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-engine-bindings" class="md-nav__link">
+    Game Engine Bindings
   </a>
   
 </li>
@@ -7041,6 +7055,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#wip-compilers" class="md-nav__link">
+    WIP Compilers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#dev-tools" class="md-nav__link">
     Dev Tools
   </a>
@@ -7182,6 +7203,13 @@
         <li class="md-nav__item">
   <a href="#game-bindings" class="md-nav__link">
     Game Bindings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-engine-bindings" class="md-nav__link">
+    Game Engine Bindings
   </a>
   
 </li>
@@ -7394,7 +7422,7 @@
 <li><a href="https://github.com/DlangScience">DlangScience</a> - 科学图书馆和 D 工具的联络点和第一站.</li>
 <li><a href="https://github.com/Circular-Studios">Circular Studios</a>  - 我们是 Rochester Institute of Technology 的一群游戏开发者，他们构建游戏和游戏技术. 主机 <a href="https://github.com/Circular-Studios/Dash">Dash</a>，一个用 D 编写的 3D 游戏引擎，以及其他相关的库.</li>
 <li><a href="https://github.com/d-gamedev-team">d-gamedev-team</a> - 一个游戏开发相关存储库的组织，包括一个名为的 D 游戏开发工具包 <a href="https://github.com/d-gamedev-team/gfm">gfm</a> 和 <a href="https://github.com/d-gamedev-team/opengl-tutorials">opengl tutorial in D</a>.</li>
-<li><a href="https://github.com/economicmodeling">EMSI</a>  - 一家以 D 为主要语言的职业发展公司. 托管他们的开源项目.</li>
+<li><a href="https://github.com/economicmodeling">EMSI</a>  - 一家以 D 作为主要语言的职业发展公司. 托管他们的开源项目.</li>
 <li><a href="http://www.infognition.com/company.html">infognition</a>  - Infognition 是一家自筹资金和自给自足的公司，专门为最终用户和开发人员提供视频处理和压缩技术. 他们提供了几个用 D 编写的开源视频相关应用程序和工具，托管在 <a href="https://bitbucket.org/infognition/">bitbucket</a> . 他们也在移植他们的主要产品——<a href="http://www.infognition.com/VideoEnhancer/">Video Enchanser</a> 从 C/C++ 到 D.</li>
 <li><a href="https://github.com/libmir">libmir</a> - D的数字图书馆开发团队</li>
 <li><a href="https://www.sociomantic.com">sociomantic labs</a>  - 总部位于柏林的公司，专门从事在线广告的实时竞价. 主要赞助商 <a href="http://dconf.org">annual D language conference</a> . 已将其代码库的大部分开源作为 <a href="https://github.com/sociomantic-tsunami">tsunami</a> 组织.</li>
@@ -7409,7 +7437,7 @@
 * <a href="https://www.packtpub.com/product/learning-d/9781783552481">Learning D</a> - 本书适用于那些具有 C 族语言背景、希望学习如何将他们的知识和经验应用于 D 的人.(...) 这本书将帮助您快速掌握该语言并避免常见的将 C 家族经验转化为 D 时出现的陷阱.
 * <a href="https://www.packtpub.com/product/d-web-development/9781785288890">D Web Development</a> - 无论您是 D 世界的新手，还是已经在 D 中开发过应用程序，或者如果您想利用 D 的力量进行 Web 开发，那么这本书都是您的理想之选.</p>
 <h2 id="tutorials">Tutorials<a class="headerlink" href="#tutorials" title="Permanent link">&para;</a></h2>
-<p><em>D related tutorials.</em>
+<p><em>D 相关教程.</em>
 * <a href="https://tour.dlang.org/">The Dlang Tour</a> - 受 Golang Tour 启发的 D 交互式教程.
 * <a href="https://qznc.github.io/d-tut/index.html">Pragmatic D tutorial</a>  - 这是对 D 编程语言的实用介绍. 安德烈亚斯·茨温考.
 * <a href="https://github.com/PhilippeSigaud/D-templates-tutorial">D Template Tutorial</a>  - 专门针对 D 模板的教程. 关于模板的很好的解释. 有pdf版本. 菲利普·西高
@@ -7457,8 +7485,10 @@
 <li><a href="https://github.com/dlang/dmd">dmd</a>  - D 编程语言的参考编译器. 稳定，构建速度非常快，非常适合学习和快速原型设计/开发. 目前前端是用 D 实现的，在 dmd、ldc 和 gdc 之间共享，后端是用 C++ 实现的.</li>
 <li><a href="https://github.com/ldc-developers/ldc">ldc</a>  - 基于 LLVM 的 D 编译器. 使用 DMD 前端和 LLVM 后端. 构建速度比 dmd 慢，但生成的代码比 DMD 更优化. 它支持LLVM的所有目标平台.</li>
 <li><a href="https://github.com/D-Programming-GDC/GDC">gdc</a>  - GNU D 编译器. 使用 DMD 前端和 GCC 后端. 由于使用 GCC，目前针对大多数平台. 在大多数情况下，生成的代码运行速度比 DMD 快，与 LDC 相当. 在与官方 GCC 工具链集成的过程中.</li>
+</ul>
+<h2 id="wip-compilers">WIP Compilers<a class="headerlink" href="#wip-compilers" title="Permanent link">&para;</a></h2>
+<ul>
 <li><a href="https://github.com/snazzy-d/SDC">sdc</a>  - 愚蠢的 D 编译器. 写在 D. 每天都变得更聪明.</li>
-<li><a href="https://code.google.com/p/dil/">dil</a>  - D 编程语言的编译器. 写在 D.</li>
 </ul>
 <h2 id="dev-tools">Dev Tools<a class="headerlink" href="#dev-tools" title="Permanent link">&para;</a></h2>
 <p><em>提高 D 开发效率的工具.</em></p>
@@ -7609,7 +7639,7 @@
 <h2 id="command-line">Command Line<a class="headerlink" href="#command-line" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/huntlabs/hunt-console">hunt-console</a> - Hunt 控制台创建更容易创建强大的命令行应用程序. </li>
-<li><a href="https://github.com/gnunn1/tilix">tilix</a> - 使用 GTK+ 3 的 Linux 平铺终端模拟器.</li>
+<li><a href="https://github.com/gnunn1/tilix">tilix</a> -  A tiling terminal emulator for Linux using GTK+ 3.</li>
 <li><a href="https://github.com/Abscissa/scriptlike">scriptlike</a> - 帮助在 D 中编写类似脚本的程序的实用程序库.</li>
 <li><a href="https://github.com/BlackEdder/todod">todod</a>  - Todod 是一个基于命令行的待办事项列表管理器. 它还支持基于shell交互 <a href="https://github.com/antirez/linenoise">linenoise</a>.</li>
 <li><a href="https://code.dlang.org/packages/colorize">d-colorize</a> - ruby​​ 库的一个端口 <a href="https://github.com/fazibear/colorize">colorize</a> . 它添加了一些方法来使用 ANSI 转义序列更容易地在控制台上设置颜色、背景颜色和文本效果.</li>
@@ -7653,7 +7683,7 @@
 <li>核 - 即时 UI - <a href="https://github.com/Timu5/bindbc-nuklear">bindbc-nuklear</a></li>
 <li>raylib - <a href="https://github.com/o3o/bindbc-raylib">bindbc-raylib</a></li>
 <li>bgfx - <a href="https://github.com/GoaLitiuM/bindbc-bgfx">bindbc-bgfx</a></li>
-<li>WegGPU - <a href="https://github.com/gecko0307/bindbc-wgpu">bindbc-wgpu</a></li>
+<li>WebGPU - <a href="https://github.com/gecko0307/bindbc-wgpu">bindbc-wgpu</a></li>
 <li>Zstandard - 压缩 - <a href="https://github.com/ZILtoid1991/bindbc-zstandard">bindbc-zstandard</a></li>
 <li>nanomsg-next-gen - <a href="https://github.com/darkridder/bindbc-nng">bindbc-nng</a></li>
 <li>OpenAL - 音频引擎 - <a href="https://github.com/BindBC/bindbc-openal">bindbc-openal</a></li>
@@ -7692,6 +7722,10 @@
 <li>ALURE (DerelictALURE).</li>
 </ul>
 </li>
+</ul>
+<h2 id="game-engine-bindings">Game Engine Bindings<a class="headerlink" href="#game-engine-bindings" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/godot-d/godot-d">Godot-D</a> - Godot 引擎的 GDNative API 的 D 语言绑定</li>
 </ul>
 <h2 id="game-frameworks">Game Frameworks<a class="headerlink" href="#game-frameworks" title="Permanent link">&para;</a></h2>
 <ul>

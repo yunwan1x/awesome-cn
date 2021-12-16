@@ -6586,6 +6586,33 @@
     Meshing
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#triangular-and-tetrahedral-meshing" class="md-nav__link">
+    Triangular and tetrahedral meshing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quadrilateral-and-hexahedral-meshing" class="md-nav__link">
+    Quadrilateral and hexahedral meshing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mesh-tools" class="md-nav__link">
+    Mesh tools
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -6676,7 +6703,7 @@ them.</p>
   (C, 2-clause BSD, <a href="https://gitlab.com/petsc/petsc">GitLab</a>)</li>
 <li><a href="https://www.dune-project.org">DUNE Numerics</a> - 使用基于网格的方法求解偏微分方程的工具箱.
   (C++, GPL 2, <a href="https://gitlab.dune-project.org/core/">GitLab</a>)</li>
-<li><a href="https://www.scipy.org">SciPy</a> - 用于统计、优化、集成、线性代数等的 Python 模块.
+<li><a href="https://scipy.org">SciPy</a> - 用于统计、优化、集成、线性代数等的 Python 模块.
   （Python，主要是BSD， <a href="https://github.com/scipy/scipy/">GitHub</a>)</li>
 <li><a href="https://numpy.org/">NumPy</a> - 使用 Python 进行科学计算所需的基础包.
   （Python、BSD、 <a href="https://github.com/numpy/numpy">GitHub</a>)</li>
@@ -6707,6 +6734,7 @@ them.</p>
   （Python、BSD/GPL、GitHub）</li>
 </ul>
 <h2 id="meshing">Meshing<a class="headerlink" href="#meshing" title="Permanent link">&para;</a></h2>
+<h3 id="triangular-and-tetrahedral-meshing">Triangular and tetrahedral meshing<a class="headerlink" href="#triangular-and-tetrahedral-meshing" title="Permanent link">&para;</a></h3>
 <ul>
 <li><a href="https://gmsh.info">Gmsh</a> - 具有预处理和后处理设施的三维有限元网格生成器.
   (C++, GPL, <a href="https://gitlab.onelab.info/gmsh/gmsh">GitLab</a>)</li>
@@ -6714,43 +6742,48 @@ them.</p>
   （Python、GPL 3、GitHub）</li>
 <li><a href="https://mathema.tician.de/software/meshpy/">MeshPy</a> - 高质量的三角形和四面体网格生成.
   （Python，麻省理工学院， <a href="https://github.com/inducer/meshpy">GitHub</a>)</li>
-<li><a href="https://github.com/nschloe/meshio">meshio</a> - 各种网格格式的 I/O，文件转换.
-  （Python、麻省理工学院、GitHub）</li>
 <li><a href="https://www.cgal.org">CGAL</a> - 计算几何算法.
   （C++，混合 LGPL/GPL， <a href="https://github.com/CGAL/cgal">GitHub</a>)</li>
 <li><a href="https://github.com/nschloe/pygalmesh">pygalmesh</a> - CGAL 3D 网格划分功能的 Python 接口.
   （Python、GPL 3、GitHub）</li>
-<li><a href="https://bitbucket.org/fenics-project/mshr/">mshr</a> - FEniCS 的网格生成组件.
-  （Python、GPL 3、Bitbucket）</li>
-<li><a href="https://sigma.mcs.anl.gov/moab-library/">MOAB</a> - 表示和评估网格数据.
-  （C++，主要是 LGPL 3， <a href="https://bitbucket.org/fathomteam/moab/">Bitbucket</a>)</li>
 <li><a href="https://www.wias-berlin.de/software/index.jsp?id=TetGen">TetGen</a> - 优质四面体网格生成器和 3D Delaunay 三角测量器.
   （C++，AGPLv3）</li>
 <li><a href="https://www.cs.cmu.edu/~quake/triangle.html">Triangle</a> - 二维质量网格生成器和 Delaunay 三角测量器.
   (C, <em>非自由软件</em>)</li>
-<li><a href="https://github.com/nschloe/optimesh">optimesh</a> - 三角形网格平滑.
-  （Python、GPL 3、GitHub）</li>
 <li><a href="http://persson.berkeley.edu/distmesh/">distmesh</a> - 用于非结构化三角形和四面体网格的简单生成器.
   （MATLAB，GPL 3）</li>
-<li><a href="https://stanford.edu/~jingweih/papers/quadriflow/">QuadriFlow</a> - 一种可扩展且稳健的四边形方法.
-  (C++, BSD, <a href="https://github.com/hjwdzh/QuadriFlow">GitHub</a>)</li>
 <li><a href="https://trimsh.org/">trimesh</a> - 加载和使用三角形网格，重点是防水表面.
   （Python，麻省理工学院， <a href="https://github.com/mikedh/trimesh">GitHub</a>)</li>
 <li><a href="https://github.com/nschloe/dmsh">dmsh</a> - 非结构化三角形网格的简单生成器，灵感来自 distmesh.
+  （Python、GPL 3、GitHub）</li>
+<li><a href="https://cs.nyu.edu/~yixinhu/tetwild.pdf">TetWild</a> - 为三角形表面网格生成四面体网格.
+  (C++, GPL 3, <a href="https://github.com/Yixin-Hu/TetWild">GitHub</a>)</li>
+<li><a href="https://cims.nyu.edu/gcl/papers/2019-TriWild.pdf">TriWild</a> - 具有曲线约束的稳健三角剖分.
+  (C++, MPL 2, <a href="https://github.com/wildmeshing/TriWild">GitHub</a>)</li>
+<li><a href="https://arxiv.org/abs/1908.03581">fTetWild</a> - 与 TetWild 相同，但速度更快.
+  (C++, MPL 2, <a href="https://github.com/wildmeshing/fTetWild">GitHub</a>)</li>
+<li><a href="https://github.com/krober10nd/SeismicMesh">SeismicMesh</a> - 平行 2D/3D 三角形/四面体网格生成，去除长条.
+  （Python 和 C++、GPL 3、GitHub）</li>
+</ul>
+<h3 id="quadrilateral-and-hexahedral-meshing">Quadrilateral and hexahedral meshing<a class="headerlink" href="#quadrilateral-and-hexahedral-meshing" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://stanford.edu/~jingweih/papers/quadriflow/">QuadriFlow</a> - 可扩展和强大的四边形.
+  (C++, BSD, <a href="https://github.com/hjwdzh/QuadriFlow">GitHub</a>)</li>
+</ul>
+<h3 id="mesh-tools">Mesh tools<a class="headerlink" href="#mesh-tools" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/nschloe/meshio">meshio</a> - 各种网格格式的 I/O，文件转换.
+  （Python、麻省理工学院、GitHub）</li>
+<li><a href="https://sigma.mcs.anl.gov/moab-library/">MOAB</a> - 表示和评估网格数据.
+  （C++，主要是 LGPL 3， <a href="https://bitbucket.org/fathomteam/moab/">Bitbucket</a>)</li>
+<li><a href="https://github.com/nschloe/optimesh">optimesh</a> - 三角形网格平滑.
   （Python、GPL 3、GitHub）</li>
 <li><a href="https://www.pmp-library.org/">pmp-library</a> - 多边形网格处理库.
   (C++, MIT with Employer Disclaimer, <a href="https://github.com/pmp-library/pmp-library/">GitHub</a>)</li>
 <li><a href="https://www.mmgtools.org/">Mmg</a> - 用于重新划分网格的强大、开源和多学科软件.
   (C, LGPL 3, <a href="https://github.com/MmgTools/mmg">GitHub</a>)</li>
-<li><a href="https://github.com/nschloe/meshplex">meshplex</a>  - 用于单纯形网格的快速工具.  （Python、GPL 3、GitHub）</li>
-<li><a href="https://cs.nyu.edu/~yixinhu/tetwild.pdf">TetWild</a> - 野外强大的四面体网格.
-  (C++, GPL 3, <a href="https://github.com/Yixin-Hu/TetWild">GitHub</a>)</li>
-<li><a href="https://cims.nyu.edu/gcl/papers/2019-TriWild.pdf">TriWild</a> - 具有曲线约束的稳健三角剖分.
-  (C++, MPL 2, <a href="https://github.com/wildmeshing/TriWild">GitHub</a>)</li>
-<li><a href="https://arxiv.org/abs/1908.03581">fTetWild</a> - 野外快速四面体网格剖分.
-  (C++, MPL 2, <a href="https://github.com/wildmeshing/fTetWild">GitHub</a>)</li>
-<li><a href="https://github.com/krober10nd/SeismicMesh">SeismicMesh</a> - 平行 2D/3D 三角形/四面体网格生成，去除长条.
-   （Python 和 C++、GPL 3、GitHub）</li>
+<li><a href="https://github.com/nschloe/meshplex">meshplex</a> - 用于单纯形网格的快速工具.
+  （Python、GPL 3、GitHub）</li>
 </ul>
 <h2 id="data-formats">Data formats<a class="headerlink" href="#data-formats" title="Permanent link">&para;</a></h2>
 <ul>
@@ -6760,7 +6793,7 @@ them.</p>
   <a href="https://github.com/Unidata/netcdf-c/">GitHub</a>)</li>
 <li><a href="https://support.hdfgroup.org/HDF5/">HDF5</a> - 用于存储和管理数据的数据模型、库和文件格式.
   (C/Fortran, BSD, <a href="https://github.com/HDFGroup/hdf5">GitHub</a>)</li>
-<li><a href="https://www.xdmf.org/index.php/Main_Page">XDMF</a> - 来自高性能计算代码的数据的可扩展数据模型和格式.
+<li><a href="https://xdmf.org/index.php/Main_Page">XDMF</a> - 来自高性能计算代码的数据的可扩展数据模型和格式.
   (C++, <a href="https://gitlab.kitware.com/xdmf/xdmf">GitLab</a>)</li>
 <li><a href="https://zarr.readthedocs.io/en/stable/">Zarr</a> - 用于存储分块、压缩、N 维数组的格式.
   （Python，麻省理工学院， <a href="https://github.com/zarr-developers/zarr-python">GitHub</a>)</li>

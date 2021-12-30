@@ -7300,15 +7300,15 @@
 
 <h3 id="run-scripts">Run scripts<a class="headerlink" href="#run-scripts" title="Permanent link">&para;</a></h3>
 <p>你可以轻松 <a href="https://docs.npmjs.com/cli/run-script">run scripts</a> 通过将它们添加到 package.json 中的 <code>&amp;quot;scripts&amp;quot;</code> 字段来使用 npm 并使用 <code>npm run 运行它们&lt;script-name&gt;</code>. 运行 <code>npm run</code> 以查看可用的脚本. 本地安装包的二进制文件在 <a href="https://en.wikipedia.org/wiki/PATH_(variable)">PATH</a>，因此您可以按名称运行它们.</p>
-<div class="codehilite"><pre><span></span><span class="p">{</span>
-    <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-    <span class="err">“脚本”：</span><span class="p">{</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;ca</span><span class="kc">t</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;猫名&amp;quo</span><span class="kc">t</span><span class="err">;</span>
-    <span class="p">},</span>
-    <span class="err">“依赖关系”：</span><span class="p">{</span>
-        <span class="err">“猫名”：“^</span><span class="mf">1.0.0</span><span class="err">”</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="err">“脚本”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;ca</span><span class="kc">t</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;猫名&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="err">“依赖关系”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">“猫名”：“^</span><span class="mf">1.0.0</span><span class="err">”</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <div class="codehilite"><pre><span></span>$ npm 运行猫
@@ -7316,12 +7316,12 @@ Max
 </pre></div>
 
 <p>所有 package.json 属性都是 <a href="https://docs.npmjs.com/misc/scripts#packagejson-vars">exposed</a> 作为环境变量：</p>
-<div class="codehilite"><pre><span></span><span class="p">{</span>
-    <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-    <span class="err">“脚本”：</span><span class="p">{</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;echo</span> <span class="err">$</span><span class="kc">n</span><span class="err">pm_package_</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="err">“脚本”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;echo</span><span class="w"> </span><span class="err">$</span><span class="kc">n</span><span class="err">pm_package_</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <div class="codehilite"><pre><span></span>$ npm 运行名称
@@ -7330,56 +7330,56 @@ awesome-package
 
 <h4 id="passing-options-to-commands">Passing options to commands<a class="headerlink" href="#passing-options-to-commands" title="Permanent link">&para;</a></h4>
 <p>您可以通过添加 <code>-- --flag</code> 来将选项传递给您在 npm 脚本中使用的命令，如下例所示.  <code>-</code> <a href="https://unix.stackexchange.com/questions/11376/what-does-double-dash-mean-also-known-as-bare-double-dash">marks the end of options parsing</a>，所以 <code>npm run</code> 会忽略它并将它传递给命令.</p>
-<div class="codehilite"><pre><span></span><span class="p">{</span>
-    <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-    <span class="err">“脚本”：</span><span class="p">{</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo</span><span class="p">:</span><span class="kc">f</span><span class="err">ix&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">n</span><span class="err">pm</span> <span class="err">ru</span><span class="kc">n</span> <span class="err">xo</span> <span class="mi">--</span> <span class="mi">--</span><span class="kc">f</span><span class="err">ix&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="err">“脚本”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo</span><span class="p">:</span><span class="kc">f</span><span class="err">ix&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">n</span><span class="err">pm</span><span class="w"> </span><span class="err">ru</span><span class="kc">n</span><span class="w"> </span><span class="err">xo</span><span class="w"> </span><span class="mi">--</span><span class="w"> </span><span class="mi">--</span><span class="kc">f</span><span class="err">ix&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p><em>添加<code>---fix</code>选项就像执行<code>xo --fix</code></em>.</p>
 <h4 id="silent-option">Silent option<a class="headerlink" href="#silent-option" title="Permanent link">&para;</a></h4>
 <p><code>npm run</code> 有一个 <code>--silent</code> 选项，这在结合 npm 脚本时特别有用.</p>
 <p>想象一下，您有一个用于对 JavaScript 文件进行 linting 的设置，如下所示：</p>
-<div class="codehilite"><pre><span></span><span class="p">{</span>
-    <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-    <span class="err">“脚本”：</span><span class="p">{</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo</span><span class="p">:</span><span class="kc">f</span><span class="err">ix&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">n</span><span class="err">pm</span> <span class="err">ru</span><span class="kc">n</span> <span class="err">xo</span> <span class="mi">--</span><span class="err">sile</span><span class="kc">nt</span> <span class="mi">--</span> <span class="mi">--</span><span class="kc">f</span><span class="err">ix&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="err">“脚本”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;xo</span><span class="p">:</span><span class="kc">f</span><span class="err">ix&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">n</span><span class="err">pm</span><span class="w"> </span><span class="err">ru</span><span class="kc">n</span><span class="w"> </span><span class="err">xo</span><span class="w"> </span><span class="mi">--</span><span class="err">sile</span><span class="kc">nt</span><span class="w"> </span><span class="mi">--</span><span class="w"> </span><span class="mi">--</span><span class="kc">f</span><span class="err">ix&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p><em>使用<code>--silent</code> 选项会减少终端中的输出. 看 <a href="https://twitter.com/mkuehnel/status/957965749473210369">this comparison</a>.</em></p>
 <h3 id="lifecycle-scripts">Lifecycle scripts<a class="headerlink" href="#lifecycle-scripts" title="Permanent link">&para;</a></h3>
 <p>npm 带有预定义 <a href="https://docs.npmjs.com/misc/scripts">lifecyle scripts</a> 如果它们在 package.json 中定义，则在特定条件下执行.</p>
-<div class="codehilite"><pre><span></span><span class="p">{</span>
-    <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-    <span class="err">“脚本”：</span><span class="p">{</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;prepublishO</span><span class="kc">nl</span><span class="err">y&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">ns</span><span class="err">p</span> <span class="err">检查&amp;quo</span><span class="kc">t</span><span class="err">;</span>
-    <span class="p">},</span>
-    <span class="err">“开发依赖”：</span><span class="p">{</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">ns</span><span class="err">p&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;^</span><span class="mf">3.0.0</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="err">“脚本”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;prepublishO</span><span class="kc">nl</span><span class="err">y&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">ns</span><span class="err">p</span><span class="w"> </span><span class="err">检查&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="err">“开发依赖”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">ns</span><span class="err">p&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;^</span><span class="mf">3.0.0</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>这将在您的 npm 包通过 <code>npm publish</code> 发布到注册表之前自动执行，以检查您的依赖项中的已知漏洞.</p>
 <p><em>注意：<strong>prepublishOnly</strong> 从 npm v4.0.0 开始可用. 看 <a href="https://docs.npmjs.com/misc/scripts#deprecation-note">npm docs</a>.</em></p>
 <h4 id="npm-start-and-npm-test"><code>npm start</code> and <code>npm test</code><a class="headerlink" href="#npm-start-and-npm-test" title="Permanent link">&para;</a></h4>
 <p><code>npm start</code> 和 <code>npm test</code> 也是生命周期脚本，但不会自动执行.</p>
-<div class="codehilite"><pre><span></span><span class="p">{</span>
-    <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-    <span class="err">“脚本”：</span><span class="p">{</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;s</span><span class="kc">tart</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;节点</span> <span class="err">server.js&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-        <span class="err">“测试”：“阿瓦”</span>
-    <span class="p">},</span>
-    <span class="err">“开发依赖”：</span><span class="p">{</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;ava&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;^</span> <span class="mf">1.0.0</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="err">“脚本”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;s</span><span class="kc">tart</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;节点</span><span class="w"> </span><span class="err">server.js&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="err">“测试”：“阿瓦”</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="err">“开发依赖”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;ava&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;^</span><span class="w"> </span><span class="mf">1.0.0</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>因此，它们可以简单地执行：</p>
@@ -7389,17 +7389,17 @@ awesome-package
 
 <h4 id="pre-and-post-scripts"><code>pre</code> and <code>post</code> scripts<a class="headerlink" href="#pre-and-post-scripts" title="Permanent link">&para;</a></h4>
 <p>这些是特殊的生命周期脚本，可用于按顺序自动运行脚本.</p>
-<div class="codehilite"><pre><span></span><span class="p">{</span>
-    <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-    <span class="err">“脚本”：</span><span class="p">{</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;pre</span><span class="kc">test</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;esli</span><span class="kc">nt</span> <span class="err">.&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-        <span class="err">“测试”：“阿瓦”</span>
-    <span class="p">},</span>
-    <span class="err">“开发依赖”：</span><span class="p">{</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;sli</span><span class="kc">n</span><span class="err">g&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;^</span> <span class="mf">4.19.0</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-        <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;ava&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;^</span> <span class="mf">1.0.0</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="err">“脚本”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;pre</span><span class="kc">test</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;esli</span><span class="kc">nt</span><span class="w"> </span><span class="err">.&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="err">“测试”：“阿瓦”</span><span class="w"></span>
+<span class="w">    </span><span class="p">},</span><span class="w"></span>
+<span class="w">    </span><span class="err">“开发依赖”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;sli</span><span class="kc">n</span><span class="err">g&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;^</span><span class="w"> </span><span class="mf">4.19.0</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">        </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;ava&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;^</span><span class="w"> </span><span class="mf">1.0.0</span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <div class="codehilite"><pre><span></span><span class="gp">$ </span>npm 测试
@@ -7409,12 +7409,12 @@ awesome-package
 <p><em>注意：<code>pre</code> 和 <code>post</code> 脚本也可用于您的自定义 npm 脚本. 所以 <code>npm run foo</code> 也将运行 <code>prefoo</code> 和 <code>postfoo</code> 如果定义.</em></p>
 <h3 id="run-script-with-npx">Run script with <code>npx</code><a class="headerlink" href="#run-script-with-npx" title="Permanent link">&para;</a></h3>
 <p><code>npm</code> <a href="https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b">comes bundled</a> 使用 <code>npx</code>（自 v5.2.0 起）——一种执行包二进制文件的工具. 每个命令都从本地 <code>node_modules/.bin</code> 目录或中央缓存执行，安装任何需要的包，以便 <code>&lt;command&gt;</code> 运行.</p>
-<div class="codehilite"><pre><span></span><span class="p">{</span>
-    <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span> <span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span>
-    <span class="err">“依赖关系”：</span><span class="p">{</span>
-        <span class="err">“猫名”：“^</span><span class="mf">1.0.0</span><span class="err">”</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="kc">na</span><span class="err">me&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">:</span><span class="w"> </span><span class="err">&amp;quo</span><span class="kc">t</span><span class="err">;awesome</span><span class="mi">-</span><span class="err">package&amp;quo</span><span class="kc">t</span><span class="err">;</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="err">“依赖关系”：</span><span class="p">{</span><span class="w"></span>
+<span class="w">        </span><span class="err">“猫名”：“^</span><span class="mf">1.0.0</span><span class="err">”</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>如果二进制文件已经安装，它将从<code>node_modules/.bin</code> 执行.</p>

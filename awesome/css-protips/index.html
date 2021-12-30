@@ -7350,13 +7350,13 @@
 <h2 id="protips">Protips<a class="headerlink" href="#protips" title="Permanent link">&para;</a></h2>
 <h3 id="use-a-css-reset">Use a CSS Reset<a class="headerlink" href="#use-a-css-reset" title="Permanent link">&para;</a></h3>
 <p>CSS重置使用干净的样式元素来帮助在不同浏览器之间实现样式一致性. 您可以使用CSS重置库，例如 <a href="http://necolas.github.io/normalize.css/">Normalize</a>，<em>等</em>，或者您可以使用更简化的重置方法：</p>
-<div class="codehilite"><pre><span></span><span class="o">*,</span>
-<span class="o">*</span><span class="p">::</span><span class="nd">before</span><span class="o">,</span>
-<span class="o">*</span> <span class="o">::</span> <span class="p">{</span><span class="err">之后</span>
-  <span class="err">框大小：border-box；</span>
-  <span class="err">边距：0</span><span class="p">;</span>
-  <span class="err">填充：0</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="o">*,</span><span class="w"></span>
+<span class="o">*</span><span class="p">::</span><span class="nd">before</span><span class="o">,</span><span class="w"></span>
+<span class="o">*</span><span class="w"> </span><span class="o">::</span><span class="w"> </span><span class="p">{</span><span class="err">之后</span><span class="w"></span>
+<span class="w">  </span><span class="err">框大小：border-box；</span><span class="w"></span>
+<span class="w">  </span><span class="err">边距：0</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">填充：0</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>现在，将去除元素的边距和内边距，“ box-sizing”可让您使用CSS box模型管理布局.</p>
@@ -7365,15 +7365,15 @@
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="inherit-box-sizing">Inherit <code>box-sizing</code><a class="headerlink" href="#inherit-box-sizing" title="Permanent link">&para;</a></h3>
 <p>让<code>box-sizing</code>继承自<code>html</code>：</p>
-<div class="codehilite"><pre><span></span><span class="nt">html</span> <span class="p">{</span>
-  <span class="err">框大小：border-box；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">html</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">框大小：border-box；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="o">*,</span>
-<span class="o">*</span><span class="p">::</span><span class="nd">before</span><span class="o">,</span>
-<span class="o">*</span> <span class="o">::</span> <span class="p">{</span><span class="err">之后</span>
-  <span class="err">大小调整：继承；</span>
-<span class="p">}</span>
+<span class="o">*,</span><span class="w"></span>
+<span class="o">*</span><span class="p">::</span><span class="nd">before</span><span class="o">,</span><span class="w"></span>
+<span class="o">*</span><span class="w"> </span><span class="o">::</span><span class="w"> </span><span class="p">{</span><span class="err">之后</span><span class="w"></span>
+<span class="w">  </span><span class="err">大小调整：继承；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>这使得在利用其他行为的插件或其他组件中更改“ box-sizing”更加容易.</p>
@@ -7381,43 +7381,43 @@
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="use-unset-instead-of-resetting-all-properties">Use <code>unset</code> Instead of Resetting All Properties<a class="headerlink" href="#use-unset-instead-of-resetting-all-properties" title="Permanent link">&para;</a></h3>
 <p>重置元素的属性时，不必重置每个单独的属性：</p>
-<div class="codehilite"><pre><span></span><span class="nt">按钮</span><span class="p">{</span>
-  <span class="err">背景：无；</span>
-  <span class="err">边框：无；</span>
-  <span class="err">颜色：继承；</span>
-  <span class="err">font：继承</span><span class="p">;</span>
-  <span class="err">大纲：无；</span>
-  <span class="err">填充：0</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">按钮</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">背景：无；</span><span class="w"></span>
+<span class="w">  </span><span class="err">边框：无；</span><span class="w"></span>
+<span class="w">  </span><span class="err">颜色：继承；</span><span class="w"></span>
+<span class="w">  </span><span class="err">font：继承</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">大纲：无；</span><span class="w"></span>
+<span class="w">  </span><span class="err">填充：0</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>您可以使用<code>all</code>速记来指定元素的所有属性. 将值设置为<code>unset</code>会将元素的属性更改为其初始值：</p>
-<div class="codehilite"><pre><span></span><span class="nt">按钮</span><span class="p">{</span>
-  <span class="err">全部：未设置；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">按钮</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">全部：未设置；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p><strong>注意：</strong> IE11不支持<code>all</code>和<code>unset</code>的简写.</p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="use-not-to-applyunapply-borders-on-navigation">Use <code>:not()</code> to Apply/Unapply Borders on Navigation<a class="headerlink" href="#use-not-to-applyunapply-borders-on-navigation" title="Permanent link">&para;</a></h3>
 <p>而不是放下边界...</p>
-<div class="codehilite"><pre><span></span><span class="o">/</span> <span class="o">*</span><span class="nt">添加边框</span><span class="o">*</span> <span class="o">/</span>
-<span class="p">.</span><span class="nc">nav</span> <span class="nt">li</span> <span class="p">{</span>
-  <span class="k">border-right</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="mh">#666</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="o">/</span><span class="w"> </span><span class="o">*</span><span class="nt">添加边框</span><span class="o">*</span><span class="w"> </span><span class="o">/</span><span class="w"></span>
+<span class="p">.</span><span class="nc">nav</span><span class="w"> </span><span class="nt">li</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">border-right</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="mh">#666</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>...然后将其从最后一个元素中移除...</p>
-<div class="codehilite"><pre><span></span><span class="o">/</span> <span class="o">*</span><span class="nt">删除边框</span><span class="o">*</span> <span class="o">/</span>
-<span class="p">.</span><span class="nc">nav</span> <span class="nt">li</span><span class="err">：</span><span class="nt">last-child</span> <span class="p">{</span>
-  <span class="err">右边框：无；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="o">/</span><span class="w"> </span><span class="o">*</span><span class="nt">删除边框</span><span class="o">*</span><span class="w"> </span><span class="o">/</span><span class="w"></span>
+<span class="p">.</span><span class="nc">nav</span><span class="w"> </span><span class="nt">li</span><span class="err">：</span><span class="nt">last-child</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">右边框：无；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>...使用<code>：not（）</code>伪类仅适用于您想要的元素：</p>
-<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">nav</span> <span class="nt">li</span><span class="err">：</span><span class="nt">not</span><span class="err">（：</span><span class="nt">last-child</span><span class="err">）</span><span class="p">{</span>
-  <span class="k">border-right</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="mh">#666</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">nav</span><span class="w"> </span><span class="nt">li</span><span class="err">：</span><span class="nt">not</span><span class="err">（：</span><span class="nt">last-child</span><span class="err">）</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">border-right</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="mh">#666</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>在这里，CSS选择器被理解为人类会描述它的方式.</p>
@@ -7425,29 +7425,29 @@
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="check-if-font-is-installed-locally">Check If Font Is Installed Locally<a class="headerlink" href="#check-if-font-is-installed-locally" title="Permanent link">&para;</a></h3>
 <p>您可以在远程获取字体之前检查是否在本地安装了字体，这也是一个很好的性能提示.</p>
-<div class="codehilite"><pre><span></span><span class="o">@</span> <span class="nt">font-face</span> <span class="p">{</span>
-  <span class="err">字体家族：“</span> <span class="err">Dank</span> <span class="err">Mono”；</span>
-  <span class="err">src：</span>
-    <span class="c">/* 全名 */</span>
-    <span class="err">本地（“感谢Mono”），</span>
-    <span class="err">/</span> <span class="err">*后记名称*</span> <span class="err">/</span>
-    <span class="err">本地（“感谢Mono”），</span>
-     <span class="err">/</span> <span class="err">*否则，请下载！</span>  <span class="err">*</span> <span class="err">/</span>
-    <span class="err">url（“</span> <span class="err">//</span> <span class="err">...</span> <span class="err">a.server</span> <span class="err">/</span> <span class="err">fonts</span> <span class="err">/</span> <span class="err">DankMono.woff”）</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="o">@</span><span class="w"> </span><span class="nt">font-face</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">字体家族：“</span><span class="w"> </span><span class="err">Dank</span><span class="w"> </span><span class="err">Mono”；</span><span class="w"></span>
+<span class="w">  </span><span class="err">src：</span><span class="w"></span>
+<span class="w">    </span><span class="c">/* 全名 */</span><span class="w"></span>
+<span class="w">    </span><span class="err">本地（“感谢Mono”），</span><span class="w"></span>
+<span class="w">    </span><span class="err">/</span><span class="w"> </span><span class="err">*后记名称*</span><span class="w"> </span><span class="err">/</span><span class="w"></span>
+<span class="w">    </span><span class="err">本地（“感谢Mono”），</span><span class="w"></span>
+<span class="w">     </span><span class="err">/</span><span class="w"> </span><span class="err">*否则，请下载！</span><span class="w">  </span><span class="err">*</span><span class="w"> </span><span class="err">/</span><span class="w"></span>
+<span class="w">    </span><span class="err">url（“</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">...</span><span class="w"> </span><span class="err">a.server</span><span class="w"> </span><span class="err">/</span><span class="w"> </span><span class="err">fonts</span><span class="w"> </span><span class="err">/</span><span class="w"> </span><span class="err">DankMono.woff”）</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="nt">代码</span><span class="p">{</span>
-  <span class="err">字体家族：“</span> <span class="err">Dank</span> <span class="err">Mono”，system-ui-monospace；</span>
-<span class="p">}</span>
+<span class="nt">代码</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">字体家族：“</span><span class="w"> </span><span class="err">Dank</span><span class="w"> </span><span class="err">Mono”，system-ui-monospace；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>感谢Adam Argyle分享此建议和 <a href="https://codepen.io/argyleink/pen/VwYJpgR">demo</a>.</p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="add-line-height-to-body">Add <code>line-height</code> to <code>body</code><a class="headerlink" href="#add-line-height-to-body" title="Permanent link">&para;</a></h3>
 <p>您不需要在每个<code>中添加</code>line-height<code>&lt;p&gt;</code>，<code>&lt;h*&gt;</code>，等. 分别. 相反，将其添加到<code>body</code>中：</p>
-<div class="codehilite"><pre><span></span><span class="nt">身体</span> <span class="p">{</span>
-  <span class="err">行高：1.5；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">身体</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">行高：1.5；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>这样，文本元素可以轻松地从<code>body</code>继承.</p>
@@ -7455,43 +7455,43 @@
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="set-focus-for-form-elements">Set <code>:focus</code> for Form Elements<a class="headerlink" href="#set-focus-for-form-elements" title="Permanent link">&para;</a></h3>
 <p>视觉键盘用户依靠焦点来确定键盘事件在页面中的位置. 将焦点放在表单元素上并与浏览器的默认实现保持一致：</p>
-<div class="codehilite"><pre><span></span><span class="nt">a</span><span class="p">:</span><span class="nd">focus</span><span class="o">,</span>
-<span class="nt">button</span><span class="p">:</span><span class="nd">focus</span><span class="o">,</span>
-<span class="nt">input</span><span class="p">:</span><span class="nd">focus</span><span class="o">,</span>
-<span class="nt">select</span><span class="p">:</span><span class="nd">focus</span><span class="o">,</span>
-<span class="nt">textarea</span><span class="err">：</span><span class="nt">focus</span> <span class="p">{</span>
-  <span class="err">盒子阴影：无；</span>
-  <span class="k">outline</span><span class="p">:</span> <span class="mh">#000</span> <span class="kc">dotted</span> <span class="mi">2</span><span class="kt">px</span><span class="p">;</span>
-  <span class="err">轮廓偏移：.05em</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">a</span><span class="p">:</span><span class="nd">focus</span><span class="o">,</span><span class="w"></span>
+<span class="nt">button</span><span class="p">:</span><span class="nd">focus</span><span class="o">,</span><span class="w"></span>
+<span class="nt">input</span><span class="p">:</span><span class="nd">focus</span><span class="o">,</span><span class="w"></span>
+<span class="nt">select</span><span class="p">:</span><span class="nd">focus</span><span class="o">,</span><span class="w"></span>
+<span class="nt">textarea</span><span class="err">：</span><span class="nt">focus</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">盒子阴影：无；</span><span class="w"></span>
+<span class="w">  </span><span class="k">outline</span><span class="p">:</span><span class="w"> </span><span class="mh">#000</span><span class="w"> </span><span class="kc">dotted</span><span class="w"> </span><span class="mi">2</span><span class="kt">px</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">轮廓偏移：.05em</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <h4 id="demo_4"><a href="https://codepen.io/AllThingsSmitty/pen/ePzoOP/">Demo</a><a class="headerlink" href="#demo_4" title="Permanent link">&para;</a></h4>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="vertically-center-anything">Vertically-Center Anything<a class="headerlink" href="#vertically-center-anything" title="Permanent link">&para;</a></h3>
 <p>不，这不是黑魔法，您确实可以使元素垂直居中. 您可以使用flexbox做到这一点...</p>
-<div class="codehilite"><pre><span></span><span class="nt">html</span><span class="o">,</span>
-<span class="nt">身体</span> <span class="p">{</span>
-  <span class="err">高度：100％</span><span class="p">;</span>
-  <span class="err">边距：0</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">html</span><span class="o">,</span><span class="w"></span>
+<span class="nt">身体</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">高度：100％</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">边距：0</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="nt">身体</span> <span class="p">{</span>
-  <span class="kp">-webkit-</span><span class="err">align-items：center</span><span class="p">;</span>
-  <span class="kp">-ms-</span><span class="err">flex-align：居中；</span>
-  <span class="err">align-items：居中</span><span class="p">;</span>
-  <span class="err">显示：</span><span class="kp">-webkit-</span><span class="err">flex</span><span class="p">;</span>
-  <span class="err">显示：flex</span><span class="p">;</span>
-<span class="p">}</span>
+<span class="nt">身体</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="kp">-webkit-</span><span class="err">align-items：center</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="kp">-ms-</span><span class="err">flex-align：居中；</span><span class="w"></span>
+<span class="w">  </span><span class="err">align-items：居中</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：</span><span class="kp">-webkit-</span><span class="err">flex</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：flex</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>...以及CSS Grid：</p>
-<div class="codehilite"><pre><span></span><span class="nt">身体</span> <span class="p">{</span>
-  <span class="err">显示：网格；</span>
-  <span class="err">高度：100vh；</span>
-  <span class="err">边距：0</span><span class="p">;</span>
-  <span class="err">地方项目：中心中心；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">身体</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：网格；</span><span class="w"></span>
+<span class="w">  </span><span class="err">高度：100vh；</span><span class="w"></span>
+<span class="w">  </span><span class="err">边距：0</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">地方项目：中心中心；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>想要以其他为中心吗？ 垂直，水平...什么都可以，随时随地？  CSS技巧有 <a href="https://css-tricks.com/centering-css-complete-guide/">a nice write-up</a> 在做所有这些.</p>
@@ -7500,54 +7500,54 @@
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="comma-separated-lists">Comma-Separated Lists<a class="headerlink" href="#comma-separated-lists" title="Permanent link">&para;</a></h3>
 <p>使列表项看起来像真实的逗号分隔列表：</p>
-<div class="codehilite"><pre><span></span><span class="nt">ul</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span> <span class="nt">li</span><span class="err">：</span><span class="nt">not</span><span class="err">（：</span><span class="nt">last-child</span><span class="err">）</span><span class="o">::</span> <span class="nt">after</span> <span class="p">{</span>
-  <span class="err">内容：“，”</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">ul</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span><span class="w"> </span><span class="nt">li</span><span class="err">：</span><span class="nt">not</span><span class="err">（：</span><span class="nt">last-child</span><span class="err">）</span><span class="o">::</span><span class="w"> </span><span class="nt">after</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">内容：“，”</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>使用<code>：not（）</code>伪类，不会在最后一项添加逗号.</p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="select-items-using-negative-nth-child">Select Items Using Negative <code>nth-child</code><a class="headerlink" href="#select-items-using-negative-nth-child" title="Permanent link">&para;</a></h3>
 <p>在CSS中使用负数nth-child来选择项1到n.</p>
-<div class="codehilite"><pre><span></span><span class="nt">li</span> <span class="p">{</span>
-  <span class="err">显示：无；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">li</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：无；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="o">/</span> <span class="o">*</span><span class="nt">选择项目1至3并显示它们</span><span class="o">*</span> <span class="o">/</span>
-<span class="nt">li</span><span class="err">：</span><span class="nt">nth-</span><span class="err">​​</span><span class="nt">child</span><span class="err">（</span><span class="nt">-n</span> <span class="o">+</span> <span class="nt">3</span><span class="err">）</span><span class="p">{</span>
-  <span class="err">显示：块；</span>
-<span class="p">}</span>
+<span class="o">/</span><span class="w"> </span><span class="o">*</span><span class="nt">选择项目1至3并显示它们</span><span class="o">*</span><span class="w"> </span><span class="o">/</span><span class="w"></span>
+<span class="nt">li</span><span class="err">：</span><span class="nt">nth-</span><span class="err">​​</span><span class="nt">child</span><span class="err">（</span><span class="nt">-n</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nt">3</span><span class="err">）</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：块；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>或者，因为您已经学到了一些 <a href="#use-not-to-applyunapply-borders-on-navigation">using <code>:not()</code></a>，尝试：</p>
-<div class="codehilite"><pre><span></span><span class="o">/</span> <span class="o">*</span><span class="nt">选择前三个项目以外的所有项目并显示它们</span><span class="o">*</span> <span class="o">/</span>
-<span class="nt">li</span><span class="err">：</span><span class="nt">not</span><span class="err">（：</span><span class="nt">nth-</span><span class="err">​​</span><span class="nt">child</span><span class="err">（</span><span class="nt">-n</span> <span class="o">+</span> <span class="nt">3</span><span class="err">））</span><span class="p">{</span>
-  <span class="err">显示：块；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="o">/</span><span class="w"> </span><span class="o">*</span><span class="nt">选择前三个项目以外的所有项目并显示它们</span><span class="o">*</span><span class="w"> </span><span class="o">/</span><span class="w"></span>
+<span class="nt">li</span><span class="err">：</span><span class="nt">not</span><span class="err">（：</span><span class="nt">nth-</span><span class="err">​​</span><span class="nt">child</span><span class="err">（</span><span class="nt">-n</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nt">3</span><span class="err">））</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：块；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <h4 id="demo_6"><a href="http://codepen.io/AllThingsSmitty/pen/WxjKZp">Demo</a><a class="headerlink" href="#demo_6" title="Permanent link">&para;</a></h4>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="use-svg-for-icons">Use SVG for Icons<a class="headerlink" href="#use-svg-for-icons" title="Permanent link">&para;</a></h3>
 <p>没有理由不对图标使用SVG：</p>
-<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">商标</span> <span class="p">{</span>
-  <span class="err">背景：url（“</span> <span class="err">logo.svg”）</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">商标</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">背景：url（“</span><span class="w"> </span><span class="err">logo.svg”）</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>SVG可以很好地适应所有分辨率类型，并且在所有浏览器中均受支持 <a href="http://caniuse.com/#search=svg">back to IE9</a> . 抛弃您的.png，.jpg或.gif-jif-whatev文件.</p>
 <p><strong>注意：</strong>如果您为有视力的用户提供仅SVG图标的按钮，而SVG无法加载，这将有助于维持可访问性：</p>
-<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">no-svg</span> <span class="p">.</span><span class="nc">icon-only</span> <span class="p">::</span><span class="nd">之后</span><span class="p">{</span>
-  <span class="err">内容：attr（aria-label）</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">no-svg</span><span class="w"> </span><span class="p">.</span><span class="nc">icon-only</span><span class="w"> </span><span class="p">::</span><span class="nd">之后</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">内容：attr（aria-label）</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="use-the-lobotomized-owl-selector">Use the "Lobotomized Owl" Selector<a class="headerlink" href="#use-the-lobotomized-owl-selector" title="Permanent link">&para;</a></h3>
 <p>它可能有一个奇怪的名字，但是将通用选择器（<code>*</code>）与相邻的兄弟选择器（<code>+</code>）结合使用可以提供强大的CSS功能：</p>
-<div class="codehilite"><pre><span></span><span class="o">*</span> <span class="o">+</span> <span class="o">*</span> <span class="p">{</span>
-  <span class="err">上边距：1.5em</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="o">*</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">上边距：1.5em</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>在此示例中，文档流中所有其他元素之后的所有元素都将收到“ margin-top：1.5em”.</p>
@@ -7556,25 +7556,25 @@
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="use-max-height-for-pure-css-sliders">Use <code>max-height</code> for Pure CSS Sliders<a class="headerlink" href="#use-max-height-for-pure-css-sliders" title="Permanent link">&para;</a></h3>
 <p>使用<code>max-height</code>实现仅CSS滑块，并隐藏溢出：</p>
-<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">slider</span> <span class="p">{</span>
-  <span class="err">max-height：200像素；</span>
-  <span class="err">溢出y：隐藏；</span>
-  <span class="err">宽度：300像素；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">slider</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">max-height：200像素；</span><span class="w"></span>
+<span class="w">  </span><span class="err">溢出y：隐藏；</span><span class="w"></span>
+<span class="w">  </span><span class="err">宽度：300像素；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="p">.</span><span class="nc">slider</span><span class="err">：</span><span class="nt">hover</span> <span class="p">{</span>
-  <span class="err">最大高度：600px；</span>
-  <span class="k">overflow-y</span><span class="p">:</span> <span class="kc">scroll</span><span class="p">;</span>
-<span class="p">}</span>
+<span class="p">.</span><span class="nc">slider</span><span class="err">：</span><span class="nt">hover</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">最大高度：600px；</span><span class="w"></span>
+<span class="w">  </span><span class="k">overflow-y</span><span class="p">:</span><span class="w"> </span><span class="kc">scroll</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>该元素在悬停时扩展为“ max-height”值，并且由于溢出而显示滑块.</p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="equal-width-table-cells">Equal-Width Table Cells<a class="headerlink" href="#equal-width-table-cells" title="Permanent link">&para;</a></h3>
 <p>使用表格可能会很痛苦. 尝试使用“ table-layout：fixed”将单元保持相等的宽度：</p>
-<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">calendar</span> <span class="p">{</span>
-  <span class="err">表格布局：固定；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">calendar</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">表格布局：固定；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>无痛的桌子布局.</p>
@@ -7582,23 +7582,23 @@
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="get-rid-of-margin-hacks-with-flexbox">Get Rid of Margin Hacks With Flexbox<a class="headerlink" href="#get-rid-of-margin-hacks-with-flexbox" title="Permanent link">&para;</a></h3>
 <p>使用列装订线时，可以通过使用flexbox的<code>space-between</code>属性来摆脱<code>nth-</code>，<code>first-</code>和<code>last-child</code>的黑客：</p>
-<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">list</span> <span class="p">{</span>
-  <span class="err">显示：flex</span><span class="p">;</span>
-  <span class="err">证明内容：间隔；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">list</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：flex</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">证明内容：间隔；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="p">.</span><span class="nc">list</span> <span class="p">.</span><span class="nc">person</span> <span class="p">{</span>
-  <span class="err">弹性基础：23％</span><span class="p">;</span>
-<span class="p">}</span>
+<span class="p">.</span><span class="nc">list</span><span class="w"> </span><span class="p">.</span><span class="nc">person</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">弹性基础：23％</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>现在，列装订线始终显示为均匀间隔.</p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="use-attribute-selectors-with-empty-links">Use Attribute Selectors with Empty Links<a class="headerlink" href="#use-attribute-selectors-with-empty-links" title="Permanent link">&para;</a></h3>
 <p>当<code>&lt;a&gt;</code>元素没有文本值，但<code>href</code>属性具有</a>链接时，显示链接<a>：</a></p>
-<div class="codehilite"><pre><span></span><span class="nt">a</span> <span class="o">[</span><span class="nt">href</span> <span class="o">^</span> <span class="o">=</span><span class="err">“</span> <span class="nt">http</span><span class="err">”</span><span class="o">]</span><span class="err">：</span><span class="nt">空</span><span class="p">::</span><span class="nd">之前</span><span class="p">{</span>
-  <span class="err">内容：attr（href）</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">a</span><span class="w"> </span><span class="o">[</span><span class="nt">href</span><span class="w"> </span><span class="o">^</span><span class="w"> </span><span class="o">=</span><span class="err">“</span><span class="w"> </span><span class="nt">http</span><span class="err">”</span><span class="o">]</span><span class="err">：</span><span class="nt">空</span><span class="p">::</span><span class="nd">之前</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">内容：attr（href）</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>那很方便.</p>
@@ -7606,30 +7606,30 @@
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="style-default-links">Style "Default" Links<a class="headerlink" href="#style-default-links" title="Permanent link">&para;</a></h3>
 <p>为“默认”链接添加样式：</p>
-<div class="codehilite"><pre><span></span><span class="nt">a</span> <span class="o">[</span><span class="nt">href</span><span class="o">]</span><span class="err">：</span><span class="nt">not</span><span class="err">（</span><span class="o">[</span><span class="nt">class</span><span class="o">]</span><span class="err">）</span><span class="p">{</span>
-  <span class="k">color</span><span class="p">:</span> <span class="mh">#008000</span><span class="p">;</span>
-  <span class="err">文字装饰：下划线；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">a</span><span class="w"> </span><span class="o">[</span><span class="nt">href</span><span class="o">]</span><span class="err">：</span><span class="nt">not</span><span class="err">（</span><span class="o">[</span><span class="nt">class</span><span class="o">]</span><span class="err">）</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#008000</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">文字装饰：下划线；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>现在，通过CMS插入的链接通常不具有“ class”属性，它们之间将具有区别，而不会普遍影响级联.</p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="intrinsic-ratio-boxes">Intrinsic Ratio Boxes<a class="headerlink" href="#intrinsic-ratio-boxes" title="Permanent link">&para;</a></h3>
 <p>要创建具有内在比率的框，您需要做的就是对div应用顶部或底部填充：</p>
-<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">容器</span> <span class="p">{</span>
-  <span class="err">高度：0；</span>
-  <span class="err">底部填充：20％；</span>
-  <span class="err">职位：相对</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">容器</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">高度：0；</span><span class="w"></span>
+<span class="w">  </span><span class="err">底部填充：20％；</span><span class="w"></span>
+<span class="w">  </span><span class="err">职位：相对</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="p">.</span><span class="nc">container</span> <span class="nt">div</span> <span class="p">{</span>
-  <span class="k">border</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span> <span class="kc">dashed</span> <span class="mh">#ddd</span><span class="p">;</span>
-  <span class="err">高度：100％</span><span class="p">;</span>
-  <span class="err">左：0；</span>
-  <span class="err">位置：绝对；</span>
-  <span class="err">最高：0</span><span class="p">;</span>
-  <span class="err">宽度：100％</span><span class="p">;</span>
-<span class="p">}</span>
+<span class="p">.</span><span class="nc">container</span><span class="w"> </span><span class="nt">div</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="k">border</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="kt">px</span><span class="w"> </span><span class="kc">dashed</span><span class="w"> </span><span class="mh">#ddd</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">高度：100％</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">左：0；</span><span class="w"></span>
+<span class="w">  </span><span class="err">位置：绝对；</span><span class="w"></span>
+<span class="w">  </span><span class="err">最高：0</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">宽度：100％</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>使用20％的填充使框的高度等于其宽度的20％. 无论视口的宽度如何，子div都将保持其宽高比（100％/ 20％= 5：1）.</p>
@@ -7637,108 +7637,108 @@
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="style-broken-images">Style Broken Images<a class="headerlink" href="#style-broken-images" title="Permanent link">&para;</a></h3>
 <p>只需一点CSS，就可以使破碎的图像更加美观.</p>
-<div class="codehilite"><pre><span></span><span class="nt">img</span> <span class="p">{</span>
-  <span class="err">显示：块；</span>
-  <span class="err">字体家族：sans-serif</span><span class="p">;</span>
-  <span class="err">字体粗细：300；</span>
-  <span class="err">高度：自动；</span>
-  <span class="err">行高：2；</span>
-  <span class="err">职位：相对</span>
-  <span class="err">文本对齐：居中；</span>
-  <span class="err">宽度：100％</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">img</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：块；</span><span class="w"></span>
+<span class="w">  </span><span class="err">字体家族：sans-serif</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">字体粗细：300；</span><span class="w"></span>
+<span class="w">  </span><span class="err">高度：自动；</span><span class="w"></span>
+<span class="w">  </span><span class="err">行高：2；</span><span class="w"></span>
+<span class="w">  </span><span class="err">职位：相对</span><span class="w"></span>
+<span class="w">  </span><span class="err">文本对齐：居中；</span><span class="w"></span>
+<span class="w">  </span><span class="err">宽度：100％</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>现在添加伪元素规则以显示用户消息和损坏图像的URL参考：</p>
-<div class="codehilite"><pre><span></span><span class="nt">img</span> <span class="p">::</span><span class="nd">之前</span><span class="p">{</span>
-  <span class="err">内容：“很抱歉，以下图片已损坏:(”</span><span class="p">;</span>
-  <span class="err">显示：块；</span>
-  <span class="err">底边距：10px</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">img</span><span class="w"> </span><span class="p">::</span><span class="nd">之前</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">内容：“很抱歉，以下图片已损坏:(”</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：块；</span><span class="w"></span>
+<span class="w">  </span><span class="err">底边距：10px</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="nt">img</span> <span class="p">::</span><span class="nd">之后</span><span class="p">{</span>
-  <span class="err">内容：“（URL：”</span> <span class="err">attr（src）“）”</span><span class="p">;</span>
-  <span class="err">显示：块；</span>
-  <span class="err">font-size：12px</span><span class="p">;</span>
-<span class="p">}</span>
+<span class="nt">img</span><span class="w"> </span><span class="p">::</span><span class="nd">之后</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">内容：“（URL：”</span><span class="w"> </span><span class="err">attr（src）“）”</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：块；</span><span class="w"></span>
+<span class="w">  </span><span class="err">font-size：12px</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>在中了解有关此样式的样式的更多信息 <a href="https://github.com/ireade/">Ire Aderinokun</a>'s <a href="http://bitsofco.de/styling-broken-images/">original post</a>.</p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="use-rem-for-global-sizing-use-em-for-local-sizing">Use <code>rem</code> for Global Sizing; Use <code>em</code> for Local Sizing<a class="headerlink" href="#use-rem-for-global-sizing-use-em-for-local-sizing" title="Permanent link">&para;</a></h3>
 <p>在根处设置基本字体大小（<code>html {font-size：100％;}</code>）之后，将文本元素的字体大小设置为<code>em</code>：</p>
-<div class="codehilite"><pre><span></span><span class="nt">h2</span> <span class="p">{</span>
-  <span class="err">字号：2em；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">h2</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">字号：2em；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="nt">p</span> <span class="p">{</span>
-  <span class="err">字号：1em；</span>
-<span class="p">}</span>
+<span class="nt">p</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">字号：1em；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>然后将模块的字体大小设置为<code>rem</code>：</p>
-<div class="codehilite"><pre><span></span><span class="nt">文章</span><span class="p">{</span>
-  <span class="err">font-size：1.25rem</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">文章</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">font-size：1.25rem</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 
-<span class="nt">除了</span><span class="p">.</span><span class="nc">module</span> <span class="p">{</span>
-  <span class="err">font-size：.9rem</span><span class="p">;</span>
-<span class="p">}</span>
+<span class="nt">除了</span><span class="p">.</span><span class="nc">module</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">font-size：.9rem</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>现在，每个模块都被分隔开了，更易于样式设计，更易于维护和灵活.</p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="hide-autoplay-videos-that-arent-muted">Hide Autoplay Videos That Aren't Muted<a class="headerlink" href="#hide-autoplay-videos-that-arent-muted" title="Permanent link">&para;</a></h3>
 <p>对于自定义用户样式表而言，这是一个绝妙的技巧. 避免使用户在加载页面时从视频中自动播放的视频中过载. 如果声音没有被静音，请不要显示视频：</p>
-<div class="codehilite"><pre><span></span><span class="nt">video</span> <span class="o">[</span><span class="nt">autoplay</span><span class="o">]</span><span class="err">：</span><span class="nt">not</span><span class="err">（</span><span class="o">[</span><span class="nt">muted</span><span class="o">]</span><span class="err">）</span><span class="p">{</span>
-  <span class="err">显示：无；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">video</span><span class="w"> </span><span class="o">[</span><span class="nt">autoplay</span><span class="o">]</span><span class="err">：</span><span class="nt">not</span><span class="err">（</span><span class="o">[</span><span class="nt">muted</span><span class="o">]</span><span class="err">）</span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：无；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>再一次，我们利用了 <a href="#use-not-to-applyunapply-borders-on-navigation"><code>:not()</code></a> 伪类.</p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="use-root-for-flexible-type">Use <code>:root</code> for Flexible Type<a class="headerlink" href="#use-root-for-flexible-type" title="Permanent link">&para;</a></h3>
 <p>响应式布局中的字体大小应能够随每个视口调整. 您可以使用<code>：root</code>根据视口的高度和宽度来计算字体大小：</p>
-<div class="codehilite"><pre><span></span><span class="err">：</span><span class="nt">根</span> <span class="p">{</span>
-  <span class="err">字体大小：calc（1vw</span> <span class="err">+</span> <span class="err">1vh</span> <span class="err">+</span> <span class="err">.5vmin）</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="err">：</span><span class="nt">根</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">字体大小：calc（1vw</span><span class="w"> </span><span class="err">+</span><span class="w"> </span><span class="err">1vh</span><span class="w"> </span><span class="err">+</span><span class="w"> </span><span class="err">.5vmin）</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>现在，您可以根据：root所计算出的值来利用root em单位：</p>
-<div class="codehilite"><pre><span></span><span class="nt">身体</span> <span class="p">{</span>
-  <span class="err">字体：1rem</span> <span class="err">/</span> <span class="err">1.6</span> <span class="err">sans-serif</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">身体</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">字体：1rem</span><span class="w"> </span><span class="err">/</span><span class="w"> </span><span class="err">1.6</span><span class="w"> </span><span class="err">sans-serif</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <h4 id="demo_11"><a href="http://codepen.io/AllThingsSmitty/pen/XKgOkR">Demo</a><a class="headerlink" href="#demo_11" title="Permanent link">&para;</a></h4>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="set-font-size-on-form-elements-for-a-better-mobile-experience">Set <code>font-size</code> on Form Elements for a Better Mobile Experience<a class="headerlink" href="#set-font-size-on-form-elements-for-a-better-mobile-experience" title="Permanent link">&para;</a></h3>
 <p>为了避免移动浏览器（iOS Safari等）在出现“<select>点击下拉菜单，在选择器规则中添加font-size：</p>
-<div class="codehilite"><pre><span></span><span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span><span class="o">],</span>
-<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&quot;number&quot;</span><span class="o">],</span>
-<span class="nt">select</span><span class="o">,</span>
-<span class="nt">textarea</span> <span class="p">{</span>
-  <span class="err">font-size：16px</span><span class="p">;</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span><span class="o">],</span><span class="w"></span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="s2">&quot;number&quot;</span><span class="o">],</span><span class="w"></span>
+<span class="nt">select</span><span class="o">,</span><span class="w"></span>
+<span class="nt">textarea</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">font-size：16px</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p><img alt="💃" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f483.svg" title=":dancer:" /></p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="use-pointer-events-to-control-mouse-events">Use Pointer Events to Control Mouse Events<a class="headerlink" href="#use-pointer-events-to-control-mouse-events" title="Permanent link">&para;</a></h3>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events">Pointer events</a> 允许您指定鼠标如何与它所触摸的元素交互. 例如，要禁用按钮上的默认指针事件：</p>
-<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">button-disabled</span> <span class="p">{</span>
-  <span class="err">不透明度：.5；</span>
-  <span class="err">指针事件：无；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="p">.</span><span class="nc">button-disabled</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">不透明度：.5；</span><span class="w"></span>
+<span class="w">  </span><span class="err">指针事件：无；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p>就这么简单.</p>
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>
 <h3 id="set-display-none-on-line-breaks-used-as-spacing">Set <code>display: none</code> on Line Breaks Used as Spacing<a class="headerlink" href="#set-display-none-on-line-breaks-used-as-spacing" title="Permanent link">&para;</a></h3>
 <p>As <a href="https://twitter.com/csswizardry/status/1170835532584235008">Harry Roberts pointed out</a>，这有助于防止CMS用户使用多余的换行符来分隔空格：</p>
-<div class="codehilite"><pre><span></span><span class="nt">br</span> <span class="o">+</span> <span class="nt">br</span> <span class="p">{</span>
-  <span class="err">显示：无；</span>
-<span class="p">}</span>
+<div class="codehilite"><pre><span></span><span class="nt">br</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nt">br</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="err">显示：无；</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </pre></div>
 
 <p><sup><a href="#table-of-contents">back to table of contents</a></sup></p>

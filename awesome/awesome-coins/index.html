@@ -6916,14 +6916,14 @@
 <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a>
 <a href="https://saythanks.io/to/kennethreitz"><img alt="Say Thanks!" src="https://img.shields.io/badge/SayThanks-!-1EAEDB.svg" /></a></p>
 <p>来自维基百科——
-&gt; 一 <a href="https://en.m.wikipedia.org/wiki/Cryptocurrency">cryptocurrency</a> 是一种数字资产，旨在用作使用密码学的交换媒介来保护交易并控制创建额外的货币单位.</p>
-<p>许多算法用于不同的加密货币. 本文档参考了加密货币中使用的算法，并提供了用于管理硬币的有用服务和实用程序的不错列表.</p>
+&gt; 一个 <a href="https://en.m.wikipedia.org/wiki/Cryptocurrency">cryptocurrency</a> 是一种数字资产，旨在作为一种交换媒介，使用加密技术来保护交易并控制额外货币单位的创建.</p>
+<p>许多算法用于不同的加密货币. 本文档引用了加密货币中使用的算法，并提供了一个很好的列表，列出了用于管理硬币的有用服务和实用程序.</p>
 <h2 id="so-before-we-begin">So, Before We Begin…<a class="headerlink" href="#so-before-we-begin" title="Permanent link">&para;</a></h2>
-<p>如果您不熟悉算法和数据结构，那么这种“硬币”的东西可能会令人困惑. 让我解释一下我目前所知道的——</p>
-<p>有很多很多 <a href="http://coinbin.org/coins">coins</a> . 人们喜欢 <a href="https://www.cryptopia.co.nz/Register?referrer=kennethreitz">trade</a> 它们，与股票或神奇宝贝卡不同. 人们也 <a href="https://www.nicehash.com/?refby=386829">mine</a> 他们，使用他们的家用电脑或专用硬件.</p>
-<p>硬币存储在钱包中，可以在线托管、在本地计算机上或在一张纸上.</p>
-<p>自己挖硬币很难，就像赌博一样，所以人们通常会选择加入一个矿池（通常使用 <code>stratum</code> 协议来协调）——这会奖励你的工作，即使你没有找到任何东西，因为你帮助成千上万的其他人做出了贡献，其中一些人确实找到了块. 然后根据池的规则拆分块.</p>
-<p>有些人 <a href="https://www.nicehash.com/?refby=386829">rent hashing power</a> 来自农场，要么玩“区块链彩票”，试图自己寻找硬币块，要么他们像典型的家庭矿工一样将农场指向游泳池——除了他们有非常高的计算能力可供他们使用，如果他们愿意为此付出代价.</p>
+<p>如果你不熟悉算法和数据结构，这个“硬币”的东西可能会让人困惑. 让我解释一下我目前所知道的——</p>
+<p>有很多很多 <a href="http://coinbin.org/coins">coins</a> . 人们喜欢 <a href="https://www.cryptopia.co.nz/Register?referrer=kennethreitz">trade</a> 它们，不像股票或神奇宝贝卡. 人们也 <a href="https://www.nicehash.com/?refby=386829">mine</a> 他们，使用他们的家用电脑或专用硬件.</p>
+<p>硬币存储在钱包中，可以在线托管、本地计算机或纸上托管.</p>
+<p>自己挖币很难，就像赌博一样，所以人们通常会选择加入矿池（通常使用 <code>stratum</code> 协议进行协调）——这会奖励你的工作，即使你没有找到任何东西，因为你帮助成千上万的其他人做出了贡献，其中一些人确实找到了障碍. 然后根据池的规则拆分块.</p>
+<p>有些人 <a href="https://www.nicehash.com/?refby=386829">rent hashing power</a> 来自农场，要么玩“区块链彩票”，试图自己找到硬币块，要么将农场指向一个矿池，就像一个典型的家庭矿工一样——除了他们拥有非常高的计算能力，如果他们愿意为此付费.</p>
 <p>希望这有助于澄清事情.</p>
 <h2 id="support-causes-you-care-about">☤ Support Causes You Care About<a class="headerlink" href="#support-causes-you-care-about" title="Permanent link">&para;</a></h2>
 <ul>
@@ -6935,7 +6935,7 @@
 </ul>
 <h2 id="coin-market-tools-utilities">☤ Coin Market Tools &amp; Utilities<a class="headerlink" href="#coin-market-tools-utilities" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong><a href="http://coinbin.org">Coinbin.org</a></strong> — 人性化的 API，用于快速获取硬币数据（汇率、预测等）<ul>
+<li><strong><a href="http://coinbin.org">Coinbin.org</a></strong> — 用于快速获取硬币数据（汇率、预测等）的人性化 API<ul>
 <li><a href="http://coinbin.org/coins">List of All Known Coins</a> <code>/硬币</code></li>
 <li><a href="http://coinbin.org/btc">BTC Current Value</a> <code>/比特币</code></li>
 <li><a href="http://coinbin.org/btc/history">BTC Daily Historical Value</a> <code>/btc/历史</code></li>
@@ -6946,18 +6946,18 @@
 </ul>
 </li>
 <li><a href="https://coinmarketcap.com">CoinMarketCap</a> — 在实时仪表板上显示所有货币.</li>
-<li><a href="https://coinscanner.co/">CoinScanner.co</a> — 为您提供从一种加密货币到另一种加密货币的多条贸易路线.</li>
+<li><del><a href="https://coinscanner.co/">CoinScanner.co</a> — 为您提供从一种加密货币到另一种加密货币的多条贸易路线.</del></li>
 <li><a href="https://thecoinperspective.com">The Coin Perspective</a> — 帮助您正确看待不同的硬币，比较市值、供应和价格.</li>
 </ul>
 <h2 id="reading-material">☤ Reading Material<a class="headerlink" href="#reading-material" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/kilimchoi/cryptocurrency">Overview of Cryptocurrencies</a> — GitHub 回购.</li>
-<li><a href="http://mapofcoins.com">Map of Coins</a> – 探索加密货币的可视化历史，从白皮书到现在.</li>
+<li><a href="http://mapofcoins.com">Map of Coins</a> – 探索加密货币的可视化历史，从它们的白皮书到现在.</li>
 <li><a href="http://diyhpl.us/~bryan/papers2/bitcoin/">A massive collection of white papers</a></li>
 <li><a href="https://github.com/bitcoinbook/bitcoinbook">Mastering Bitcoin</a> (ebook)</li>
 <li><a href="https://www.binance.vision">Binance Academy</a> — 币安提供的开放获取教育.</li>
 <li><a href="https://bitcoin.org/en/developer-reference">Bitcoin Developer Reference</a></li>
-<li><a href="https://github.com/anderson-joyle/blockchain-for-humans">Blockchain for humans</a> — 超简单的区块链解释（建设中）.</li>
+<li><a href="https://github.com/anderson-joyle/blockchain-for-humans">Blockchain for humans</a> — 超简化的区块链解释（建设中）.</li>
 <li><a href="https://www.reddit.com/r/CryptoCurrency/">r/CryptoCurrency</a> — 关于加密货币和加密资产的官方 subreddit.</li>
 <li><a href="https://golden.com/wiki/Cluster%3A_Blockchain_%26_cryptocurrency">Golden Cryptocurrency and Blockchain Cluster</a> - 一组关于加密货币和区块链的主题页面.</li>
 <li>出版物<ul>
@@ -6966,7 +6966,7 @@
 <li><a href="https://medium.com/crypto-oracle">CryptoOracle</a> / Lou Kerner</li>
 <li><a href="https://cryptocurrencyhub.io/">CryptoCurrencyHub</a></li>
 <li><a href="https://www.buildblockchain.tech/newsletter/issues/">Build Blockchain</a></li>
-<li>Hackernoon </li>
+<li>哈克农</li>
 <li><a href="https://hackernoon.com/blockchain/home">Blockchain</a></li>
 <li><a href="https://hackernoon.com/bitcoin/home">Bitcoin</a></li>
 <li><a href="https://medium.com/@coinandcrypto">Coin &amp; Crypto</a> </li>
@@ -6977,7 +6977,7 @@
 <h2 id="coin-mining-pools">☤ Coin Mining Pools<a class="headerlink" href="#coin-mining-pools" title="Permanent link">&para;</a></h2>
 <p>这是一个列表 <a href="https://whattomine.com">WhatToMine</a>.</p>
 <ul>
-<li><strong>#</strong>: <a href="https://www.nicehash.com/?refby=386829">https://www.nicehash.com/</a> — 挖掘任何算法（针对您的 GPU 进行了优化）并以 <strong>BTC</strong> 获得报酬.</li>
+<li><strong>#</strong>: <a href="https://www.nicehash.com/?refby=386829">https://www.nicehash.com/</a> — 挖掘任何算法（针对您的 GPU 进行了优化）并在 <strong>BTC</strong> 中获得报酬.</li>
 <li><strong> BTC </strong>：<a href="https://pool.bitcoin.com/">https://pool.bitcoin.com/</a></li>
 <li><strong> ETH </strong>：<a href="https://eth.nanopool.org/">https://eth.nanopool.org/</a></li>
 <li><strong>SC</strong>：<a href="https://sia.nanopool.org/">https://sia.nanopool.org/</a></li>
@@ -6991,13 +6991,13 @@
 </ul>
 <h2 id="hashing-power-for-rent">☤ Hashing Power for Rent<a class="headerlink" href="#hashing-power-for-rent" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://www.nicehash.com/?refby=386829">NiceHash</a> — 支持所有流行的算法，以<strong>BTC</strong> 支付原始吞吐量.</li>
-<li><a href="https://pool.bitcoin.com/index_en.html">Bitcoin.com Pool</a> ——我听说过好事.</li>
+<li><a href="https://www.nicehash.com/?refby=386829">NiceHash</a> — 支持所有流行的算法，以 <strong>BTC</strong> 支付原始吞吐量.</li>
+<li><a href="https://pool.bitcoin.com/index_en.html">Bitcoin.com Pool</a> ——我听说了好事.</li>
 <li><a href="https://bitmainwarranty.com/product-category/hosting/">BitMain Hosted</a> — 看起来复杂而粗略，但它们提供托管 ASIC 解决方案.</li>
 </ul>
 <h2 id="coin-wallets">☤ Coin Wallets<a class="headerlink" href="#coin-wallets" title="Permanent link">&para;</a></h2>
 <h3 id="hosted-coin-wallets">Hosted Coin Wallets<a class="headerlink" href="#hosted-coin-wallets" title="Permanent link">&para;</a></h3>
-<p><strong>注意：</strong> 硬币社区不赞成使用这些服务，因为您无法直接控制您的硬币——事实上，您根本不拥有它们——该服务确实如此——就像标准银行一样运作.</p>
+<p><strong>注意：</strong> 代币社区不赞成使用这些服务，因为您无法直接控制您的代币——事实上，您根本不拥有它们——服务拥有——就像标准银行一样运作.</p>
 <ul>
 <li><a href="https://www.coinbase.com/join/516f7e9a929bda3e06000001">Coinbase <strong>BTC</strong></a></li>
 <li><a href="https://www.coinbase.com/join/516f7e9a929bda3e06000001">Coinbase <strong>ETH</strong></a></li>
@@ -7019,15 +7019,15 @@
 <ul>
 <li><a href="https://siapaperwallet.co"><strong>Sia</strong> Paper Wallet</a></li>
 <li><a href="https://walletgenerator.net">WalletGenerator.net</a></li>
-<li><a href="https://cryptosteel.com">Cryptosteel</a> — 钢制！</li>
+<li><a href="https://cryptosteel.com">Cryptosteel</a> ——钢制的！</li>
 </ul>
 <h2 id="coin-exchanges">☤ Coin Exchanges<a class="headerlink" href="#coin-exchanges" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://www.binance.com">Binance</a> ——交换世界. </li>
-<li><a href="https://www.cryptopia.co.nz/Register?referrer=kennethreitz">Cryptopia</a> — 适用于所有货币的钱包，可与所有货币进行交易.</li>
-<li><a href="https://shapeshift.io/#/coins">Shapeshift</a> — 地球上最快的交换.</li>
-<li><a href="https://bittrex.com">Bittrex</a> — 适用于所有货币的钱包，可与所有货币进行交易.</li>
-<li><a href="https://qvolta.com">Qvolta</a> — 使用本地支付方式在全球范围内买卖加密资产.</li>
+<li><a href="https://www.binance.com">Binance</a> — 交换世界. </li>
+<li><a href="https://www.cryptopia.co.nz/Register?referrer=kennethreitz">Cryptopia</a> — 所有货币的钱包，与所有货币进行交易.</li>
+<li><a href="https://shapeshift.io/#/coins">Shapeshift</a> — 地球上最快的交易所.</li>
+<li><a href="https://bittrex.com">Bittrex</a> — 所有货币的钱包，与所有货币进行交易.</li>
+<li><a href="https://qvolta.com">Qvolta</a> — 以本地支付方式在世界各地买卖加密资产.</li>
 <li><a href="https://instaex.io">InstaEx</a> - 即时加密货币交换.</li>
 <li><a href="https://exchangerates.pro">ExchangeRates.Pro</a> — 全球交易所的价格比较，包括 P2P 市场.</li>
 </ul>
@@ -7050,14 +7050,14 @@
 <h2 id="macos-cli-apps">☤ MacOS CLI Apps<a class="headerlink" href="#macos-cli-apps" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="http://macminer.fabulouspanda.com/commandline/">bfgminer</a> — 用 C 语言编写的模块化 ASIC/FPGA 矿工，具有超频、监控、风扇速度控制和远程接口功能.</li>
-<li><a href="http://macminer.fabulouspanda.com/commandline/">cgminer</a> — 用于比特币的 C 语言 ASIC 和 FPGA 矿工.</li>
+<li><a href="http://macminer.fabulouspanda.com/commandline/">cgminer</a> — 用于比特币的 C 语言的 ASIC 和 FPGA 矿工.</li>
 <li><a href="http://macminer.fabulouspanda.com/commandline/">sgminer</a> - Scrypt GPU 矿工.</li>
 <li><a href="https://github.com/kozyilmaz/nheqminer-macos">nheqminer</a> — Equihash CPU 和 GPU 矿工.</li>
 </ul>
 <h2 id="recommended-hardware">☤ Recommended Hardware<a class="headerlink" href="#recommended-hardware" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="http://amzn.to/2wl1c9j">NVidia GTX 1080 TI OC</a> — 世界上最强大的消费级显卡.</li>
-<li><a href="http://amzn.to/2xadkYk">Asrock H110 Pro BTC+ Mining Motherboard</a> — 显然可以托管 12 个 PCI-E GPU.</li>
+<li><a href="http://amzn.to/2xadkYk">Asrock H110 Pro BTC+ Mining Motherboard</a> — 显然可以承载 12x PCI-E GPU.</li>
 </ul>
 <h2 id="cool-coinblockchain-stuff">☤ Cool Coin/Blockchain Stuff<a class="headerlink" href="#cool-coinblockchain-stuff" title="Permanent link">&para;</a></h2>
 <ul>
@@ -7066,48 +7066,48 @@
 <li><a href="http://bcoin.io">bcoin</a> — 比特币全节点实现完全用 Node.js 编写，您甚至可以在浏览器中运行，包括钱包、内存池、链和挖矿. </li>
 <li><a href="https://core.jochen-hoenicke.de/queue/#4d"><strong>BTC</strong> Mempol and Fee Explorer</a></li>
 <li><a href="https://www.tezos.com">Tezos</a> — 自愈区块链.</li>
-<li><a href="https://tendermint.com">Tendermint</a> — 任何编程语言中的拜占庭容错复制状态机.</li>
-<li><a href="https://cosmos.network">Cosmos</a> — 区块链之间互操作性的网络和框架.</li>
+<li><a href="https://tendermint.com">Tendermint</a> — 任何编程语言的拜占庭容错复制状态机.</li>
+<li><a href="https://cosmos.network">Cosmos</a> — 网络和区块链之间互操作性的框架.</li>
 <li><a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-August/010712.html">URI scheme for Blockchain exploration</a></li>
 <li><a href="https://blockply.com/">Blockply</a> — 最有趣、最优秀的区块链项目合集</li>
-<li><a href="https://github.com/anders94/blockchain-demo">Blockchain demo</a> — 基于 Web 的区块链概念演示.</li>
+<li><a href="https://github.com/anders94/blockchain-demo">Blockchain demo</a> — 基于网络的区块链概念演示.</li>
 </ul>
 <h2 id="algos-supported-by-nicehash-stratum-proxy">☤ Algos supported by <a href="https://www.nicehash.com/?refby=386829">NiceHash Stratum Proxy</a><a class="headerlink" href="#algos-supported-by-nicehash-stratum-proxy" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>Scrypt</code>（莱特币/<strong><a href="http://coinbin.org/ltc">LTC</a></strong>)</li>
-<li><code>SHA256</code>（比特币/<strong><a href="http://coinbin.org/btc">BTC</a></strong>)</li>
-<li><code>ScryptNF</code>（Scrypt-Adaptive-Nfactor）（GPU Coin，<strong> GPUC </strong>）</li>
-<li><code>X11</code>（Dash / Darkcoin、Dashcoin、ASIC-Resistant）</li>
+<li><code>Scrypt</code>（莱特币 / <strong><a href="http://coinbin.org/ltc">LTC</a></strong>)</li>
+<li><code>SHA256</code>（比特币 / <strong><a href="http://coinbin.org/btc">BTC</a></strong>)</li>
+<li><code>ScryptNF</code> (Scrypt-Adaptive-Nfactor) (GPU Coin, <strong> GPUC </strong>)</li>
+<li><code>X11</code>（Dash / Darkcoin，Dashcoin，ASIC-Resistant）</li>
 <li><code>X13</code> (MaruCoin / <strong>MARU</strong>) (CPU/GPU)</li>
 <li><code>Keccak</code> (MaxCoin / <strong>MAX</strong>)</li>
 <li><code>X15</code>（HTML5 硬币，<strong>HTML5</strong>）</li>
-<li><code>Nist5</code>（Talkcoin，<strong>TAC</strong>）</li>
-<li><code>NeoScrypt</code> (Phoenixcoin (<strong>PXC</strong>), Imperialcoin (<strong>IPC</strong>), Feathercoin (<strong>FTC</strong>), UFOcoin (<strong>UFO</strong>), Guncoin (<strong>GUN</strong>),宝莱坞币 (<strong>BDC</strong>)、轨道币 (<strong>ORB</strong>)、Halcyon (<strong>HAL</strong>))</li>
-<li><code>Lyra2RE</code>（VertCoin / <strong>VTC</strong>，CryptoCoin）</li>
+<li><code>Nist5</code> (Talkcoin, <strong>TAC</strong>)</li>
+<li><code>NeoScrypt</code> (Phoenixcoin (<strong>PXC</strong>), Imperialcoin (<strong>IPC</strong>), Feathercoin (<strong>FTC</strong>), UFOcoin (<strong>UFO</strong>), Guncoin (<strong>GUN</strong>),宝莱坞币 (<strong>BDC</strong>)、Orbitcoin (<strong>ORB</strong>)、Halcyon (<strong>HAL</strong>))</li>
+<li><code>Lyra2RE</code> (VertCoin / <strong>VTC</strong>, CryptoCoin)</li>
 <li><code>WhirlpoolX</code>（香草币 / <strong>VNL</strong>）</li>
-<li><code>Qubit</code>（QuibitCoin / <strong>Q2C</strong>）
--<code>夸克</code>（<strong>QRK</strong>）</li>
-<li><code>Axiom</code>（Axiom Coin / <strong>AXIOM</strong>）</li>
-<li><code>Lyra2REv2</code>（VertCoin / <strong>VTC</strong>）</li>
+<li><code>Qubit</code> (QuibitCoin / <strong>Q2C</strong>)</li>
+<li><code>夸克</code>（<strong>QRK</strong>）</li>
+<li><code>Axiom</code> (Axiom Coin / <strong>AXIOM</strong>)</li>
+<li><code>Lyra2REv2</code> (VertCoin / <strong>VTC</strong>)</li>
 <li><code>ScryptJaneNf16</code>（钻石/<strong> DMD </strong>）</li>
-<li><code>Blake256r8</code>（布莱克币/<strong>BLC</strong>）</li>
+<li><code>Blake256r8</code>（布莱克硬币 / <strong>BLC</strong>）</li>
 <li><code>Blake256r14</code>（布莱克硬币/<strong>BLC</strong>）</li>
-<li><code>Blake256r8vnl</code>（布莱克币/<strong>BLC</strong>）</li>
+<li><code>Blake256r8vnl</code>（布莱克硬币/<strong>BLC</strong>）</li>
 <li><code>Hodl</code>（HodlCoin / <strong> HODL </strong>）</li>
-<li><code>DaggerHashimoto</code>（以太坊/<strong>ETH</strong>）</li>
+<li><code>DaggerHashimoto</code>（以太坊 / <strong>ETH</strong>）</li>
 <li><code>Decred</code> (<strong> DCR </strong>)</li>
-<li><code>CryptoNight</code>（<strong>XCN</strong>，仅限 CPU）</li>
-<li><code>Lbry</code>（<strong> LBC </strong>）</li>
-<li><code>Equihash</code>（Zcash / <strong>XEC</strong>、ZClassic、<strong>HUSH</strong>、Komodo）
--<code>帕斯卡</code>（<strong> PASC </strong>）</li>
-<li><code>X11Gost</code> (SIBCoin / <strong>SIB</strong>)
--<code>让</code>（<strong> SC </strong>）</li>
-<li><code>Blake2</code>s（NevaCoin、Netko Coin、Verge、TajCoin）</li>
-<li><code>Skunk</code>（签名硬币/<strong>SIGT</strong>）</li>
+<li><code>CryptoNight</code> (<strong>XCN</strong>, CPU-only)</li>
+<li><code>Lbry</code> (<strong> LBC </strong>)</li>
+<li><code>Equihash</code> (Zcash / <strong>XEC</strong>, ZClassic, <strong>HUSH</strong>, Komodo)</li>
+<li><code>帕斯卡</code>（<strong> PASC </strong>）</li>
+<li><code>X11Gost</code>（SIBCoin / <strong>SIB</strong>）</li>
+<li><code>让</code>（<strong> SC </strong>）</li>
+<li><code>Blake2</code>s (NevaCoin, Netko Coin, Verge, TajCoin)</li>
+<li><code>臭鼬</code>（签名硬币/<strong>SIGT</strong>）</li>
 </ul>
 <p><a href="https://github.com/kennethreitz/awesome-coins/blob/master/other.md">(others)</a></p>
 <h2 id="every-active-coin-ranked">☤ Every Active Coin, Ranked<a class="headerlink" href="#every-active-coin-ranked" title="Permanent link">&para;</a></h2>
-<p>截至 2017-08-23：</p>
+<p>截至 2017 年 8 月 23 日：</p>
 <p><a href="https://coinbin.org/btc">btc</a>
 <a href="https://coinbin.org/eth">eth</a>
 <a href="https://coinbin.org/xrp">xrp</a>
@@ -7299,7 +7299,7 @@
 <a href="https://coinbin.org/cat">cat</a></p>
 <hr />
 <h2 id="find-this-useful">Find this useful?<a class="headerlink" href="#find-this-useful" title="Permanent link">&para;</a></h2>
-<p>如果您想为我在开源世界的努力捐款，您可以使用以下钱包地址，任何贡献（无论多小）都将深表感谢.</p>
+<p>如果您想为我在开源世界所做的努力捐款，您可以使用以下钱包地址，任何捐款（无论多小）都将不胜感激.</p>
 <ul>
 <li><strong><a href="http://coinbin.org/btc">BTC</a></strong>：<code>1Me2iXTJ91FYZhrGvaGaRDCBtnZ4KdxCug</code></li>
 <li><strong><a href="http://coinbin.org/eth">ETH</a></strong>：<code>0x1321Ec9c7550a7c44ef3e583930556c6557411d1</code></li>

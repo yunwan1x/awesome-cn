@@ -6629,211 +6629,227 @@
 </div>
 
 <h2 id="awesome-bitcoin-payment-processors">Awesome Bitcoin Payment Processors <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge-flat.svg" /></a><a class="headerlink" href="#awesome-bitcoin-payment-processors" title="Permanent link">&para;</a></h2>
-<p>精选的比特币支付处理器列表，使商家、企业和非营利组织能够接受比特币支付.</p>
-<p>为什么他们很棒？</p>
+<p>A curated list of awesome Bitcoin payment processors enabling merchants, businesses and nonprofits to accept Bitcoin payments.</p>
+<p>Why are they awesome?</p>
 <ol>
-<li>他们要么不受金融审查的影响，要么不实践.</li>
-<li>他们通过本地比特币地址接受比特币，不需要钱包来使用 <a href="https://blog.samouraiwallet.com/post/169222582782/bitpay-qr-codes-are-no-longer-valid-important">controversial payment protocol</a>.</li>
-<li>他们没有 <a href="https://twitter.com/alex_kaul/status/1090211252331208705">block payments by IPs/locations</a>.</li>
+<li>They are either immune to financial censorship or they don't practice it.</li>
+<li>They accept Bitcoin via native Bitcoin addresses and don't require wallets to use the <a href="https://blog.samouraiwallet.com/post/169222582782/bitpay-qr-codes-are-no-longer-valid-important">controversial payment protocol</a>.</li>
+<li>They don't <a href="https://twitter.com/alex_kaul/status/1090211252331208705">block payments by IPs/locations</a>.</li>
 </ol>
 <h2 id="self-hosted-bitcoin-payment-processors">Self-Hosted Bitcoin Payment Processors<a class="headerlink" href="#self-hosted-bitcoin-payment-processors" title="Permanent link">&para;</a></h2>
-<p>自托管支付处理器在您的服务器上运行，让您可以完全控制整个支付流程和资金. 没有第三方参与 - 这显着提高了您和您的客户的抗审查性、隐私性和安全性. </p>
+<p>Self-Hosted payment processors run on your server and provide you with a full control over the entire payment process and funds. There's no third-party involvement - that significantly increases the censorship-resistance, privacy, and security for you and your customers. </p>
 <table>
 <thead>
 <tr>
-<th>处理器</th>
-<th align="center">费用</th>
-<th align="center">闪电</th>
-<th align="center">直接发送到您的钱包</th>
-<th align="center">转换为菲亚特</th>
-<th>要求</th>
+<th>Processor</th>
+<th align="center">Fees</th>
+<th align="center">Lightning</th>
+<th align="center">Directly to Your Wallet</th>
+<th align="center">Conversion to Fiat</th>
+<th>Requirements</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><a href="https://btcpayserver.org/">BTCPay Server</a></td>
-<td align="center">不收费</td>
-<td align="center">是</td>
-<td align="center">是</td>
-<td align="center">通过 <a href="https://www.blockonomics.co/views/payment_forwarding.html">Payment Forwarding</a> 和 <a href="https://redbtc.org/flows/integrations/kraken-exchange/">Exchange Integration</a></td>
-<td>2 GB 内存、80 GB 存储、Docker</td>
+<td align="center">No fees</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">Via <a href="https://www.blockonomics.co/views/payment_forwarding.html">Payment Forwarding</a> and <a href="https://redbtc.org/flows/integrations/kraken-exchange/">Exchange Integration</a></td>
+<td>2 GB RAM, 80 GB Storage, Docker</td>
 </tr>
 <tr>
 <td><a href="https://github.com/alexk111/One-Time-Address">One Time Address</a></td>
-<td align="center">不收费</td>
-<td align="center">没有</td>
-<td align="center">是</td>
-<td align="center">没有</td>
+<td align="center">No fees</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
 <td>NodeJS</td>
 </tr>
 <tr>
 <td><a href="https://www.cryptowoo.com/">CryptoWoo</a></td>
-<td align="center">每年 $34 - $99</td>
-<td align="center">没有</td>
-<td align="center">是</td>
-<td align="center">没有</td>
-<td>PHP 5.6+，Wordpress 4.3+，WooCommerce 3.0+</td>
+<td align="center">$34 - $99 per year</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td>PHP 5.6+, Wordpress 4.3+, WooCommerce 3.0+</td>
 </tr>
 <tr>
 <td><a href="https://bitcartcc.com">BitcartCC</a></td>
-<td align="center">不收费</td>
-<td align="center">是</td>
-<td align="center">是</td>
-<td align="center">没有</td>
-<td>1 GB 内存、10 GB 存储、Docker</td>
+<td align="center">No fees</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td>1 GB RAM, 10 GB Storage, Docker</td>
 </tr>
 <tr>
 <td><a href="https://github.com/bumi/lnme">LnMe</a></td>
-<td align="center">不收费</td>
-<td align="center">是</td>
-<td align="center">是</td>
-<td align="center">没有</td>
-<td>LND 节点</td>
+<td align="center">No fees</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td>LND node</td>
 </tr>
 <tr>
 <td><a href="https://github.com/nickfarrow/SatSale">SatSale</a></td>
-<td align="center">不收费</td>
-<td align="center">是</td>
-<td align="center">是</td>
-<td align="center">没有</td>
-<td>一个比特币节点和 Python. 闪电节点和 Woocommerce 可选</td>
+<td align="center">No fees</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">Weakhands: <a href="https://github.com/nickfarrow/SatSale/blob/master/config.toml#L82">swap to USDT on Liquid</a>, no-KYC</td>
+<td>A Bitcoin node and Python. Lightning node &amp; Woocommerce optional</td>
 </tr>
 <tr>
 <td><a href="https://cypherpunkpay.org/">CypherpunkPay</a></td>
-<td align="center">不收费</td>
-<td align="center">没有</td>
-<td align="center">是</td>
-<td align="center">没有</td>
-<td>Linux (1GB 内存)</td>
+<td align="center">No fees</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td>Linux (1GB RAM)</td>
 </tr>
 </tbody>
 </table>
 <h2 id="hosted-bitcoin-payment-processors">Hosted Bitcoin Payment Processors<a class="headerlink" href="#hosted-bitcoin-payment-processors" title="Permanent link">&para;</a></h2>
-<p>托管支付处理器在其他人的服务器上运行. 这简化了初始设置过程，但减少了您对付款过程的控制量.</p>
+<p>Hosted payment processors run on someone else's server. This simplifies the initial setup process, but reduces the amount of control you have over the payment process.</p>
 <h3 id="non-custodial">Non-Custodial<a class="headerlink" href="#non-custodial" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
-<th>处理器</th>
-<th align="center">费用</th>
-<th align="center">闪电</th>
-<th align="center">直接发送到您的钱包</th>
-<th align="center">转换为菲亚特</th>
-<th>要求</th>
+<th>Processor</th>
+<th align="center">Fees</th>
+<th align="center">Lightning</th>
+<th align="center">Directly to Your Wallet</th>
+<th align="center">Conversion to Fiat</th>
+<th>Requirements</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><a href="https://www.blockonomics.co/merchants">Blockonomics</a></td>
 <td align="center">1%</td>
-<td align="center">没有</td>
-<td align="center">是</td>
-<td align="center">通过 <a href="https://www.blockonomics.co/views/payment_forwarding.html">Payment Forwarding</a></td>
-<td>没有</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td align="center">Via <a href="https://www.blockonomics.co/views/payment_forwarding.html">Payment Forwarding</a></td>
+<td>No</td>
 </tr>
 <tr>
 <td><a href="https://bittery.io/">Bittery.io</a></td>
-<td align="center">不收费</td>
-<td align="center">是</td>
-<td align="center">是</td>
-<td align="center">通过 <a href="https://www.blockonomics.co/views/payment_forwarding.html">Payment Forwarding</a> 和 <a href="https://redbtc.org/flows/integrations/kraken-exchange/">Exchange Integration</a></td>
-<td>没有</td>
+<td align="center">No fees</td>
+<td align="center">Yes</td>
+<td align="center">Yes</td>
+<td align="center">Via <a href="https://www.blockonomics.co/views/payment_forwarding.html">Payment Forwarding</a> and <a href="https://redbtc.org/flows/integrations/kraken-exchange/">Exchange Integration</a></td>
+<td>No</td>
 </tr>
 <tr>
 <td><a href="https://payscrypt.com/">Payscrypt</a></td>
-<td align="center">不收费</td>
-<td align="center">没有</td>
-<td align="center">是</td>
-<td align="center">没有</td>
-<td>没有</td>
+<td align="center">No fees</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td>No</td>
+</tr>
+<tr>
+<td><a href="https://bitrequest.io/">Bitrequest</a></td>
+<td align="center">No fees</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td>No</td>
 </tr>
 </tbody>
 </table>
 <h3 id="custodial">Custodial<a class="headerlink" href="#custodial" title="Permanent link">&para;</a></h3>
-<p>⚠ 以下处理器使用自己的钱包接收付款. 他们不仅收集有关付款的数据，而且可以完全控制资金.</p>
+<p>⚠ The following processors use their own wallets for receiving payments. They not only collect data about payments, they have full control over the funds.</p>
 <table>
 <thead>
 <tr>
-<th>处理器</th>
-<th align="center">费用</th>
-<th align="center">闪电</th>
-<th align="center">直接发送到您的钱包</th>
-<th align="center">转换为菲亚特</th>
-<th>要求</th>
+<th>Processor</th>
+<th align="center">Fees</th>
+<th align="center">Lightning</th>
+<th align="center">Directly to Your Wallet</th>
+<th align="center">Conversion to Fiat</th>
+<th>Requirements</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><a href="https://confirmo.net/">Confirmo</a></td>
 <td align="center">0.8%</td>
-<td align="center">没有</td>
-<td align="center">没有</td>
-<td align="center">是</td>
-<td>有关业务/网站的信息. 可能需要某些文件.</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td>Information about business / website. May require certain documents.</td>
 </tr>
 <tr>
 <td><a href="https://coingate.com/accept-bitcoin">CoinGate</a></td>
-<td align="center">1%（商家）+一些 <a href="https://support.coingate.com/en/109/why-does-coingate-charge-service-fee">variable service fee</a>  (客户)</td>
-<td align="center">是</td>
-<td align="center">没有</td>
-<td align="center">是</td>
-<td>需要 <a href="https://blog.coingate.com/2019/05/verify-merchant-account-faq">a lot of information and business documents</a> , 正式翻译成英文.</td>
+<td align="center">1% (merchant) + some <a href="https://support.coingate.com/en/109/why-does-coingate-charge-service-fee">variable service fee</a> (customer)</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td>Requires <a href="https://blog.coingate.com/2019/05/verify-merchant-account-faq">a lot of information and business documents</a>, officially translated in english.</td>
 </tr>
 <tr>
 <td><a href="https://www.coinpayments.net/">CoinPayments</a></td>
 <td align="center">0.5%</td>
-<td align="center">是</td>
-<td align="center">没有</td>
-<td align="center">没有</td>
-<td>取款时可能需要多种形式的身份证明，并需要结清任何未付金额.</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td>On withdrawal may require a number of forms of identification and will require settlement of any outstanding amounts.</td>
 </tr>
 <tr>
 <td><a href="https://globee.com/">GloBee</a></td>
-<td align="center">1%（最低 10 美元发票）</td>
-<td align="center">是</td>
-<td align="center">没有</td>
-<td align="center">通过 <a href="https://www.luno.com">Luno</a> 和 <a href="https://uphold.com/">Uphold</a></td>
-<td>有关业务/网站的信息. 可能需要某些文件.</td>
+<td align="center">1% ($10 min. invoice)</td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td align="center">Via <a href="https://www.luno.com">Luno</a> and <a href="https://uphold.com/">Uphold</a></td>
+<td>Information about business / website. May require certain documents.</td>
 </tr>
 <tr>
 <td><a href="https://www.opennode.co/">OpenNode</a></td>
 <td align="center">1%</td>
-<td align="center">是</td>
-<td align="center">没有</td>
-<td align="center">是</td>
-<td>需要 <a href="https://help.opennode.com/en/articles/3654899-kyc-and-kyb-requirements">KYC/KYB documents</a></td>
+<td align="center">Yes</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td>Requires <a href="https://help.opennode.com/en/articles/3654899-kyc-and-kyb-requirements">KYC/KYB documents</a></td>
 </tr>
 <tr>
 <td><a href="https://strike.acinq.co/">Strike</a></td>
 <td align="center">1%</td>
-<td align="center">只有</td>
-<td align="center">没有</td>
-<td align="center">没有</td>
-<td>对于公司，公司名称和实际地址.</td>
+<td align="center">Only</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td>For companies, the name of a company and a physical address.</td>
 </tr>
 <tr>
 <td><a href="https://coinremitter.com/">Coinremitter</a></td>
 <td align="center">0.23% + 0.0001</td>
-<td align="center">不不不不</td>
-<td align="center"></td>
-<td align="center"></td>
-<td></td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td>No</td>
 </tr>
 <tr>
 <td><a href="https://utrust.com/">Utrust</a></td>
 <td align="center">1%</td>
-<td align="center">没有</td>
-<td align="center">没有</td>
-<td align="center">是</td>
-<td>需要某些文件.</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Yes</td>
+<td>Require certain documents.</td>
 </tr>
 <tr>
 <td><a href="https://nowpayments.io/">NOWPayments</a></td>
 <td align="center">≤0.5%</td>
-<td align="center">没有</td>
-<td align="center">没有</td>
-<td align="center">没有</td>
-<td>KYC/AML 程序适用于某些客户、钱包地址和特定资产.</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td>KYC/AML procedure applied to certain clients, wallet addresses and select assets.</td>
+</tr>
+<tr>
+<td><a href="https://www.coinqvest.com/">COINQVEST</a></td>
+<td align="center">0.5-1%, <a href="https://www.coinqvest.com/en/pricing">Free to try</a></td>
+<td align="center">No</td>
+<td align="center">No</td>
+<td align="center">Yes (USD, EUR, ARS, BRL, NGN)</td>
+<td>Requires KYC verification.</td>
 </tr>
 </tbody>
 </table>
@@ -6848,7 +6864,7 @@
 <a href="https://mynode.alexkaul.com/gh-backer/top/7/profile"><img alt="Backer" src="https://mynode.alexkaul.com/gh-backer/top/7/avatar/60" /></a>
 <a href="https://mynode.alexkaul.com/gh-backer/top/8/profile"><img alt="Backer" src="https://mynode.alexkaul.com/gh-backer/top/8/avatar/60" /></a>
 <a href="https://mynode.alexkaul.com/gh-backer/top/9/profile"><img alt="Backer" src="https://mynode.alexkaul.com/gh-backer/top/9/avatar/60" /></a></p>
-<p>[<a href="https://mynode.alexkaul.com/gh-donate">Donate</a>] 谢谢您的支持！ </p>
+<p>[<a href="https://mynode.alexkaul.com/gh-donate">Donate</a>] Thank you for your support! 🙌</p>
                 
                   
                 

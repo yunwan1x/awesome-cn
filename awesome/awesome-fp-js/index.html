@@ -6908,235 +6908,236 @@
                 <div class="github-widget" data-repo="stoeffel/awesome-fp-js"></div>
 
 <h2 id="awesome-fp-js">Awesome FP JS <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a><a class="headerlink" href="#awesome-fp-js" title="Permanent link">&para;</a></h2>
-<p>这是一个很棒的精选列表 <a href="https://en.wikipedia.org/wiki/Functional_programming">functional programming</a>  JavaScript 的代码和学习资源. 作为一种多范式编程语言，JavaScript 可以用多种风格编写. 通过这些资源，我们希望帮助您更好地利用 JavaScript 支持以 <em>functional</em> 方式编写程序.</p>
-<p>函数式编程是一种 <a href="https://wiki.haskell.org/Functional_programming">style of programming</a> which models computations as the evaluation of expressions. Contrast this  with imperative programming where programs are composed of statements which change global state when executed. Functional programming typically avoids using mutable state and favors <em>side-effect free</em> functions and <em>immutable</em> data instead. This encourages writing composable and declarative programs that are easy to reason about.</p>
+<p>This is a curated list of awesome <a href="https://en.wikipedia.org/wiki/Functional_programming">functional programming</a> code and learning resources for JavaScript. As a multi-paradigm programming language, JavaScript can be written in many styles. With these resources we want to help you to make better use of JavaScript’s support for writing programs in a <em>functional</em> way.</p>
+<p>Functional programming is a <a href="https://wiki.haskell.org/Functional_programming">style of programming</a> which models computations as the evaluation of expressions. Contrast this  with imperative programming where programs are composed of statements which change global state when executed. Functional programming typically avoids using mutable state and favors <em>side-effect free</em> functions and <em>immutable</em> data instead. This encourages writing composable and declarative programs that are easy to reason about.</p>
 <h5 id="tags">Tags<a class="headerlink" href="#tags" title="Permanent link">&para;</a></h5>
-<p>这些可以附加到条目中. 每个都应以“+”或“-”开头，以指示标签含义的存在或不存在.  &quot;-&quot; 标签应该只在它们可能帮助某人根据他们的需要过滤库时才被包含在内. 例如，<code>-TS</code> 标签可能对 Typescript 用户筛选类型有用，但 <code>-CT</code> 标签不太可能对任何人都有帮助.</p>
+<p>These may be appended to entries.  Each should be preceded by a "+" or "-" to indicate presence or absence of the tag's meaning.  "-" tags should only be included when they are likely to help someone filter libraries for their needs.  For instance, <code>-TS</code> tags are probably useful for Typescript users screening for types, but <code>-CT</code> tags would be less likely to be helpful to anyone.</p>
 <ul>
-<li><strong>CT</strong>. 范畴论. 这个库似乎受到 Haskell、Scala 或其他以范畴论为基础的函数式语言库的启发.</li>
-<li><strong>TS</strong>. 打字稿. 这个库有打字稿类型.</li>
+<li><strong>CT</strong>.  Category Theory.  This library appears to be inspired by Haskell, Scala, or another functional language's library with a grounding in Category Theory.</li>
+<li><strong>TS</strong>.  Typescript.  This library has typescript types.</li>
 </ul>
 <h2 id="libraries">Libraries<a class="headerlink" href="#libraries" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/ramda/ramda">Ramda</a>  – 一个实用的 JavaScript 函数库，专为函数式编程风格而设计. 一种使创建功能管道变得容易且永不改变用户数据的样式.  +TS.</li>
-<li><a href="https://github.com/char0n/ramda-adjunct">Ramda Adjunct</a> 是 Ramda 的社区维护扩展.</li>
-<li><a href="https://github.com/tommmyy/ramda-extension">Ramda-extension</a> 是一组仅由 Ramda 函数组成的实用无点函数.</li>
-<li><a href="https://github.com/selfrefactor/rambda">Rambda</a> - 10kB 以下的 Ramda 的更快替代品.</li>
-<li><a href="https://github.com/selfrefactor/rambdax">Rambdax</a> - Rambda 的扩展版本</li>
-<li><a href="http://folktale.origamitower.com/">Folktale</a>  – 用于 JavaScript 函数式编程的标准库.  Typescript 支持预计在 2020 年中期.  -TS.</li>
-<li><a href="https://github.com/lodash/lodash/wiki/FP-Guide">lodash/fp</a> – 一个实例 <a href="https://github.com/lodash/lodash">Lodash</a> 其方法被包装以产生不可变的、自动柯里化的、迭代优先、数据最后的方法.  +TS.</li>
-<li><a href="http://functionaljs.com">functional.js</a> – 一个轻量级的函数式 JavaScript 库，可促进柯里化和无点/默认编程.</li>
-<li><a href="https://github.com/tjmehta/101">101</a>  – 一个现代和模块化的 JavaScript 实用程序库，可以很好地与普通 JavaScript 方法配合使用.  -TS</li>
-<li><a href="https://github.com/algesten/fnuc">fnuc</a> – CoffeeScript（和 JavaScript）的函数库，以促进函数组合和高阶函数.</li>
-<li><a href="https://github.com/cullophid/barely-functional">barely-functional</a>  – 使用原生 ES&#8538; 操作的小型 (2.7kb) 函数式编程库.  -TS.</li>
-<li><a href="https://github.com/zhangchiqing/bluebird-promisell">bluebird-promisell</a> - 一个实用的 promise 函数式编程库.</li>
-<li><a href="http://gkz.github.io/prelude-ls/">prelude.ls</a>  – 一个功能导向的实用程序库，有点基于 Haskell 的 Prelude 模块.  -TS.</li>
-<li><a href="https://github.com/alanrsoares/prelude-js">preludejs</a>  - JavaScript 的核心函数式编程.  -TS.</li>
-<li><a href="https://github.com/1-liners/1-liners">1-liners</a>  – 再简单不过的功能性工具. 一款简约实用的实用腰带，手工制作，充满爱与关怀.  -TS.</li>
-<li><a href="https://github.com/thunklife/fn-curry">fn-curry</a> – 一个简单的函数来柯里化一个函数.</li>
-<li><a href="https://github.com/thisables/curry">curry</a> – 使用函数绑定语法对您的函数进行柯里化.</li>
-<li><a href="https://github.com/stoeffel/compose-function">compose-function</a> – 由较小的函数组成一个新函数.</li>
-<li><a href="https://github.com/paldepind/functionize">functionize</a> – 有助于使非功能库发挥作用的功能集合.</li>
-<li><a href="https://github.com/loop-recur/lambdajs">lambdajs</a> – 完整的 ECMAScript API 以功能方式完成.</li>
-<li><a href="https://github.com/fp-dom/">fp-dom</a> – 使 DOM 具有功能性.</li>
-<li><a href="https://github.com/sultan99/react-on-lambda">react-on-lambda</a> - 用函数（柯里化、组合等）替换 React 中的 JSX. </li>
-<li><a href="https://github.com/algesten/trifl">trifl</a> – 具有单向数据流和虚拟 dom 的功能性用户界面库.</li>
-<li><a href="https://github.com/bramstein/funcy">funcy</a>  – 在 JavaScript 中添加功能模式匹配的实验.  <em>实验</em>：triangular_flag_on_post：</li>
-<li><a href="https://github.com/cullophid/date-fp">date-fp</a>  – 用于处理 JavaScript 日期的功能实用程序库.  date-fp 中的所有函数都是纯的、自动柯里化的，并且不会改变它们所应用的日期对象.</li>
-<li><a href="https://github.com/js-joda/js-joda">js-joda</a> – 一个不可变的日期和时间库，提供基于 ISO8601 日历的简单、域驱动和干净的 API.</li>
-<li><a href="https://github.com/AutoSponge/_part_">_part_</a> – 一个微型库，通过将本机方法作为部分应用函数提供来鼓励函数式编程.</li>
-<li><a href="https://github.com/robotlolita/claire">claire</a> – 基于属性的测试库，用于明确指定代码不变量和行为.</li>
-<li><a href="https://github.com/getify/fpo">FPO.js</a>  – Kyle Simpson（又名 getify）的 JavaScript FP 库. 支持命名参数样式方法.</li>
-<li><a href="https://github.com/d-plaindoux/parsec">Javascript Parser Combinator</a> – 受 Haskell 的 Parsec 启发的 Javascript 解析器组合器实现</li>
-<li><a href="https://github.com/rpominov/fun-task">fun-task</a>  – 在 JS 中管理异步代码的抽象. 任务与 Promise 类似，主要区别在于任务可以表示计算，而 Promise 只能表示计算的结果. 附带 Flow 类型定义.</li>
-<li><a href="https://github.com/cujojs/most">most</a> – 超高性能反应式编程，可帮助您在值和事件流上组合异步操作，而不会产生许多副作用和可变共享状态的危害.</li>
-<li><a href="https://github.com/joaomilho/zen-signals">zen-signals</a> – ☯ 最简单的信号库</li>
-<li><a href="https://github.com/funfix/funfix">funfix</a>  – Funfix 是 JavaScript、TypeScript 和 Flow 中函数式编程的类型类和数据类型库.  +CT，+TS.</li>
-<li><a href="https://github.com/trainyard/pico-lambda">pico-lambda</a>  - 数组、字符串和事物的功能方式. 基于本地方法的 640b 函数库.  -TS.</li>
-<li><a href="https://github.com/concretesolutions/pareto.js/">pareto-js</a> - 一个极小、直观且快速的 JavaScript 功能实用程序库 -TS.</li>
-<li><a href="https://github.com/TeaEntityLab/fpEs/">fpEs</a>  - 一个小型库，提供基本 FP 和模式匹配/和类型、MonadIO/Rx 和 Javascript Optional 的简单用法.  -TS.</li>
-<li><a href="http://blog.briancavalier.com/creed/">Creed</a>  – 具有高级功能的复杂且功能强大的异步：协程、promise、ES2015 可迭代对象、fantasy-land.  -TS.</li>
-<li><a href="https://github.com/samchon/tgrid">TGrid</a> - 网格计算框架、网络和线程扩展 <a href="https://github.com/samchon/tstl">TSTL</a> ，支持RFC（远程函数调用）.  +TS.</li>
-<li><a href="https://github.com/adobe/ferrum">Ferrum</a>  – 迭代器库，支持对象作为可迭代对象、延迟评估和<code>pipe()</code>； 在 JS 中实现 Traits（来自 Rust）/Type Classes（来自 Haskell）.  -TS.</li>
-<li><a href="https://gcanti.github.io/fp-ts/">fp-ts</a>  - TypeScript 中的类型化函数式编程.  +CT，+TS.</li>
-<li><a href="https://github.com/iter-tools/iter-tools">iter-tools</a>  - 用于处理同步和异步迭代的丰富工具集.  +TS.</li>
-<li><a href="https://remedajs.com/">remeda</a> 一个函数库大致是 Ramda 的子集，但用 Typescript 编写，因此对类型更友好.  +TS.</li>
-<li><a href="https://github.com/smartprocure/futil-js">futil-js</a> - 一系列功能实用程序，可以想象成为 lodash/fp 等库的一部分，但由于某种原因或其他原因，它们不是.</li>
-<li><a href="https://github.com/a-synchronous/rubico">rubico</a> - [a] 同步函数语法</li>
-<li><a href="https://github.com/darky/rocket-pipes">rocket-pipes</a>  - 强大的管道，从流行的 FP 库中链接 Promise 和 ADT，就像可能或要么.  +TS</li>
-<li><a href="https://github.com/Debdut/omg-curry">omg-curry</a> - 带有 Operator Curry、Curry from 函数、Decurry 和无限咖喱的综合 Curry 库.</li>
-<li><a href="https://github.com/TomerAberbach/lfi">lfi</a> - 一个支持同步、异步和并发迭代的延迟函数迭代库.</li>
-<li><a href="https://github.com/darky/ts-multimethod">ts-multimethod</a>  - 受 Clojure 多方法启发的 TypeScript 多方法.  +TS</li>
-<li><a href="https://github.com/darky/ts-fp-di">ts-fp-di</a>  - 微小的 TypeScript 函数依赖注入，基于 Node.js AsyncLocalStorage.  +TS</li>
-<li><a href="https://github.com/Effect-TS/core">effect-ts</a>  – 具有丰富标准库的成熟的打字稿功能效果系统.  +TS</li>
-<li><a href="https://github.com/tusharmath/qio">qio</a>  – 一种类型安全、功能性、高性能、合法、可组合的数据结构，解决了 node 和浏览器中效果全代码的实际问题.  +TS</li>
-<li><a href="https://github.com/mnasyrov/ditox">Ditox.js</a>  - 用于构建模块化应用程序的强大依赖注入容器.  +TS</li>
-<li><a href="https://github.com/mnasyrov/rx-effects">RxEffects</a>  - 使用 RxJS 进行响应式状态和效果管理.  +TS</li>
-<li><a href="https://github.com/marpple/FxTS">fxts</a>  - 懒惰的评估和并发.  +TS</li>
+<li><a href="https://github.com/ramda/ramda">Ramda</a> – A practical functional library for JavaScript that is designed specifically for a functional programming style. A style that makes it easy to create functional pipelines and never mutates user data. +TS.</li>
+<li><a href="https://github.com/char0n/ramda-adjunct">Ramda Adjunct</a> is a community-maintained extension of Ramda.</li>
+<li><a href="https://github.com/tommmyy/ramda-extension">Ramda-extension</a> is set of utility point-free functions composed only from Ramda functions.</li>
+<li><a href="https://github.com/selfrefactor/rambda">Rambda</a> - A faster alternative to Ramda in under 10kB.</li>
+<li><a href="https://github.com/selfrefactor/rambdax">Rambdax</a> - Extended version of Rambda</li>
+<li><a href="http://folktale.origamitower.com/">Folktale</a> – A standard library for functional programming in JavaScript. Typescript support expected mid-2020.  -TS.</li>
+<li><a href="https://github.com/lodash/lodash/wiki/FP-Guide">lodash/fp</a> – An instance of <a href="https://github.com/lodash/lodash">Lodash</a> with its methods wrapped to produce immutable, auto-curried, iteratee-first, data-last methods. +TS.</li>
+<li><a href="http://functionaljs.com">functional.js</a> – A lightweight functional JavaScript library that facilitates currying and point-free / tacit programming.</li>
+<li><a href="https://github.com/tjmehta/101">101</a> – A modern and modular JavaScript utility library made to work well with vanilla JavaScript methods.  -TS</li>
+<li><a href="https://github.com/algesten/fnuc">fnuc</a> – A functional library for CoffeeScript (and JavaScript) to facilitate functional composition and higher order functions.</li>
+<li><a href="https://github.com/cullophid/barely-functional">barely-functional</a> – A tiny (2.7kb) functional programming library using native ES&#8538; operations. -TS.</li>
+<li><a href="https://github.com/zhangchiqing/bluebird-promisell">bluebird-promisell</a> - A practical functional programming library for promises.</li>
+<li><a href="http://gkz.github.io/prelude-ls/">prelude.ls</a> – A functionally oriented utility library somewhat based off of Haskell's Prelude module. -TS.</li>
+<li><a href="https://github.com/alanrsoares/prelude-js">preludejs</a> - Hardcore Functional Programming for JavaScript. -TS.</li>
+<li><a href="https://github.com/1-liners/1-liners">1-liners</a> – Functional tools that couldn’t be simpler. A dead simple functional utility belt, hand-crafted with love and attention.  -TS.</li>
+<li><a href="https://github.com/thunklife/fn-curry">fn-curry</a> – A simple function to curry a function.</li>
+<li><a href="https://github.com/thisables/curry">curry</a> – Curry your functions using function bind syntax.</li>
+<li><a href="https://github.com/stoeffel/compose-function">compose-function</a> – Compose a new function from smaller functions.</li>
+<li><a href="https://github.com/paldepind/functionize">functionize</a> – A collection of functions which aid in making non-functional libraries functional.</li>
+<li><a href="https://github.com/loop-recur/lambdajs">lambdajs</a> – The full ECMAScript API done a functional way.</li>
+<li><a href="https://github.com/fp-dom/">fp-dom</a> – Making the DOM functional.</li>
+<li><a href="https://github.com/sultan99/react-on-lambda">react-on-lambda</a> - Replace JSX in React with functions (currying, compositions and etc). </li>
+<li><a href="https://github.com/algesten/trifl">trifl</a> – A functional user interface library with unidirectional dataflow and a virtual dom.</li>
+<li><a href="https://github.com/bramstein/funcy">funcy</a> – An experiment in adding functional pattern matching to JavaScript. <em>Experimental</em>  <img alt="🚩" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f6a9.svg" title=":triangular_flag_on_post:" /></li>
+<li><a href="https://github.com/cullophid/date-fp">date-fp</a> – A functional utility library for working with JavaScript dates. All functions in date-fp are pure, autocurried and will not mutate the date objects they are applied to.</li>
+<li><a href="https://github.com/js-joda/js-joda">js-joda</a> – An immutable date and time library that provides a simple, domain-driven and clean API based on the ISO8601 calendar.</li>
+<li><a href="https://github.com/AutoSponge/_part_">_part_</a> – A micro library that encourages functional programming by making native methods available as partially applied functions.</li>
+<li><a href="https://github.com/robotlolita/claire">claire</a> – A property-based testing library for clearly specifying code invariants and behaviour.</li>
+<li><a href="https://github.com/getify/fpo">FPO.js</a> – FP library for JavaScript by Kyle Simpson (aka getify). Supports named-argument style methods.</li>
+<li><a href="https://github.com/d-plaindoux/parsec">Javascript Parser Combinator</a> – Javascript parser combinator implementation inspired by the Haskell's Parsec</li>
+<li><a href="https://github.com/rpominov/fun-task">fun-task</a> – An abstraction for managing asynchronous code in JS. Tasks are similar to Promises with the key difference that Tasks can represent a computation while Promises can represent only the results of a computation. Ships with Flow type definitions.</li>
+<li><a href="https://github.com/cujojs/most">most</a> – Ultra-high performance reactive programming to help you compose asynchronous operations on streams of values and events without many of the hazards of side effects and mutable shared state.</li>
+<li><a href="https://github.com/joaomilho/zen-signals">zen-signals</a> – ☯ The simplest signal library possible</li>
+<li><a href="https://github.com/funfix/funfix">funfix</a> – Funfix is a library of type classes and data types for Functional Programming in JavaScript, TypeScript and Flow.  +CT, +TS.</li>
+<li><a href="https://github.com/trainyard/pico-lambda">pico-lambda</a> - Arrays, Strings and things the functional way. A 640b functional library based on native methods. -TS.</li>
+<li><a href="https://github.com/concretesolutions/pareto.js/">pareto-js</a> - An extremely small, intuitive and fast functional utility library for JavaScript -TS.</li>
+<li><a href="https://github.com/TeaEntityLab/fpEs/">fpEs</a> - A small library provides simple usages of basic FP &amp; pattern-matching/sumtype &amp; MonadIO/Rx &amp; Optional for Javascript. -TS.</li>
+<li><a href="http://blog.briancavalier.com/creed/">Creed</a> – Sophisticated and functionally-minded async with advanced features: coroutines, promises, ES2015 iterables, fantasy-land. -TS.</li>
+<li><a href="https://github.com/samchon/tgrid">TGrid</a> - Grid Computing Framework, Network &amp; Thread extension of <a href="https://github.com/samchon/tstl">TSTL</a><i>, supporting RFC (Remote Function Call).</i> <b>，支持RFC（远程函数调用）。</b> <i>+TS.</i> <b>+TS。</b></li>
+<li><a href="https://github.com/adobe/ferrum">Ferrum</a> – Iterator library with support for objects as iterables, lazy evaulation and<code>pipe()</code>; implements Traits (from Rust)/Type Classes (from Haskell) in JS. -TS.</li>
+<li><a href="https://gcanti.github.io/fp-ts/">fp-ts</a> - Typed functional programming in TypeScript. +CT, +TS.</li>
+<li><a href="https://github.com/iter-tools/iter-tools">iter-tools</a> - a rich toolset for working with iterables, both sync and async. +TS.</li>
+<li><a href="https://remedajs.com/">remeda</a> A function library roughly subsetting Ramda, but written in Typescript and thus more type-friendly. +TS.</li>
+<li><a href="https://github.com/smartprocure/futil-js">futil-js</a> - A collection of functional utilities that could conceivably be part of a library like lodash/fp, but for some reason or other are not.</li>
+<li><a href="https://github.com/a-synchronous/rubico">rubico</a> - 🏞 [a]synchronous functional syntax</li>
+<li><a href="https://github.com/darky/rocket-pipes">rocket-pipes</a> - Powerful pipes, that chain Promise and ADT like Maybe or Either from popular FP libraries. +TS</li>
+<li><a href="https://github.com/Debdut/omg-curry">omg-curry</a> - Comprehensive Curry Library with Operator Curry, Curry from functions, Decurry and Infifnite Curries.</li>
+<li><a href="https://github.com/TomerAberbach/lfi">lfi</a> - A Lazy Functional Iteration Library Supporting Sync, Async, and Concurrent Iteration.</li>
+<li><a href="https://github.com/darky/ts-multimethod">ts-multimethod</a> <i>- TypeScript multimethods inspired by Clojure multimethods.</i> <b>- 受 Clojure 多方法启发的 TypeScript 多方法。</b> <i>+TS</i> <b>+TS</b></li>
+<li><a href="https://github.com/darky/ts-fp-di">ts-fp-di</a> - Tiny TypeScript functional dependency injection, based on Node.js AsyncLocalStorage. +TS</li>
+<li><a href="https://github.com/Effect-TS/core">effect-ts</a> – A Fully-fledged functional effect system for typescript with a rich standard library. +TS</li>
+<li><a href="https://github.com/tusharmath/qio">qio</a> – A type-safe, functional, performant, lawful, composable data structure that solves practical problems of effect-full code in node and browser. +TS</li>
+<li><a href="https://github.com/mnasyrov/ditox">Ditox.js</a> - Powerful dependency injection container for building modular apps. +TS</li>
+<li><a href="https://github.com/mnasyrov/rx-effects">RxEffects</a> - Reactive state and effect management with RxJS. +TS</li>
+<li><a href="https://github.com/marpple/FxTS">fxts</a> - Lazy evaluation and concurrency. +TS</li>
+<li><a href="https://mobily.github.io/ts-belt/">ts-belt</a> - Fast, modern, and practical utility library for FP in TypeScript. (Uses a data-first approach like remeda, but is <a href="https://mobily.github.io/ts-belt/benchmarks/v3.7.0/macbook-air-2020">faster</a> than remeda, ramda, rambda, and lodash/fp.)</li>
 </ul>
 <h3 id="data-structures">Data Structures<a class="headerlink" href="#data-structures" title="Permanent link">&para;</a></h3>
-<p>通过为任务使用正确的数据结构来编写高性能的功能代码.</p>
+<p>Write performant functional code by using the right data structures for the task.</p>
 <ul>
-<li><a href="https://github.com/aearly/icepick">Icepick</a> 将冻结的 JavaScript 对象视为持久不可变集合的实用程序</li>
-<li><a href="https://github.com/facebook/immutable-js">Immutable.js</a> – 不可变的持久数据集合.</li>
-<li><a href="https://github.com/mweststrate/immer">Immer</a>  – Immer 是一个基于写时复制机制的不可变状态的小包.  +TS.</li>
-<li><a href="https://github.com/swannodette/mori">Mori</a> – ClojureScript 的持久性数据结构和来自原生 JavaScript 的舒适 API 支持.</li>
-<li><a href="https://github.com/Yomguithereal/baobab">Baobab</a> – 带有游标的持久和可选的不可变数据树.</li>
-<li><a href="https://github.com/qiao/immutable-sequence.js">immutable-sequence.js</a> – 不可变序列在 JavaScript 中的高性能实现，基于 <a href="https://github.com/qiao/fingertree.js">Finger Trees</a>.</li>
-<li><a href="http://guigrpa.github.io/timm/">Timm</a> – 具有快速读取和可接受写入的不变性助手.</li>
-<li><a href="https://github.com/dtao/lazy.js">Lazy.js</a> – 一个在引擎盖下带有惰性引擎的实用程序库，它努力在尽可能灵活的同时尽可能少地工作.</li>
-<li><a href="https://github.com/ds300/derivablejs">DerivableJS</a>  – JavaScript 和 TypeScript 的功能反应状态.  DerivableJS 使您能够对状态位之间的相关性做出优雅的声明性声明.  +TS.</li>
-<li><a href="https://github.com/benji6/imlazy">imlazy</a> – 使用 ES2015 迭代协议创建和操作惰性迭代的库.</li>
-<li><a href="https://github.com/frptools/collectable">collectable</a>  – 用于现代 JavaScript 和 TypeScript 应用程序的超高性能不可变数据结构.  +TS.</li>
-<li><a href="https://github.com/funkia/list">List</a> - 具有全面功能 API 的极快的不可变列表.</li>
-<li><a href="https://github.com/emmanueltouzery/prelude.ts">prelude.ts</a>  - 不可变的持久集合、功能构造（例如 Option 和 Each ）以及组合器. 在 Typescript 中实现，但也支持 javascript.  +CT，+TS.</li>
-<li><a href="https://github.com/samchon/tstl">TSTL</a>  - C++ STL（标准模板库）在 TypeScript 中实现. 提供遵循函数式编程规则的 STL 容器、迭代器、算法和函子.  +TS.</li>
+<li><a href="https://github.com/aearly/icepick">Icepick</a> Utilities for treating frozen JavaScript objects as persistent immutable collections</li>
+<li><a href="https://github.com/facebook/immutable-js">Immutable.js</a> – Immutable persistent data collections.</li>
+<li><a href="https://github.com/mweststrate/immer">Immer</a> – Immer is a tiny package for immutable state based on copy-on-write mechanism. +TS.</li>
+<li><a href="https://github.com/swannodette/mori">Mori</a> – ClojureScript’s persistent data structures and supporting API from the comfort of vanilla JavaScript.</li>
+<li><a href="https://github.com/Yomguithereal/baobab">Baobab</a> – persistent and optionally immutable data tree with cursors.</li>
+<li><a href="https://github.com/qiao/immutable-sequence.js">immutable-sequence.js</a> –  High performance implementation of Immutable Sequence in JavaScript, based on <a href="https://github.com/qiao/fingertree.js">Finger Trees</a>.</li>
+<li><a href="http://guigrpa.github.io/timm/">Timm</a> – Immutability helpers with fast reads and acceptable writes.</li>
+<li><a href="https://github.com/dtao/lazy.js">Lazy.js</a> – A utility library with a lazy engine under the hood that strives to do as little work as possible while being as flexible as possible.</li>
+<li><a href="https://github.com/ds300/derivablejs">DerivableJS</a> – Functional Reactive State for JavaScript and TypeScript. DerivableJS enables you to make elegant declarative statements about how your bits of state are related. +TS.</li>
+<li><a href="https://github.com/benji6/imlazy">imlazy</a> – Library for creating and manipulating lazy iterables using the ES2015 iteration protocols.</li>
+<li><a href="https://github.com/frptools/collectable">collectable</a> – Super high-performance immutable data structures for modern JavaScript and TypeScript applications. +TS.</li>
+<li><a href="https://github.com/funkia/list">List</a> - An extremely fast immutable list with a comprehensive functional API.</li>
+<li><a href="https://github.com/emmanueltouzery/prelude.ts">prelude.ts</a> - Immutable persistent collections, functional constructs such as Option and Either, and combinators. Implemented in Typescript but supports javascript too.  +CT, +TS.</li>
+<li><a href="https://github.com/samchon/tstl">TSTL</a> - C++ STL (Standard Template Library) is implemented in TypeScript. STL Containers, iterators, algorithms and functors, that following functional programming rule, are provided. +TS.</li>
 </ul>
 <h3 id="algebraic-data-types">Algebraic Data Types<a class="headerlink" href="#algebraic-data-types" title="Permanent link">&para;</a></h3>
 <p>Use the laws of math instead of always reinventing your own thing. Algebraic!</p>
 <ul>
-<li><a href="https://github.com/fantasyland/fantasy-land">Fantasy Land</a> – 不是图书馆，而是图书馆要遵循的 Monad 法则的规范.</li>
-<li><a href="https://github.com/rpominov/static-land">Static Land</a> – 规范类似于 Fantasy Land，但基于静态方法而不是实例方法.</li>
-<li><a href="https://github.com/DrBoolean/immutable-ext">immutable-ext</a> - FantasyLand 扩展 <a href="https://github.com/facebook/immutable-js">Immutable.js</a>.</li>
-<li><a href="https://github.com/puffnfresh/daggy">daggy</a> – 用于创建标记构造函数的库.</li>
-<li><a href="https://github.com/plaid/sanctuary">Sanctuary</a>  – Sanctuary 使编写无需空检查的安全代码成为可能.  +CT，+TS.</li>
-<li><a href="http://cwmyers.github.io/monet.js/">monet.js</a>  – 一个通过提供丰富的 Monad 和其他有用函数来辅助函数式编程的库.  +CT，+TS.</li>
-<li><a href="https://github.com/paldepind/union-type">union-type</a> – 用于定义和使用联合类型的小型 JavaScript 库.</li>
-<li><a href="https://github.com/DrBoolean/freeky">freeky</a> – 一组免费的 monad.</li>
-<li><a href="https://github.com/Avaq/Fluture">Fluture</a> – 包含控制实用程序、高性能和大量错误消息的 Future 库.</li>
-<li><a href="https://github.com/fantasyland/fantasy-combinators">fantasy-combinators</a> – 常见的组合器.</li>
-<li><a href="https://github.com/fantasyland/fantasy-birds">fantasy-birds</a>  – Haskell 包 Data.Aviary.Birds 的端口. 一切满足您的组合需求.</li>
-<li><a href="https://github.com/evilsoft/crocks">crocks</a>  – 一组流行的代数数据类型，其主要目标不仅是管理和提供每种类型之间的通用接口，还包括启动运行所需的所有辅助函数.  -TS.</li>
-<li><a href="https://github.com/blitzritz/kudojs">kudo-js</a> - 带有一组代数数据类型和辅助函数的小型实用程序库，可帮助您在 Javascript 中以函数式编程风格编写代码</li>
+<li><a href="https://github.com/fantasyland/fantasy-land">Fantasy Land</a> – Not a library, but a specification of the Monad laws for libraries to follow.</li>
+<li><a href="https://github.com/rpominov/static-land">Static Land</a> – Specification similar to Fantasy Land but based on static methods rather than instance methods.</li>
+<li><a href="https://github.com/DrBoolean/immutable-ext">immutable-ext</a> – FantasyLand extensions for <a href="https://github.com/facebook/immutable-js">Immutable.js</a>.</li>
+<li><a href="https://github.com/puffnfresh/daggy">daggy</a> – Library for creating tagged constructors.</li>
+<li><a href="https://github.com/plaid/sanctuary">Sanctuary</a> – Sanctuary makes it possible to write safe code without null checks.  +CT, +TS.</li>
+<li><a href="http://cwmyers.github.io/monet.js/">monet.js</a> – A library that assists functional programming by providing a rich set of Monads and other useful functions.  +CT, +TS.</li>
+<li><a href="https://github.com/paldepind/union-type">union-type</a> – A small JavaScript library for defining and using union types.</li>
+<li><a href="https://github.com/DrBoolean/freeky">freeky</a> – A collection of Free monads.</li>
+<li><a href="https://github.com/Avaq/Fluture">Fluture</a> – A Future library with included control utilities, high performance and great error messages.</li>
+<li><a href="https://github.com/fantasyland/fantasy-combinators">fantasy-combinators</a> – Common combinators.</li>
+<li><a href="https://github.com/fantasyland/fantasy-birds">fantasy-birds</a> – Port of the Haskell package Data.Aviary.Birds. Everything for your combinatory needs.</li>
+<li><a href="https://github.com/evilsoft/crocks">crocks</a> – A collection of popular Algebraic Data Types with the main goal to curate and provide not only a common interface between each type, but also all of the helper functions needed to hit the ground running. -TS.</li>
+<li><a href="https://github.com/blitzritz/kudojs">kudo-js</a> - A small utility library with a set of Algebraic Data Types and Helper functions to help you write code in a functional programming style in Javascript</li>
 <li><a href="https://github.com/gigobyte/purify">purify</a> - Functional programming library for TypeScript focusing on ADTs.  +CT, +TS.</li>
-<li><a href="https://github.com/joelnet/MojiScript">MojiScript</a>- 一种异步优先、自以为是的函数式语言，旨在与 JavaScript 引擎 100% 兼容</li>
-<li><a href="https://github.com/rametta/pratica">Pratica</a>  - 小巧、简单、易用的 FP 数据类型，适用于需要快速交付可靠代码的务实和高效开发人员.  +CT，+TS.</li>
-<li><a href="https://github.com/mobily/tifi">Tifi</a>  - Tifi 是一个用于在 TypeScript 中进行函数式编程的库. 它解决了<code>undefined</code>和<code>null</code>都存在的问题.  Tifi 的灵感来自用于选项数据类型的 OCaml/Reason 实用程序.  +CT，+TS.</li>
+<li><a href="https://github.com/joelnet/MojiScript">MojiScript</a>- an async-first, opinionated, and functional language designed to have 100% compatibility with JavaScript engines</li>
+<li><a href="https://github.com/rametta/pratica">Pratica</a> - Small, simple, easy FP data types for pragmatic and productive developers who need to ship reliable code fast.  +CT, +TS.</li>
+<li><a href="https://github.com/mobily/tifi">Tifi</a> - Tifi is a library for functional programming in TypeScript. It solves a problem of the existence of both <code>undefined</code> and <code>null</code>. Tifi is inspired by the OCaml/Reason utilities for the option data type. +CT, +TS.</li>
 </ul>
 <h3 id="lenses">Lenses<a class="headerlink" href="#lenses" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/DrBoolean/lenses">lenses</a> – 可组合 <a href="https://github.com/ekmett/lens">kmett</a> 风格镜片.</li>
-<li><a href="https://github.com/flunc/optics">optics</a> – Profunctor 光学（透镜、棱镜、iso）.</li>
-<li><a href="https://github.com/ramda/ramda-lens">ramda-lens</a> – <img alt="🐏" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f40f.svg" title=":ram:" /> :mag_right：基于 Ramda 构建的 Lens 库.</li>
-<li><a href="https://github.com/fantasyland/fantasy-lenses">fantasy-lenses</a>  – 可组合的、不可变的 getter 和 setter.  （Profunctor 镜头 WIP）</li>
-<li><a href="https://github.com/5outh/nanoscope">nanoscope</a> – 带有点状支撑的镜头.</li>
-<li><a href="https://github.com/calmm-js/partial.lenses">partial.lenses</a> – Partial lens 是一个全面的、高性能的 JavaScript 光学库.</li>
-<li><a href="https://github.com/jamesmcnamara/shades">shades</a> – 一个受 lodash 启发的类似镜头的 JavaScript 库.</li>
+<li><a href="https://github.com/DrBoolean/lenses">lenses</a> – Composable <a href="https://github.com/ekmett/lens">kmett</a> style lenses.</li>
+<li><a href="https://github.com/flunc/optics">optics</a> – Profunctor optics (Lens, Prism, iso).</li>
+<li><a href="https://github.com/ramda/ramda-lens">ramda-lens</a> – <img alt="🐏" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f40f.svg" title=":ram:" /> <img alt="🔎" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/1f50e.svg" title=":mag_right:" /> Lens library built on Ramda.</li>
+<li><a href="https://github.com/fantasyland/fantasy-lenses">fantasy-lenses</a> – Composable, immutable getters and setters. (Profunctor lenses WIP)</li>
+<li><a href="https://github.com/5outh/nanoscope">nanoscope</a> – Lenses with dotty support.</li>
+<li><a href="https://github.com/calmm-js/partial.lenses">partial.lenses</a> – Partial lenses is a comprehensive, high-performance optics library for JavaScript.</li>
+<li><a href="https://github.com/jamesmcnamara/shades">shades</a> – A lodash-inspired lens-like library for Javascript.</li>
 </ul>
 <h2 id="functional-languages-that-compile-to-javascript">Functional Languages that Compile to JavaScript<a class="headerlink" href="#functional-languages-that-compile-to-javascript" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/clojure/clojurescript">ClojureScript</a> – 编译 <a href="http://clojure.org/">Clojure</a>，一个具有不可变持久数据结构的托管 Lisp，到 JavaScript.</li>
-<li><a href="http://elm-lang.org/">Elm</a>  – 一种类型安全的函数式编程语言，用于声明性地创建基于 Web 浏览器的图形用户界面. 在 Haskell 中实现.</li>
-<li><a href="http://fable.io/">Fable</a> - 编译 <a href="http://fsharp.org">F#</a> 可读的 JavaScript.</li>
-<li><a href="http://www.purescript.org/">PureScript</a> – 一种可编译为 JavaScript 的小型强类型编程语言.</li>
-<li><a href="http://www.idris-lang.org/">Idris</a> – 具有依赖类型的通用纯函数式编程语言.</li>
-<li><a href="https://github.com/ghcjs/ghcjs">GHCJS</a> – <a href="https://www.haskell.org/">Haskell</a> 到基于 GHC 的 JavaScript 编译器.</li>
-<li><a href="https://github.com/bryanjos/elixirscript">ElixirScript</a> – 编译一个子集 <a href="http://elixir-lang.org/">Elixir</a>，一种动态的函数式语言，用于构建可扩展和可维护的应用程序，适用于 JavaScript.</li>
-<li><a href="http://ocsigen.org/js_of_ocaml/">Js_of_ocaml</a> – 编译 <a href="http://ocaml.org/">OCaml</a> 字节码转为 JavaScript，使得在浏览器中运行 OCaml 程序成为可能.</li>
-<li><a href="https://reasonml.github.io">Reason</a> – Reason 是 OCaml 的新接口，OCaml 是一种高度表达的 ML 语言方言，具有类型推断和静态类型检查功能.</li>
-<li><a href="https://rescript-lang.org/">ReScript</a> –（以前称为 <a href="https://rescript-lang.org/bucklescript-rebranding">Bucklescript</a>) ReScript 是一种类型安全的语言，可以编译为最高质量的干净、可读和高性能的 JavaScript 代码.</li>
-<li><a href="http://www.scala-js.org/">Scala.js</a> – 编译 <a href="http://www.scala-lang.org/">Scala</a> 到 JavaScript.</li>
-<li><a href="http://gkz.github.io/LiveScript/">LiveScript</a> – LiveScript 具有到 JavaScript 的直接映射，并允许您编写没有重复样板的富有表现力的代码.</li>
-<li><a href="https://github.com/quack/quack">Quack</a> - 一种多范式编程语言，具有针对 PHP 和 JS 的渐进式和鸭式类型.</li>
-<li><a href="https://github.com/ion-lang/ion">ion</a> - 没有 BS JS</li>
-<li><a href="https://github.com/yosbelms/ramdascript">RamdaScript</a> - 在 RamdaJS 之上编译为自以为是的 JavaScript 的 Lisp</li>
-<li><a href="https://github.com/vishesh/racketscript">RacketScript</a> – RacketScript 旨在利用 JavaScript 和 Racket 的生态系统，并使它们之间的互操作性清晰流畅.</li>
-<li><a href="https://www.microsoft.com/en-us/research/project/koka/">Koka</a> – Koka 是一种面向函数的编程语言，它使用类似于 JavaScript 的语法将纯值与副作用计算分开.</li>
-<li><a href="https://www.typescriptlang.org/">TypeScript</a> - TypeScript 是 JavaScript 的类型化超集，可编译为纯 JavaScript.</li>
-<li><a href="https://gleam.run">Gleam</a> - Gleam 是一种类型化的函数式语言，可编译为 Erlang 和 JavaScript.</li>
+<li><a href="https://github.com/clojure/clojurescript">ClojureScript</a> – Compiles <a href="http://clojure.org/">Clojure</a>, a hosted Lisp with immutable persistent data structures, to JavaScript.</li>
+<li><a href="http://elm-lang.org/">Elm</a> – A type-safe functional programming language for declaratively creating web browser-based graphical user interfaces. Implemented in Haskell.</li>
+<li><a href="http://fable.io/">Fable</a> - Compiles <a href="http://fsharp.org">F#</a> to readable JavaScript.</li>
+<li><a href="http://www.purescript.org/">PureScript</a> – A small strongly typed programming language that compiles to JavaScript.</li>
+<li><a href="http://www.idris-lang.org/">Idris</a> – A general purpose pure functional programming language with dependent types.</li>
+<li><a href="https://github.com/ghcjs/ghcjs">GHCJS</a> – <a href="https://www.haskell.org/">Haskell</a> to JavaScript compiler, based on GHC.</li>
+<li><a href="https://github.com/bryanjos/elixirscript">ElixirScript</a> – Compiles a subset of <a href="http://elixir-lang.org/">Elixir</a>, a dynamic, functional language designed for building scalable and maintainable applications, to JavaScript.</li>
+<li><a href="http://ocsigen.org/js_of_ocaml/">Js_of_ocaml</a> – Compiles <a href="http://ocaml.org/">OCaml</a> bytecode to JavaScript, making it possible to run OCaml programs in the browser.</li>
+<li><a href="https://reasonml.github.io">Reason</a> – Reason is a new interface to OCaml, a highly expressive dialect of the ML language featuring type inference and static type checking.</li>
+<li><a href="https://rescript-lang.org/">ReScript</a> – (previously known as <a href="https://rescript-lang.org/bucklescript-rebranding">Bucklescript</a>) ReScript is a type-safe language that compiles to the highest quality of clean, readable and performant JavaScript code.</li>
+<li><a href="http://www.scala-js.org/">Scala.js</a> – Compiles <a href="http://www.scala-lang.org/">Scala</a> to JavaScript.</li>
+<li><a href="http://gkz.github.io/LiveScript/">LiveScript</a> – LiveScript has a straightforward mapping to JavaScript and allows you to write expressive code devoid of repetitive boilerplate.</li>
+<li><a href="https://github.com/quack/quack">Quack</a> - A multi-paradigm programming language with gradual and duck typing that targets PHP and JS.</li>
+<li><a href="https://github.com/ion-lang/ion">ion</a> - no BS JS</li>
+<li><a href="https://github.com/yosbelms/ramdascript">RamdaScript</a> - A Lisp that compiles to opinionated JavaScript on top of RamdaJS</li>
+<li><a href="https://github.com/vishesh/racketscript">RacketScript</a> – RacketScript aims to leverage both JavaScript and Racket's ecosystem, and make interoperability between them clean and smooth.</li>
+<li><a href="https://www.microsoft.com/en-us/research/project/koka/">Koka</a> – Koka is a function-oriented programming language that seperates pure values from side-effecting computations with a familiar JavaScript like syntax.</li>
+<li><a href="https://www.typescriptlang.org/">TypeScript</a> - TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.</li>
+<li><a href="https://gleam.run">Gleam</a> - Gleam is a typed, functional language that compiles to Erlang and JavaScript.</li>
 </ul>
 <h2 id="programming-tools">Programming Tools<a class="headerlink" href="#programming-tools" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://github.com/jfmengels/eslint-plugin-fp">eslint-plugin-fp</a> - 函数式编程的 ESLint 规则</li>
-<li><a href="https://github.com/TylorS/4.5">4.5</a>  – 功能性断言库. 如果您更喜欢 JavaScript 中的函数式 API 和实践，这个库旨在通过惰性和 monadic 的面向函数的断言来解决这个问题.</li>
-<li><a href="https://github.com/xodio/hm-def">hm-def</a> – 使用 Hindley Milner 签名对 JS 进行运行时类型检查.</li>
-<li><a href="https://github.com/kongware/ftor">ftor</a> - 一个可插入的运行时类型检查器和功能调试工具，通过 Scott Encoding 支持参数和行多态性、隐式 rank-2 类型和代数数据类型.</li>
+<li><a href="https://github.com/jfmengels/eslint-plugin-fp">eslint-plugin-fp</a> - ESLint rules for functional programming</li>
+<li><a href="https://github.com/TylorS/4.5">4.5</a> – A functional assertions library. If you prefer functional style APIs and practices in JavaScript, this library aims to solve this with functionally-oriented assertions that are lazy and monadic.</li>
+<li><a href="https://github.com/xodio/hm-def">hm-def</a> – Runtime type checking for JS with Hindley Milner signatures.</li>
+<li><a href="https://github.com/kongware/ftor">ftor</a> - A pluggable runtime type checker and functional debugging tool that supports parametric and row polymorphism, implicit rank-2 types and algebraic data types via Scott Encoding.</li>
 </ul>
 <h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
 <h3 id="books">Books<a class="headerlink" href="#books" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/MostlyAdequate/mostly-adequate-guide">Professor Frisby’s Mostly Adequate Guide to Functional Programming</a>  – 这是一本关于一般使用世界上最流行的函数式编程语言：JavaScript 的函数式范式的书. 这是一个实用的介绍，通过现实世界的例子建立直觉. 强力推荐. 经过 <a href="https://twitter.com/drboolean">Brian Lonsdorf</a> (2016)</li>
-<li><a href="https://github.com/getify/functional-light-js">Functional-Light JavaScript</a>  – 本书探讨了可应用于 JavaScript 的函数式编程 (FP) 的核心原则. 但这本书的不同之处在于它在处理这些原则时没有使用所有繁重的术语.</li>
-<li><a href="https://leanpub.com/javascriptallongesix">JavaScript Allongé</a> ，“六”版. 从尽可能少的功能开始——但不能少！  – 并朝着强大的组合器和装饰器发展. 一本基础书. 经过 <a href="https://github.com/raganwald">Reginald  Braithwaite</a> (2016)</li>
-<li><a href="https://www.manning.com/books/functional-programming-in-javascript">Functional Programming in JavaScript</a> 教授 JavaScript 开发人员的功能技术，以提高可扩展性、模块化、可重用性、可测试性和性能. 本书通过具体的例子和通俗易懂的解释，教你如何将函数式编程应用到现实生活中的开发任务中. 作者：路易斯·阿滕西奥 (2016)</li>
-<li><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a> . 使用 JavaScript 进行编程的现代介绍. 作者：Marijn Haverbeke (2014)</li>
-<li><a href="http://shop.oreilly.com/product/0636920028857.do">Functional JavaScript</a> 教授如何使用 JavaScript 的函数式编程支持创建美观、安全且易于理解和测试的代码. 经过 <a href="https://github.com/fogus">Michael Fogus</a> (2013)</li>
-<li><a href="https://www.manning.com/books/grokking-simplicity">Grokking Simplicity</a> 从第一原则教授函数式编程. 它对所有代码示例使用 JavaScript，并使用真实场景. 经过 <a href="https://github.com/ericnormand">Eric Normand</a> (2019)</li>
-<li><a href="https://github.com/kongware/scriptum/blob/master/README.md">scriptum</a> - 一个简洁的函数式编程库和基于它的在线课程</li>
+<li><a href="https://github.com/MostlyAdequate/mostly-adequate-guide">Professor Frisby’s Mostly Adequate Guide to Functional Programming</a> – This is a book on the functional paradigm in general using the world’s most popular functional programming language: JavaScript. It’s a practical introduction that builds up intuition through real-world examples. Strongly recommended. By <a href="https://twitter.com/drboolean">Brian Lonsdorf</a> (2016)</li>
+<li><a href="https://github.com/getify/functional-light-js">Functional-Light JavaScript</a> – This book explores the core principles of functional programming (FP) that can be applied to JavaScript. But what makes this book different is that it approaches these principles without all the heavy terminology.</li>
+<li><a href="https://leanpub.com/javascriptallongesix">JavaScript Allongé</a>, the “Six” edition. Starts with as little as possible about functions – but no less! – and builds up towards powerful combinators and decorators. A foundational book. By <a href="https://github.com/raganwald">Reginald  Braithwaite</a> (2016)</li>
+<li><a href="https://www.manning.com/books/functional-programming-in-javascript">Functional Programming in JavaScript</a> teaches JavaScript developers functional techniques that will improve extensibility, modularity, reusability, testability, and performance. Through concrete examples and jargon-free explanations, this book teaches you how to apply functional programming to real-life development tasks. By Luis Atencio (2016)</li>
+<li><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a>. A modern introduction to programming using JavaScript. By Marijn Haverbeke (2014)</li>
+<li><a href="http://shop.oreilly.com/product/0636920028857.do">Functional JavaScript</a> teaches how to create code that’s beautiful, safe, and simple to understand and test by using JavaScript’s functional programming support. By <a href="https://github.com/fogus">Michael Fogus</a> (2013)</li>
+<li><a href="https://www.manning.com/books/grokking-simplicity">Grokking Simplicity</a> teaches functional programming from first principles. It uses JavaScript for all code examples and it uses real-world scenarios. By <a href="https://github.com/ericnormand">Eric Normand</a> (2019)</li>
+<li><a href="https://github.com/kongware/scriptum/blob/master/README.md">scriptum</a> - a no-frills functional programming library and a online course based on it</li>
 </ul>
 <h3 id="articles">Articles<a class="headerlink" href="#articles" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://medium.com/@collardeau/intro-to-functional-programming-concepts-in-javascript-b0650773139c">FP Concepts in JavaScript</a>  – JavaScript 中函数式编程概念的介绍. 使用 Ramda 库通过最简单的示例来教授组合、pointfree 风格和函子的概念.</li>
-<li><a href="http://stephen-young.me.uk/2013/01/20/functional-programming-with-javascript.html">Functional programming with JavaScript</a> – JavaScript 函数式编程的另一篇介绍，重点关注三个关键主题：作为函数应用的计算、无状态、避免副作用.</li>
-<li><a href="http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/">A gentle introduction to functional JavaScript</a> – 一个由四部分组成的系列介绍 JavaScript 中的函数式编程，让您了解有关函数式编程的所有炒作的全部内容.</li>
-<li><a href="https://dev.to/snird/functors-from-first-principle-37lh">Functors from first principle - explained with JS</a> - 使用 JavaScript 解释函子概念.</li>
-<li><a href="https://hughfdjackson.com/javascript/why-curry-helps/">Why Curry Helps</a> – 关于如何使用柯里化编写可重用和声明性代码的简短概述.</li>
-<li><a href="http://fr.umio.us/favoring-curry/">Favoring Curry</a> - 使用 Ramda 进行柯里化的实际应用.</li>
-<li><a href="http://blog.jenkster.com/2016/06/functional-mumbo-jumbo-adts.html">Functional Mumbo Jumbo – ADTs</a> – 对代数数据类型的初学者友好介绍.</li>
-<li><a href="https://medium.com/@yelouafi/javascript-and-type-thinking-735edddc388d">JavaScript and Type Thinking</a>  – 学习用_类型思维_来推理你的 JavaScript 代码. 引入代数数据类型作为推理程序实体的概念基础.</li>
-<li><a href="https://codewords.recurse.com/issues/four/lazy-composable-and-modular-javascript">Lazy, composable, and modular JavaScript</a> – 使用 ES6 的四个新特性——iterables、generators、fat arrows 和 for-of——结合高阶函数、函数组合和惰性求值，编写更干净、更模块化的 JavaScript.</li>
-<li><a href="http://fr.umio.us/why-ramda/">Why Ramda</a>  – 对于那些不习惯函数式编程的人来说，Ramda 似乎毫无用处. 但是，它确实提供了一种不同的编码风格，这种风格在纯函数式编程语言中是理所当然的：Ramda 使您可以通过函数组合轻松构建复杂的逻辑.</li>
-<li><a href="https://curiosity-driven.org/monads-in-javascript">Monads in JavaScript</a> – 介绍 JavaScript 中的 Monad 设计模式.</li>
-<li><a href="http://robotlolita.me/2013/12/08/a-monad-in-practicality-first-class-failures.html">A Monad in Practicality: First-Class Failures</a> – 浏览 JavaScript 中特定 monadic 结构的一些实际用例：使用 <code>Maybe</code> monad 来处理简单的失败案例，并使用 <code>Either</code> monad 或 <code>Validation</code> 应用函子为更复杂的场景建模.</li>
-<li><a href="https://glebbahmutov.com/blog/tags/functional/">Functional programming</a> – Gleb Bahmutov 撰写的许多关于 JavaScript 函数式编程各个方面的文章.</li>
-<li><a href="https://github.com/hemanth/functional-programming-jargon">Functional Programming Jargon</a> – 函数式编程世界的行话用 JavaScript 解释.</li>
-<li><a href="http://blog.benoitvallon.com/data-structures-in-javascript/data-structures-in-javascript/">Data Structures in JavaScript</a> – 一系列博客文章，在 JavaScript 中重新实现了各种数据结构，以更好地了解它们的优点和缺点.</li>
-<li><a href="https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536">So You Want to be a Functional Programmer</a> - 简单易懂，并附有一些示例，介绍了 Javascript 和 Elm 中的函数式编程.</li>
-<li><a href="https://medium.com/@chetcorcos/functional-programming-for-javascript-people-1915d8775504">Functional Programming for JavaScript People</a> - Chet Corcos 对函数式编程模式的完整介绍，其中包含大量 javascript 示例.</li>
-<li><a href="https://auth0.com/blog/intro-to-immutable-js/">Introduction to Immutable.js and Functional Programming Concepts</a> - 在 Facebook 流行的 JavaScript 库 Immutable.js 概述中了解函数式数据结构及其用途.</li>
-<li><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0">Master the JavaScript Interview: What is Functional Programming?</a> - @ericelliott 对功能原理和词汇的简单介绍.</li>
-<li><a href="https://medium.com/javascript-scene/the-rise-and-fall-and-rise-of-functional-programming-composable-software-c2d91b424c8c">Composing Software</a> - 一系列关于从头开始学习 JavaScript ES6+ 中的函数式编程和组合软件技术的文章，作者为 @ericelliott.</li>
-<li><a href="https://dev.to/simov/anonymous-recursion-in-javascript">Anonymous Recursion in JavaScript</a> - 关于在 JavaScript 中实现匿名递归的简短易懂的文章.</li>
-<li><a href="https://joecortopassi.com/articles/functional-composition-in-javascript/">Functional Composition in Javascript</a> – 逐步解释如何在 javascript 中组合函数.</li>
-<li><a href="https://medium.freecodecamp.org/functional-programming-principles-in-javascript-1b8fc6c3563f">Functional Programming Principles in Javascript</a> - 学习函数式编程概念的实用代码示例，如纯函数、不变性、一等实体和高阶函数</li>
-<li><a href="https://dev.to/rametta/basic-monads-in-javascript-3el3">Basic Monads in Javascript</a> - 在 Javascript 中介绍 2 个简单的 monad，Maybe &amp; 要么.</li>
+<li><a href="https://medium.com/@collardeau/intro-to-functional-programming-concepts-in-javascript-b0650773139c">FP Concepts in JavaScript</a> – An introduction to Functional Programming Concepts in JavaScript. Uses the Ramda library to teach the concepts of composition, pointfree style, and functors through the simplest of examples.</li>
+<li><a href="http://stephen-young.me.uk/2013/01/20/functional-programming-with-javascript.html">Functional programming with JavaScript</a> – Another introduction to Functional Programming in JavaScript with a focus on three key themes: computation as the application of functions, statelessness, avoiding side effects.</li>
+<li><a href="http://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/">A gentle introduction to functional JavaScript</a> – A four-part series introduction functional programming in JavaScript that gets you up to speed what all the hype about functional programming is all about.</li>
+<li><a href="https://dev.to/snird/functors-from-first-principle-37lh">Functors from first principle - explained with JS</a> - Explaining functors concept using JavaScript.</li>
+<li><a href="https://hughfdjackson.com/javascript/why-curry-helps/">Why Curry Helps</a> – A short overview of how to write reusable and declarative code using currying.</li>
+<li><a href="http://fr.umio.us/favoring-curry/">Favoring Curry</a> - Practical applications of currying using Ramda.</li>
+<li><a href="http://blog.jenkster.com/2016/06/functional-mumbo-jumbo-adts.html">Functional Mumbo Jumbo – ADTs</a> – A beginner-friendly introduction to Algebraic Data Types.</li>
+<li><a href="https://medium.com/@yelouafi/javascript-and-type-thinking-735edddc388d">JavaScript and Type Thinking</a> – Learn to reason about your JavaScript code with <em>type thinking</em>. Algebraic Data Types are introduced as a conceptual basis to reason about program entities.</li>
+<li><a href="https://codewords.recurse.com/issues/four/lazy-composable-and-modular-javascript">Lazy, composable, and modular JavaScript</a> – Use four new features of ES6 – iterables, generators, fat arrows, and for-of – in conjunction with higher-order functions, function composition, and lazy evaluation, to write cleaner and more modular JavaScript.</li>
+<li><a href="http://fr.umio.us/why-ramda/">Why Ramda</a> – To those not used to functional programming, Ramda seems to serve no purpose whatsoever. However, it does offer a different style of coding, a style that’s taken for granted in purely functional programming languages: Ramda makes it simple for you to build complex logic through functional composition.</li>
+<li><a href="https://curiosity-driven.org/monads-in-javascript">Monads in JavaScript</a> – An introduction to the Monad design pattern in JavaScript.</li>
+<li><a href="http://robotlolita.me/2013/12/08/a-monad-in-practicality-first-class-failures.html">A Monad in Practicality: First-Class Failures</a> – A walk through some practical use cases for specific monadic structures in JavaScript: use the <code>Maybe</code> monad to handle simple failure cases and model more complex scenarios with the <code>Either</code> monad or the <code>Validation</code> applicative functor.</li>
+<li><a href="https://glebbahmutov.com/blog/tags/functional/">Functional programming</a> – Many articles on various aspects of functional programming in JavaScript by Gleb Bahmutov.</li>
+<li><a href="https://github.com/hemanth/functional-programming-jargon">Functional Programming Jargon</a> – Jargon from the functional programming world explained in JavaScript.</li>
+<li><a href="http://blog.benoitvallon.com/data-structures-in-javascript/data-structures-in-javascript/">Data Structures in JavaScript</a> – A series of blog posts that reimplements various data structures in JavaScript to better understand their benefits and downsides.</li>
+<li><a href="https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536">So You Want to be a Functional Programmer</a> - Easy to understand, with some examples, introduction to Functional Programming in Javascript and Elm.</li>
+<li><a href="https://medium.com/@chetcorcos/functional-programming-for-javascript-people-1915d8775504">Functional Programming for JavaScript People</a> - A complete introduction to functional programming patterns by Chet Corcos with a lot of javascript examples.</li>
+<li><a href="https://auth0.com/blog/intro-to-immutable-js/">Introduction to Immutable.js and Functional Programming Concepts</a> - Learn about functional data structures and their uses in this overview of Facebook's popular library for JavaScript: Immutable.js.</li>
+<li><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0">Master the JavaScript Interview: What is Functional Programming?</a> - A simple introduction by @ericelliott to functional principles and vocabulary.</li>
+<li><a href="https://medium.com/javascript-scene/the-rise-and-fall-and-rise-of-functional-programming-composable-software-c2d91b424c8c">Composing Software</a> - A series of articles on learning functional programming and compositional software techniques in JavaScript ES6+ from the ground up by @ericelliott.</li>
+<li><a href="https://dev.to/simov/anonymous-recursion-in-javascript">Anonymous Recursion in JavaScript</a> - Short and easy to understand article about implementing anonymous recursion in JavaScript.</li>
+<li><a href="https://joecortopassi.com/articles/functional-composition-in-javascript/">Functional Composition in Javascript</a> – Step by step explanation of how to compose functions in javascript.</li>
+<li><a href="https://medium.freecodecamp.org/functional-programming-principles-in-javascript-1b8fc6c3563f">Functional Programming Principles in Javascript</a> - Practical code examples to learn functional programming concepts like pure function, immutability, first-class entities, and higher order functions</li>
+<li><a href="https://dev.to/rametta/basic-monads-in-javascript-3el3">Basic Monads in Javascript</a> - Introduction to 2 easy monads in Javascript, Maybe &amp; Either.</li>
 <li><a href="https://dev.to/rametta/f-for-js-devs-2b88">F# for JavaScript Devs</a> - Showcasing the similarities between F# and JavaScript</li>
-<li><a href="https://medium.com/@nadeesha/a-practical-guide-to-writing-more-functional-javascript-db49409f71">A practical guide to writing more functional Javascript</a> - 将命令式 JavaScript 转换为更具声明性的功能性 JavaScript 的分步指南.</li>
-<li><a href="https://github.com/you-dont-need/You-Dont-Need-Loops">You don't (may not) need loops ➿</a> - 循环是初级程序员最早学习的结构之一，但它们会在软件开发过程中带来许多潜在问题，并且在许多情况下可以避免.</li>
+<li><a href="https://medium.com/@nadeesha/a-practical-guide-to-writing-more-functional-javascript-db49409f71">A practical guide to writing more functional Javascript</a> - A step by step guide to convert imperative JavaScript to more declarative, functional JavaScript.</li>
+<li><a href="https://github.com/you-dont-need/You-Dont-Need-Loops">You don't (may not) need loops ➿</a> - Loops are one of the first constructs that junior programmers learn, but they can pose many potential issues in the software development process, and could be avoided in many cases.</li>
 </ul>
 <h3 id="videos">Videos<a class="headerlink" href="#videos" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=h_tkIpwbsxY&amp;list=PLK_hdtAJ4KqX0JOs_KMAmUNTNMRYhWEaC">Classroom Coding with Prof. Frisby</a> – 使用 React 和 JavaScript 函数式编程构建“实用”Web 应用程序的系列.</li>
-<li><a href="https://www.youtube.com/watch?v=m3svKOdZijA">Hey Underscore, You're Doing It Wrong!</a> – Underscore.js 声称是一个函数式编程库，但真的是这样吗？</li>
-<li><a href="https://www.youtube.com/watch?v=AvgwKjTPMmM">Functional programming patterns for the non-mathematician</a> – 了解函子、应用程序和单子的实际用例.</li>
-<li><a href="https://vimeo.com/49384334">Pure JavaScript</a> – Christian Johansen 将向您展示如何通过将循环抛在脑后并将函数作为主要抽象单元来显着提升您的游戏水平.</li>
-<li><a href="https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84">Functional programming in JavaScript</a> - Mattias Petter Johansson 的系列文章，来自 youtube 频道 FunFunFunction，专门介绍 JavaScript 中函数式编程的普及.</li>
-<li><a href="https://www.youtube.com/watch?v=e-5obm1G_FY">Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016</a> - 一个简单易懂的 JavaScript 函数式编程介绍.</li>
-<li><a href="https://www.youtube.com/watch?v=FYXpOjwYzcs">Functional Programming Basics In ES6</a> - 对 JavaScript 函数式编程的完整介绍使 ES6 变得容易.</li>
-<li><a href="https://www.youtube.com/watch?v=B0VoyujJWIE">JavaScript Programmers Should Learn Algebraic Data Types -- May 2018 -- UtahJS Lehi</a> - Seth House 解释了 ADT（代数数据类型）如何对 JavaScript 开发人员有用.</li>
+<li><a href="https://www.youtube.com/watch?v=h_tkIpwbsxY&amp;list=PLK_hdtAJ4KqX0JOs_KMAmUNTNMRYhWEaC">Classroom Coding with Prof. Frisby</a> – A series that builds a “practical” web application with React and functional programming in JavaScript.</li>
+<li><a href="https://www.youtube.com/watch?v=m3svKOdZijA">Hey Underscore, You're Doing It Wrong!</a> – Underscore.js claims to be a functional programming library, but is it really?</li>
+<li><a href="https://www.youtube.com/watch?v=AvgwKjTPMmM">Functional programming patterns for the non-mathematician</a> – Learn about practical use cases for functors, applicatives, and monads.</li>
+<li><a href="https://vimeo.com/49384334">Pure JavaScript</a> – Christian Johansen will show you how you can significantly up your game by leaving loops behind and embracing functions as the primary unit of abstraction.</li>
+<li><a href="https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84">Functional programming in JavaScript</a> - 来自 YouTube 频道 FunFunFunction 的 Mattias Petter Johansson 的系列文章，专门介绍 JavaScript 中函数式编程的普及。</li>
+<li><a href="https://www.youtube.com/watch?v=e-5obm1G_FY">Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016</a> - A simple and understandable introduction of functional proramming in javascript.</li>
+<li><a href="https://www.youtube.com/watch?v=FYXpOjwYzcs">Functional Programming Basics In ES6</a> - A complete introduction to functional programming in javascript made it easy by ES6.</li>
+<li><a href="https://www.youtube.com/watch?v=B0VoyujJWIE">JavaScript Programmers Should Learn Algebraic Data Types -- May 2018 -- UtahJS Lehi</a> - Seth House explains how ADTs (Algebraic Data Types) can be useful to JavaScript developers.</li>
 </ul>
 <h3 id="examples-and-exercises">Examples and Exercises<a class="headerlink" href="#examples-and-exercises" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/loop-recur/FPJS-Class">FPJS-Class</a> – 通过 JavaScript 学习的函数式编程.</li>
-<li><a href="https://github.com/timoxley/functional-javascript-workshop">functional-javascript-workshop</a> – 本次研讨会的目标是创建可以使用简洁、普通、惯用的 JavaScript 来解决的现实问题，以教授 JavaScript 的基本函数式编程特性.</li>
-<li><a href="https://github.com/paldepind/functional-frontend-architecture">functional-frontend-architecture</a>  – 一个功能性的前端框架. 基于 Ramda + union-type-js + Flyd + Snabbdom</li>
-<li><a href="https://github.com/sharkdp/cube-composer">cube-composer</a> – 受函数式编程启发的益智游戏.</li>
-<li><a href="https://github.com/jaysoo/example-fp-youtube-search">FP Youtube Search</a> – 带有 ReactJS、Redux 和 FP 概念的 YouTube 搜索应用</li>
-<li><a href="https://frontendmasters.com/courses/functional-javascript/">Hardcore Functional Programming in JavaScript</a>  – 学习应用计算机科学研究前沿的技术来解决 Javascript 中的实际问题. 探索函数式编程，并查看它逐步演示如何使用 Monads、Functors、Monoids 和 Applicative 等抽象接口构建示例 Web 应用程序.  （<em>商业的</em>）</li>
-<li><a href="https://github.com/justsml/escape-from-callback-mountain">Escape from Callback Mountain</a>  - 基于 Promise 的函数式 JavaScript 的设计和重构技巧. 主要优点包括更好的可读性、可测试性和可重用性. 麻省理工学院.</li>
-<li><a href="http://paqmind.com/courses/fp-beginner/">Functional Programming for Beginners</a> – 数十个带有解决方案和解释的练习.</li>
-<li><a href="http://reactivex.io/learnrx/">Learn Rx</a> – 一系列互动练习，介绍了函数式（反应式）编程的五个基本要素：<code>map</code>、<code>filter</code>、<code>concatAll</code>、<code>reduce</code> 和<code>zip</code> 函数.</li>
-<li><a href="https://github.com/laberin/holdem-eval">Holdem Evaluator</a> - 另一个具有 Ramda 功能风格的 Holdem Evaluator</li>
+<li><a href="https://github.com/loop-recur/FPJS-Class">FPJS-Class</a> – Functional Programming learned through JavaScript.</li>
+<li><a href="https://github.com/timoxley/functional-javascript-workshop">functional-javascript-workshop</a> – The goal of this workshop is to create realistic problems that can be solved using terse, vanilla, idiomatic JavaScript to teach fundamental functional programming features of JavaScript.</li>
+<li><a href="https://github.com/paldepind/functional-frontend-architecture">functional-frontend-architecture</a> – A functional frontend framework. Based on Ramda + union-type-js + Flyd + Snabbdom</li>
+<li><a href="https://github.com/sharkdp/cube-composer">cube-composer</a> – A puzzle game inspired by functional programming.</li>
+<li><a href="https://github.com/jaysoo/example-fp-youtube-search">FP Youtube Search</a> – YouTube search app with ReactJS, Redux, and FP concepts</li>
+<li><a href="https://frontendmasters.com/courses/functional-javascript/">Hardcore Functional Programming in JavaScript</a> – Learn to apply techniques from the forefront of computer science research to solve practical problems in Javascript. Discover functional programming and see it demonstrated step-by-step with how to build an example web app using abstract interfaces like Monads, Functors, Monoids and Applicatives. (<em>commercial</em>)</li>
+<li><a href="https://github.com/justsml/escape-from-callback-mountain">Escape from Callback Mountain</a> - Design &amp; refactoring tips for Promise-based Functional JavaScript. Key benefits include better readability, testability, and reusability. MIT.</li>
+<li><a href="http://paqmind.com/courses/fp-beginner/">Functional Programming for Beginners</a> – Dozens of exercises with solutions and explanations.</li>
+<li><a href="http://reactivex.io/learnrx/">Learn Rx</a> – A series of interactive exercises introducing five basic ingredients of functional (reactive) programming: the <code>map</code>, <code>filter</code>, <code>concatAll</code>, <code>reduce</code>, and <code>zip</code> functions.</li>
+<li><a href="https://github.com/laberin/holdem-eval">Holdem Evaluator</a> - Yet another Holdem Evaluator with Ramda functional style</li>
 </ul>
 <h2 id="community">Community<a class="headerlink" href="#community" title="Permanent link">&para;</a></h2>
 <h3 id="related-lists">Related Lists<a class="headerlink" href="#related-lists" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/stoeffel/awesome-frp-js">Awesome FRP JS</a> – JavaScript 中很棒的（功能性）响应式编程内容的精选列表.</li>
-<li><a href="https://github.com/lucasviola/awesome-functional-programming">lucasviola/Awesome Functional Programming</a> – 关于函数式编程理论和学习材料的很棒的资源.</li>
-<li><a href="https://github.com/xgrommx/awesome-functional-programming">xgrommx/Awesome Functional Programming</a> – 大量关于函数式编程的文章，以及许多编程语言的大量函数式库列表.</li>
+<li><a href="https://github.com/stoeffel/awesome-frp-js">Awesome FRP JS</a> – A curated list of awesome (functional) reactive programming stuff in JavaScript.</li>
+<li><a href="https://github.com/lucasviola/awesome-functional-programming">lucasviola/Awesome Functional Programming</a> – Awesome resources on functional programming theory and learning materials.</li>
+<li><a href="https://github.com/xgrommx/awesome-functional-programming">xgrommx/Awesome Functional Programming</a> – A ton of articles on functional programming, as well as a huge list of functional libraries for many programming languages.</li>
 <li><a href="https://github.com/busypeoples/functional-programming-javascript">Functional Programming Resources In JavaScript</a></li>
-<li><a href="https://github.com/tk-learning-center/functional-programming-learning-path">tk-learning-center/Functional Programming Learning Path</a> - 函数式编程的学习路径</li>
+<li><a href="https://github.com/tk-learning-center/functional-programming-learning-path">tk-learning-center/Functional Programming Learning Path</a> - A Learning Path for Functional Programming</li>
 </ul>
 <h3 id="talk">Talk<a class="headerlink" href="#talk" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://fpchat-invite.herokuapp.com/">Functional Programming Slack channel</a> – 社区有一个友好的 JavaScript 频道以及许多其他关于函数式编程的频道.</li>
+<li><a href="https://fpchat-invite.herokuapp.com/">Functional Programming Slack channel</a> – Community with a friendly channel for JavaScript as well as many other channels about functional programming in general.</li>
 </ul>
 <h2 id="contribution">Contribution<a class="headerlink" href="#contribution" title="Permanent link">&para;</a></h2>
-<p><img alt="⭐️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/2b50.svg" title=":star:" /> 欢迎提出建议和 PR！  ：星星：</p>
-<p>请阅读 <a href="https://github.com/stoeffel/awesome-fp-js/blob/master/./contributing.md">contribution guidelines</a> 开始.</p>
+<p><img alt="⭐️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/2b50.svg" title=":star:" /> Suggestions and PRs are welcome! <img alt="⭐️" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/svg/2b50.svg" title=":star:" /></p>
+<p>Please read the <a href="https://github.com/stoeffel/awesome-fp-js/blob/master/./contributing.md">contribution guidelines</a> to get started.</p>
 <h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">&para;</a></h2>
 <p><a href="http://creativecommons.org/publicdomain/zero/1.0/"><img alt="CC0" src="http://i.creativecommons.org/p/zero/1.0/88x31.png" /></a></p>
-<p>在法律允许的范围内， <a href="http://stoeffel.github.io/">Christoph Hermann</a> 已放弃本作品的所有版权和相关或邻接权.</p>
+<p>To the extent possible under law, <a href="http://stoeffel.github.io/">Christoph Hermann</a> has waived all copyright and related or neighboring rights to this work.</p>
                 
                   
                 

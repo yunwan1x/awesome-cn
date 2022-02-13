@@ -2,7 +2,7 @@
 
 ## Awesome Coq [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[<img src="https://raw.githubusercontent.com/coq-community/awesome-coq/master/coq-logo.svg" align="right" width="100" title="Awesome Coq is a coq-community project">](https://raw.githubusercontent.com/coq-community/manifesto)
+[<img src="https://raw.githubusercontent.com/coq-community/awesome-coq/master/coq-logo.svg?sanitize=true" align="right" width="100" alt="coq-community logo" title="Awesome Coq is a coq-community project">](https://github.com/coq-community/manifesto)
 
 > A curated list of awesome Coq libraries, plugins, tools, and resources.
 

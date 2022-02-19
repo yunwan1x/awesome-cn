@@ -6617,6 +6617,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#collections" class="md-nav__link">
+    Collections
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#applications" class="md-nav__link">
     Applications
   </a>
@@ -6673,81 +6680,121 @@
                 <div class="github-widget" data-repo="cytodata/awesome-cytodata"></div>
 
 <h2 id="awesome-cytodata">Awesome Cytodata <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a><a class="headerlink" href="#awesome-cytodata" title="Permanent link">&para;</a></h2>
-<p>&gt;精选的绝佳细胞数据资源清单.</p>
+<blockquote>
+<p>A curated list of awesome cytodata resources.</p>
+</blockquote>
 <p><img alt="cytodata logo" src="https://raw.githubusercontent.com/cytodata/awesome-cytodata/master/cytodata-logo.png" /></p>
-<p><a href="https://cytodata.org/">Cytodata</a> 指参与生物表型的基于图像的分析的研究人员和资源社区.
-这些“生物学表型”通常是由遗传或化学扰动引起的，通常代表疾病状态.
-<strong>基于图像的分析</strong>用于检查这些表型，以发现生物学见解，包括发现遗传改变的影响并确定化合物的作用机理.</p>
-<p>此页面代表软件，数据集，地标出版物和基于图像的分析方法的精选列表.
-我们的目标是为新老研究人员提供一个发现和记录精妙的Cytodata资源的地方.</p>
+<p><a href="https://cytodata.org/">Cytodata</a> refers to a community of researchers and resources involved in the <strong>image-based profiling</strong> of <strong>biological phenotypes</strong>.
+These <strong>biological phenotypes</strong> are typically induced by genetic or chemical perturbations and often represent disease states.
+<strong>Image-based profiling</strong> is used to inspect these phenotypes to uncover biological insight including discovering the impact of genetic alterations and determining the mechanism of action of compounds.</p>
+<p>This page represents a curated list of software, datasets, landmark publications, and image-based profiling methods.
+Our goal is to provide researchers, both new and established, a place to discover and document awesome Cytodata resources.</p>
 <h2 id="datasets">Datasets<a class="headerlink" href="#datasets" title="Permanent link">&para;</a></h2>
-<p>带注释的数据集，包括“原始图像”和“处理后的配置文件”，用于基于图像的化学和遗传扰动分析.</p>
+<p>Annotated datasets, including <strong>raw images</strong> and <strong>processed profiles</strong>, for image-based profiling of chemical and genetic perturbations.</p>
 <h3 id="raw-images">Raw Images<a class="headerlink" href="#raw-images" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://data.broadinstitute.org/bbbc/">Broad Bioimage Benchmark Collection</a>  -广泛的生物影像基准收集（BBBC）是可免费下载的显微图像集的集合. 除了图像本身，每组图像还包括对生物应用程序的描述以及某种类型的“地面真相”（预期结果）.</li>
-<li><a href="https://idr.openmicroscopy.org/">Image Data Resource</a> -来自已发表科学研究的图像数据集的公共存储库.</li>
-<li><a href="https://www.rxrx.ai/rxrx1">RxRx1</a>  -RxRx1是一组125,514幅高分辨率的512x512 6通道荧光显微镜图像，在4种细胞类型的51个实验批次中，经过1108次遗传扰动后，人类细胞处于该状态. 这些图像是由Recursion Pharmaceuticals在犹他州盐湖城的实验室中制作的. 研究人员将使用该数据集来研究和基准化方法，以处理生物批次效应以及机器学习领域，例如领域适应，转移学习和k-shot学习.</li>
-<li><a href="https://www.rxrx.ai/rxrx19">RxRx19</a> -RxRx19是第一个形态数据集，展示了COVID-19形态效应的挽救. </li>
+<li><a href="https://data.broadinstitute.org/bbbc/">Broad Bioimage Benchmark Collection</a> - The Broad Bioimage Benchmark Collection (BBBC) is a collection of freely downloadable microscopy image sets. In addition to the images themselves, each set includes a description of the biological application and some type of "ground truth" (expected results).</li>
+<li><a href="https://idr.openmicroscopy.org/">Image Data Resource</a> - Public repository of image datasets from published scientific studies.</li>
+<li><a href="https://www.rxrx.ai/rxrx1">RxRx1</a> - RxRx1 is a set of 125,514 high-resolution 512x512 6-channel fluorescence microscopy images of human cells under 1,108 genetic perturbations in 51 experimental batches across four cell types.  The images were produced by Recursion Pharmaceuticals in their labs in Salt Lake City, Utah.  Researchers will use this dataset for studying and benchmarking methods for dealing with biological batch effects, as well as areas in machine learning such as domain adaptation, transfer learning, and k-shot learning.</li>
+<li><a href="https://www.rxrx.ai/rxrx19">RxRx19</a> - RxRx19 is the first morphological dataset that demonstrates the rescue of morphological effects of COVID-19. </li>
+<li><a href="https://www.proteinatlas.org/humanproteome/subcellular">Human Protein Atlas</a> - Among other assays, the HPA performed confocal imaging of displaying the location of more than &#8532; of human proteins in cell lines. <a href="https://github.com/CellProfiling/HPA-competition#script-to-download-hpav18">Raw images</a> or <a href="https://www.proteinatlas.org/about/download">infered protein subcellular locations</a> can be downloaded.</li>
 </ul>
 <h3 id="chemical-perturbations">Chemical Perturbations<a class="headerlink" href="#chemical-perturbations" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://doi.org/10.1371/journal.pone.0080999">Gustafsdottir et al. 2013</a> -U2OS细胞中1600种生物活性化合物的细胞绘画特征（可从公共S3存储桶访问：`s3：// cytodata / datasets / Bioactives-BBBC022-Gustafsdottir / profiles / Bioactives-BBBC022-Gustafsdottir /）.</li>
-<li><a href="https://doi.org/10.1073/pnas.1410933111">Wawer et al. 2014</a> -U2OS细胞中31,770种化合物的细胞绘画特征（<a href="http://www.broadinstitute.org/mlpcn/data/Broad.PNAS2014.ProfilingData.zip">Click to download</a>).</li>
-<li><a href="https://doi.org/10.1093/gigascience/giw014">Bray et al. 2017</a> -U2OS细胞中30,616种化合物的细胞绘画特征（中心驱动研究项目_CDRP _）（<a href="https://doi.org/10.5524/100351">Download from GigaDB</a>  | 从公共S3存储桶访问：`s3：// cytodata / datasets / CDRPBIO-BBBC036-Bray / profiles_cp / CDRPBIO-BBBC036-Bray /）.</li>
+<li><a href="https://doi.org/10.1371/journal.pone.0080999">Gustafsdottir et al. 2013</a> - Cell painting profiles from 1,600 bioactive compounds in U2OS cells (Access from public S3 bucket: <code>s3://cytodata/datasets/Bioactives-BBBC022-Gustafsdottir/profiles/Bioactives-BBBC022-Gustafsdottir/</code>).</li>
+<li><a href="https://doi.org/10.1073/pnas.1410933111">Wawer et al. 2014</a> - Cell painting profiles from 31,770 compounds in U2OS cells (<a href="http://www.broadinstitute.org/mlpcn/data/Broad.PNAS2014.ProfilingData.zip">Click to download</a>).</li>
+<li><a href="https://doi.org/10.1093/gigascience/giw014">Bray et al. 2017</a> - Cell painting profiles from 30,616 compounds in U2OS cells (Center Driven Research Project <em>CDRP</em>) (<a href="https://doi.org/10.5524/100351">Download from GigaDB</a> | Access from public S3 bucket: <code>s3://cytodata/datasets/CDRPBIO-BBBC036-Bray/profiles_cp/CDRPBIO-BBBC036-Bray/</code>).</li>
+<li><a href="https://doi.org/10.1101/2021.09.08.459417">Haghighi et al. 2021</a> - Cell painting matched to L1000 profiles in 4 experiments, including compound and genetic screens (<a href="https://github.com/carpenterlab/2021_Haghighi_submitted">Details on GitHub</a>).</li>
 </ul>
 <h3 id="genetic-perturbations">Genetic Perturbations<a class="headerlink" href="#genetic-perturbations" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://doi.org/10.1371/journal.pone.0131370">Singh et al. 2015</a> -U2OS细胞中来自RNA干扰（RNAi）的41个基因的3,072个细胞绘画图谱（<a href="https://github.com/carpenterlab/2016_bray_natprot/blob/6dcdcf72cd90bb2dbf238b3ecf94691246d8f104/supplementary_files/profiles.csv.zip">Access from GitHub</a>).</li>
-<li><a href="https://doi.org/10.7554/eLife.24060.001">Rohban et al. 2017</a> -来自U2OS细胞中220个过表达基因的细胞绘画数据（来自公共S3存储桶：<code>s3：// cytodata / datasets / TA-ORF-BBBC037-Rohban / profiles_cp / TA-ORF-BBBC037-Rohban /</code>）.
--未发表-A549细胞中53个基因的596个过表达等位基因的细胞绘画图谱（来自公共S3存储桶：<code>s3：// cytodata / datasets / LUAD-BBBC043-Caicedo / profiles_cp / LUAD-BBBC043-Caicedo /</code>）
--未发表-CRISPR实验中3,456个细胞绘画图谱，敲除A549，ES2和HCC44细胞中的59个基因（<a href="https://github.com/broadinstitute/cell-health/tree/master/0.generate-profiles/data/profiles">Access from GitHub</a>).</li>
+<li><a href="https://doi.org/10.1371/journal.pone.0131370">Singh et al. 2015</a> - 3,072 cell painting profiles from 41 genes knocked down with RNA interference (RNAi) in U2OS cells (<a href="https://github.com/carpenterlab/2016_bray_natprot/blob/6dcdcf72cd90bb2dbf238b3ecf94691246d8f104/supplementary_files/profiles.csv.zip">Access from GitHub</a>).</li>
+<li><a href="https://doi.org/10.7554/eLife.24060.001">Rohban et al. 2017</a> - Cell painting data from 220 overexpressed genes in U2OS cells (Access from public S3 bucket: <code>s3://cytodata/datasets/TA-ORF-BBBC037-Rohban/profiles_cp/TA-ORF-BBBC037-Rohban/</code>).</li>
+<li>Unpublished - Cell painting profiles of 596 overexpressed alleles from 53 genes in A549 cells (Access from public S3 bucket: <code>s3://cytodata/datasets/LUAD-BBBC043-Caicedo/profiles_cp/LUAD-BBBC043-Caicedo/</code>)</li>
+<li>Unpublished - 3,456 cell painting profiles from CRISPR experiments knocking down 59 genes in A549, ES2, and HCC44 cells (<a href="https://github.com/broadinstitute/cell-health/tree/master/0.generate-profiles/data/profiles">Access from GitHub</a>).</li>
 </ul>
 <h2 id="software">Software<a class="headerlink" href="#software" title="Permanent link">&para;</a></h2>
-<p>开源软件包，用于基于图像的生物表型分析.</p>
+<p>Open source software packages for image-based profiling of biological phenotypes.</p>
 <ul>
-<li><a href="https://www.cellclassifier.org/">Advanced Cell Classifier</a> -使用机器学习对大型数据集中的细胞进行探索，注释和分类的软件包.</li>
-<li><a href="http://cellprofiler.org/">CellProfiler</a> -CellProfiler是用于测量和分析细胞图像的免费开源软件.</li>
-<li><a href="http://cellprofiler.org/cp-analyst/">CellProfiler Analyst</a> -大型生物图像集的交互式数据探索，分析和分类.</li>
-<li><a href="https://github.com/cytomining/cytominer">Cytominer</a> -基于图像的单元分析的方法.</li>
-<li><a href="https://github.com/aoles/EBImage">EBImage</a> -R的图像处理工具箱.</li>
-<li><a href="http://htsvis.dkfz.de/HTSvis/">HTSvis</a> -用于探索性数据分析和可视化阵列高通量屏幕的Web应用程序.</li>
+<li><a href="https://www.cellclassifier.org/">Advanced Cell Classifier</a> - A software package for exploration, annotation and classification of cells within large datasets using machine learning.</li>
+<li><a href="http://cellprofiler.org/">CellProfiler</a> - CellProfiler is a free open-source software for measuring and analyzing cell images.</li>
+<li><a href="http://cellprofiler.org/cp-analyst/">CellProfiler Analyst</a> - 大型生物图像集的交互式数据探索、分析和分类。</li>
+<li><a href="https://github.com/cytomining/cytominer">Cytominer</a> - Methods for image-based cell profiling in R.</li>
+<li><a href="https://github.com/aoles/EBImage">EBImage</a> - Image processing toolbox for R.</li>
+<li><a href="http://htsvis.dkfz.de/HTSvis/">HTSvis</a> - A web app for exploratory data analysis and visualization of arrayed high-throughput screens.</li>
+<li><a href="https://github.com/menchelab/BioProfiling.jl">BioProfiling.jl</a> - Toolkit for filtering and curation of morphological profiles in Julia.</li>
+<li><a href="https://github.com/cytomining/pycytominer">PyCytominer</a> - Methods for image-based cell profiling in Python.</li>
+<li><a href="https://imjoy.io">ImJoy</a> - 一个平台编译工具，用于使用 GUI 进行基于深度学习的图像分析。</li>
 </ul>
 <h2 id="publications">Publications<a class="headerlink" href="#publications" title="Permanent link">&para;</a></h2>
-<p>与基于图像的性能分析有关的出版物.</p>
+<p>Publications related to image-based profiling.</p>
 <h3 id="reviews">Reviews<a class="headerlink" href="#reviews" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://www.nature.com/articles/s41573-020-00117-w">Image-based profiling for drug discovery: due for a machine-learning upgrade?</a> -从Carpenter实验室/制药角度对2020年基于图像的配置文件中的应用程序进行了审查.</li>
-<li><a href="https://doi.org/10.1038/nmeth.4397">Data-analysis strategies for image-based cell profiling</a> -介绍从显微镜图像集中创建高质量的基于图像（即形态学）的轮廓所需的步骤.</li>
-<li><a href="https://doi.org/10.1016/j.tcb.2016.03.008">High-content screening for quantitative cell biology</a> -描述HCS的一些最新应用，从特定生物学过程所需的基因鉴定到遗传相互作用的表征.</li>
+<li><a href="https://www.nature.com/articles/s41573-020-00117-w">Image-based profiling for drug discovery: due for a machine-learning upgrade?</a> - 2020 review of applications in image-based profiling from a Carpenter lab/pharma perspective.</li>
+<li><a href="https://doi.org/10.1038/nmeth.4397">Data-analysis strategies for image-based cell profiling</a> - Introduce the steps required to create high-quality image-based (i.e., morphological) profiles from a collection of microscopy images.</li>
+<li><a href="https://doi.org/10.1016/j.tcb.2016.03.008">High-content screening for quantitative cell biology</a> - Describe some recent applications of HCS, ranging from the identification of genes required for specific biological processes to the characterization of genetic interactions.</li>
 <li><a href="https://doi.org/10.1016/j.cell.2015.11.007">Microscopy-based high-content screening</a> - Describe the state of the art for image-based screening experiments and delineate experimental approaches and image-analysis approaches as well as discussing challenges and future directions, including leveraging CRISPR/Cas9-mediated genome engineering.</li>
-<li><a href="https://doi.org/10.1016/j.copbio.2016.04.003">Applications in image-based profiling of perturbations</a> -描述基于图像的轮廓分析的应用，包括靶标和MOA识别，铅跳变，文库富集，基因注释和疾病特异性表型的识别</li>
+<li><a href="https://doi.org/10.1016/j.copbio.2016.04.003">Applications in image-based profiling of perturbations</a> - Describes applications of image-based profiling including target and MOA identification, lead hopping, library enrichment, gene annotation and identification of disease-specific phenotypes</li>
+<li><a href="https://doi.org/10.1002/cyto.a.22909">Large-scale image-based screening and profiling of cellular phenotypes</a> - Overview of image-based profiling, including its applications and challenges.</li>
+<li><a href="https://dx.doi.org/10.1002%2Fbies.201400011">How cells explore shape space: A quantitative statistical perspective of cellular morphogenesis</a> - Discussion on the biology of cell shape changes based on quantitative descriptors.</li>
+<li><a href="https://doi.org/10.1016/J.COISB.2018.05.004">Machine learning and image-based profiling in drug discovery</a> - Introduction to morphological profiling and discussion on what machine learning has to offer.</li>
+</ul>
+<h3 id="collections">Collections<a class="headerlink" href="#collections" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.nature.com/collections/cfcdjceech">Deep learning in microscopy</a> - A collection of review and research articles published in Nature Methods related to multiple use cases of deep learning, including noise reduction, segmentation, tracking and representation learning.</li>
+<li><a href="https://journals.sagepub.com/toc/jbxb/25/7">High-Content Imaging and Informatics</a> - A collection of high-content imaging method and application articles published in SLAS Discovery.</li>
 </ul>
 <h3 id="applications">Applications<a class="headerlink" href="#applications" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://rdcu.be/ccBFH">Expanding the antibacterial selectivity of polyether ionophore antibiotics through diversity-focused semisynthesis</a> -Poulsen于2020年发表的实验论文，其中根据Cell Painting分析法对抗生素离开哺乳动物细胞的能力进行了尽可能完整的测试.</li>
-<li><a href="https://doi.org/10.1038/nmeth1032">Image-based multivariate profiling of drug responses from single cells</a> -基于约300个单细胞表型测量结果对未治疗和已治疗的人类癌细胞进行分类的多变量方法.</li>
-<li><a href="https://doi.org/10.1016/j.molmet.2019.03.001">Discovering metabolic disease gene interactions by correlated effects on cellular morphology</a> -在脂肪细胞分化过程中分析疾病与基因的相互作用.</li>
-<li><a href="https://doi.org/10.1038/nature08869">Phenotypic profiling of the human genome by time-lapse microscopy reveals cell division genes</a> -这项研究提供了对细胞分裂表型的深入分析，并使整个高内涵数据集可作为资源提供给社区.</li>
-<li><a href="https://doi.org/10.1016/j.taap.2019.114876">Bioactivity screening of environmental chemicals using imaging-based high-throughput phenotypic profiling</a> -使用基于图像的分析来筛选环境化学品的生物活性</li>
-<li><a href="https://doi.org/10.1016/j.chembiol.2018.01.015">Repurposing High-Throughput Image Assays Enables Biological Activity Prediction for Drug Discovery</a> -使用基于图像的配置文件来预测小分子在其他无关测定中的生物活性. </li>
-<li><a href="https://doi.org/10.1101/2020.03.13.990093">Tales of 1,008 Small Molecules: Phenomic Profiling through Live-cell Imaging in a Panel of Reporter Cell Lines</a> -演示多药理学在MOA预测中的作用，同时提供解决方案，以在未来基于图像的性能分析研究中克服该问题.</li>
+<li><a href="https://rdcu.be/ccBFH">Expanding the antibacterial selectivity of polyether ionophore antibiotics through diversity-focused semisynthesis</a> - Poulsen lab paper from 2020 where antibiotics are tested for their ability to leave mammalian cells as intact as possible, per the Cell Painting assay.</li>
+<li><a href="https://doi.org/10.1038/nmeth1032">Image-based multivariate profiling of drug responses from single cells</a> - A multivariate method for classifying untreated and treated human cancer cells based on ∼300 single-cell phenotypic measurements.</li>
+<li><a href="https://doi.org/10.1016/j.molmet.2019.03.001">Discovering metabolic disease gene interactions by correlated effects on cellular morphology</a> - Profiling disease-gene interaction during adipocyte differentiation.</li>
+<li><a href="https://doi.org/10.1038/nature08869">Phenotypic profiling of the human genome by time-lapse microscopy reveals cell division genes</a> - This study provides an in-depth analysis of cell division phenotypes and makes the entire high-content data set available as a resource to the community.</li>
+<li><a href="https://doi.org/10.1016/j.taap.2019.114876">Bioactivity screening of environmental chemicals using imaging-based high-throughput phenotypic profiling</a> - Use of image-based profiling to screen the bioactivity of environmental chemicals</li>
+<li><a href="https://doi.org/10.1016/j.chembiol.2018.01.015">Repurposing High-Throughput Image Assays Enables Biological Activity Prediction for Drug Discovery</a> - Using image-based profiles to predict the bioactivity of small molecules in other unrelated assays. </li>
+<li><a href="https://doi.org/10.1101/2020.03.13.990093">Tales of 1,008 Small Molecules: Phenomic Profiling through Live-cell Imaging in a Panel of Reporter Cell Lines</a> - Demonstrating the effects of polypharmacology in MOA prediction while offering solutions for overcoming it in future image-based profiling studies.</li>
+<li><a href="https://doi.org/10.1038/s41467-019-13058-9">Mapping the perturbome network of cellular perturbations</a> - Image-based profiling and network analysis of drug combinations.</li>
+<li><a href="https://doi.org/10.1016/j.celrep.2021.109318">Morphological profiling of human T and NK lymphocytes by high-content cell imaging</a> - Image-based profiling of actin organization at the immunological synapse.</li>
+<li><a href="https://doi.org/10.1126/science.aal3321">A subcellular map of the human proteome</a> - Classification of protein subcellular location from confocal microscopy images of the Human Protein Atlas.</li>
+<li><a href="https://doi.org/10.1038/s41586-021-04115-9">A multi-scale map of cell structure fusing protein images and interactions</a> - Combining confocal imaging and mass spectrometry representations of proteins to predict physical proximity and characterize cellular organization.</li>
+<li><a href="https://doi.org/10.1091/mbc.E20-12-0784">Predicting cell health phenotypes using image-based morphology profiling</a> - Image-based profiles as predictors of apoptosis, proliferation and other cell health descriptors.</li>
+<li><a href="https://doi.org/10.15252/msb.20199243">Systematic genetics and single‐cell imaging reveal widespread morphological pleiotropy and cell‐to‐cell variability</a> - Analysis of single-cell profiles to characterize variability, pleiotropy and incomplete penetrance.</li>
+<li><a href="https://doi.org/10.15252/msb.20178064">Large‐scale image‐based profiling of single‐cell phenotypes in arrayed CRISPR‐Cas9 gene perturbation screens</a> - Demonstrates feasibility of imaging arrayed CRISPR screens and offers a way to characterize transfection efficacy in individual cells.</li>
+<li><a href="https://doi.org/10.1101/660993">Multiparametric phenotyping of compound effects on patient derived organoids</a> - Profiling chemical effects on patient-derived organoids.</li>
+<li><a href="https://doi.org/10.15252/MSB.20156400">A chemical-genetic interaction map of small molecules using high-throughput imaging in cancer cells</a> - Profiling the morphological changes induced in 1280 compounds in 12 knockout cell lines.</li>
+<li><a href="https://doi.org/10.7554/eLife.40174">Time-resolved mapping of genetic interactions to model rewiring of signaling pathways</a> - Changes in genetic interactions across time based on multiple morphological descriptors.</li>
+<li><a href="https://doi.org/10.1016/j.cels.2019.09.002">High-Content Imaging of Unbiased Chemical Perturbations Reveals that the Phenotypic Plasticity of the Actin Cytoskeleton Is Constrained</a> - Defining morphological clusters in a large compound screen.</li>
+<li><a href="https://doi.org/10.7554/eLife.05464">A map of directional genetic interactions in a metazoan cell</a> - Characterizing genetic interactions by integrating 21 phenotypic descriptors.</li>
+<li><a href="https://doi.org/10.1101/2021.11.28.470116">The phenotypic landscape of essential human genes</a> - Comparing morphological descriptors in a pooled CRISPR screen with in-situ sequencing</li>
+<li><a href="https://doi.org/10.1101/580654">Evaluation of Gene Expression and Phenotypic Profiling Data as Quantitative Descriptors for Predicting Drug Targets and Mechanisms of Action</a> - Benchmarking profiling modalities, including image-based profiles, for mechanism of action prediction.</li>
 </ul>
 <h3 id="methods">Methods<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://doi.org/10.1038/nprot.2016.105">Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes</a> -使用Cell Painting描述实验设计和执行的协议.</li>
-<li><a href="https://doi.org/10.1371/journal.pone.0080999">Multiplex Cytological Profiling Assay to Measure Diverse Cellular States</a> -细胞绘画测定.</li>
-<li><a href="https://doi.org/10.1038/nmeth.3323">CIDRE: an illumination-correction method for optical microscopy</a> -基于能量最小化的照明校正的追溯方法.</li>
-<li><a href="https://doi.org/10.1046/j.1365-2818.2000.00669.x">Retrospective shading correction based entropy minimization</a> -基于熵最小化的回顾性阴影校正方法.</li>
-<li><a href="https://doi.org/10.1038/s41467-019-10154-8">Capturing single-cell heterogeneity via data fusion improves image-based profiling</a> -将分散和协方差添加到总体平均值以捕获单细胞异质性.</li>
-<li><a href="https://doi.org/10.1142/S0219720005001004">Minimum redundancy feature selection from microarray gene expression data</a> -最小冗余-最大相关性功能选择框架.</li>
-<li><a href="https://doi.org/10.1101/395954">Learning unsupervised feature representations for single cell microscopy images with paired cell painting</a> -自我监督的方法，无需标记训练数据即可在显微镜图像中学习单个细胞的特征表示.</li>
-<li><a href="https://doi.org/10.1109/CVPR.2018.00970">Weakly supervised learning of single-cell feature embeddings</a> -使用弱监督方法对CNN进行特征学习.</li>
-<li><a href="https://doi.org/10.1021/acs.jcim.8b00670">Accurate Prediction of Biological Assays with High-Throughput Microscopy Images and Convolutional Networks</a> -使用基于图像的配置文件，在不相关的分析中使用CNN进行端到端学习，以预测小分子的生物活性.</li>
-<li><a href="https://doi.org/10.1002/cyto.a.23863">Evaluation of Deep Learning Strategies for Nucleus Segmentation in Fluorescence Images</a> -比较几种用于核分割的深度学习方法. </li>
-<li><a href="https://doi.org/10.1101/085118">Automating Morphological Profiling with Generic Deep Convolutional Networks</a> -转移通用CNN的激活特征以提取特征以进行基于图像的分析.</li>
+<li><a href="https://doi.org/10.1038/nprot.2016.105">Cell Painting, a high-content image-based assay for morphological profiling using multiplexed fluorescent dyes</a> - Protocol describing the design and execution of experiments using Cell Painting.</li>
+<li><a href="https://doi.org/10.1371/journal.pone.0080999">Multiplex Cytological Profiling Assay to Measure Diverse Cellular States</a> - Cell Painting assay.</li>
+<li><a href="https://doi.org/10.1038/nmeth.3323">CIDRE: an illumination-correction method for optical microscopy</a> - Retrospective method for illumination-correction based on energy minimization.</li>
+<li><a href="https://doi.org/10.1046/j.1365-2818.2000.00669.x">Retrospective shading correction based entropy minimization</a> - Method for retrospective shading correction based on entropy minimization.</li>
+<li><a href="https://doi.org/10.1038/s41467-019-10154-8">Capturing single-cell heterogeneity via data fusion improves image-based profiling</a> - Adds dispersion and covariances to population averages to capture single-cell heterogeneity.</li>
+<li><a href="https://doi.org/10.1142/S0219720005001004">Minimum redundancy feature selection from microarray gene expression data</a> - Minimum redundancy - maximum relevance feature selection framework.</li>
+<li><a href="https://doi.org/10.1371/journal.pcbi.1007348">Learning unsupervised feature representations for single cell microscopy images with paired cell inpainting</a> - Selfsupervised method to learn feature representations of single cells in microscopy images without labelled training data.</li>
+<li><a href="https://doi.org/10.1109/CVPR.2018.00970">Weakly supervised learning of single-cell feature embeddings</a> - Training CNNs using a weakly supervised approach for feature learning.</li>
+<li><a href="https://doi.org/10.1021/acs.jcim.8b00670">Accurate Prediction of Biological Assays with High-Throughput Microscopy Images and Convolutional Networks</a> - End-to-end learning with CNNs to predict bioactivity of small molecules in unrelated assays using image-based profiles.</li>
+<li><a href="https://doi.org/10.1002/cyto.a.23863">Evaluation of Deep Learning Strategies for Nucleus Segmentation in Fluorescence Images</a> - Comparing several deep learning methods for nuclear segmentation. </li>
+<li><a href="https://doi.org/10.1101/085118">Automating Morphological Profiling with Generic Deep Convolutional Networks</a> - Transfer of activation features of generic CNNs to extract features for image-based profiling.</li>
+<li><a href="https://doi.org/10.1038/ncomms14836">A BaSiC tool for background and shading correction of optical microscopy images</a> - Illumination-correction method accounting for space- and time-dependent biases.</li>
+<li><a href="https://doi.org/10.1038/s41592-020-01018-x">Cellpose: a generalist algorithm for cellular segmentation</a> - Generalist deep learning model for cell and nucleus segmentation with pre-trained weights.</li>
+<li><a href="https://doi.org/10.1371/journal.pcbi.1005177">Deep Learning Automates the Quantitative Analysis of Individual Cells in Live-Cell Imaging Experiments</a> - DeepCell: collection of deep learning segmentation models.</li>
+<li><a href="https://doi.org/10.1101/161422">Improving Phenotypic Measurements in
+High-Content Imaging Screens</a> - Embedding single-cell and compound profiles using transfer learning, examplified on mechanism of action prediction.</li>
+<li><a href="https://doi.org/10.1177/1087057112469257">The Multidimensional Perturbation Value</a> - Proposing a score to define significant activity in screens.</li>
+<li><a href="https://doi.org/10.1101/2021.11.05.467394">Label-Free Prediction of Cell Painting from Brightfield Images</a> - Reconstructing images for Cell Painting dyes and ensuring corresponding morphological measurements are preserved.</li>
+<li><a href="https://doi.org/10.1101/2021.04.07.438792">ShapoGraphy: a glyph-oriented visualisation approach for creating pictorial
+representations of bioimaging data</a> - Method to visualize morphological profiles.</li>
+<li><a href="https://doi.org/10.1101/227645">CytoGAN: Generative Modeling of Cell Images</a> - Generative network displaying potential for learning latent representation of biological conditions from cell images.</li>
+<li><a href="https://doi.org/https://doi.org/10.1093/bioinformatics/btaa905">Self-supervised feature extraction from image time series in plant phenotyping using triplet networks</a> - Direct extraction of phenotypic features from plant images.</li>
 </ul>
 <h2 id="contribute">Contribute<a class="headerlink" href="#contribute" title="Permanent link">&para;</a></h2>
-<p>欢迎捐款！ 阅读 <a href="https://github.com/cytodata/awesome-cytodata/blob/master/contributing.md">contribution guidelines</a> 第一的.</p>
+<p>Contributions welcome! Read the <a href="https://github.com/cytodata/awesome-cytodata/blob/master/contributing.md">contribution guidelines</a> first.</p>
 <h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">&para;</a></h2>
 <p><a href="http://creativecommons.org/publicdomain/zero/1.0"><img alt="CC0" src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" /></a></p>
                 

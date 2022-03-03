@@ -7176,24 +7176,22 @@ Bringing the speed of Static Dispatch to CLOS. <a href="http://opensource.franz.
 <ul>
 <li><a href="https://github.com/fukamachi/caveman">Caveman</a> - A powerful web framework. <a href="http://opensource.franz.com/preamble.html">LLGPL</a>.
   Example projects: <a href="https://github.com/quickdocs">Quickdocs</a></li>
-<li><a href="https://github.com/hargettp/hh-web">hh-web</a> - Framework for building modern web apps. <a href="https://directory.fsf.org/wiki/License:Expat">Expat</a>.</li>
 <li><a href="https://github.com/fukamachi/ningle">ningle</a> - A super-micro web framework. <a href="http://opensource.franz.com/preamble.html">LLGPL</a>. <a href="https://github.com/defunkydrummer/ninglex">ninglex</a>, an extended and noob-friendly ningle (mostly easier handling of query parameters). <a href="https://opensource.org/licenses/MIT">MIT</a>.</li>
 <li><a href="https://github.com/Shirakumo/radiance">radiance</a> - A web application environment and framework . <a href="https://directory.fsf.org/wiki/License:Zlib">zlib</a>.</li>
-<li><a href="https://github.com/eudoxia0/lucerne">Lucerne</a> - A minimal web framework built on Clack, inspired by Flask. <a href="https://opensource.org/licenses/MIT">MIT</a>.</li>
-<li><a href="https://github.com/joaotavora/snooze">Snooze</a> - A RESTful web framework. Web server agnostic. Currently has support for Hunchentoot and Clack. Routes are just functions and HTTP conditions are just Lisp conditions. <a href="http://opensource.franz.com/preamble.html">LLGPL</a>.</li>
 </ul>
 <p>REST-focused frameworks:</p>
 <ul>
+<li>👍 <a href="https://github.com/joaotavora/snooze">Snooze</a> - A RESTful web framework. Web server agnostic. Currently has support for Hunchentoot and Clack. Routes are just functions and HTTP conditions are just Lisp conditions. <a href="http://opensource.franz.com/preamble.html">LLGPL</a>.</li>
 <li><a href="https://github.com/mmontone/cl-rest-server">cl-rest-server</a> - a library for writing REST web APIs. Features validation with schemas, annotations for logging, caching, permissions or authentication, documentation via Swagger, etc. <a href="https://opensource.org/licenses/MIT">MIT</a>.</li>
 <li><a href="https://github.com/copyleft/cl-odata-client">cl-odata-client</a> - Common Lisp client library for accessing <a href="https://www.odata.org">OData services</a>. <a href="https://opensource.org/licenses/MIT">MIT</a>.</li>
 </ul>
 <p>Authentication plugins (in addition to the Clack plugins above):</p>
 <ul>
-<li><a href="https://github.com/fferrere/cl-cas">cl-cas</a> - A library to help <a href="https://apereo.github.io/cas/6.0.x/protocol/CAS-Protocol.html">CAS authenticaton</a> to Common Lisp web applications.</li>
+<li><a href="https://github.com/fferrere/cl-cas">cl-cas</a> - A library to help <a href="https://apereo.github.io/cas/6.0.x/protocol/CAS-Protocol.html">CAS authenticaton</a> to Common Lisp web applications. Not in Quicklisp.</li>
 <li><a href="https://github.com/fferrere/cas-middleware">cas-middleware</a> - CAS authenticaton middleware for Caveman.</li>
 <li><a href="https://github.com/fferrere/cas-demo">cas-demo</a> - a demo project.</li>
 </ul>
-<p>There are more projects, more or less discontinued but interesting. See the other ressources.</p>
+<p>There are more projects, more or less discontinued but interesting. See the other resources.</p>
 <h2 id="isomorphic-web-frameworks">Isomorphic web frameworks<a class="headerlink" href="#isomorphic-web-frameworks" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://github.com/rabbibotton/clog">CLOG</a> - The Common Lisp Omnificent GUI. Uses web technology to produce graphical user interfaces for applications locally or remotely. <a href="https://directory.fsf.org/wiki/License:BSD_3Clause">BSD_3Clause</a>.</li>
@@ -7667,6 +7665,10 @@ call hooks when loading a package,…). <a href="https://directory.fsf.org/wiki/
 <li><a href="https://github.com/LowH/cl-debug">cl-debug</a> - a cross-package debug facility. Provides a unified way to enable or disable debug-specific code. Debugging code can be enabled or disabled relative to program features denoted by either a symbol or a keyword. ISC licence.</li>
 <li><a href="https://github.com/fukamachi/supertrace">supertrace</a> - Superior Common Lisp <code>trace</code> functionality for debugging/profiling. Trace many functions at once, use before and after hooks. <a href="https://directory.fsf.org/wiki/License:BSD_2Clause">BSD_2Clause</a>.</li>
 <li><a href="https://github.com/danlentz/printv">printv</a> -  A batteries-included tracing and debug-logging macro. <a href="https://directory.fsf.org/wiki/License:Apache2.0">Apache2</a>.</li>
+<li><a href="https://github.com/melisgl/journal">journal</a> - a library for logging, tracing, record-and-replay testing and persistence. MIT.</li>
+</ul>
+<p>and also:</p>
+<ul>
 <li><a href="http://www.martin-loetzsch.de/gtfl/">GTFL</a> - A graphical terminal for Lisp, meant for Lisp programmers who want to debug or visualize their own algorithms. A graphical trace in the browser. BSD-style.</li>
 <li><a href="https://github.com/scymtym/trivial-with-current-source-form/">trivial-with-current-source-from</a> - Helps macro writers produce better errors for macro users. <a href="http://www.gnu.org/copyleft/gpl.html">GPL3</a>.</li>
 <li><a href="https://github.com/Shinmera/trivial-benchmark">trivial-benchmark</a> - Tiny benchmarking library. <a href="https://directory.fsf.org/wiki/License:Zlib">zlib</a>.</li>

@@ -4368,6 +4368,19 @@
     ZSH on Windows
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#superconsole-windows-only" class="md-nav__link">
+    superconsole - Windows-only.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -7575,6 +7588,19 @@
     ZSH on Windows
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#superconsole-windows-only" class="md-nav__link">
+    superconsole - Windows-only.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -7912,7 +7938,7 @@
 <li>Support for lazy-loading</li>
 <li>Branch/tag/commit support</li>
 <li>Post-update, post-load hooks</li>
-<li>包之间的依赖关系</li>
+<li>Dependencies between packages</li>
 <li>Unlike <a href="https://github.com/zsh-users/antigen">antigen</a>, no ZSH plugin file (<code>*.plugin.zsh</code>) required</li>
 <li>Interactive interface (<a href="https://github.com/junegunn/fzf">fzf</a>, <a href="https://github.com/peco/peco">peco</a>, <a href="https://github.com/zsh-users/zaw">zaw</a>, and so on)</li>
 <li>Cache mechanism for reducing <a href="https://github.com/zplug/zplug#vs">the startup time</a></li>
@@ -7922,7 +7948,7 @@
 <ul>
 <li>Fastest plugin manager (Really, after the first run, zpm will not be used at all)</li>
 <li>Support for async loading</li>
-<li>包之间的依赖关系</li>
+<li>Dependencies between packages</li>
 <li>zpm runs on Linux, macOS, FreeBSD and Android.</li>
 <li>zpm plugins are compatible with <a href="http://ohmyz.sh/">oh-my-zsh</a>.</li>
 </ul>
@@ -8022,22 +8048,18 @@
 <li><a href="https://github.com/zdharma-continuum/zinit-configs">zinit-configs</a> - Real-world configuration files (basically a collection of <code>.zshrc</code> files) holding <a href="https://github.com/zdharma-continuum/zinit">zinit</a> invocations.</li>
 </ul>
 <h3 id="zsh-on-windows">ZSH on Windows<a class="headerlink" href="#zsh-on-windows" title="Permanent link">&para;</a></h3>
+<h4 id="superconsole-windows-only"><a href="https://github.com/alexchmykhalo/superconsole">superconsole</a> - Windows-only.<a class="headerlink" href="#superconsole-windows-only" title="Permanent link">&para;</a></h4>
 <ul>
-<li>
-<p><a href="https://github.com/alexchmykhalo/superconsole">superconsole</a> - Windows-only.</p>
-</li>
-<li>
-<p>ConEmu/zsh out-of-the-box configured to restore previously opened tabs and shell working directories after ConEmu restart</p>
-</li>
+<li><code>ConEmu</code>/<code>zsh</code> out-of-the-box configured to restore previously opened tabs and shell working directories after <code>ConEmu</code> restart</li>
 <li>Choose between clean and inherited environment when starting new SuperConsole sessions</li>
 <li>Custom colorful scheme, colorful output for various commands</li>
-<li>MSYS2 included, <code>zsh</code> and necessary software preinstalled, uses zsh-grml-config</li>
-<li>Uses Antigen for ZSH theme and config management</li>
+<li><code>MSYS2</code> included, <code>zsh</code> and necessary software preinstalled, uses zsh-grml-config</li>
+<li>Uses <a href="https://github.com/zsh-users/antigen">Antigen</a> for ZSH theme and config management</li>
 <li>Enabled number of ZSH plugins to activate completion, highlighting and history for most comfortable use</li>
-<li>Git-for-Windows repo with proper <code>git</code> and git lfs support for MSYS2 environment is configured, <code>git</code> client already installed.</li>
+<li>Git-for-Windows repo with proper <code>git</code> and <code>git lfs</code> support for <code>MSYS2</code> environment is configured, <code>git</code> client already installed.</li>
 <li><code>ssh-agent</code> for <code>git</code> works out-of-box, add your keys to <code>ConEmu/msys64/ConEmu/msys64/home/user/.ssh</code> dir</li>
-<li>Non-blocking ZSH prompt status updates thanks to agkozak-zsh-prompt</li>
-<li>Customized for MSYS2 command-not-found handler suggests what package to install</li>
+<li>Non-blocking ZSH prompt status updates thanks to <a href="https://github.com/agkozak/agkozak-zsh-prompt">agkozak-zsh-prompt</a></li>
+<li>Command-not-found handler customized for <code>MSYS2</code> suggests what package to install</li>
 <li>Sets up <code>nano</code> as main editor, enables <code>nano</code> syntax highlighting</li>
 <li>Custom helper scripts added to <code>ConEmu/msys64/3rdparty</code></li>
 </ul>
@@ -8455,7 +8477,7 @@
 <li><a href="https://github.com/jsahlen/nodenv.plugin.zsh">nodenv (jsahlen)</a> - Auto-load <code>nodenv</code> and its completions into the shell.</li>
 <li><a href="https://github.com/mattberther/zsh-nodenv">nodenv (mattberther)</a> - Installs, updates and loads <code>nodenv</code>. Inspired by zsh-rbenv.</li>
 <li><a href="https://github.com/micrenda/zsh-nohup">nohup</a> - Add <code>nohup</code> to the current command pressing <code>Ctrl-H</code>.</li>
-<li><a href="https://github.com/eventi/noreallyjustfuckingstopalready">noreallyjustfuckingstopalready</a> - macOS users know the pain of trying to figure out what command actually flushes the DNS cache on their version of macOS, and this plugin makes that annoyance go away.</li>
+<li><a href="https://github.com/eventi/noreallyjustfuckingstopalready">noreallyjustfuckingstopalready</a> - macOS 用户知道试图找出在他们的 macOS 版本上实际刷新 DNS 缓存的命令的痛苦，而这个插件让这种烦恼消失了。</li>
 <li><a href="https://github.com/aperezdc/zsh-notes">notes (aperezdc)</a> - Inspired by <a href="https://www.seanh.cc/terminal_velocity/">terminal_velocity</a>, it provides a fast interface to create and access a set of <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> text files inside a directory.</li>
 <li><a href="https://github.com/chipsenkbeil/zsh-notes">notes (chipsenkbeil)</a> - Provides a quick notes editing experience in ZSH.</li>
 <li><a href="https://github.com/luismayta/zsh-notify">notify (luismayta)</a> - Notifications for ZSH with auto installation of dependencies and r2d2 sounds.</li>
@@ -8761,7 +8783,7 @@
 <li><a href="https://github.com/zdharma-continuum/zredis">zredis</a> - Adds Redis database support, with <code>database_key</code> &lt;-&gt; <code>shell_variable</code> binding. Supports all data types.</li>
 <li><a href="https://github.com/z-shell/zservice-py3http">zservice-py3http</a> - Serve a given directory with Python 3's http server from the standard library.</li>
 <li><a href="https://github.com/deluan/zsh-in-docker">zsh-in-docker</a> - Automates ZSH + Oh-My-ZSH installation into development containers. Works with Alpine, Ubuntu, Debian, CentOS or Amazon Linux.</li>
-<li><a href="https://github.com/redxtech/zsh-not-vim">zsh-not-vim</a> - Provides a function that automatically shames the user for forgetting they weren't in vim.</li>
+<li><a href="https://github.com/redxtech/zsh-not-vim">zsh-not-vim</a> - 提供自动羞辱用户忘记他们没有在 vim 中的功能。</li>
 <li><a href="https://github.com/z-shell/zsh-select">zsh-select</a> - Displays a selection list. It is similar to <code>selecta</code>, but uses the curses library to do display, and when compared to <a href="https://github.com/junegunn/fzf">fzf</a>, the main difference is approximate matching instead of fuzzy matching.</li>
 <li><a href="https://github.com/agkozak/zsh-z">zsh-z (agkozak)</a> - Jump quickly to directories that you have visited "frecently." A native ZSH port of <code>z.sh</code> - without <code>awk</code>, <code>sed</code>, <code>sort</code>, or <code>date</code>.</li>
 <li><a href="https://github.com/ptavares/zsh-z">zsh-z (ptavares)</a> - Installs and loads <a href="https://github.com/rupa/z.git">z</a>.</li>
@@ -8971,7 +8993,7 @@
 <li><a href="https://github.com/mje-nz/zsh-themes">async</a> - Shows current directory, <code>git</code> state, return value of last command if it had an error code, number of background jobs, execution time of long-running commands, current python virtualenv.</li>
 <li><a href="https://github.com/guiferpa/aterminal">aterminal</a> - Displays Nodejs, NPM, Docker, Go, Python, Elixir and Ruby information in the prompt.</li>
 <li><a href="https://github.com/FraSharp/aub">aub</a> - Includes decorations for <code>git</code> and <code>hg</code> status and <code>username</code> at <code>host</code>.</li>
-<li><a href="https://github.com/avil13/avil-zsh-theme">avil</a> - 带有 <code>git</code> 装饰的极简主义主题。</li>
+<li><a href="https://github.com/avil13/avil-zsh-theme">avil</a> - Minimalist theme with <code>git</code> decorations.</li>
 <li><a href="https://github.com/fdaciuk/avit-da2k">avit-d2k</a> - Based on the oh-my-zsh <a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/avit.zsh-theme">avit</a> theme, with small changes.</li>
 <li><a href="https://github.com/zlsun/avit-mod">avit-mod</a> - Modified version of oh-my-zsh's <a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/avit.zsh-theme">avit</a> theme.</li>
 <li><a href="https://github.com/sorcererxw/banana-zsh-theme">banana</a> - Includes <code>git</code> status decorations and current directory.</li>
@@ -9178,7 +9200,7 @@
 <li><a href="https://github.com/guesswhozzz/guezwhoz-zshell">guezwhoz</a> - Minimalist, includes <code>git</code> status decorations.</li>
 <li><a href="https://github.com/victorfsf/guri">guri</a> - A Simple and fast Oh-My-Zsh theme, based on <a href="https://github.com/sindresorhus/pure">Pure</a>'s design.</li>
 <li><a href="https://github.com/bhilburn/hackersaurus">hackersaurus</a> - A theme with <code>git</code> status and exit code of last command run embedded in the prompt. Related to <a href="https://github.com/bhilburn/powerlevel9k">powerlevel9k</a>.</li>
-<li><a href="https://github.com/IgorHalfeld/halfeld-zsh-theme">halfeld</a> - 带有 <code>git</code> 装饰的极简主义主题。</li>
+<li><a href="https://github.com/IgorHalfeld/halfeld-zsh-theme">halfeld</a> - Minimalist theme with <code>git</code> decorations.</li>
 <li><a href="https://github.com/5m0k3r/zsh-themes">halil</a> - Fork of oh-my-zsh's <a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/amuse.zsh-theme">amuse</a> theme.</li>
 <li><a href="https://github.com/arturoalviar/hana-matcha-zsh-theme">hana-matcha</a> - A simple theme with the first character being 花(hana), the kanji for flower. This theme was inspired by a keycap set called DSA Hana. This pairs well with the <a href="https://github.com/arturoalviar/hana-matcha-syntax">hana atom</a> theme. Includes <code>git</code> status decorations.</li>
 <li><a href="https://github.com/hanleylee/handy">handy</a> <i>- Colorful and lightweight theme.</i> <b>- 多彩和轻量级的主题。</b> <i>Shows root status, <code>git</code> status, current directory and <code>user@hostname</code> decorations.</i><b>显示 root 状态、<code>git</code> 状态、当前目录和 <code>user@hostname</code> 装饰。</b></li>
@@ -9396,7 +9418,7 @@
 <li><a href="https://github.com/badouralix/oh-my-via">oh-my-via</a> - Theme for ZSH which mainly forks the historical theme used on VIA servers.</li>
 <li><a href="https://github.com/joselpadronc/OhMyPC">ohmypc</a> - Works well with dark terminal windows. Includes <code>git</code> decorations.</li>
 <li><a href="https://github.com/sirshikher/zsh-om">om</a> - Minimal theme, works with dark backgrounds, includes <code>git</code> status decorations.</li>
-<li><a href="https://github.com/MU001999/omszt">omszt</a> - 带有 <code>git</code> 装饰的极简主义主题。</li>
+<li><a href="https://github.com/MU001999/omszt">omszt</a> - Minimalist theme with <code>git</code> decorations.</li>
 <li><a href="https://github.com/ouuan/omuse-zsh-theme">omuse</a> - Based on Oh-My-ZSH's <a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/amuse.zsh-theme">amuse</a>. Has decorations for <code>git</code> status, time, absolute pwd, RAM usage, time used by last command, and last command exit status.</li>
 <li><a href="https://github.com/ThemysciraData/owczarczak.zsh-theme">owczarczak</a> - Inspired by bira, dieter and fino-time. Includes <code>venv</code> and vcs status decorations.</li>
 <li><a href="https://github.com/owitech/zsh-theme/">owi</a> - Minimalist theme with <code>git</code> status decorations.</li>
@@ -9587,7 +9609,7 @@
 <li><a href="https://github.com/carcruz/susi-zsh-iterm">susi</a> - Includes <code>git</code> status decorations and an accompanying iTerm2 color scheme.</li>
 <li><a href="https://github.com/SvS30/svs-theme">svs</a> - Clean and distraction free theme with <code>git</code> status and current path decorations.</li>
 <li><a href="https://github.com/ttttmr/sy-zsh-theme">sy</a> - Based on <a href="https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/ys.zsh-theme">ys</a>, includes <code>git</code> status decorations.</li>
-<li><a href="https://github.com/t2er/t2er-zsh-theme">t2er</a> - 带有 <code>git</code> 装饰的极简主义主题。</li>
+<li><a href="https://github.com/t2er/t2er-zsh-theme">t2er</a> - Minimalist theme with <code>git</code> decorations.</li>
 <li><a href="https://github.com/bvc3at/tabaf-zsh-theme">tabaf</a> - Minimal ZSH theme optimized for dark backgrounds.</li>
 <li><a href="https://github.com/thingerpig/tepig-ys.zsh-theme">tepig-ys</a> - Includes <code>git</code> status decorations and conda/virtualenv status.</li>
 <li><a href="https://github.com/rooted-cyber/Termux-zsh-theme">termux</a> - Minimalist theme.</li>

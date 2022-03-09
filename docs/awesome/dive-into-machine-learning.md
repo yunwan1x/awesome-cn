@@ -1,7 +1,5 @@
 <div class="github-widget" data-repo="hangtwenty/dive-into-machine-learning"></div>
 
-[![image](https://badgen.net/badge/Support/Ukraine/?color=0057B8&labelColor=FFD700)](https://supportukrainenow.org)
-
 * **[SupportUkraineNow.org — "Real ways you can help Ukraine"](https://supportukrainenow.org)**
 
 ----

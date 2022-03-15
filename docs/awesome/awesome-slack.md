@@ -3,10 +3,10 @@
 ## Awesome Slack Communities [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Build Status](https://api.travis-ci.org/filipelinhares/awesome-slack.svg)](https://travis-ci.org/filipelinhares/awesome-slack)
 
-A list of communities about web development and design that are powered by **Slack**.
+由 **Slack** 提供支持的有关 Web 开发和设计的社区列表.
 
 ## What's Slack
-> Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go. *- slack.com*
+ &gt; Slack 是一个团队交流平台：所有内容都集中在一个地方，可即时搜索，随时随地可用.  *- slack.com*
 
 
 ## Development
@@ -51,11 +51,11 @@ A list of communities about web development and design that are powered by **Sla
 - [Psychedelic Chat](http://psychedelicchat.com/)
 - [LGBTQ in Technology](https://lgbtq.technology/)
 - [#Startup](http://startup.chat)
-- [Safelight](http://safelight.herokuapp.com/) - Photography.
-- [DFIR Community](https://rishi28.typeform.com/to/sTbTI8) - Information Security.
-- [First Contributors](https://firstcontributors.slack.com/join/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM#/) - 为开源贡献者提供帮助/指导。
-- [IT Pro Community](https://www.electric.ai/it-pro-slack) - Connect and network with IT practitioners and decision-makers
-- [SaaS Community](https://join.slack.com/t/saas-hgv7803/shared_invite/zt-qwvrywyr-8DmSpEzBiSWD2WQuB9r9pw) - Community for SaaS product builders, to discuss the challenges involved.
+- [Safelight](http://safelight.herokuapp.com/) - 摄影.
+- [DFIR Community](https://rishi28.typeform.com/to/sTbTI8) - 信息安全.
+- [First Contributors](https://firstcontributors.slack.com/join/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM#/) - 为开源贡献者提供帮助/指导.
+- [IT Pro Community](https://www.electric.ai/it-pro-slack) - 与 IT 从业者和决策者建立联系和网络
+- [SaaS Community](https://join.slack.com/t/saas-hgv7803/shared_invite/zt-qwvrywyr-8DmSpEzBiSWD2WQuB9r9pw) - SaaS 产品构建者社区，讨论所涉及的挑战.
 
 ## DevOps
 - [Google Cloud Platform](http://bit.ly/gcp-slack)
@@ -67,7 +67,7 @@ A list of communities about web development and design that are powered by **Sla
 - [Awesome Community](https://github.com/phpearth/awesome-community)
 
 ## Contribute
-Your contributions and suggestions are :heart: welcome. Ensure to read the [guidelines](https://github.com/filipelinhares/awesome-slack/blob/master/CONTRIBUTING.md) first.
+您的贡献和建议是：心：欢迎. 确保阅读 [guidelines](https://github.com/filipelinhares/awesome-slack/blob/master/CONTRIBUTING.md) 第一的.
 
 ## License
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)

@@ -7926,983 +7926,986 @@
                 <div class="github-widget" data-repo="akullpp/awesome-java"></div>
 
 <h2 id="awesome-java">Awesome Java <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a><a class="headerlink" href="#awesome-java" title="Permanent link">&para;</a></h2>
-<p>A curated list of awesome Java frameworks, libraries and software.</p>
+<p>精选的 Java 框架、库和软件的精选列表.</p>
 <h2 id="projects">Projects<a class="headerlink" href="#projects" title="Permanent link">&para;</a></h2>
 <h3 id="bean-mapping">Bean Mapping<a class="headerlink" href="#bean-mapping" title="Permanent link">&para;</a></h3>
-<p><em>Frameworks that ease bean mapping.</em></p>
+<p><em>简化 bean 映射的框架.</em></p>
 <ul>
-<li><a href="https://github.com/doov-io/doov">dOOv</a> - Provides fluent API for typesafe domain model validation and mapping. It uses annotations, code generation and a type safe DSL to make bean validation and mapping fast and easy.</li>
-<li><a href="https://github.com/jmapper-framework/jmapper-core">JMapper</a> - Uses byte code manipulation for lightning-fast mapping. Supports annotations and API or XML configuration.</li>
-<li><a href="https://github.com/mapstruct/mapstruct">MapStruct</a> - Code generator that simplifies mappings between different bean types, based on a convention-over-configuration approach.</li>
-<li><a href="https://github.com/modelmapper/modelmapper">ModelMapper</a> - Intelligent object mapping library that automatically maps objects to each other.</li>
-<li><a href="https://github.com/orika-mapper/orika">Orika</a> - JavaBean-mapping framework that recursively copies (among other capabilities) data from one object to another.</li>
-<li><a href="https://github.com/remondis-it/remap">reMap</a> - Lambda and method handle-based mapping which requires code and not annotations if objects have different names.</li>
-<li><a href="https://github.com/xebia-france/selma">Selma</a> - Annotation processor-based bean mapper.</li>
+<li><a href="https://github.com/doov-io/doov">dOOv</a>  - 为类型安全的域模型验证和映射提供流畅的 API. 它使用注释、代码生成和类型安全的 DSL 来使 bean 验证和映射变得快速而简单.</li>
+<li><a href="https://github.com/jmapper-framework/jmapper-core">JMapper</a>  - 使用字节码操作进行闪电般的快速映射. 支持注解和 API 或 XML 配置.</li>
+<li><a href="https://github.com/mapstruct/mapstruct">MapStruct</a> - 基于约定优于配置的方法，简化不同 bean 类型之间映射的代码生成器.</li>
+<li><a href="https://github.com/modelmapper/modelmapper">ModelMapper</a> - 智能对象映射库，自动将对象相互映射.</li>
+<li><a href="https://github.com/orika-mapper/orika">Orika</a> - JavaBean 映射框架，递归地将数据从一个对象复制到另一个对象.</li>
+<li><a href="https://github.com/remondis-it/remap">reMap</a> - Lambda 和基于方法句柄的映射，如果对象具有不同的名称，则需要代码而不是注释.</li>
+<li><a href="https://github.com/xebia-france/selma">Selma</a> - 基于注释处理器的 bean 映射器.</li>
 </ul>
 <h3 id="build">Build<a class="headerlink" href="#build" title="Permanent link">&para;</a></h3>
-<p><em>Tools that handle the build cycle and dependencies of an application.</em></p>
+<p><em>处理应用程序的构建周期和依赖关系的工具.</em></p>
 <ul>
-<li><a href="https://maven.apache.org">Apache Maven</a> - Declarative build and dependency management that favors convention over configuration. It might be preferable to Apache Ant, which uses a rather procedural approach and can be difficult to maintain.</li>
-<li><a href="https://bazel.build">Bazel</a> - Tool from Google that builds code quickly and reliably.</li>
-<li><a href="https://github.com/facebook/buck">Buck</a> - Encourages the creation of small, reusable modules consisting of code and resources.</li>
-<li><a href="https://gradle.org">Gradle</a> - Incremental builds programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.</li>
+<li><a href="https://maven.apache.org">Apache Maven</a>  - 声明式构建和依赖管理，有利于约定而不是配置. 它可能比 Apache Ant 更可取，后者使用相当程序化的方法并且可能难以维护.</li>
+<li><a href="https://bazel.build">Bazel</a> - 来自 Google 的工具，可快速可靠地构建代码.</li>
+<li><a href="https://github.com/facebook/buck">Buck</a> - 鼓励创建由代码和资源组成的小型、可重用模块.</li>
+<li><a href="https://gradle.org">Gradle</a>  - 通过 Groovy 编程而不是声明 XML 的增量构建. 与 Maven 的依赖管理配合得很好.</li>
 </ul>
 <h3 id="bytecode-manipulation">Bytecode Manipulation<a class="headerlink" href="#bytecode-manipulation" title="Permanent link">&para;</a></h3>
-<p><em>Libraries to manipulate bytecode programmatically.</em></p>
+<p><em>以编程方式操作字节码的库.</em></p>
 <ul>
-<li><a href="https://asm.ow2.io">ASM</a> - All-purpose, low-level bytecode manipulation and analysis.</li>
-<li><a href="https://bytebuddy.net">Byte Buddy</a> - Further simplifies bytecode generation with a fluent API.</li>
-<li><a href="https://github.com/Konloch/bytecode-viewer">bytecode-viewer</a> - Java 8 Jar &amp; Android APK reverse engineering suite. (GPL-3.0-only)</li>
-<li><a href="https://byteman.jboss.org">Byteman</a> - Manipulate bytecode at runtime via DSL (rules); mainly for testing/troubleshooting. (LGPL-2.1-or-later)</li>
-<li><a href="https://github.com/cglib/cglib">cglib</a> - Bytecode generation library.</li>
-<li><a href="https://github.com/jboss-javassist/javassist">Javassist</a> - Tries to simplify bytecode editing.</li>
-<li><a href="https://github.com/SpongePowered/Mixin">Mixin</a> - Manipulate bytecode at runtime using real Java code.</li>
+<li><a href="https://asm.ow2.io">ASM</a> - 通用的低级字节码操作和分析.</li>
+<li><a href="https://bytebuddy.net">Byte Buddy</a> - 使用流畅的 API 进一步简化字节码生成.</li>
+<li><a href="https://github.com/Konloch/bytecode-viewer">bytecode-viewer</a>  - Java 8 Jar 和 Android APK 逆向工程套件.  （仅限 GPL-3.0）</li>
+<li><a href="https://byteman.jboss.org">Byteman</a>  - 在运行时通过 DSL（规则）操作字节码； 主要用于测试/故障排除.  （LGPL-2.1 或更高版本）</li>
+<li><a href="https://github.com/cglib/cglib">cglib</a> - 字节码生成库.</li>
+<li><a href="https://github.com/jboss-javassist/javassist">Javassist</a> - 尝试简化字节码编辑.</li>
+<li><a href="https://github.com/SpongePowered/Mixin">Mixin</a> - 使用真正的 Java 代码在运行时操作字节码.</li>
 <li><a href="https://github.com/nicolasmanic/perses">Perses</a> - Dynamically injects failure/latency at the bytecode level according to principles of chaos engineering.</li>
 </ul>
 <h3 id="caching">Caching<a class="headerlink" href="#caching" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that provide caching facilities.</em></p>
+<p><em>提供缓存设施的库.</em></p>
 <ul>
-<li><a href="https://cache2k.org">cache2k</a> - In-memory high performance caching library.</li>
-<li><a href="https://github.com/ben-manes/caffeine">Caffeine</a> - High-performance, near-optimal caching library.</li>
-<li><a href="http://www.ehcache.org">Ehcache</a> - Distributed general-purpose cache.</li>
-<li><a href="https://infinispan.org">Infinispan</a> - Highly concurrent key/value datastore used for caching.</li>
+<li><a href="https://cache2k.org">cache2k</a> - 内存中的高性能缓存库.</li>
+<li><a href="https://github.com/ben-manes/caffeine">Caffeine</a> - 高性能、近乎最佳的缓存库.</li>
+<li><a href="http://www.ehcache.org">Ehcache</a> - 分布式通用缓存.</li>
+<li><a href="https://infinispan.org">Infinispan</a> - 用于缓存的高并发键/值数据存储.</li>
 </ul>
 <h3 id="cli">CLI<a class="headerlink" href="#cli" title="Permanent link">&para;</a></h3>
-<p><em>Libraries for everything related to the CLI.</em></p>
+<p><em>与 CLI 相关的所有内容的库.</em></p>
 <ul>
-<li><a href="https://github.com/vdmeer/asciitable">ASCII Table</a> - Library to draw tables in ASCII.</li>
+<li><a href="https://github.com/vdmeer/asciitable">ASCII Table</a> - 以 ASCII 格式绘制表格的库.</li>
 <li><a href="https://github.com/airlift/airline">Airline</a> - Annotation-based framework for parsing Git-like command-line arguments.</li>
-<li><a href="http://args4j.kohsuke.org">args4j</a> - Small library to parse command-line arguments.</li>
-<li><a href="https://github.com/fusesource/jansi">Jansi</a> - ANSI escape codes to format console output.</li>
-<li><a href="https://github.com/indvd00m/java-ascii-render">Java ASCII Render</a> - Graphical primitives for the console.</li>
-<li><a href="http://jcommander.org">JCommander</a> - Command-line argument-parsing framework with custom types and validation via implementing interfaces.</li>
-<li><a href="https://github.com/jbock-java/jbock">jbock</a> - Reflectionless command line parser.</li>
-<li><a href="https://gitlab.com/klamonte/jexer">Jexer</a> - Advanced console (and Swing) text user interface (TUI) library, with mouse-draggable windows, built-in terminal window manager, and sixel image support. Looks like <a href="https://en.wikipedia.org/wiki/Turbo_Vision">Turbo Vision</a>.</li>
-<li><a href="https://github.com/jline/jline3">JLine</a> - Includes features from modern shells like completion or history.</li>
+<li><a href="http://args4j.kohsuke.org">args4j</a> - 用于解析命令行参数的小型库.</li>
+<li><a href="https://github.com/fusesource/jansi">Jansi</a> - ANSI 转义码来格式化控制台输出.</li>
+<li><a href="https://github.com/indvd00m/java-ascii-render">Java ASCII Render</a> - 控制台的图形原语.</li>
+<li><a href="http://jcommander.org">JCommander</a> - 具有自定义类型和通过实现接口验证的命令行参数解析框架.</li>
+<li><a href="https://github.com/jbock-java/jbock">jbock</a> - 无反射命令行解析器.</li>
+<li><a href="https://gitlab.com/klamonte/jexer">Jexer</a>  - 高级控制台（和 Swing）文本用户界面 (TUI) 库，具有鼠标可拖动窗口、内置终端窗口管理器和 Sixel 图像支持. 好像 <a href="https://en.wikipedia.org/wiki/Turbo_Vision">Turbo Vision</a>.</li>
+<li><a href="https://github.com/jline/jline3">JLine</a> - 包括现代外壳的功能，如完成或历史.</li>
 <li><a href="https://jopt-simple.github.io/jopt-simple/">JOpt Simple</a> - Fluent parser that uses the POSIX#getopt and GNU#getopt_long syntaxes.</li>
-<li><a href="https://picocli.info">picocli</a> - ANSI colors and styles in usage help with annotation-based POSIX/GNU/any syntax, subcommands, strong typing for both options and positional args.</li>
-<li><a href="https://github.com/beryx/text-io">Text-IO</a> - Aids the creation of full console-based applications.</li>
+<li><a href="https://picocli.info">picocli</a> - 使用中的 ANSI 颜色和样式有助于基于注释的 POSIX/GNU/任何语法、子命令、选项和位置参数的强类型.</li>
+<li><a href="https://github.com/beryx/text-io">Text-IO</a> - 帮助创建完整的基于控制台的应用程序.</li>
 <li><a href="https://github.com/mabe02/lanterna">Lanterna</a> - Easy console text-GUI library, similar to curses. (LGPL-3.0-only)</li>
 </ul>
 <h3 id="cluster-management">Cluster Management<a class="headerlink" href="#cluster-management" title="Permanent link">&para;</a></h3>
-<p><em>Frameworks that can dynamically manage applications inside of a cluster.</em></p>
+<p><em>可以动态管理集群内应用程序的框架.</em></p>
 <ul>
-<li><a href="https://aurora.apache.org">Apache Aurora</a> - Mesos framework for long-running services and cron jobs.</li>
-<li><a href="http://getsingularity.com">Singularity</a> - Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.</li>
+<li><a href="https://aurora.apache.org">Apache Aurora</a> - 用于长时间运行的服务和 cron 作业的 Mesos 框架.</li>
+<li><a href="http://getsingularity.com">Singularity</a>  - 使部署和操作变得简单的 Mesos 框架. 它支持 Web 服务、后台工作人员、计划作业和一次性任务.</li>
 </ul>
 <h3 id="code-analysis">Code Analysis<a class="headerlink" href="#code-analysis" title="Permanent link">&para;</a></h3>
-<p><em>Tools that provide metrics and quality measurements.</em></p>
+<p><em>提供指标和质量测量的工具.</em></p>
 <ul>
-<li><a href="https://github.com/checkstyle/checkstyle">Checkstyle</a> - Static analysis of coding conventions and standards. (LGPL-2.1-or-later)</li>
-<li><a href="https://github.com/google/error-prone">Error Prone</a> - Catches common programming mistakes as compile-time errors.</li>
-<li><a href="https://github.com/facebook/infer">Infer</a> - Modern static analysis tool for verifying the correctness of code.</li>
-<li><a href="https://jqassistant.org">jQAssistant</a> - Static code analysis with Neo4J-based query language. (GPL-3.0-only)</li>
-<li><a href="https://github.com/uber/NullAway">NullAway</a> - Eliminates NullPointerExceptions with low build-time overhead.</li>
-<li><a href="https://github.com/pmd/pmd">PMD</a> - Source code analysis for finding bad coding practices.</li>
-<li><a href="https://github.com/SonarSource/sonar-java">SonarJava</a> - Static analyzer for SonarQube &amp; SonarLint. (LGPL-3.0-only)</li>
-<li><a href="https://www.sourcetrail.com">Sourcetrail</a> - Visual source code navigator.</li>
-<li><a href="https://github.com/INRIA/spoon">Spoon</a> - Library for analyzing and transforming Java source code.</li>
-<li><a href="https://github.com/spotbugs/spotbugs">Spotbugs</a> - Static analysis of bytecode to find potential bugs. (LGPL-2.1-only)</li>
+<li><a href="https://github.com/checkstyle/checkstyle">Checkstyle</a>  - 编码约定和标准的静态分析.  （LGPL-2.1 或更高版本）</li>
+<li><a href="https://github.com/google/error-prone">Error Prone</a> - 将常见的编程错误捕获为编译时错误.</li>
+<li><a href="https://github.com/facebook/infer">Infer</a> - 用于验证代码正确性的现代静态分析工具.</li>
+<li><a href="https://jqassistant.org">jQAssistant</a>  - 使用基于 Neo4J 的查询语言进行静态代码分析.  （仅限 GPL-3.0）</li>
+<li><a href="https://github.com/uber/NullAway">NullAway</a> - 以低构建时间开销消除 NullPointerExceptions.</li>
+<li><a href="https://github.com/pmd/pmd">PMD</a> - 用于查找不良编码实践的源代码分析.</li>
+<li><a href="https://github.com/SonarSource/sonar-java">SonarJava</a>  - SonarQube 和 SonarLint 的静态分析器.  （仅限 LGPL-3.0）</li>
+<li><a href="https://www.sourcetrail.com">Sourcetrail</a> - 可视源代码导航器.</li>
+<li><a href="https://github.com/INRIA/spoon">Spoon</a> - 用于分析和转换 Java 源代码的库.</li>
+<li><a href="https://github.com/spotbugs/spotbugs">Spotbugs</a>  - 字节码的静态分析以发现潜在的错误.  （仅限 LGPL-2.1）</li>
 </ul>
 <h3 id="code-coverage">Code Coverage<a class="headerlink" href="#code-coverage" title="Permanent link">&para;</a></h3>
-<p><em>Frameworks and tools that enable code coverage metrics collection for test suites.</em></p>
+<p><em>为测试套件启用代码覆盖率指标收集的框架和工具.</em></p>
 <ul>
-<li><a href="https://www.atlassian.com/software/clover">Clover</a> - Relies on source-code instrumentation instead of bytecode instrumentation.</li>
-<li><a href="https://cobertura.github.io/cobertura/">Cobertura</a> - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics. (GPL-2.0-only)</li>
-<li><a href="https://www.eclemma.org/jacoco/">JaCoCo</a> - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation.</li>
+<li><a href="https://www.atlassian.com/software/clover">Clover</a> - 依赖源代码检测而不是字节码检测.</li>
+<li><a href="https://cobertura.github.io/cobertura/">Cobertura</a>  - 依赖离线（或静态）字节码检测和类加载来收集代码覆盖率指标.  （仅限 GPL-2.0）</li>
+<li><a href="https://www.eclemma.org/jacoco/">JaCoCo</a> - 支持收集代码覆盖率指标的框架，使用离线和运行时字节码检测.</li>
 </ul>
 <h3 id="code-generators">Code Generators<a class="headerlink" href="#code-generators" title="Permanent link">&para;</a></h3>
-<p><em>Tools that generate patterns for repetitive code in order to reduce verbosity and error-proneness.</em></p>
+<p><em>为重复代码生成模式以减少冗长和容易出错的工具.</em></p>
 <ul>
-<li><a href="https://github.com/sviperll/adt4j">ADT4J</a> - JSR-269 code generator for algebraic data types.</li>
-<li><a href="https://github.com/google/auto">Auto</a> - Generates factory, service, and value classes.</li>
-<li><a href="https://bootify.io">Bootify ![c]</a> - Browser-based Spring Boot app generation with JPA model and REST API.</li>
-<li><a href="https://github.com/inferred/FreeBuilder">FreeBuilder</a> - Automatically generates the Builder pattern.</li>
-<li><a href="https://github.com/verhas/javageci">Geci</a> - Discovers files that need generated code, updates automatically and writes to the source with a convenient API.</li>
-<li><a href="https://immutables.github.io">Immutables</a> - Annotation processors to generate simple, safe and consistent value objects.</li>
-<li><a href="https://github.com/square/javapoet">JavaPoet</a> - API to generate source files.</li>
-<li><a href="https://github.com/jhipster/generator-jhipster">JHipster</a> - Yeoman source code generator for Spring Boot and AngularJS.</li>
-<li><a href="https://www.joda.org/joda-beans/">Joda-Beans</a> - Small framework that adds queryable properties to Java, enhancing JavaBeans.</li>
-<li><a href="https://www.jpa-buddy.com">JPA Buddy ![c]</a> - Plugin for IntelliJ IDEA. Provides visual tools for generating JPA entities, Spring Data JPA repositories, Liquibase changelogs and SQL scripts. Offers automatic Liquibase/Flyway script generation by comparing model to DB, and reverse engineering JPA entities from DB tables.</li>
-<li><a href="https://projectlombok.org">Lombok</a> - Code generator that aims to reduce verbosity.</li>
-<li><a href="https://github.com/Randgalt/record-builder">Record-Builder</a> - Companion builder class, withers and templates for Java records.</li>
-<li><a href="https://www.telosys.org/">Telosys</a> - Simple and light code generator available as an Eclipse Plugin and also as a CLI.</li>
+<li><a href="https://github.com/sviperll/adt4j">ADT4J</a> - 代数数据类型的 JSR-269 代码生成器.</li>
+<li><a href="https://github.com/google/auto">Auto</a> - 生成工厂、服务和价值类别.</li>
+<li><a href="https://bootify.io">Bootify ![c]</a> - 使用 JPA 模型和 REST API 生成基于浏览器的 Spring Boot 应用程序.</li>
+<li><a href="https://github.com/inferred/FreeBuilder">FreeBuilder</a> - 自动生成Builder模式.</li>
+<li><a href="https://github.com/verhas/javageci">Geci</a> - 发现需要生成代码的文件，自动更新并使用方便的 API 写入源代码.</li>
+<li><a href="https://immutables.github.io">Immutables</a> - 用于生成简单、安全和一致的值对象的注释处理器.</li>
+<li><a href="https://github.com/square/javapoet">JavaPoet</a> - 生成源文件的 API.</li>
+<li><a href="https://github.com/jhipster/generator-jhipster">JHipster</a> - 用于 Spring Boot 和 AngularJS 的 Yeoman 源代码生成器.</li>
+<li><a href="https://www.joda.org/joda-beans/">Joda-Beans</a> - 向 Java 添加可查询属性的小型框架，增强了 JavaBeans.</li>
+<li><a href="https://www.jpa-buddy.com">JPA Buddy ![c]</a> - IntelliJ IDEA 插件. 提供用于生成 JPA 实体、Spring Data JPA 存储库、Liquibase 变更日志和 SQL 脚本的可视化工具. 通过将模型与 DB 进行比较，并从 DB 表逆向工程 JPA 实体，提供自动 Liquibase/Flyway 脚本生成.</li>
+<li><a href="https://projectlombok.org">Lombok</a> - 旨在减少冗长的代码生成器.</li>
+<li><a href="https://github.com/Randgalt/record-builder">Record-Builder</a> - Java 记录的配套构建器类、凋零和模板.</li>
+<li><a href="https://www.telosys.org/">Telosys</a> - 简单轻巧的代码生成器可用作 Eclipse 插件和 CLI.</li>
 </ul>
 <h3 id="compiler-compiler">Compiler-compiler<a class="headerlink" href="#compiler-compiler" title="Permanent link">&para;</a></h3>
-<p><em>有助于创建解析器、解释器或编译器的框架。</em></p>
+<p><em>有助于创建解析器、解释器或编译器的框架.</em></p>
 <ul>
-<li><a href="https://www.antlr.org">ANTLR</a> - Complex full-featured framework for top-down parsing.</li>
-<li><a href="https://javacc.github.io/javacc/">JavaCC</a> - Parser generator that generates top-down parsers. Allows lexical state switching and permits extended BNF specifications.</li>
-<li><a href="https://jflex.de">JFlex</a> - Lexical analyzer generator.</li>
+<li><a href="https://www.antlr.org">ANTLR</a> - 用于自上而下解析的复杂全功能框架.</li>
+<li><a href="https://javacc.github.io/javacc/">JavaCC</a>  - 生成自上而下解析器的解析器生成器. 允许词法状态切换并允许扩展 BNF 规范.</li>
+<li><a href="https://jflex.de">JFlex</a> - 词法分析器生成器.</li>
 </ul>
 <h3 id="computer-vision">Computer Vision<a class="headerlink" href="#computer-vision" title="Permanent link">&para;</a></h3>
-<p><em>Libraries which seek to gain high level information from images and videos.</em></p>
+<p><em>寻求从图像和视频中获取高级信息的图书馆.</em></p>
 <ul>
-<li><a href="https://boofcv.org">BoofCV</a> - Library for image processing, camera calibration, tracking, SFM, MVS, 3D vision, QR Code and much more.</li>
-<li><a href="https://imagej.net/ImageJ">ImageJ</a> - Medical image processing application with an API.</li>
-<li><a href="https://github.com/bytedeco/javacv">JavaCV</a> - Java interface to OpenCV, FFmpeg, and much more.</li>
+<li><a href="https://boofcv.org">BoofCV</a> - 用于图像处理、相机校准、跟踪、SFM、MVS、3D 视觉、二维码等的库.</li>
+<li><a href="https://imagej.net/ImageJ">ImageJ</a> - 带有 API 的医学图像处理应用程序.</li>
+<li><a href="https://github.com/bytedeco/javacv">JavaCV</a> - OpenCV、FFmpeg 等的 Java 接口.</li>
 </ul>
 <h3 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that provide external configuration.</em></p>
+<p><em>提供外部配置的库.</em></p>
 <ul>
-<li><a href="https://github.com/line/centraldogma">centraldogma</a> - Highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2.</li>
-<li><a href="https://github.com/cfg4j/cfg4j">cfg4j</a> - Modern configuration library for distributed apps written in Java.</li>
-<li><a href="https://github.com/lightbend/config">config</a> - Configuration library supporting Java properties, JSON or its human optimized superset HOCON.</li>
-<li><a href="https://github.com/SpongePowered/Configurate">Configurate</a> - Configuration library with support for various configuration formats and transformations.</li>
-<li><a href="https://github.com/shyiko/dotenv">dotenv</a> - Twelve-factor configuration library which uses environment-specific files.</li>
-<li><a href="http://ini4j.sourceforge.net">ini4j</a> - Provides an API for handling Windows' INI files.</li>
-<li><a href="https://github.com/mariomac/kaconf">KAConf</a> - Annotation-based configuration system for Java and Kotlin.</li>
-<li><a href="https://microconfig.io">microconfig</a> - Configuration system designed for microservices which helps to separate configuration from code. The configuration for different services can have common and specific parts and can be dynamically distributed.</li>
-<li><a href="https://github.com/lviggiano/owner">owner</a> - Reduces boilerplate of properties.</li>
+<li><a href="https://github.com/line/centraldogma">centraldogma</a> - 基于 Git、ZooKeeper 和 HTTP/2 的高可用版本控制服务配置存储库.</li>
+<li><a href="https://github.com/cfg4j/cfg4j">cfg4j</a> - 用于用 Java 编写的分布式应用程序的现代配置库.</li>
+<li><a href="https://github.com/lightbend/config">config</a> - 支持 Java 属性、JSON 或其人工优化的超集 HOCON 的配置库.</li>
+<li><a href="https://github.com/SpongePowered/Configurate">Configurate</a> - 支持各种配置格式和转换的配置库.</li>
+<li><a href="https://github.com/shyiko/dotenv">dotenv</a> - 使用环境特定文件的十二因素配置库.</li>
+<li><a href="http://ini4j.sourceforge.net">ini4j</a> - 提供用于处理 Windows 的 INI 文件的 API.</li>
+<li><a href="https://github.com/mariomac/kaconf">KAConf</a> - Java 和 Kotlin 的基于注释的配置系统.</li>
+<li><a href="https://microconfig.io">microconfig</a>  - 为微服务设计的配置系统，有助于将配置与代码分离. 不同服务的配置可以有共同的和特定的部分，并且可以动态分布.</li>
+<li><a href="https://github.com/lviggiano/owner">owner</a> - 减少属性的样板.</li>
 </ul>
 <h3 id="constraint-satisfaction-problem-solver">Constraint Satisfaction Problem Solver<a class="headerlink" href="#constraint-satisfaction-problem-solver" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that help with implementing optimization and satisfiability problems.</em></p>
+<p><em>帮助实现优化和可满足性问题的库.</em></p>
 <ul>
-<li><a href="https://choco-solver.org">Choco</a> - Off-the-shelf constraint satisfaction problem solver that uses constraint programming techniques.</li>
-<li><a href="https://github.com/radsz/jacop">JaCoP</a> - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models. (AGPL-3.0)</li>
-<li><a href="https://www.optaplanner.org">OptaPlanner</a> - Business planning and resource scheduling optimization solver.</li>
+<li><a href="https://choco-solver.org">Choco</a> - 使用约束编程技术的现成的约束满足问题求解器.</li>
+<li><a href="https://github.com/radsz/jacop">JaCoP</a>  - 包括 FlatZinc 语言的接口，使其能够执行 MiniZinc 模型.  (AGPL-3.0)</li>
+<li><a href="https://www.optaplanner.org">OptaPlanner</a> - 业务规划和资源调度优化求解器.</li>
 </ul>
 <h3 id="csv">CSV<a class="headerlink" href="#csv" title="Permanent link">&para;</a></h3>
-<p><em>Frameworks and libraries that simplify reading/writing CSV data.</em></p>
+<p><em>简化读取/写入 CSV 数据的框架和库.</em></p>
 <ul>
-<li><a href="https://github.com/osiegmar/FastCSV">FastCSV</a> - Performance-optimized, dependency-free and RFC 4180 compliant.</li>
-<li><a href="https://github.com/FasterXML/jackson-dataformat-csv">jackson-dataformat-csv</a> - Jackson extension for reading and writing CSV.</li>
-<li><a href="http://opencsv.sourceforge.net">opencsv</a> - Simple CSV parser.</li>
-<li><a href="https://super-csv.github.io/super-csv/">Super CSV</a> - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.</li>
-<li><a href="https://github.com/uniVocity/univocity-parsers">uniVocity-parsers</a> - One of the fastest and most feature-complete parsers. Also comes with parsers for TSV and fixed-width records.</li>
+<li><a href="https://github.com/osiegmar/FastCSV">FastCSV</a> - 性能优化、无依赖且符合 RFC 4180.</li>
+<li><a href="https://github.com/FasterXML/jackson-dataformat-csv">jackson-dataformat-csv</a> - 用于读取和写入 CSV 的 Jackson 扩展.</li>
+<li><a href="http://opencsv.sourceforge.net">opencsv</a> - 简单的 CSV 解析器.</li>
+<li><a href="https://super-csv.github.io/super-csv/">Super CSV</a> - 强大的 CSV 解析器，支持 Dozer、Joda-Time 和 Java 8.</li>
+<li><a href="https://github.com/uniVocity/univocity-parsers">uniVocity-parsers</a>  - 最快和最完整的解析器之一. 还附带 TSV 和固定宽度记录的解析器.</li>
 </ul>
 <h3 id="data-structures">Data Structures<a class="headerlink" href="#data-structures" title="Permanent link">&para;</a></h3>
-<p><em>Efficient and specific data structures.</em></p>
+<p><em>高效而具体的数据结构.</em></p>
 <ul>
-<li><a href="https://avro.apache.org">Apache Avro</a> - Data interchange format with dynamic typing, untagged data, and absence of manually assigned IDs.</li>
-<li><a href="https://orc.apache.org">Apache Orc</a> - Fast and efficient columnar storage format for Hadoop-based workloads.</li>
-<li><a href="https://parquet.apache.org">Apache Parquet</a> - Columnar storage format based on assembly algorithms from Google's paper on Dremel.</li>
-<li><a href="https://thrift.apache.org">Apache Thrift</a> - Data interchange format that originated at Facebook.</li>
-<li><a href="https://github.com/bulldog2011/bigqueue">Big Queue</a> - Fast and persistent queue based on memory-mapped files.</li>
-<li><a href="https://github.com/LiveRamp/HyperMinHash-java">HyperMinHash-java</a> - Probabilistic data structure for computing union, intersection, and set cardinality in loglog space.</li>
-<li><a href="https://github.com/hrldcpr/pcollections">Persistent Collection</a> - Persistent and immutable analogue of the Java Collections Framework.</li>
-<li><a href="https://github.com/protocolbuffers/protobuf">Protobuf</a> - Google's data interchange format.</li>
-<li><a href="https://github.com/RoaringBitmap/RoaringBitmap">RoaringBitmap</a> - Fast and efficient compressed bitmap.</li>
-<li><a href="https://github.com/real-logic/simple-binary-encoding">SBE</a> - Simple Binary Encoding, one of the fastest message formats around.</li>
-<li><a href="https://github.com/square/tape">Tape</a> - Lightning-fast, transactional, file-based FIFO.</li>
-<li><a href="https://github.com/square/wire">Wire</a> - Clean, lightweight protocol buffers.</li>
+<li><a href="https://avro.apache.org">Apache Avro</a> - 具有动态类型、未标记数据和没有手动分配 ID 的数据交换格式.</li>
+<li><a href="https://orc.apache.org">Apache Orc</a> - 用于基于 Hadoop 的工作负载的快速高效的列式存储格式.</li>
+<li><a href="https://parquet.apache.org">Apache Parquet</a> - 基于 Google 关于 Dremel 的论文中的汇编算法的列式存储格式.</li>
+<li><a href="https://thrift.apache.org">Apache Thrift</a> - 起源于 Facebook 的数据交换格式.</li>
+<li><a href="https://github.com/bulldog2011/bigqueue">Big Queue</a> - 基于内存映射文件的快速且持久的队列.</li>
+<li><a href="https://github.com/LiveRamp/HyperMinHash-java">HyperMinHash-java</a> - 用于在 loglog 空间中计算并集、交集和集合基数的概率数据结构.</li>
+<li><a href="https://github.com/hrldcpr/pcollections">Persistent Collection</a> - Java Collections Framework 的持久且不可变的类似物.</li>
+<li><a href="https://github.com/protocolbuffers/protobuf">Protobuf</a> - 谷歌的数据交换格式.</li>
+<li><a href="https://github.com/RoaringBitmap/RoaringBitmap">RoaringBitmap</a> - 快速高效的压缩位图.</li>
+<li><a href="https://github.com/real-logic/simple-binary-encoding">SBE</a> - 简单二进制编码，最快的消息格式之一.</li>
+<li><a href="https://github.com/square/tape">Tape</a> - 闪电般快速、事务性、基于文件的 FIFO.</li>
+<li><a href="https://github.com/square/wire">Wire</a> - 干净、轻量级的协议缓冲区.</li>
 </ul>
 <h3 id="database">Database<a class="headerlink" href="#database" title="Permanent link">&para;</a></h3>
-<p><em>Everything that simplifies interactions with the database.</em></p>
+<p><em>简化与数据库交互的一切.</em></p>
 <ul>
-<li><a href="https://calcite.apache.org">Apache Calcite</a> - Dynamic data management framework. It contains many of the pieces that comprise a typical database management system.</li>
-<li><a href="https://drill.apache.org">Apache Drill</a> - Distributed, schema on-the-fly, ANSI SQL query engine for Big Data exploration.</li>
-<li><a href="https://phoenix.apache.org">Apache Phoenix</a> - High-performance relational database layer over HBase for low-latency applications.</li>
-<li><a href="https://github.com/arangodb/arangodb-java-driver">ArangoDB</a> - ArangoDB Java driver.</li>
-<li><a href="https://github.com/OpenHFT/Chronicle-Map">Chronicle Map</a> - Efficient, in-memory (opt. persisted to disk), off-heap key-value store.</li>
-<li><a href="https://debezium.io/">Debezium</a> - Low latency data streaming platform for change data capture.</li>
-<li><a href="https://druid.apache.org">druid</a> - High-performance, column-oriented, distributed data store.</li>
-<li><a href="https://github.com/eXist-db/exist">eXist</a> - NoSQL document database and application platform. (LGPL-2.1-only)</li>
-<li><a href="https://github.com/vladmihalcea/flexy-pool">FlexyPool</a> - Brings metrics and failover strategies to the most common connection pooling solutions.</li>
-<li><a href="https://flywaydb.org">Flyway</a> - Simple database migration tool.</li>
-<li><a href="https://h2database.com">H2</a> - Small SQL database notable for its in-memory functionality.</li>
-<li><a href="https://github.com/brettwooldridge/HikariCP">HikariCP</a> - High-performance JDBC connection pool.</li>
-<li><a href="http://jdbi.org">JDBI</a> - Convenient abstraction of JDBC.</li>
-<li><a href="https://github.com/xetorthio/jedis">Jedis</a> - Small client for interaction with Redis, with methods for commands.</li>
-<li><a href="https://github.com/searchbox-io/Jest">Jest</a> - Client for the Elasticsearch REST API.</li>
-<li><a href="https://github.com/justinsb/jetcd">jetcd</a> - Client library for etcd.</li>
-<li><a href="https://github.com/my2iu/Jinq">Jinq</a> - Typesafe database queries via symbolic execution of Java 8 Lambdas (on top of JPA or jOOQ).</li>
-<li><a href="https://www.jooq.org">jOOQ</a> - Generates typesafe code based on SQL schema.</li>
-<li><a href="https://github.com/Meituan-Dianping/Leaf">Leaf</a> - Distributed ID generate service.</li>
-<li><a href="http://www.liquibase.org">Liquibase</a> - 用于跟踪、管理和应用数据库架构更改的独立于数据库的库。</li>
-<li><a href="http://www.mapdb.org">MapDB</a> - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.</li>
-<li><a href="https://github.com/vorburger/MariaDB4j">MariaDB4j</a> - Launcher for MariaDB that requires no installation or external dependencies.</li>
-<li><a href="https://github.com/arkanovicz/modality">Modality</a> - Lightweight ORM with database reverse engineering features.</li>
-<li><a href="https://github.com/mhewedy/spring-data-jpa-mongodb-expressions">Spring Data JPA MongoDB Expressions</a> - Allows you to use MongoDB query language to query your relational database.</li>
-<li><a href="https://trino.io">Trino</a> - Distributed SQL query engine for big data.</li>
-<li><a href="https://github.com/querystream/querystream">QueryStream</a> - Build JPA Criteria queries using a Stream-like API.</li>
-<li><a href="http://www.querydsl.com">Querydsl</a> - Typesafe unified queries.</li>
-<li><a href="https://github.com/realm/realm-java">Realm</a> - Mobile database to run directly inside phones, tablets or wearables.</li>
-<li><a href="https://github.com/redisson/redisson">Redisson</a> - Allows for distributed and scalable data structures on top of a Redis server.</li>
-<li><a href="https://github.com/requery/requery">requery</a> - Modern, lightweight but powerful object mapping and SQL generator. Easily map to or create databases, or perform queries and updates from any Java-using platform.</li>
-<li><a href="https://github.com/speedment/speedment">Speedment</a> - Database access library that utilizes Java 8's Stream API for querying.</li>
-<li><a href="https://www.vibur.org">Vibur DBCP</a> - JDBC connection pool library with advanced performance monitoring capabilities.</li>
-<li><a href="https://github.com/JetBrains/xodus">Xodus</a> - Highly concurrent transactional schema-less and ACID-compliant embedded database.</li>
+<li><a href="https://calcite.apache.org">Apache Calcite</a>  - 动态数据管理框架. 它包含构成典型数据库管理系统的许多部分.</li>
+<li><a href="https://drill.apache.org">Apache Drill</a> - 用于大数据探索的分布式、即时模式、ANSI SQL 查询引擎.</li>
+<li><a href="https://phoenix.apache.org">Apache Phoenix</a> - 用于低延迟应用程序的 HBase 上的高性能关系数据库层.</li>
+<li><a href="https://github.com/arangodb/arangodb-java-driver">ArangoDB</a> - ArangoDB Java 驱动程序.</li>
+<li><a href="https://github.com/OpenHFT/Chronicle-Map">Chronicle Map</a> - 高效、内存中（选择持久化到磁盘）、堆外键值存储.</li>
+<li><a href="https://debezium.io/">Debezium</a> - 用于变更数据捕获的低延迟数据流平台.</li>
+<li><a href="https://druid.apache.org">druid</a> - 高性能、面向列的分布式数据存储.</li>
+<li><a href="https://github.com/eXist-db/exist">eXist</a>  - NoSQL 文档数据库和应用平台.  （仅限 LGPL-2.1）</li>
+<li><a href="https://github.com/vladmihalcea/flexy-pool">FlexyPool</a> - 将指标和故障转移策略引入最常见的连接池解决方案.</li>
+<li><a href="https://flywaydb.org">Flyway</a> - 简单的数据库迁移工具.</li>
+<li><a href="https://h2database.com">H2</a> - 以内存功能着称的小型 SQL 数据库.</li>
+<li><a href="https://github.com/brettwooldridge/HikariCP">HikariCP</a> - 高性能 JDBC 连接池.</li>
+<li><a href="http://jdbi.org">JDBI</a> - 方便的 JDBC 抽象.</li>
+<li><a href="https://github.com/xetorthio/jedis">Jedis</a> - 用于与 Redis 交互的小型客户端，带有命令方法.</li>
+<li><a href="https://github.com/searchbox-io/Jest">Jest</a> - Elasticsearch REST API 的客户端.</li>
+<li><a href="https://github.com/justinsb/jetcd">jetcd</a> - etcd 的客户端库.</li>
+<li><a href="https://github.com/my2iu/Jinq">Jinq</a> - 通过符号执行 Java 8 Lambda（在 JPA 或 jOOQ 之上）进行类型安全的数据库查询.</li>
+<li><a href="https://www.jooq.org">jOOQ</a> - 基于 SQL 模式生成类型安全代码.</li>
+<li><a href="https://github.com/Meituan-Dianping/Leaf">Leaf</a> - 分布式 ID 生成服务.</li>
+<li><a href="http://www.liquibase.org">Liquibase</a> - 用于跟踪、管理和应用数据库架构更改的独立于数据库的库.</li>
+<li><a href="http://www.mapdb.org">MapDB</a> - 嵌入式数据库引擎，提供支持在磁盘或堆外内存中的并发集合.</li>
+<li><a href="https://github.com/vorburger/MariaDB4j">MariaDB4j</a> - 无需安装或外部依赖的 MariaDB 启动器.</li>
+<li><a href="https://github.com/arkanovicz/modality">Modality</a> - 具有数据库逆向工程功能的轻量级 ORM.</li>
+<li><a href="https://github.com/mhewedy/spring-data-jpa-mongodb-expressions">Spring Data JPA MongoDB Expressions</a> - 允许您使用 MongoDB 查询语言来查询您的关系数据库.</li>
+<li><a href="https://trino.io">Trino</a> - 用于大数据的分布式 SQL 查询引擎.</li>
+<li><a href="https://github.com/questdb/questdb">QuestDB</a>  - 用于时间序列的高性能 SQL 数据库. 支持 InfluxDB 线路协议、PostgreSQL 线路协议和 REST.</li>
+<li><a href="https://github.com/querystream/querystream">QueryStream</a> - 使用类似流的 API 构建 JPA 标准查询.</li>
+<li><a href="http://www.querydsl.com">Querydsl</a> - 类型安全的统一查询.</li>
+<li><a href="https://github.com/realm/realm-java">Realm</a> - 移动数据库直接在手机、平板电脑或可穿戴设备中运行.</li>
+<li><a href="https://github.com/redisson/redisson">Redisson</a> - 允许在 Redis 服务器之上使用分布式和可扩展的数据结构.</li>
+<li><a href="https://github.com/requery/requery">requery</a>  - 现代、轻量级但功能强大的对象映射和 SQL 生成器. 轻松映射或创建数据库，或从任何使用 Java 的平台执行查询和更新.</li>
+<li><a href="https://github.com/speedment/speedment">Speedment</a> - 利用 Java 8 的 Stream API 进行查询的数据库访问库.</li>
+<li><a href="https://www.vibur.org">Vibur DBCP</a> - 具有高级性能监控功能的 JDBC 连接池库.</li>
+<li><a href="https://github.com/JetBrains/xodus">Xodus</a> - 高度并发的事务性无模式和符合 ACID 的嵌入式数据库.</li>
 </ul>
 <h3 id="date-and-time">Date and Time<a class="headerlink" href="#date-and-time" title="Permanent link">&para;</a></h3>
-<p><em>Libraries related to handling date and time.</em></p>
+<p><em>与处理日期和时间相关的库.</em></p>
 <ul>
-<li><a href="https://github.com/chrisengelsma/almanac-converter">Almanac Converter</a> - Simple conversion between different calendar systems.</li>
-<li><a href="https://github.com/ical4j/ical4j">iCal4j</a> - Parse and build iCalendar <a href="https://tools.ietf.org/html/rfc5545">RFC 5545</a> data models.</li>
-<li><a href="https://github.com/ThreeTen/threeten-extra">ThreeTen-Extra</a> - Additional date-time classes that complement those in JDK 8.</li>
-<li><a href="https://github.com/MenoData/Time4J">Time4J</a> - Advanced date and time library. (LGPL-2.1-only)</li>
+<li><a href="https://github.com/chrisengelsma/almanac-converter">Almanac Converter</a> - 不同日历系统之间的简单转换.</li>
+<li><a href="https://github.com/ical4j/ical4j">iCal4j</a> - 解析和构建 iCalendar <a href="https://tools.ietf.org/html/rfc5545">RFC 5545</a> 数据模型.</li>
+<li><a href="http://jollyday.sourceforge.net">Jollyday</a> - 确定给定年份、国家/名称和最终州/地区的假期.</li>
+<li><a href="https://github.com/ThreeTen/threeten-extra">ThreeTen-Extra</a> - 补充 JDK 8 中的附加日期时间类.</li>
+<li><a href="https://github.com/MenoData/Time4J">Time4J</a>  - 高级日期和时间库.  （仅限 LGPL-2.1）</li>
 </ul>
 <h3 id="dependency-injection">Dependency Injection<a class="headerlink" href="#dependency-injection" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that help to realize the <a href="https://en.wikipedia.org/wiki/Inversion_of_control">Inversion of Control</a> paradigm.</em></p>
+<p><em>有助于实现 <a href="https://en.wikipedia.org/wiki/Inversion_of_control">Inversion of Control</a> 范例.</em></p>
 <ul>
-<li><a href="https://deltaspike.apache.org">Apache DeltaSpike</a> - CDI extension framework.</li>
-<li><a href="https://dagger.dev/">Dagger</a> - Compile-time injection framework without reflection.</li>
-<li><a href="https://github.com/zsoltherpai/feather">Feather</a> - Ultra-lightweight, JSR-330-compliant dependency injection library.</li>
-<li><a href="https://github.com/Netflix/governator">Governator</a> - Extensions and utilities that enhance Google Guice.</li>
-<li><a href="https://github.com/google/guice">Guice</a> - Lightweight and opinionated framework that completes Dagger.</li>
-<li><a href="https://javaee.github.io/hk2/">HK2</a> - Lightweight and dynamic dependency injection framework.</li>
-<li><a href="https://github.com/vanillasource/jaywire">JayWire</a> - Lightweight dependency injection framework. (LGPL-3.0-only)</li>
+<li><a href="https://deltaspike.apache.org">Apache DeltaSpike</a> - CDI 扩展框架.</li>
+<li><a href="https://dagger.dev/">Dagger</a> - 没有反射的编译时注入框架.</li>
+<li><a href="https://github.com/zsoltherpai/feather">Feather</a> - 超轻量级、符合 JSR-330 的依赖注入库.</li>
+<li><a href="https://github.com/Netflix/governator">Governator</a> - 增强 Google Guice 的扩展程序和实用程序.</li>
+<li><a href="https://github.com/google/guice">Guice</a> - 完成 Dagger 的轻量级和自以为是的框架.</li>
+<li><a href="https://javaee.github.io/hk2/">HK2</a> - 轻量级和动态依赖注入框架.</li>
+<li><a href="https://github.com/vanillasource/jaywire">JayWire</a>  - 轻量级依赖注入框架.  （仅限 LGPL-3.0）</li>
 </ul>
 <h3 id="development">Development<a class="headerlink" href="#development" title="Permanent link">&para;</a></h3>
-<p><em>Augmentation of the development process at a fundamental level.</em></p>
+<p><em>从根本上增强开发过程.</em></p>
 <ul>
-<li><a href="https://www.eclipse.org/aspectj/">AspectJ</a> - Seamless aspect-oriented programming extension.</li>
-<li><a href="https://dcevm.github.io">DCEVM</a> - JVM modification that allows unlimited redefinition of loaded classes at runtime. (GPL-2.0-only)</li>
-<li><a href="https://github.com/zalando/faux-pas">Faux Pas</a> - Library that simplifies error handling by circumventing the issue that none of the functional interfaces in the Java Runtime is allowed by default to throw checked exceptions.</li>
-<li><a href="https://github.com/HotswapProjects/HotswapAgent">HotswapAgent</a> - Unlimited runtime class and resource redefinition. (GPL-2.0-only)</li>
-<li><a href="https://github.com/javaparser/javaparser">JavaParser</a> - Parse, modify and generate Java code.</li>
-<li><a href="https://github.com/javaparser/javasymbolsolver">JavaSymbolSolver</a> - Symbol solver.</li>
-<li><a href="https://github.com/manifold-systems/manifold">Manifold</a> - Re-energizes Java with powerful features like type-safe metaprogramming, structural typing and extension methods.</li>
-<li><a href="https://noexception.machinezoo.com">NoException</a> - Allows checked exceptions in functional interfaces and converts exceptions to Optional return.</li>
-<li><a href="https://github.com/rainerhahnekamp/sneakythrow">SneakyThrow</a> - Ignores checked exceptions without bytecode manipulation. Can also be used inside Java 8 stream operations.</li>
-<li><a href="https://kag0.github.io/tail">Tail</a> - Enable infinite recursion using tail call optimization.</li>
+<li><a href="https://www.eclipse.org/aspectj/">AspectJ</a> - 无缝的面向方面的编程扩展.</li>
+<li><a href="https://dcevm.github.io">DCEVM</a>  - JVM 修改允许在运行时无限制地重新定义加载的类.  （仅限 GPL-2.0）</li>
+<li><a href="https://github.com/zalando/faux-pas">Faux Pas</a> - 通过规避 Java 运行时中的任何功能接口默认不允许抛出已检查异常的问题来简化错误处理的库.</li>
+<li><a href="https://github.com/HotswapProjects/HotswapAgent">HotswapAgent</a>  - 无限的运行时类和资源重新定义.  （仅限 GPL-2.0）</li>
+<li><a href="https://github.com/javaparser/javaparser">JavaParser</a> - 解析、修改和生成 Java 代码.</li>
+<li><a href="https://github.com/javaparser/javasymbolsolver">JavaSymbolSolver</a> - 符号求解器.</li>
+<li><a href="https://github.com/manifold-systems/manifold">Manifold</a> - 通过类型安全元编程、结构化类型和扩展方法等强大功能重新激发 Java.</li>
+<li><a href="https://noexception.machinezoo.com">NoException</a> - 允许在功能接口中检查异常并将异常转换为可选返回.</li>
+<li><a href="https://github.com/rainerhahnekamp/sneakythrow">SneakyThrow</a>  - 在没有字节码操作的情况下忽略检查异常. 也可以在 Java 8 流操作中使用.</li>
+<li><a href="https://kag0.github.io/tail">Tail</a> - 使用尾调用优化启用无限递归.</li>
 </ul>
 <h3 id="distributed-applications">Distributed Applications<a class="headerlink" href="#distributed-applications" title="Permanent link">&para;</a></h3>
-<p><em>Libraries and frameworks for writing distributed and fault-tolerant applications.</em></p>
+<p><em>用于编写分布式和容错应用程序的库和框架.</em></p>
 <ul>
-<li><a href="https://geode.apache.org">Apache Geode</a> - In-memory data management system that provides reliable asynchronous event notifications and guaranteed message delivery.</li>
-<li><a href="https://storm.apache.org">Apache Storm</a> - Realtime computation system.</li>
-<li><a href="https://zookeeper.apache.org">Apache ZooKeeper</a> - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.</li>
-<li><a href="https://atomix.io">Atomix</a> - Fault-tolerant distributed coordination framework.</li>
-<li><a href="https://axoniq.io">Axon</a> - Framework for creating CQRS applications.</li>
-<li><a href="https://github.com/mtakaki/dropwizard-circuitbreaker">Dropwizard Circuit Breaker</a> - Circuit breaker design pattern for Dropwizard. (GPL-2.0-only)</li>
-<li><a href="https://github.com/jhalterman/failsafe">Failsafe</a> - Simple failure handling with retries and circuit breakers.</li>
-<li><a href="https://github.com/hazelcast/hazelcast">Hazelcast</a> - Highly scalable in-memory datagrid with a free open-source version.</li>
-<li><a href="http://www.jgroups.org">JGroups</a> - Toolkit for reliable messaging and cluster creation.</li>
-<li><a href="http://docs.paralleluniverse.co/quasar/">Quasar</a> - Lightweight threads and actors for the JVM.</li>
-<li><a href="https://github.com/resilience4j/resilience4j">resilience4j</a> - Functional fault tolerance library.</li>
-<li><a href="https://github.com/scalecube/scalecube-services">ScaleCube Services</a> - Embeddable Cluster-Membership library based on SWIM and gossip protocol.</li>
-<li><a href="https://github.com/Netflix/zuul">Zuul</a> - Gateway service that provides dynamic routing, monitoring, resiliency, security, and more.</li>
+<li><a href="https://geode.apache.org">Apache Geode</a> - 内存数据管理系统，提供可靠的异步事件通知和有保证的消息传递.</li>
+<li><a href="https://storm.apache.org">Apache Storm</a> - 实时计算系统.</li>
+<li><a href="https://zookeeper.apache.org">Apache ZooKeeper</a> - 为大型分布式系统提供分布式配置、同步和命名注册表的协调服务.</li>
+<li><a href="https://atomix.io">Atomix</a> - 容错分布式协调框架.</li>
+<li><a href="https://axoniq.io">Axon</a> - 用于创建 CQRS 应用程序的框架.</li>
+<li><a href="https://github.com/mtakaki/dropwizard-circuitbreaker">Dropwizard Circuit Breaker</a>  - Dropwizard 的断路器设计模式.  （仅限 GPL-2.0）</li>
+<li><a href="https://github.com/jhalterman/failsafe">Failsafe</a> - 通过重试和断路器进行简单的故障处理.</li>
+<li><a href="https://github.com/hazelcast/hazelcast">Hazelcast</a> - 具有免费开源版本的高度可扩展的内存数据网格.</li>
+<li><a href="http://www.jgroups.org">JGroups</a> - 用于可靠消息传递和集群创建的工具包.</li>
+<li><a href="http://docs.paralleluniverse.co/quasar/">Quasar</a> - 用于 JVM 的轻量级线程和参与者.</li>
+<li><a href="https://github.com/resilience4j/resilience4j">resilience4j</a> - 功能性容错库.</li>
+<li><a href="https://github.com/scalecube/scalecube-services">ScaleCube Services</a> - 基于 SWIM 和 gossip 协议的可嵌入集群成员库.</li>
+<li><a href="https://github.com/Netflix/zuul">Zuul</a> - 提供动态路由、监控、弹性、安全性等的网关服务.</li>
 </ul>
 <h3 id="distributed-transactions">Distributed Transactions<a class="headerlink" href="#distributed-transactions" title="Permanent link">&para;</a></h3>
-<p><em>Distributed transactions provide a mechanism for ensuring consistency of data updates in the presence of concurrent access and partial failures.</em></p>
+<p><em>分布式事务提供了一种机制来确保在存在并发访问和部分故障的情况下数据更新的一致性.</em></p>
 <ul>
-<li><a href="https://www.atomikos.com">Atomikos</a> - Provides transactions for REST, SOA and microservices with support for JTA and XA.</li>
-<li><a href="https://github.com/bitronix/btm">Bitronix</a> - Simple but complete implementation of the JTA 1.1 API.</li>
-<li><a href="https://narayana.io">Narayana</a> - Provides support for traditional ACID and compensation transactions, also complies with JTA, JTS and other standards. (LGPL-2.1-only)</li>
-<li><a href="https://github.com/seata/seata">Seata</a> - Delivers high performance and easy to use distributed transaction services under a microservices architecture.</li>
+<li><a href="https://www.atomikos.com">Atomikos</a> - 为 REST、SOA 和微服务提供事务，并支持 JTA 和 XA.</li>
+<li><a href="https://github.com/bitronix/btm">Bitronix</a> - JTA 1.1 API 的简单但完整的实现.</li>
+<li><a href="https://narayana.io">Narayana</a>  - 提供对传统ACID和补偿交易的支持，同时符合JTA、JTS等标准.  （仅限 LGPL-2.1）</li>
+<li><a href="https://github.com/seata/seata">Seata</a> - 在微服务架构下提供高性能且易于使用的分布式事务服务.</li>
 </ul>
 <h3 id="distribution">Distribution<a class="headerlink" href="#distribution" title="Permanent link">&para;</a></h3>
-<p><em>Tools that handle the distribution of applications in native formats.</em></p>
+<p><em>以原生格式处理应用程序分发的工具.</em></p>
 <ul>
-<li><a href="https://github.com/artipie/artipie">Artipie</a> - Binary artifact management toolkit which hosts them on the file system or S3.</li>
-<li><a href="https://boxfuse.com">Boxfuse ![c]</a> - 使用不可变基础设施的原则将 JVM 应用程序部署到 AWS。</li>
-<li><a href="https://github.com/puniverse/capsule">Capsule</a> - Simple and powerful packaging and deployment. A fat JAR on steroids, or a "Docker for Java" that supports JVM-optimized containers.</li>
-<li><a href="https://search.maven.org">Central Repository</a> - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven, and available in all other build tools.</li>
-<li><a href="https://cloudsmith.io">Cloudsmith ![c]</a> - Fully managed package management SaaS with support for Maven/Gradle/SBT with a free tier.</li>
-<li><a href="https://github.com/threerings/getdown">Getdown</a> - A system for deploying Java applications to end-user computers and keeping them up to date. Developed as an alternative to Java Web Start.</li>
-<li><a href="http://izpack.org">IzPack</a> - Setup authoring tool for cross-platform deployments.</li>
-<li><a href="https://github.com/fvarrui/JavaPackager">JavaPackager</a> - Maven and Gradle plugin which provides an easy way to package Java applications in native Windows, Mac OS X or GNU/Linux executables, and generate installers for them.</li>
-<li><a href="https://github.com/cilki/jlink.online">jlink.online</a> - Builds optimized runtimes over HTTP.</li>
-<li><a href="https://www.sonatype.com">Nexus ![c]</a> - 具有代理和缓存功能的二进制管理。</li>
-<li><a href="https://github.com/libgdx/packr">packr</a> - Packs JARs, assets and the JVM for native distribution on Windows, Linux and macOS.</li>
-<li><a href="https://github.com/brianm/really-executable-jars-maven-plugin">really-executable-jars-maven-plugin</a> - Maven plugin for making self-executing JARs.</li>
+<li><a href="https://github.com/artipie/artipie">Artipie</a> - 在文件系统或 S3 上托管它们的二进制工件管理工具包.</li>
+<li><a href="https://boxfuse.com">Boxfuse ![c]</a> - 使用不可变基础设施的原则将 JVM 应用程序部署到 AWS.</li>
+<li><a href="https://github.com/puniverse/capsule">Capsule</a>  - 简单而强大的打包和部署. 类固醇上的胖 JAR，或支持 JVM 优化容器的“Docker for Java”.</li>
+<li><a href="https://search.maven.org">Central Repository</a>  - 最大的二进制组件存储库，可作为开源社区的免费服务.  Apache Maven 使用的默认值，并且在所有其他构建工具中都可用.</li>
+<li><a href="https://cloudsmith.io">Cloudsmith ![c]</a> - 完全托管的包管理 SaaS，支持 Maven/Gradle/SBT 并提供免费套餐.</li>
+<li><a href="https://github.com/threerings/getdown">Getdown</a>  - 用于将 Java 应用程序部署到最终用户计算机并使其保持最新状态的系统. 作为 Java Web Start 的替代品而开发.</li>
+<li><a href="http://izpack.org">IzPack</a> - 为跨平台部署设置创作工具.</li>
+<li><a href="https://github.com/fvarrui/JavaPackager">JavaPackager</a> - Maven 和 Gradle 插件，它提供了一种将 Java 应用程序打包到本机 Windows、Mac OS X 或 GNU/Linux 可执行文件中的简单方法，并为它们生成安装程序.</li>
+<li><a href="https://github.com/cilki/jlink.online">jlink.online</a> - 通过 HTTP 构建优化的运行时.</li>
+<li><a href="https://www.sonatype.com">Nexus ![c]</a> - 具有代理和缓存功能的二进制管理.</li>
+<li><a href="https://github.com/libgdx/packr">packr</a> - 打包 JAR、资产和 JVM，以便在 Windows、Linux 和 macOS 上进行本机分发.</li>
+<li><a href="https://github.com/brianm/really-executable-jars-maven-plugin">really-executable-jars-maven-plugin</a> - 用于制作自执行 JAR 的 Maven 插件.</li>
 </ul>
 <h3 id="document-processing">Document Processing<a class="headerlink" href="#document-processing" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that assist with processing office document formats.</em></p>
+<p><em>协助处理办公文档格式的图书馆.</em></p>
 <ul>
-<li><a href="https://poi.apache.org">Apache POI</a> - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).</li>
-<li><a href="https://documents4j.com/#/">documents4j</a> - API for document format conversion using third-party converters such as MS Word.</li>
-<li><a href="https://www.docx4java.org/trac/docx4j">docx4j</a> - Create and manipulate Microsoft Open XML files.</li>
-<li><a href="https://github.com/dhatim/fastexcel">fastexcel</a> - High performance library to read and write large Excel (XLSX) worksheets.</li>
-<li><a href="https://github.com/creditdatamw/zerocell">zerocell</a> - Annotation-based API for reading data from Excel sheets into POJOs with focus on reduced overhead.</li>
+<li><a href="https://poi.apache.org">Apache POI</a> - 支持 OOXML（XLSX、DOCX、PPTX）以及 OLE2（XLS、DOC 或 PPT）.</li>
+<li><a href="https://documents4j.com/#/">documents4j</a> - 使用第三方转换器（如 MS Word）进行文档格式转换的 API.</li>
+<li><a href="https://www.docx4java.org/trac/docx4j">docx4j</a> - 创建和操作 Microsoft Open XML 文件.</li>
+<li><a href="https://github.com/dhatim/fastexcel">fastexcel</a> - 用于读取和写入大型 Excel (XLSX) 工作表的高性能库.</li>
+<li><a href="https://github.com/creditdatamw/zerocell">zerocell</a> - 基于注释的 API，用于将 Excel 工作表中的数据读取到 POJO 中，重点是减少开销.</li>
 </ul>
 <h3 id="financial">Financial<a class="headerlink" href="#financial" title="Permanent link">&para;</a></h3>
-<p><em>Libraries related to the financial domain.</em></p>
+<p><em>与金融领域相关的图书馆.</em></p>
 <ul>
-<li><a href="https://github.com/cassandre-tech/cassandre-trading-bot">Cassandre</a> - Trading bot framework.</li>
-<li><a href="https://github.com/paritytrading/parity">Parity</a> - Platform for trading venues.</li>
-<li><a href="https://github.com/paritytrading/philadelphia">Philadelphia</a> - Low-latency financial information exchange.</li>
-<li><a href="https://github.com/square/connect-java-sdk">Square</a> - Integration with the Square API.</li>
-<li><a href="https://github.com/stripe/stripe-java">Stripe</a> - Integration with the Stripe API.</li>
-<li><a href="https://github.com/ta4j/ta4j">ta4j</a> - Library for technical analysis.</li>
+<li><a href="https://github.com/cassandre-tech/cassandre-trading-bot">Cassandre</a> - 交易机器人框架.</li>
+<li><a href="https://github.com/paritytrading/parity">Parity</a> - 交易场所平台.</li>
+<li><a href="https://github.com/paritytrading/philadelphia">Philadelphia</a> - 低延迟财务信息交换.</li>
+<li><a href="https://github.com/square/connect-java-sdk">Square</a> - 与 Square API 集成.</li>
+<li><a href="https://github.com/stripe/stripe-java">Stripe</a> - 与 Stripe API 集成.</li>
+<li><a href="https://github.com/ta4j/ta4j">ta4j</a> - 技术分析库.</li>
 </ul>
 <h3 id="formal-verification">Formal Verification<a class="headerlink" href="#formal-verification" title="Permanent link">&para;</a></h3>
-<p><em>Formal-methods tools: proof assistants, model checking, symbolic execution, etc.</em></p>
+<p><em>形式化方法工具：证明助手、模型检查、符号执行等</em></p>
 <ul>
-<li><a href="https://github.com/ksen007/janala2">CATG</a> - Concolic unit testing engine. Automatically generates unit tests using formal methods.</li>
-<li><a href="https://checkerframework.org">Checker Framework</a> - Pluggable type systems. Includes nullness types, physical units, immutability types and more. (GPL-2.0-only WITH Classpath-exception-2.0)</li>
-<li><a href="https://plse.cs.washington.edu/daikon/">Daikon</a> - Detects likely program invariants and generates JML specs based on those invariants.</li>
-<li><a href="https://github.com/javapathfinder/jpf-core">Java Path Finder (JPF)</a> - JVM formal verification tool containing a model checker and more. Created by NASA.</li>
-<li><a href="https://massoni.computacao.ufcg.edu.br/home/jmlok">JMLOK 2.0</a> - Detects inconsistencies between code and JML specification through feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected. (GPL-3.0-only)</li>
-<li><a href="https://www.key-project.org">KeY</a> - Formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification. (GPL-2.0-or-later)</li>
-<li><a href="http://www.openjml.org">OpenJML</a> - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers. (GPL-2.0-only)</li>
+<li><a href="https://github.com/ksen007/janala2">CATG</a>  - Concolic 单元测试引擎. 使用正式方法自动生成单元测试.</li>
+<li><a href="https://checkerframework.org">Checker Framework</a>  - 可插拔式系统. 包括空值类型、物理单位、不变性类型等.  （仅 GPL-2.0 WITH Classpath-exception-2.0）</li>
+<li><a href="https://plse.cs.washington.edu/daikon/">Daikon</a> - 检测可能的程序不变量并根据这些不变量生成 JML 规范.</li>
+<li><a href="https://github.com/javapathfinder/jpf-core">Java Path Finder (JPF)</a>  - 包含模型检查器等的 JVM 形式验证工具. 由美国国家航空航天局创建.</li>
+<li><a href="https://massoni.computacao.ufcg.edu.br/home/jmlok">JMLOK 2.0</a>  - 通过反馈导向的随机测试生成检测代码和 JML 规范之间的不一致，并为检测到的每个不符合项提出可能的原因.  （仅限 GPL-3.0）</li>
+<li><a href="https://www.key-project.org">KeY</a>  - 形式化软件开发工具，旨在尽可能无缝地集成面向对象软件的设计、实现、形式化规范和形式化验证. 使用 JML 进行规范和符号执行以进行验证.  （GPL-2.0 或更高版本）</li>
+<li><a href="http://www.openjml.org">OpenJML</a>  - 将 JML 规范转换为 SMT-LIB 格式，并将程序隐含的证明问题传递给后端求解器.  （仅限 GPL-2.0）</li>
 </ul>
 <h3 id="functional-programming">Functional Programming<a class="headerlink" href="#functional-programming" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that facilitate functional programming.</em></p>
+<p><em>促进函数式编程的库.</em></p>
 <ul>
-<li><a href="https://github.com/aol/cyclops">Cyclops</a> - Monad and stream utilities, comprehensions, pattern matching, functional extensions for all JDK collections, future streams, trampolines and much more.</li>
-<li><a href="https://github.com/derive4j/derive4j">derive4j</a> - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching and morphisms. (GPL-3.0-only)</li>
-<li><a href="https://bitbucket.org/atlassian/fugue">Fugue</a> - Functional extensions to Guava.</li>
-<li><a href="http://www.functionaljava.org">Functional Java</a> - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.</li>
-<li><a href="https://github.com/jOOQ/jOOL">jOOλ</a> - Extension to Java 8 that aims to fix gaps in lambda by providing numerous missing types and a rich set of sequential Stream API additions.</li>
-<li><a href="https://github.com/poetix/protonpack">protonpack</a> - Collection of stream utilities.</li>
-<li><a href="https://github.com/amaembo/streamex">StreamEx</a> - Enhances Java 8 Streams.</li>
-<li><a href="https://www.vavr.io">Vavr</a> - Functional component library that provides persistent data types and functional control structures.</li>
+<li><a href="https://github.com/aol/cyclops">Cyclops</a> - Monad 和流实用程序、理解、模式匹配、所有 JDK 集合的功能扩展、未来的流、蹦床等等.</li>
+<li><a href="https://github.com/derive4j/derive4j">derive4j</a>  - Java 8 注释处理器和框架，用于派生代数数据类型构造函数、模式匹配和态射.  （仅限 GPL-3.0）</li>
+<li><a href="https://bitbucket.org/atlassian/fugue">Fugue</a> - Guava 的功能扩展.</li>
+<li><a href="http://www.functionaljava.org">Functional Java</a> - 实现了许多有助于面向组合开发的基本和高级编程抽象.</li>
+<li><a href="https://github.com/jOOQ/jOOL">jOOλ</a> - 对 Java 8 的扩展，旨在通过提供大量缺失的类型和一组丰富的顺序 Stream API 添加来修复 lambda 中的空白.</li>
+<li><a href="https://github.com/poetix/protonpack">protonpack</a> - 流实用程序的集合.</li>
+<li><a href="https://github.com/amaembo/streamex">StreamEx</a> - 增强 Java 8 流.</li>
+<li><a href="https://www.vavr.io">Vavr</a> - 提供持久数据类型和功能控制结构的功能组件库.</li>
 </ul>
 <h3 id="game-development">Game Development<a class="headerlink" href="#game-development" title="Permanent link">&para;</a></h3>
-<p><em>Frameworks that support the development of games.</em></p>
+<p><em>支持游戏开发的框架.</em></p>
 <ul>
-<li><a href="https://almasb.github.io/FXGL/">FXGL</a> - JavaFX Game Development Framework.</li>
-<li><a href="http://www.jbox2d.org/">JBox2D</a> - Port of the renowned C++ 2D physics engine.</li>
-<li><a href="https://jmonkeyengine.org">jMonkeyEngine</a> - Game engine for modern 3D development.</li>
-<li><a href="https://libgdx.com">libGDX</a> - All-round cross-platform, high-level framework.</li>
-<li><a href="https://litiengine.com/">Litiengine</a> - AWT-based, lightweight 2D game engine.</li>
-<li><a href="https://www.lwjgl.org">LWJGL</a> - Robust framework that abstracts libraries like OpenGL/CL/AL.</li>
-<li><a href="https://mini2dx.org">Mini2Dx</a> - Beginner-friendly, master-ready framework for rapidly prototyping and building 2D games.</li>
+<li><a href="https://almasb.github.io/FXGL/">FXGL</a> - JavaFX 游戏开发框架.</li>
+<li><a href="http://www.jbox2d.org/">JBox2D</a> - 著名的 C++ 2D 物理引擎的端口.</li>
+<li><a href="https://jmonkeyengine.org">jMonkeyEngine</a> - 用于现代 3D 开发的游戏引擎.</li>
+<li><a href="https://libgdx.com">libGDX</a> - 全方位的跨平台、高级框架.</li>
+<li><a href="https://litiengine.com/">Litiengine</a> - 基于 AWT 的轻量级 2D 游戏引擎.</li>
+<li><a href="https://www.lwjgl.org">LWJGL</a> - 强大的框架，抽象 OpenGL/CL/AL 等库.</li>
+<li><a href="https://mini2dx.org">Mini2Dx</a> - 初学者友好型、大师级框架，用于快速原型设计和构建 2D 游戏.</li>
 </ul>
 <h3 id="geospatial">Geospatial<a class="headerlink" href="#geospatial" title="Permanent link">&para;</a></h3>
-<p><em>Libraries for working with geospatial data and algorithms.</em></p>
+<p><em>用于处理地理空间数据和算法的库.</em></p>
 <ul>
-<li><a href="https://sis.apache.org">Apache SIS</a> - Library for developing geospatial applications.</li>
-<li><a href="https://github.com/davidmoten/geo">Geo</a> - GeoHash utilities in Java.</li>
-<li><a href="https://geotools.org">GeoTools</a> - Library that provides tools for geospatial data. (LGPL-2.1-only)</li>
-<li><a href="https://github.com/graphhopper/graphhopper">GraphHopper</a> - Road-routing engine. Used as a Java library or standalone web service.</li>
-<li><a href="http://www.h2gis.org">H2GIS</a> - Spatial extension of the H2 database. (LGPL-3.0-only)</li>
-<li><a href="https://astrapi69.github.io/jgeohash/">Jgeohash</a> - Library for using the GeoHash algorithm.</li>
-<li><a href="https://github.com/mapsforge/mapsforge">Mapsforge</a> - Map rendering based on OpenStreetMap data. (LGPL-3.0-only)</li>
-<li><a href="https://github.com/locationtech/spatial4j">Spatial4j</a> - General-purpose spatial/geospatial library.</li>
+<li><a href="https://sis.apache.org">Apache SIS</a> - 用于开发地理空间应用程序的库.</li>
+<li><a href="https://github.com/davidmoten/geo">Geo</a> - Java 中的 GeoHash 实用程序.</li>
+<li><a href="https://geotools.org">GeoTools</a>  - 为地理空间数据提供工具的库.  （仅限 LGPL-2.1）</li>
+<li><a href="https://github.com/graphhopper/graphhopper">GraphHopper</a>  - 路由引擎. 用作 Java 库或独立的 Web 服务.</li>
+<li><a href="http://www.h2gis.org">H2GIS</a>  - H2 数据库的空间扩展.  （仅限 LGPL-3.0）</li>
+<li><a href="https://astrapi69.github.io/jgeohash/">Jgeohash</a> - 使用 GeoHash 算法的库.</li>
+<li><a href="https://github.com/mapsforge/mapsforge">Mapsforge</a>  - 基于 OpenStreetMap 数据的地图渲染.  （仅限 LGPL-3.0）</li>
+<li><a href="https://github.com/locationtech/spatial4j">Spatial4j</a> - 通用空间/地理空间库.</li>
 </ul>
 <h3 id="gui">GUI<a class="headerlink" href="#gui" title="Permanent link">&para;</a></h3>
-<p><em>Libraries to create modern graphical user interfaces.</em></p>
+<p><em>创建现代图形用户界面的库.</em></p>
 <ul>
-<li><a href="https://wiki.openjdk.java.net/display/OpenJFX/Main">JavaFX</a> - Successor of Swing.</li>
-<li><a href="https://gluonhq.com/products/scene-builder/">Scene Builder</a> - Visual layout tool for JavaFX applications.</li>
-<li><a href="https://www.eclipse.org/swt/">SWT</a> - Graphical widget toolkit.</li>
+<li><a href="https://wiki.openjdk.java.net/display/OpenJFX/Main">JavaFX</a> - Swing 的继任者.</li>
+<li><a href="https://gluonhq.com/products/scene-builder/">Scene Builder</a> - JavaFX 应用程序的可视化布局工具.</li>
+<li><a href="https://www.eclipse.org/swt/">SWT</a> - 图形小部件工具包.</li>
 </ul>
 <h3 id="high-performance">High Performance<a class="headerlink" href="#high-performance" title="Permanent link">&para;</a></h3>
-<p><em>Everything about high-performance computation, from collections to specific libraries.</em></p>
+<p><em>关于高性能计算的一切，从集合到特定库.</em></p>
 <ul>
-<li><a href="https://github.com/real-logic/Agrona">Agrona</a> - Data structures and utility methods that are common in high-performance applications.</li>
-<li><a href="https://lmax-exchange.github.io/disruptor/">Disruptor</a> - Inter-thread messaging library.</li>
-<li><a href="https://github.com/eclipse/eclipse-collections">Eclipse Collections</a> - Collections framework inspired by Smalltalk.</li>
-<li><a href="http://fastutil.di.unimi.it">fastutil</a> - Fast and compact type-specific collections.</li>
-<li><a href="https://labs.carrotsearch.com/hppc.html">HPPC</a> - Primitive collections.</li>
-<li><a href="https://github.com/JCTools/JCTools">JCTools</a> - Concurrency tools currently missing from the JDK.</li>
-<li><a href="https://github.com/leventov/Koloboke">Koloboke</a> - Carefully designed extension of the Java Collections Framework with primitive specializations and more.</li>
+<li><a href="https://github.com/real-logic/Agrona">Agrona</a> - 高性能应用程序中常见的数据结构和实用方法.</li>
+<li><a href="https://lmax-exchange.github.io/disruptor/">Disruptor</a> - 线程间消息传递库.</li>
+<li><a href="https://github.com/eclipse/eclipse-collections">Eclipse Collections</a> - 受 Smalltalk 启发的集合框架.</li>
+<li><a href="http://fastutil.di.unimi.it">fastutil</a> - 快速紧凑的特定类型集合.</li>
+<li><a href="https://labs.carrotsearch.com/hppc.html">HPPC</a> - 原始收藏.</li>
+<li><a href="https://github.com/JCTools/JCTools">JCTools</a> - JDK 中当前缺少并发工具.</li>
+<li><a href="https://github.com/leventov/Koloboke">Koloboke</a> - 精心设计的 Java Collections Framework 扩展，具有原始专业化等.</li>
 </ul>
 <h3 id="http-clients">HTTP Clients<a class="headerlink" href="#http-clients" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that assist with creating HTTP requests and/or binding responses.</em></p>
+<p><em>帮助创建 HTTP 请求和/或绑定响应的库.</em></p>
 <ul>
-<li><a href="https://hc.apache.org/">Apache HttpComponents</a> - A toolset of low level Java components focused on HTTP and associated protocols.</li>
-<li><a href="https://github.com/AsyncHttpClient/async-http-client">Async Http Client</a> - Asynchronous HTTP and WebSocket client library.</li>
-<li><a href="https://github.com/OpenFeign/feign">Feign</a> - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.</li>
-<li><a href="https://github.com/googleapis/google-http-java-client">Google HTTP Client</a> - Pluggable HTTP transport abstraction with support for java.net.HttpURLConnection, Apache HTTP Client, Android, Google App Engine, XML, Gson, Jackson and Protobuf.</li>
-<li><a href="https://github.com/mizosoft/methanol">methanol</a> - HTTP client extensions library.</li>
-<li><a href="https://github.com/b2wdigital/restQL-java">restQL-java</a> - Microservice query language that fetches information from multiple services.</li>
-<li><a href="https://square.github.io/retrofit/">Retrofit</a> - Typesafe REST client.</li>
-<li><a href="https://github.com/Netflix/ribbon">Ribbon</a> - Client-side IPC library that is battle-tested in cloud.</li>
-<li><a href="https://github.com/zalando/riptide">Riptide</a> - Client-side response routing for Spring's RestTemplate.</li>
-<li><a href="https://github.com/Kong/unirest-java">unirest-java</a> - Simplified, lightweight HTTP client library.</li>
+<li><a href="https://hc.apache.org/">Apache HttpComponents</a> - 专注于 HTTP 和相关协议的低级 Java 组件工具集.</li>
+<li><a href="https://github.com/AsyncHttpClient/async-http-client">Async Http Client</a> - 异步 HTTP 和 WebSocket 客户端库.</li>
+<li><a href="https://github.com/OpenFeign/feign">Feign</a> - 受 Retrofit、JAXRS-2.0 和 WebSocket 启发的 HTTP 客户端绑定器.</li>
+<li><a href="https://github.com/googleapis/google-http-java-client">Google HTTP Client</a> - 可插入的 HTTP 传输抽象，支持 java.net.HttpURLConnection、Apache HTTP 客户端、Android、Google App Engine、XML、Gson、Jackson 和 Protobuf.</li>
+<li><a href="https://github.com/mizosoft/methanol">methanol</a> - HTTP 客户端扩展库.</li>
+<li><a href="https://github.com/b2wdigital/restQL-java">restQL-java</a> - 从多个服务中获取信息的微服务查询语言.</li>
+<li><a href="https://square.github.io/retrofit/">Retrofit</a> - 类型安全的 REST 客户端.</li>
+<li><a href="https://github.com/Netflix/ribbon">Ribbon</a> - 在云中经过实战测试的客户端 IPC 库.</li>
+<li><a href="https://github.com/zalando/riptide">Riptide</a> - Spring 的 RestTemplate 的客户端响应路由.</li>
+<li><a href="https://github.com/Kong/unirest-java">unirest-java</a> - 简化、轻量级的 HTTP 客户端库.</li>
 </ul>
 <h3 id="hypermedia-types">Hypermedia Types<a class="headerlink" href="#hypermedia-types" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that handle serialization to hypermedia types.</em></p>
+<p><em>处理超媒体类型序列化的库.</em></p>
 <ul>
-<li><a href="https://github.com/blackdoor/hate">hate</a> - Builds hypermedia-friendly objects according to HAL specification.</li>
-<li><a href="https://github.com/jsonld-java/jsonld-java">JSON-LD</a> - JSON-LD implementation.</li>
-<li><a href="https://github.com/eserating-chwy/siren4j">Siren4J</a> - Library for the Siren specification.</li>
+<li><a href="https://github.com/blackdoor/hate">hate</a> - 根据 HAL 规范构建对超媒体友好的对象.</li>
+<li><a href="https://github.com/jsonld-java/jsonld-java">JSON-LD</a> - JSON-LD 实现.</li>
+<li><a href="https://github.com/eserating-chwy/siren4j">Siren4J</a> - 警报器规范库.</li>
 </ul>
 <h3 id="ide">IDE<a class="headerlink" href="#ide" title="Permanent link">&para;</a></h3>
-<p><em>Integrated development environments that try to simplify several aspects of development.</em></p>
+<p><em>尝试简化开发的多个方面的集成开发环境.</em></p>
 <ul>
-<li><a href="https://www.eclipse.org">Eclipse</a> - Established open-source project with support for lots of plugins and languages.</li>
-<li><a href="https://www.jetbrains.com/idea/">IntelliJ IDEA ![c]</a> - Supports many JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.</li>
-<li><a href="https://www.jgrasp.org">jGRASP</a> - Created to provide software visualizations that work in conjunction with the debugger such as Control Structure Diagrams, UML class diagrams and Object Viewer.</li>
-<li><a href="https://netbeans.apache.org">NetBeans</a> - Provides integration for several Java SE and EE features, from database access to HTML5.</li>
-<li><a href="https://www.coley.software/Recaf/">Recaf</a> - Bytecode editor.</li>
-<li><a href="https://code.visualstudio.com/docs/languages/java">Visual Studio Code</a> - Provides Java support for lightweight projects with a simple, modern workflow by using extensions from the internal marketplace.</li>
+<li><a href="https://www.eclipse.org">Eclipse</a> - 建立了支持许多插件和语言的开源项目.</li>
+<li><a href="https://www.jetbrains.com/idea/">IntelliJ IDEA ![c]</a> - 支持多种 JVM 语言，为 Android 开发提供了不错的选择. 商业版面向企业部门.</li>
+<li><a href="https://www.jgrasp.org">jGRASP</a> - 创建以提供与调试器结合使用的软件可视化，例如控制结构图、UML 类图和对象查看器.</li>
+<li><a href="https://netbeans.apache.org">NetBeans</a> - 提供从数据库访问到 HTML5 的多个 Java SE 和 EE 功能的集成.</li>
+<li><a href="https://www.coley.software/Recaf/">Recaf</a> - 字节码编辑器.</li>
+<li><a href="https://code.visualstudio.com/docs/languages/java">Visual Studio Code</a> - 通过使用来自内部市场的扩展，通过简单、现代的工作流程为轻量级项目提供 Java 支持.</li>
 </ul>
 <h3 id="imagery">Imagery<a class="headerlink" href="#imagery" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that assist with the creation, evaluation or manipulation of graphical images.</em></p>
+<p><em>帮助创建、评估或操作图形图像的库.</em></p>
 <ul>
-<li><a href="https://github.com/rkalla/imgscalr">Imgscalr</a> - Simple, efficient and hardware-accelerated image-scaling library implemented in pure Java 2D.</li>
-<li><a href="https://github.com/nguyenq/tess4j">Tess4J</a> - JNA wrapper for Tesseract OCR API.</li>
-<li><a href="https://github.com/coobird/thumbnailator">Thumbnailator</a> - High-quality thumbnail generation library.</li>
-<li><a href="https://github.com/haraldk/TwelveMonkeys">TwelveMonkeys</a> - Collection of plugins that extend the number of supported image file formats.</li>
-<li><a href="https://github.com/zxing/zxing">ZXing</a> - Multi-format 1D/2D barcode image processing library.</li>
+<li><a href="https://github.com/rkalla/imgscalr">Imgscalr</a> - 以纯 Java 2D 实现的简单、高效和硬件加速的图像缩放库.</li>
+<li><a href="https://github.com/nguyenq/tess4j">Tess4J</a> - Tesseract OCR API 的 JNA 包装器.</li>
+<li><a href="https://github.com/coobird/thumbnailator">Thumbnailator</a> - 高质量的缩略图生成库.</li>
+<li><a href="https://github.com/haraldk/TwelveMonkeys">TwelveMonkeys</a> - 扩展支持的图像文件格式数量的插件集合.</li>
+<li><a href="https://github.com/zxing/zxing">ZXing</a> - 多格式一维/二维条码图像处理库.</li>
 <li><a href="https://github.com/romankh3/image-comparison">image-comparison</a> - Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison. Can be used for automation qa tests.</li>
 </ul>
 <h3 id="introspection">Introspection<a class="headerlink" href="#introspection" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that help make the Java introspection and reflection API easier and faster to use.</em></p>
+<p><em>有助于使 Java 内省和反射 API 更容易和更快地使用的库.</em></p>
 <ul>
-<li><a href="https://github.com/classgraph/classgraph">ClassGraph</a> - ClassGraph (formerly FastClasspathScanner) is an uber-fast, ultra-lightweight, parallelized classpath scanner and module scanner for Java, Scala, Kotlin and other JVM languages.</li>
-<li><a href="https://github.com/jOOQ/jOOR">jOOR</a> <i>- jOOR stands for jOOR Object Oriented Reflection.</i> <b>- jOOR 代表 jOOR 面向对象反射。</b> <i>It is a simple wrapper for the java.lang.reflect package.</i><b>它是 java.lang.reflect 包的简单包装器。</b></li>
-<li><a href="http://projetos.vidageek.net/mirror/mirror/">Mirror</a> - Mirror was created to bring light to a simple problem, usually named ReflectionUtil, which is on almost all projects that rely on reflection to do advanced tasks.</li>
-<li><a href="http://objenesis.org">Objenesis</a> - Allows dynamic instantiation without default constructor, e.g. constructors which have required arguments, side effects or throw exceptions.</li>
-<li><a href="https://github.com/EsotericSoftware/reflectasm">ReflectASM</a> - ReflectASM is a very small Java library that provides high performance reflection by using code generation.</li>
-<li><a href="https://github.com/ronmamo/reflections">Reflections</a> - Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project.</li>
+<li><a href="https://github.com/classgraph/classgraph">ClassGraph</a> - ClassGraph（以前称为 FastClasspathScanner）是一个超快速、超轻量级、并行化的类路径扫描器和模块扫描器，适用于 Java、Scala、Kotlin 和其他 JVM 语言.</li>
+<li><a href="https://github.com/jOOQ/jOOR">jOOR</a>  - jOOR 代表 jOOR 面向对象反射. 它是 java.lang.reflect 包的简单包装器.</li>
+<li><a href="http://projetos.vidageek.net/mirror/mirror/">Mirror</a> - 创建镜子是为了解决一个简单的问题，通常命名为 ReflectionUtil，几乎所有依赖反射来完成高级任务的项目都使用它.</li>
+<li><a href="http://objenesis.org">Objenesis</a> - 允许在没有默认构造函数的情况下进行动态实例化，例如具有所需参数、副作用或抛出异常的构造函数.</li>
+<li><a href="https://github.com/EsotericSoftware/reflectasm">ReflectASM</a> - ReflectASM 是一个非常小的 Java 库，它通过使用代码生成来提供高性能反射.</li>
+<li><a href="https://github.com/ronmamo/reflections">Reflections</a> - Reflections 扫描您的类路径，索引元数据，允许您在运行时查询它，并且可以为项目中的许多模块保存和收集该信息.</li>
 </ul>
 <h3 id="job-scheduling">Job Scheduling<a class="headerlink" href="#job-scheduling" title="Permanent link">&para;</a></h3>
-<p><em>Libraries for scheduling background jobs.</em></p>
+<p><em>用于调度后台作业的库.</em></p>
 <ul>
-<li><a href="https://github.com/jobrunr/jobrunr">JobRunr</a> - Job scheduling library which utilizes lambdas for fire-and-forget, delayed and recurring jobs. Guarantees execution by single scheduler instance using optimistic locking. Has features for persistence, minimal dependencies and is embeddable.</li>
-<li><a href="https://github.com/quartz-scheduler/quartz">Quartz</a> - Feature-rich, open source job scheduling library that can be integrated within virtually any Java application.</li>
-<li><a href="https://github.com/knowm/Sundial">Sundial</a> - Lightweight framework to simply define jobs, define triggers and start the scheduler.</li>
-<li><a href="https://github.com/Coreoz/Wisp">Wisp</a> - Simple library with minimal footprint and straightforward API.</li>
-<li><a href="https://github.com/kagkarlsson/db-scheduler">db-scheduler</a> - Persistent and cluster-friendly scheduler.</li>
-<li><a href="https://github.com/j-easy/easy-batch">easy-batch</a> - Set up batch jobs with simple processing pipelines. Records are read in sequence from a data source, processed in pipeline and written in batches to a data sink.</li>
-<li><a href="https://github.com/lukas-krecan/ShedLock">shedlock</a> - Makes sure that your scheduled tasks are executed at most once at the same time. If a task is being executed on one node, it acquires a lock which prevents execution of the same task from another node or thread.</li>
+<li><a href="https://github.com/jobrunr/jobrunr">JobRunr</a>  - 作业调度库，它利用 lambdas 进行即发即弃、延迟和重复作业. 使用乐观锁定保证单个调度程序实例的执行. 具有持久性、最小依赖性和可嵌入的特性.</li>
+<li><a href="https://github.com/quartz-scheduler/quartz">Quartz</a> - 功能丰富的开源作业调度库，几乎可以集成到任何 Java 应用程序中.</li>
+<li><a href="https://github.com/knowm/Sundial">Sundial</a> - 轻量级框架，用于简单地定义作业、定义触发器和启动调度程序.</li>
+<li><a href="https://github.com/Coreoz/Wisp">Wisp</a> - 具有最小占用空间和简单 API 的简单库.</li>
+<li><a href="https://github.com/kagkarlsson/db-scheduler">db-scheduler</a> - 持久且对集群友好的调度程序.</li>
+<li><a href="https://github.com/j-easy/easy-batch">easy-batch</a>  - 使用简单的处理管道设置批处理作业. 记录从数据源按顺序读取，在管道中处理并批量写入数据接收器.</li>
+<li><a href="https://github.com/lukas-krecan/ShedLock">shedlock</a>  - 确保您的计划任务最多同时执行一次. 如果一个任务正在一个节点上执行，它会获取一个锁，以防止从另一个节点或线程执行相同的任务.</li>
 </ul>
 <h3 id="json">JSON<a class="headerlink" href="#json" title="Permanent link">&para;</a></h3>
-<p><em>Libraries for serializing and deserializing JSON to and from Java objects.</em></p>
+<p><em>用于从 Java 对象序列化和反序列化 JSON 的库.</em></p>
 <ul>
-<li><a href="https://github.com/ngs-doo/dsl-json">DSL-JSON</a> - JSON library with advanced compile time databinding.</li>
-<li><a href="http://genson.io">Genson</a> - Powerful and easy-to-use Java-to-JSON conversion library.</li>
-<li><a href="https://github.com/google/gson">Gson</a> - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.</li>
-<li><a href="https://github.com/brettwooldridge/HikariJSON">HikariJSON</a> - High-performance JSON parser, 2x faster than Jackson.</li>
-<li><a href="https://github.com/FasterXML/jackson-modules-java8">jackson-modules-java8</a> - Set of Jackson modules for Java 8 datatypes and features.</li>
-<li><a href="https://github.com/zalando/jackson-datatype-money">Jackson-datatype-money</a> - Open-source Jackson module to support JSON serialization and deserialization of JavaMoney data types.</li>
-<li><a href="https://github.com/FasterXML/jackson">Jackson</a> - Similar to GSON, but offers performance gains if you need to instantiate the library more often.</li>
-<li><a href="https://github.com/jdereg/json-io">JSON-io</a> - Convert Java to JSON. Convert JSON to Java. Pretty print JSON. Java JSON serializer.</li>
-<li><a href="http://jsoniter.com">jsoniter</a> - Fast and flexible library with iterator and lazy parsing API.</li>
-<li><a href="https://github.com/bluelinelabs/LoganSquare">LoganSquare</a> - JSON parsing and serializing library based on Jackson's streaming API. Outperforms GSON &amp; Jackson's library.</li>
-<li><a href="https://github.com/square/moshi">Moshi</a> - Modern JSON library, less opinionated and uses built-in types like List and Map.</li>
-<li><a href="https://github.com/eclipse-ee4j/yasson">Yasson</a> - 类和 JSON 文档之间的绑定层，类似于 JAXB。</li>
-<li><a href="https://github.com/alibaba/fastjson">fastjson</a> - Very fast processor with no additional dependencies and full data binding.</li>
-<li><a href="https://github.com/bazaarvoice/jolt">Jolt</a> - JSON to JSON transformation tool.</li>
-<li><a href="https://github.com/json-path/JsonPath">JsonPath</a> - Extract data from JSON using XPATH-like syntax.</li>
-<li><a href="https://github.com/jsurfer/JsonSurfer">JsonSurfer</a> - Streaming JsonPath processor dedicated to processing big and complicated JSON data.</li>
+<li><a href="https://github.com/ngs-doo/dsl-json">DSL-JSON</a> - 具有高级编译时数据绑定的 JSON 库.</li>
+<li><a href="http://genson.io">Genson</a> - 功能强大且易于使用的 Java 到 JSON 转换库.</li>
+<li><a href="https://github.com/google/gson">Gson</a>  - 将对象序列化为 JSON，反之亦然. 即时使用的良好性能.</li>
+<li><a href="https://github.com/brettwooldridge/HikariJSON">HikariJSON</a> - 高性能 JSON 解析器，比 Jackson 快 2 倍.</li>
+<li><a href="https://github.com/FasterXML/jackson-modules-java8">jackson-modules-java8</a> - 用于 Java 8 数据类型和功能的 Jackson 模块集.</li>
+<li><a href="https://github.com/zalando/jackson-datatype-money">Jackson-datatype-money</a> - 开源 Jackson 模块，支持 JavaMoney 数据类型的 JSON 序列化和反序列化.</li>
+<li><a href="https://github.com/FasterXML/jackson">Jackson</a> - 类似于 GSON，但如果您需要更频繁地实例化库，则可以提高性能.</li>
+<li><a href="https://github.com/jdereg/json-io">JSON-io</a>  - 将 Java 转换为 JSON. 将 JSON 转换为 Java. 漂亮的打印 JSON.  Java JSON 序列化程序.</li>
+<li><a href="http://jsoniter.com">jsoniter</a> - 快速灵活的库，带有迭代器和惰性解析 API.</li>
+<li><a href="https://github.com/bluelinelabs/LoganSquare">LoganSquare</a>  - 基于 Jackson 的流 API 的 JSON 解析和序列化库. 优于 GSON 和 Jackson 的库.</li>
+<li><a href="https://github.com/square/moshi">Moshi</a> - 现代 JSON 库，不那么固执己见，并使用 List 和 Map 等内置类型.</li>
+<li><a href="https://github.com/eclipse-ee4j/yasson">Yasson</a> - 类和 JSON 文档之间的绑定层，类似于 JAXB.</li>
+<li><a href="https://github.com/alibaba/fastjson">fastjson</a> - 非常快的处理器，没有额外的依赖和完整的数据绑定.</li>
+<li><a href="https://github.com/bazaarvoice/jolt">Jolt</a> - JSON 到 JSON 转换工具.</li>
+<li><a href="https://github.com/json-path/JsonPath">JsonPath</a> - 使用类似 XPATH 的语法从 JSON 中提取数据.</li>
+<li><a href="https://github.com/jsurfer/JsonSurfer">JsonSurfer</a> - 流式 JsonPath 处理器，专用于处理大而复杂的 JSON 数据.</li>
 </ul>
 <h3 id="jvm-and-jdk">JVM and JDK<a class="headerlink" href="#jvm-and-jdk" title="Permanent link">&para;</a></h3>
-<p><em>Current implementations of the JVM/JDK.</em></p>
+<p><em>JVM/JDK 的当前实现.</em></p>
 <ul>
-<li><a href="https://adoptopenjdk.net">Adopt Open JDK</a> - Community-driven OpenJDK builds, including both HotSpot and OpenJ9.</li>
-<li><a href="https://github.com/ReadyTalk/avian">Avian</a> - JVM with JIT, AOT modes and iOS port.</li>
-<li><a href="https://aws.amazon.com/corretto/">Corretto</a> - No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon. (GPL-2.0-only WITH Classpath-exception-2.0)</li>
-<li><a href="https://github.com/alibaba/dragonwell8">Dragonwell8</a> - Downstream version of OpenJDK optimized for online e-commerce, financial, logistics applications.</li>
-<li><a href="https://github.com/oracle/graal">Graal</a> - Polyglot embeddable JVM. (GPL-2.0-only WITH Classpath-exception-2.0)</li>
-<li><a href="https://bell-sw.com">Liberica JDK</a> - Built from OpenJDK, thoroughly tested and passed the JCK. (GPL-2.0-only WITH Classpath-exception-2.0)</li>
-<li><a href="https://github.com/eclipse/openj9">OpenJ9</a> - High performance, enterprise-calibre, flexibly licensed, openly-governed cross-platform JVM extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project.</li>
-<li><a href="https://openjdk.java.net">Open JDK</a> - Open JDK community home. (GPL-2.0-only WITH Classpath-exception-2.0)</li>
-<li><a href="https://github.com/codenameone/CodenameOne/tree/master/vm">ParparVM</a> - VM with non-blocking, concurrent GC for iOS. (GPL-2.0-only WITH Classpath-exception-2.0)</li>
-<li><a href="https://developers.redhat.com/products/openjdk/overview">RedHat Open JDK</a> - RedHat's OpenJDK distribution. (GPL-2.0-only WITH Classpath-exception-2.0)</li>
-<li><a href="https://sap.github.io/SapMachine/">SAP Machine</a> <i>- SAP&#39;s no-cost, rigorously tested and JCK-verified OpenJDK friendly fork.</i> <b>- SAP 的免费、经过严格测试和 JCK 验证的 OpenJDK 友好分支。</b> <i>(GPL-2.0-only WITH Classpath-exception-2.0)</i> <b>（仅 GPL-2.0 WITH Classpath-exception-2.0）</b></li>
-<li><a href="https://www.azul.com/products/zulu-community/">Zulu</a> - OpenJDK builds for Windows, Linux, and macOS. (GPL-2.0-only WITH Classpath-exception-2.0)</li>
+<li><a href="https://adoptopenjdk.net">Adopt Open JDK</a> - 社区驱动的 OpenJDK 构建，包括 HotSpot 和 OpenJ9.</li>
+<li><a href="https://github.com/ReadyTalk/avian">Avian</a> - 具有 JIT、AOT 模式和 iOS 端口的 JVM.</li>
+<li><a href="https://aws.amazon.com/corretto/">Corretto</a>  - 亚马逊免费、多平台、生产就绪的 OpenJDK 分发.  （仅 GPL-2.0 WITH Classpath-exception-2.0）</li>
+<li><a href="https://github.com/alibaba/dragonwell8">Dragonwell8</a> - 针对在线电子商务、金融、物流应用优化的 OpenJDK 下游版本.</li>
+<li><a href="https://github.com/oracle/graal">Graal</a>  - 多语言嵌入式 JVM.  （仅 GPL-2.0 WITH Classpath-exception-2.0）</li>
+<li><a href="https://bell-sw.com">Liberica JDK</a>  - 由 OpenJDK 构建，经过全面测试并通过了 JCK.  （仅 GPL-2.0 WITH Classpath-exception-2.0）</li>
+<li><a href="https://github.com/eclipse/openj9">OpenJ9</a> - 高性能、企业级、灵活许可、开放治理的跨平台 JVM 扩展和增强了 Eclipse OMR 和 OpenJDK 项目的运行时技术组件.</li>
+<li><a href="https://openjdk.java.net">Open JDK</a>  - 打开 JDK 社区主页.  （仅 GPL-2.0 WITH Classpath-exception-2.0）</li>
+<li><a href="https://github.com/codenameone/CodenameOne/tree/master/vm">ParparVM</a>  - 适用于 iOS 的具有非阻塞并发 GC 的 VM.  （仅 GPL-2.0 WITH Classpath-exception-2.0）</li>
+<li><a href="https://developers.redhat.com/products/openjdk/overview">RedHat Open JDK</a>  - RedHat 的 OpenJDK 发行版.  （仅 GPL-2.0 WITH Classpath-exception-2.0）</li>
+<li><a href="https://sap.github.io/SapMachine/">SAP Machine</a>  - SAP 的免费、经过严格测试和 JCK 验证的 OpenJDK 友好分支.  （仅 GPL-2.0 WITH Classpath-exception-2.0）</li>
+<li><a href="https://www.azul.com/products/zulu-community/">Zulu</a>  - OpenJDK 为 Windows、Linux 和 macOS 构建.  （仅 GPL-2.0 WITH Classpath-exception-2.0）</li>
 </ul>
 <h3 id="logging">Logging<a class="headerlink" href="#logging" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that log the behavior of an application.</em></p>
+<p><em>记录应用程序行为的库.</em></p>
 <ul>
-<li><a href="https://logging.apache.org/log4j/">Apache Log4j 2</a> - Complete rewrite with a powerful plugin and configuration architecture.</li>
-<li><a href="https://www.graylog.org">Graylog</a> - Open-source aggregator suited for extended role and permission management. (GPL-3.0-only)</li>
-<li><a href="https://www.elastic.co/kibana">Kibana</a> - Analyzes and visualizes log files. Some features require payment.</li>
-<li><a href="http://logback.qos.ch">Logback</a> - Robust logging library with interesting configuration options via Groovy.</li>
-<li><a href="https://github.com/zalando/logbook">Logbook</a> - Extensible, open-source library for HTTP request and response logging.</li>
-<li><a href="https://www.elastic.co/logstash">Logstash</a> - Tool for managing log files.</li>
-<li><a href="https://github.com/p6spy/p6spy">p6spy</a> - Enables logging for all JDBC transactions without changes to the code.</li>
-<li><a href="http://www.slf4j.org">SLF4J</a> - Abstraction layer/simple logging facade.</li>
-<li><a href="https://tinylog.org/v2/">tinylog</a> - Lightweight logging framework with static logger class.</li>
-<li><a href="https://github.com/zalando/opentracing-toolbox">OpenTracing Toolbox</a> - Collection of libraries that build on top of OpenTracing and provide extensions and plugins to existing instrumentations.</li>
+<li><a href="https://logging.apache.org/log4j/">Apache Log4j 2</a> - 使用强大的插件和配置架构完成重写.</li>
+<li><a href="https://github.com/tersesystems/echopraxia">Echopraxia</a>  - 围绕结构化日志、丰富上下文和条件日志设计的 API. 有 Logback 和 Log4J2 实现，但 Echopraxia 的 API 是完全无依赖的，这意味着它可以使用任何日志 API 来实现.</li>
+<li><a href="https://www.graylog.org">Graylog</a>  - 适用于扩展角色和权限管理的开源聚合器.  （仅限 GPL-3.0）</li>
+<li><a href="https://www.elastic.co/kibana">Kibana</a>  - 分析和可视化日志文件. 有些功能需要付费.</li>
+<li><a href="http://logback.qos.ch">Logback</a> - 强大的日志库，通过 Groovy 提供有趣的配置选项.</li>
+<li><a href="https://github.com/zalando/logbook">Logbook</a> - 用于 HTTP 请求和响应日志记录的可扩展开源库.</li>
+<li><a href="https://www.elastic.co/logstash">Logstash</a> - 用于管理日志文件的工具.</li>
+<li><a href="https://github.com/p6spy/p6spy">p6spy</a> - 无需更改代码即可为所有 JDBC 事务启用日志记录.</li>
+<li><a href="http://www.slf4j.org">SLF4J</a> - 抽象层/简单的日志记录外观.</li>
+<li><a href="https://tinylog.org/v2/">tinylog</a> - 带有静态记录器类的轻量级记录框架.</li>
+<li><a href="https://github.com/zalando/opentracing-toolbox">OpenTracing Toolbox</a> - 建立在 OpenTracing 之上并为现有仪器提供扩展和插件的库的集合.</li>
 </ul>
 <h3 id="machine-learning">Machine Learning<a class="headerlink" href="#machine-learning" title="Permanent link">&para;</a></h3>
-<p><em>Tools that provide specific statistical algorithms for learning from data.</em></p>
+<p><em>提供特定统计算法以从数据中学习的工具.</em></p>
 <ul>
-<li><a href="https://flink.apache.org">Apache Flink</a> - Fast, reliable, large-scale data processing engine.</li>
-<li><a href="https://mahout.apache.org">Apache Mahout</a> - Scalable algorithms focused on collaborative filtering, clustering and classification.</li>
-<li><a href="http://www.datumbox.com">DatumBox</a> - Provides several algorithms and pre-trained models for natural language processing.</li>
-<li><a href="https://deeplearning4j.org">Deeplearning4j</a> - Distributed and multi-threaded deep learning library.</li>
-<li><a href="https://djl.ai">DJL</a> - High-level and engine-agnostic framework for deep learning.</li>
-<li><a href="https://www.h2o.ai">H2O ![c]</a> - Analytics engine for statistics over big data.</li>
-<li><a href="https://github.com/EdwardRaff/JSAT">JSAT</a> - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution. (GPL-3.0-only)</li>
-<li><a href="https://github.com/BayesWitnesses/m2cgen">m2cgen</a> - CLI tool to transpile models into native code.</li>
-<li><a href="https://www.ojalgo.org/">oj! Algorithms</a> - High-performance mathematics, linear algebra and optimisation needed for data science, machine learning and scientific computing.</li>
-<li><a href="https://github.com/OryxProject/oryx">Oryx 2</a> - Framework for building real-time, large-scale machine learning applications. Includes end-to-end applications for collaborative filtering, classification, regression, and clustering.</li>
-<li><a href="https://github.com/siddhi-io/siddhi">Siddhi</a> - Cloud native streaming and complex event processing engine.</li>
-<li><a href="https://github.com/haifengl/smile">Smile</a> - Statistical Machine Intelligence and Learning Engine provides a set of machine learning algorithms and a visualization library.</li>
-<li><a href="https://tribuo.org/">Tribuo</a> - Provides tools for classification, regression, clustering, model development and interfaces with other libraries such as scikit-learn, pytorch and TensorFlow.</li>
-<li><a href="https://www.cs.waikato.ac.nz/ml/weka/">Weka</a> - Collection of algorithms for data mining tasks ranging from pre-processing to visualization. (GPL-3.0-only)</li>
+<li><a href="https://flink.apache.org">Apache Flink</a> - 快速、可靠、大规模的数据处理引擎.</li>
+<li><a href="https://mahout.apache.org">Apache Mahout</a> - 专注于协同过滤、聚类和分类的可扩展算法.</li>
+<li><a href="http://www.datumbox.com">DatumBox</a> - 为自然语言处理提供多种算法和预训练模型.</li>
+<li><a href="https://deeplearning4j.org">Deeplearning4j</a> - 分布式和多线程深度学习库.</li>
+<li><a href="https://djl.ai">DJL</a> - 用于深度学习的高级且与引擎无关的框架.</li>
+<li><a href="https://www.h2o.ai">H2O ![c]</a> - 大数据统计分析引擎.</li>
+<li><a href="https://github.com/EdwardRaff/JSAT">JSAT</a>  - 预处理、分类、回归和聚类算法，支持多线程执行.  （仅限 GPL-3.0）</li>
+<li><a href="https://github.com/BayesWitnesses/m2cgen">m2cgen</a> - 将模型转换为本机代码的 CLI 工具.</li>
+<li><a href="https://www.ojalgo.org/">oj! Algorithms</a> - 数据科学、机器学习和科学计算所需的高性能数学、线性代数和优化.</li>
+<li><a href="https://github.com/OryxProject/oryx">Oryx 2</a>  - 用于构建实时、大规模机器学习应用程序的框架. 包括用于协同过滤、分类、回归和聚类的端到端应用程序.</li>
+<li><a href="https://github.com/siddhi-io/siddhi">Siddhi</a> - 云原生流和复杂事件处理引擎.</li>
+<li><a href="https://github.com/haifengl/smile">Smile</a> - 统计机器智能和学习引擎提供了一套机器学习算法和一个可视化库.</li>
+<li><a href="https://tribuo.org/">Tribuo</a> - 提供用于分类、回归、聚类、模型开发和与其他库（如 scikit-learn、pytorch 和 TensorFlow）的接口的工具.</li>
+<li><a href="https://www.cs.waikato.ac.nz/ml/weka/">Weka</a>  - 从预处理到可视化的数据挖掘任务的算法集合.  （仅限 GPL-3.0）</li>
 </ul>
 <h3 id="messaging">Messaging<a class="headerlink" href="#messaging" title="Permanent link">&para;</a></h3>
-<p><em>Tools that help send messages between clients to ensure protocol independency.</em></p>
+<p><em>帮助在客户端之间发送消息以确保协议独立性的工具.</em></p>
 <ul>
-<li><a href="https://github.com/real-logic/Aeron">Aeron</a> - Efficient, reliable, unicast and multicast message transport.</li>
-<li><a href="https://activemq.apache.org">Apache ActiveMQ</a> - Message broker that implements JMS and converts synchronous to asynchronous communication.</li>
-<li><a href="https://camel.apache.org">Apache Camel</a> - Glues together different transport APIs via Enterprise Integration Patterns.</li>
-<li><a href="https://kafka.apache.org">Apache Kafka</a> - High-throughput distributed messaging system.</li>
-<li><a href="https://pulsar.apache.org">Apache Pulsar</a> - Distributed pub/sub-messaging system.</li>
-<li><a href="https://rocketmq.apache.org">Apache RocketMQ</a> - Fast, reliable, and scalable distributed messaging platform.</li>
-<li><a href="https://qpid.apache.org">Apache Qpid</a> - Apache Qpid makes messaging tools that speak AMQP and support many languages and platforms.</li>
-<li><a href="https://github.com/greenrobot/EventBus">EventBus</a> - Simple publish/subscribe event bus.</li>
-<li><a href="http://hermes.allegro.tech">Hermes</a> - Fast and reliable message broker built on top of Kafka.</li>
-<li><a href="https://github.com/zeromq/jeromq">JeroMQ</a> - Implementation of ZeroMQ.</li>
-<li><a href="https://github.com/zalando/nakadi">Nakadi</a> - Provides a RESTful API on top of Kafka.</li>
-<li><a href="https://github.com/rabbitmq/rabbitmq-java-client">RabbitMQ Java client</a> - RabbitMQ client.</li>
-<li><a href="https://github.com/igniterealtime/Smack">Smack</a> - Cross-platform XMPP client library.</li>
-<li><a href="https://github.com/nats-io/nats.java">NATS client</a> - NATS client.</li>
+<li><a href="https://github.com/real-logic/Aeron">Aeron</a> - 高效、可靠、单播和多播消息传输.</li>
+<li><a href="https://activemq.apache.org">Apache ActiveMQ</a> - 实现 JMS 并将同步通信转换为异步通信的消息代理.</li>
+<li><a href="https://camel.apache.org">Apache Camel</a> - 通过企业集成模式将不同的传输 API 粘合在一起.</li>
+<li><a href="https://kafka.apache.org">Apache Kafka</a> - 高吞吐量分布式消息系统.</li>
+<li><a href="https://pulsar.apache.org">Apache Pulsar</a> - 分布式发布/子消息系统.</li>
+<li><a href="https://rocketmq.apache.org">Apache RocketMQ</a> - 快速、可靠和可扩展的分布式消息传递平台.</li>
+<li><a href="https://qpid.apache.org">Apache Qpid</a> - Apache Qpid 制作了使用 AMQP 并支持多种语言和平台的消息传递工具.</li>
+<li><a href="https://github.com/greenrobot/EventBus">EventBus</a> - 简单的发布/订阅事件总线.</li>
+<li><a href="http://hermes.allegro.tech">Hermes</a> - 建立在 Kafka 之上的快速可靠的消息代理.</li>
+<li><a href="https://github.com/zeromq/jeromq">JeroMQ</a> - ZeroMQ 的实施.</li>
+<li><a href="https://github.com/zalando/nakadi">Nakadi</a> - 在 Kafka 之上提供 RESTful API.</li>
+<li><a href="https://github.com/rabbitmq/rabbitmq-java-client">RabbitMQ Java client</a> - RabbitMQ 客户端.</li>
+<li><a href="https://github.com/igniterealtime/Smack">Smack</a> - 跨平台 XMPP 客户端库.</li>
+<li><a href="https://github.com/nats-io/nats.java">NATS client</a> - NATS 客户端.</li>
 </ul>
 <h3 id="microservice">Microservice<a class="headerlink" href="#microservice" title="Permanent link">&para;</a></h3>
-<p><em>Tools for creating and managing microservices.</em></p>
+<p><em>用于创建和管理微服务的工具.</em></p>
 <ul>
-<li><a href="https://rpc.activej.io">ActiveRPC</a> - Lightweight and fast library for complex high-load distributed applications and Memcached-like solutions.</li>
-<li><a href="https://spotify.github.io/apollo/">Apollo</a> - Libraries for writing composable microservices.</li>
-<li><a href="https://github.com/line/armeria">Armeria</a> - Asynchronous RPC/REST client/server library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC.</li>
-<li><a href="https://github.com/Ecwid/consul-api">consul-api</a> - Client for the Consul API: a distributed, highly available and datacenter-aware registry/discovery service.</li>
-<li><a href="https://github.com/Netflix/eureka">Eureka</a> - REST-based service registry for resilient load balancing and failover.</li>
-<li><a href="https://helidon.io">Helidon</a> - Two-style approach for writing microservices: Functional-reactive and as an implementation of MicroProfile.</li>
-<li><a href="https://micronaut.io">Micronaut</a> - Modern full-stack framework with focus on modularity, minimal memory footprint and startup time.</li>
-<li><a href="https://nacos.io">Nacos</a> - Dynamic service discovery, configuration and service management platform for building cloud native applications.</li>
-<li><a href="https://quarkus.io">Quarkus</a> - Kubernetes stack tailored for the HotSpot and Graal VM.</li>
-<li><a href="https://github.com/alibaba/Sentinel">Sentinel</a> - Flow control component enabling reliability, resilience and monitoring for microservices.</li>
+<li><a href="https://rpc.activej.io">ActiveRPC</a> - 用于复杂的高负载分布式应用程序和类似 Memcached 的解决方案的轻量级和快速库.</li>
+<li><a href="https://spotify.github.io/apollo/">Apollo</a> - 用于编写可组合微服务的库.</li>
+<li><a href="https://github.com/line/armeria">Armeria</a> - 基于 Java 8、Netty、HTTP/2、Thrift 和 gRPC 构建的异步 RPC/REST 客户端/服务器库.</li>
+<li><a href="https://github.com/Ecwid/consul-api">consul-api</a> - Consul API 的客户端：分布式、高可用性和数据中心感知的注册/发现服务.</li>
+<li><a href="https://github.com/Netflix/eureka">Eureka</a> - 基于 REST 的服务注册表，用于弹性负载平衡和故障转移.</li>
+<li><a href="https://helidon.io">Helidon</a> - 两种编写微服务的方法：功能响应式和作为 MicroProfile 的实现.</li>
+<li><a href="https://micronaut.io">Micronaut</a> - 现代全栈框架，专注于模块化、最小内存占用和启动时间.</li>
+<li><a href="https://nacos.io">Nacos</a> - 用于构建云原生应用程序的动态服务发现、配置和服务管理平台.</li>
+<li><a href="https://quarkus.io">Quarkus</a> - 为 HotSpot 和 Graal VM 量身定制的 Kubernetes 堆栈.</li>
+<li><a href="https://github.com/alibaba/Sentinel">Sentinel</a> - 流控制组件支持微服务的可靠性、弹性和监控.</li>
 </ul>
 <h3 id="miscellaneous">Miscellaneous<a class="headerlink" href="#miscellaneous" title="Permanent link">&para;</a></h3>
-<p><em>Everything else.</em></p>
+<p><em>其他一切.</em></p>
 <ul>
-<li><a href="https://github.com/npgall/cqengine">CQEngine</a> - Ultra-fast, SQL-like queries on Java collections.</li>
-<li><a href="https://github.com/iluwatar/java-design-patterns">Design Patterns</a> - Implementation and explanation of the most common design patterns.</li>
+<li><a href="https://github.com/npgall/cqengine">CQEngine</a> - 对 Java 集合进行超快速、类似 SQL 的查询.</li>
+<li><a href="https://github.com/iluwatar/java-design-patterns">Design Patterns</a> - 最常见的设计模式的实现和解释.</li>
 <li><a href="https://github.com/ff4j/ff4j">FF4J</a> - Feature Flags for Java.</li>
-<li><a href="https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition">FizzBuzz Enterprise Edition</a> - No-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes. (No explicit license)</li>
-<li><a href="https://github.com/google/j2objc">J2ObjC</a> - Java-to-Objective-C translator for porting Android libraries to iOS.</li>
+<li><a href="https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition">FizzBuzz Enterprise Edition</a>  - 严肃的商人为严肃的商业目的制作的 FizzBu​​zz 的严肃实施.  （无明确许可）</li>
+<li><a href="https://github.com/google/j2objc">J2ObjC</a> - Java 到 Objective-C 的翻译器，用于将 Android 库移植到 iOS.</li>
 <li><a href="https://jbake.org">JBake</a> - Static website generator.</li>
-<li><a href="https://github.com/rampatra/jbot">JBot</a> - Framework for building chatbots. (GPL-3.0-only)</li>
-<li><a href="http://jcuda.org">JCuda</a> - JCuda offers Java bindings for CUDA and CUDA-related libraries.</li>
-<li><a href="https://github.com/google/jimfs">Jimfs</a> - In-memory file system.</li>
-<li><a href="https://www.pelock.com/products/jobfuscator">JObfuscator![c]</a> - Source code obfuscator.</li>
-<li><a href="https://www.joda.org/joda-money/">Joda-Money</a> - Basic currency and money classes and algorithms not provided by the JDK.</li>
-<li><a href="http://jpad.io">JPad</a> - Snippet runner.</li>
-<li><a href="https://github.com/cincheo/jsweet">jsweet</a> - Source transpiler to TypeScript/JavaScript.</li>
-<li><a href="https://github.com/takari/maven-wrapper">Maven Wrapper</a> - Analogue of Gradle Wrapper for Maven, allows building projects without installing maven.</li>
-<li><a href="https://github.com/membrane/service-proxy">Membrane Service Proxy</a> - Open-source, reverse-proxy framework.</li>
-<li><a href="https://github.com/Guichaguri/MinimalFTP">MinimalFTP</a> - Lightweight, small and customizable FTP server.</li>
-<li><a href="https://github.com/winterbe/java8-tutorial">Modern Java - A Guide to Java 8</a> - Popular Java 8 guide.</li>
-<li><a href="https://github.com/gaul/modernizer-maven-plugin">Modernizer</a> - Detect uses of legacy Java APIs.</li>
-<li><a href="https://github.com/OctoLinker/OctoLinker">OctoLinker</a> - Browser extension which allows to navigate through code on GitHub more efficiently.</li>
-<li><a href="http://openrefine.org">OpenRefine</a> - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.</li>
-<li><a href="https://github.com/sizovs/pipelinr">PipelinR</a> - Small utility library for using handlers and commands with pipelines.</li>
-<li><a href="https://github.com/takari/polyglot-maven">Polyglot for Maven</a> - Extensions for Maven 3.3.1+ that allows writing the POM model in dialects other than XML.</li>
-<li><a href="https://github.com/Kartikvk1996/RR4J">RR4J</a> - RR4J is a tool that records java bytecode execution and later allows developers to replay locally.</li>
-<li><a href="https://github.com/bbottema/simple-java-mail">Simple Java Mail</a> - Mailing with a clean and fluent API.</li>
-<li><a href="https://github.com/smooks/smooks">Smooks</a> - Framework for fragment-based message processing. (Apache-2.0 OR LGPL-3.0-or-later)</li>
-<li><a href="https://www.togglz.org">Togglz</a> - Implementation of the Feature Toggles pattern.</li>
-<li><a href="https://github.com/jhalterman/typetools">TypeTools</a> - Tools for resolving generic types.</li>
-<li><a href="https://github.com/SvenEwald/xmlbeam">XMLBeam</a> - Processes XML by using annotations or XPath within code.</li>
-<li><a href="https://github.com/yWorks/yGuard">yGuard</a> - Obfuscation via renaming and shrinking.</li>
+<li><a href="https://github.com/rampatra/jbot">JBot</a>  - 构建聊天机器人的框架.  （仅限 GPL-3.0）</li>
+<li><a href="http://jcuda.org">JCuda</a> - JCuda 为 CUDA 和 CUDA 相关库提供 Java 绑定.</li>
+<li><a href="https://github.com/google/jimfs">Jimfs</a> - 内存文件系统.</li>
+<li><a href="https://www.pelock.com/products/jobfuscator">JObfuscator![c]</a> - 源代码混淆器.</li>
+<li><a href="https://www.joda.org/joda-money/">Joda-Money</a> - JDK 未提供的基本货币和货币类别和算法.</li>
+<li><a href="http://jpad.io">JPad</a> - 片段赛跑者.</li>
+<li><a href="https://github.com/cincheo/jsweet">jsweet</a> - 到 TypeScript/JavaScript 的源代码转换器.</li>
+<li><a href="https://github.com/takari/maven-wrapper">Maven Wrapper</a> - Maven 的 Gradle Wrapper 的类似物，允许在不安装 maven 的情况下构建项目.</li>
+<li><a href="https://github.com/membrane/service-proxy">Membrane Service Proxy</a> - 开源、反向代理框架.</li>
+<li><a href="https://github.com/Guichaguri/MinimalFTP">MinimalFTP</a> - 轻量级、小型且可定制的 FTP 服务器.</li>
+<li><a href="https://github.com/winterbe/java8-tutorial">Modern Java - A Guide to Java 8</a> - 流行的 Java 8 指南.</li>
+<li><a href="https://github.com/gaul/modernizer-maven-plugin">Modernizer</a> - 检测遗留 Java API 的使用.</li>
+<li><a href="https://github.com/OctoLinker/OctoLinker">OctoLinker</a> - 浏览器扩展，允许更有效地浏览 GitHub 上的代码.</li>
+<li><a href="http://openrefine.org">OpenRefine</a> - 处理杂乱数据的工具：清理、转换、使用 Web 服务扩展数据并将其链接到数据库.</li>
+<li><a href="https://github.com/sizovs/pipelinr">PipelinR</a> - 用于在管道中使用处理程序和命令的小型实用程序库.</li>
+<li><a href="https://github.com/takari/polyglot-maven">Polyglot for Maven</a> - Maven 3.3.1+ 的扩展，允许用 XML 以外的方言编写 POM 模型.</li>
+<li><a href="https://github.com/Kartikvk1996/RR4J">RR4J</a> - RR4J 是一个记录java字节码执行的工具，以后允许开发者在本地回放.</li>
+<li><a href="https://github.com/bbottema/simple-java-mail">Simple Java Mail</a> - 使用干净流畅的 API 发送邮件.</li>
+<li><a href="https://github.com/smooks/smooks">Smooks</a>  - 基于片段的消息处理框架.  （Apache-2.0 或 LGPL-3.0 或更高版本）</li>
+<li><a href="https://www.togglz.org">Togglz</a> - 功能切换模式的实现.</li>
+<li><a href="https://github.com/jhalterman/typetools">TypeTools</a> - 解析泛型类型的工具.</li>
+<li><a href="https://github.com/SvenEwald/xmlbeam">XMLBeam</a> - 通过在代码中使用注释或 XPath 来处理 XML.</li>
+<li><a href="https://github.com/yWorks/yGuard">yGuard</a> - 通过重命名和收缩进行混淆.</li>
 </ul>
 <h3 id="mobile-development">Mobile Development<a class="headerlink" href="#mobile-development" title="Permanent link">&para;</a></h3>
-<p><em>Tools for creating or managing mobile applications.</em></p>
+<p><em>用于创建或管理移动应用程序的工具.</em></p>
 <ul>
-<li><a href="https://www.codenameone.com">Codename One</a> - Cross-platform solution for writing native mobile apps. (GPL-2.0-only WITH Classpath-exception-2.0)</li>
-<li><a href="https://mobileui.dev">MobileUI</a> - Cross-platform framework for developing mobile apps with native UI in Java and Kotlin.</li>
-<li><a href="https://multi-os-engine.org">Multi-OS Engine</a> - Open-source, cross-platform engine to develop native mobile (iOS, Android, etc.) apps.</li>
+<li><a href="https://www.codenameone.com">Codename One</a>  - 用于编写原生移动应用程序的跨平台解决方案.  （仅 GPL-2.0 WITH Classpath-exception-2.0）</li>
+<li><a href="https://mobileui.dev">MobileUI</a> - 使用 Java 和 Kotlin 开发具有本机 UI 的移动应用程序的跨平台框架.</li>
+<li><a href="https://multi-os-engine.org">Multi-OS Engine</a> - 用于开发原生移动（iOS、Android 等）应用程序的开源、跨平台引擎.</li>
 </ul>
 <h3 id="monitoring">Monitoring<a class="headerlink" href="#monitoring" title="Permanent link">&para;</a></h3>
-<p><em>Tools that monitor applications in production.</em></p>
+<p><em>监控生产中应用程序的工具.</em></p>
 <ul>
-<li><a href="https://github.com/stevensouza/automon">Automon</a> - Combines the power of AOP with monitoring and/or logging tools.</li>
-<li><a href="https://github.com/zalando/failsafe-actuator">Failsafe Actuator</a> - Out of the box monitoring of Failsafe Circuit Breaker in Spring-Boot environment.</li>
-<li><a href="https://glowroot.org">Glowroot</a> - Open-source Java APM.</li>
-<li><a href="https://www.inspectit.rocks">inspectIT</a> - Captures detailed run-time information via hooks that can be changed on the fly. It supports tracing over multiple systems via the OpenTracing API and can correlate the data with end user monitoring.</li>
-<li><a href="https://instrumentalapp.com">Instrumental ![c]</a> - Real-time Java application performance monitoring. A commercial service with free development accounts.</li>
-<li><a href="https://github.com/javamelody/javamelody">JavaMelody</a> - Performance monitoring and profiling.</li>
-<li><a href="https://github.com/jaegertracing/jaeger-client-java">Jaeger client</a> - Jaeger client.</li>
-<li><a href="https://github.com/jmxtrans/jmxtrans">jmxtrans</a> - Connect to multiple JVMs and query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVM attributes. Supports different output writes, including Graphite, Ganglia, and StatsD.</li>
-<li><a href="https://jolokia.org">Jolokia</a> - JMX over REST.</li>
-<li><a href="https://github.com/dropwizard/metrics">Metrics</a> - Expose metrics via JMX or HTTP and send them to a database.</li>
-<li><a href="https://github.com/DataDog/dd-trace-java">Datadog ![c]</a> - Modern monitoring &amp; analytics.</li>
-<li><a href="https://github.com/lorenzoongithub/nudge4j">nudge4j</a> - Remote developer console from the browser for Java 8 via bytecode injection.</li>
-<li><a href="https://github.com/naver/pinpoint">Pinpoint</a> - Open-source APM tool.</li>
-<li><a href="https://github.com/prometheus/client_java">Prometheus</a> - Provides a multi-dimensional data model, DSL, autonomous server nodes and much more.</li>
-<li><a href="https://github.com/getsentry/sentry-java">Sentry ![c]</a> - Integration with <a href="https://github.com/getsentry/sentry">Sentry</a>, an application error tracking and performance analysis platform.</li>
-<li><a href="https://github.com/sematext/sematext-agent-java">SPM ![c]</a> - Performance monitor with distributing transaction tracing for JVM apps.</li>
-<li><a href="https://github.com/stagemonitor/stagemonitor">Stagemonitor</a> - Open-source performance monitoring and transaction tracing for JVM apps.</li>
-<li><a href="https://github.com/palantir/Sysmon">Sysmon</a> - Lightweight platform monitoring tool for Java VMs.</li>
-<li><a href="https://zipkin.io">zipkin</a> - Distributed tracing system which gathers timing data needed to troubleshoot latency problems in microservice architectures.</li>
+<li><a href="https://github.com/stevensouza/automon">Automon</a> - 将 AOP 的强大功能与监控和/或日志工具相结合.</li>
+<li><a href="https://github.com/zalando/failsafe-actuator">Failsafe Actuator</a> - 在 Spring-Boot 环境中对故障安全断路器的开箱即用监控.</li>
+<li><a href="https://glowroot.org">Glowroot</a> - 开源 Java APM.</li>
+<li><a href="https://www.inspectit.rocks">inspectIT</a>  - 通过可以动态更改的挂钩捕获详细的运行时信息. 它支持通过 OpenTracing API 对多个系统进行跟踪，并且可以将数据与最终用户监控相关联.</li>
+<li><a href="https://instrumentalapp.com">Instrumental ![c]</a> - 实时 Java 应用程序性能监控. 具有免费开发帐户的商业服务.</li>
+<li><a href="https://github.com/javamelody/javamelody">JavaMelody</a> - 性能监控和分析.</li>
+<li><a href="https://github.com/jaegertracing/jaeger-client-java">Jaeger client</a> - 客户 Jaeger.</li>
+<li><a href="https://github.com/jmxtrans/jmxtrans">jmxtrans</a>  - 连接到多个 JVM 并通过 JMX 查询它们的属性. 它的查询语言基于 JSON，它允许非 Java 程序员访问 JVM 属性. 支持不同的输出写入，包括 Graphite、Ganglia 和 StatsD.</li>
+<li><a href="https://jolokia.org">Jolokia</a> - 基于 REST 的 JMX.</li>
+<li><a href="https://github.com/dropwizard/metrics">Metrics</a> - 通过 JMX 或 HTTP 公开指标并将它们发送到数据库.</li>
+<li><a href="https://github.com/DataDog/dd-trace-java">Datadog ![c]</a> - 现代监控和分析.</li>
+<li><a href="https://github.com/lorenzoongithub/nudge4j">nudge4j</a> - 通过字节码注入从浏览器为 Java 8 远程开发者控制台.</li>
+<li><a href="https://github.com/naver/pinpoint">Pinpoint</a> - 开源 APM 工具.</li>
+<li><a href="https://github.com/prometheus/client_java">Prometheus</a> - 提供多维数据模型、DSL、自治服务器节点等等.</li>
+<li><a href="https://github.com/getsentry/sentry-java">Sentry ![c]</a> - 与 <a href="https://github.com/getsentry/sentry">Sentry</a>，一个应用程序错误跟踪和性能分析平台.</li>
+<li><a href="https://github.com/sematext/sematext-agent-java">SPM ![c]</a> - 为 JVM 应用程序分配事务跟踪的性能监视器.</li>
+<li><a href="https://github.com/stagemonitor/stagemonitor">Stagemonitor</a> - JVM 应用程序的开源性能监控和事务跟踪.</li>
+<li><a href="https://github.com/palantir/Sysmon">Sysmon</a> - 用于 Java VM 的轻量级平台监控工具.</li>
+<li><a href="https://zipkin.io">zipkin</a> - 分布式跟踪系统，它收集解决微服务架构中的延迟问题所需的时间数据.</li>
 </ul>
 <h3 id="native">Native<a class="headerlink" href="#native" title="Permanent link">&para;</a></h3>
-<p><em>For working with platform-specific native libraries.</em></p>
+<p><em>用于使用特定于平台的本机库.</em></p>
 <ul>
-<li><a href="https://github.com/Syncleus/aparapi">Aparapi</a> - Converts bytecode to OpenCL which allows execution on GPUs.</li>
-<li><a href="https://github.com/bytedeco/javacpp">JavaCPP</a> - Provides efficient and easy access to native C++.</li>
-<li><a href="https://github.com/java-native-access/jna">JNA</a> - Work with native libraries without writing JNI. Also provides interfaces to common system libraries.</li>
-<li><a href="https://github.com/jnr/jnr-ffi">JNR</a> - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming <a href="http://openjdk.java.net/projects/panama">Project Panama</a>.</li>
+<li><a href="https://github.com/Syncleus/aparapi">Aparapi</a> - 将字节码转换为允许在 GPU 上执行的 OpenCL.</li>
+<li><a href="https://github.com/bytedeco/javacpp">JavaCPP</a> - 提供对本机 C++ 的高效且轻松的访问.</li>
+<li><a href="https://github.com/java-native-access/jna">JNA</a>  - 无需编写 JNI 即可使用本机库. 还提供通用系统库的接口.</li>
+<li><a href="https://github.com/jnr/jnr-ffi">JNR</a>  - 无需编写 JNI 即可使用本机库. 还提供通用系统库的接口. 与 JNA 相同的目标，但速度更快，并作为即将到来的基础 <a href="http://openjdk.java.net/projects/panama">Project Panama</a>.</li>
 </ul>
 <h3 id="natural-language-processing">Natural Language Processing<a class="headerlink" href="#natural-language-processing" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that specialize in processing text.</em></p>
+<p><em>专门处理文本的图书馆.</em></p>
 <ul>
-<li><a href="https://github.com/CogComp/cogcomp-nlp">CogCompNLP</a> - Provides common annotators for plain text input. (Research and Academic Use License)</li>
-<li><a href="https://nlp.stanford.edu/software/corenlp.shtml">CoreNLP</a> - Provides a set of fundamental tools for tasks like tagging, named entity recognition, and sentiment analysis. (GPL-3.0-or-later)</li>
-<li><a href="https://dkpro.github.io">DKPro</a> - Collection of reusable NLP tools for linguistic pre-processing, machine learning, lexical resources, etc.</li>
-<li><a href="http://alias-i.com/lingpipe/">LingPipe</a> - Toolkit for tasks ranging from POS tagging to sentiment analysis.</li>
+<li><a href="https://github.com/CogComp/cogcomp-nlp">CogCompNLP</a>  - 为纯文本输入提供通用注释器.  （研究和学术使用许可证）</li>
+<li><a href="https://nlp.stanford.edu/software/corenlp.shtml">CoreNLP</a>  - 为标记、命名实体识别和情感分析等任务提供一组基本工具.  （GPL-3.0 或更高版本）</li>
+<li><a href="https://dkpro.github.io">DKPro</a> - 用于语言预处理、机器学习、词汇资源等的可重用 NLP 工具的集合.</li>
+<li><a href="http://alias-i.com/lingpipe/">LingPipe</a> - 用于从 POS 标记到情绪分析的任务的工具包.</li>
 </ul>
 <h3 id="networking">Networking<a class="headerlink" href="#networking" title="Permanent link">&para;</a></h3>
-<p><em>Libraries for building network servers.</em></p>
+<p><em>用于构建网络服务器的库.</em></p>
 <ul>
-<li><a href="https://github.com/CiscoSE/commons-networking">Commons-networking</a> - Client for server-sent events (SSE).</li>
-<li><a href="https://github.com/puniverse/comsat">Comsat</a> - Integrates standard Java web-related APIs with Quasar fibers and actors.</li>
-<li><a href="https://github.com/apache/dubbo">Dubbo</a> - High-performance RPC framework.</li>
-<li><a href="https://javaee.github.io/grizzly/">Grizzly</a> - NIO framework. Used as a network layer in Glassfish.</li>
-<li><a href="https://github.com/grpc/grpc-java">gRPC</a> - RPC framework based on protobuf and HTTP/2.</li>
-<li><a href="https://github.com/EsotericSoftware/kryonet">KryoNet</a> - Provides a clean and simple API for efficient TCP and UDP client/server network communication using NIO and Kryo.</li>
-<li><a href="https://mina.apache.org">MINA</a> - Abstract, event-driven async I/O API for network operations over TCP/IP and UDP/IP via Java NIO.</li>
-<li><a href="https://netty.io">Netty</a> - Framework for building high-performance network applications.</li>
-<li><a href="https://github.com/airlift/drift">Drift</a> - Easy-to-use, annotation-based library for creating Thrift clients and serializable types.</li>
-<li><a href="https://github.com/apple/servicetalk">ServiceTalk</a> - Framework built on Netty with APIs tailored to specific protocols and support for multiple programming paradigms.</li>
-<li><a href="https://github.com/hierynomus/sshj">sshj</a> - Programmatically use SSH, SCP or SFTP.</li>
-<li><a href="https://github.com/marianobarrios/tls-channel">TLS Channel</a> - Implements a ByteChannel interface over SSLEngine, enabling easy-to-use (socket-like) TLS.</li>
-<li><a href="http://undertow.io">Undertow</a> - Web server providing both blocking and non-blocking APIs based on NIO. Used as a network layer in WildFly. (LGPL-2.1-only)</li>
-<li><a href="https://github.com/slub/urnlib">urnlib</a> - Represent, parse and encode URNs, as in RFC 2141. (GPL-3.0-only)</li>
+<li><a href="https://github.com/CiscoSE/commons-networking">Commons-networking</a> - 服务器发送事件的客户端 (SSE).</li>
+<li><a href="https://github.com/puniverse/comsat">Comsat</a> - 将标准 Java Web 相关 API 与 Quasar 光纤和参与者集成.</li>
+<li><a href="https://github.com/apache/dubbo">Dubbo</a> - 高性能 RPC 框架.</li>
+<li><a href="https://javaee.github.io/grizzly/">Grizzly</a>  - NIO 框架. 在 Glassfish 中用作网络层.</li>
+<li><a href="https://github.com/grpc/grpc-java">gRPC</a> - 基于 protobuf 和 HTTP/2 的 RPC 框架.</li>
+<li><a href="https://github.com/EsotericSoftware/kryonet">KryoNet</a> - 为使用 NIO 和 Kryo 的高效 TCP 和 UDP 客户端/服务器网络通信提供干净简单的 API.</li>
+<li><a href="https://mina.apache.org">MINA</a> - 抽象的、事件驱动的异步 I/O API，用于通过 Java NIO 通过 TCP/IP 和 UDP/IP 进行网络操作.</li>
+<li><a href="https://netty.io">Netty</a> - 构建高性能网络应用程序的框架.</li>
+<li><a href="https://github.com/airlift/drift">Drift</a> - 易于使用、基于注释的库，用于创建 Thrift 客户端和可序列化类型.</li>
+<li><a href="https://github.com/apple/servicetalk">ServiceTalk</a> - 基于 Netty 构建的框架，具有针对特定协议量身定制的 API，并支持多种编程范式.</li>
+<li><a href="https://github.com/hierynomus/sshj">sshj</a> - 以编程方式使用 SSH、SCP 或 SFTP.</li>
+<li><a href="https://github.com/marianobarrios/tls-channel">TLS Channel</a> - 通过 SSLEngine 实现 ByteChannel 接口，实现易于使用（类似套接字）的 TLS.</li>
+<li><a href="http://undertow.io">Undertow</a>  - 基于 NIO 提供阻塞和非阻塞 API 的 Web 服务器. 在 WildFly 中用作网络层.  （仅限 LGPL-2.1）</li>
+<li><a href="https://github.com/slub/urnlib">urnlib</a> - 表示、解析和编码 URN，如 RFC 2141 中所示.（仅限 GPL-3.0）</li>
 </ul>
 <h3 id="orm">ORM<a class="headerlink" href="#orm" title="Permanent link">&para;</a></h3>
-<p><em>APIs that handle the persistence of objects.</em></p>
+<p><em>处理对象持久性的API.</em></p>
 <ul>
-<li><a href="https://cayenne.apache.org">Apache Cayenne</a> - Provides a clean, static API for data access. Also includes a GUI Modeler for working with database mappings, and DB reverse engineering and generation.</li>
-<li><a href="https://github.com/domaframework/doma">Doma</a> - Database access framework that verifies and generates source code at compile time using annotation processing as well as native SQL templates called two-way SQL.</li>
-<li><a href="https://ebean.io">Ebean</a> - Provides simple and fast data access.</li>
-<li><a href="https://www.eclipse.org/eclipselink/">EclipseLink</a> - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.</li>
-<li><a href="http://hibernate.org/orm/">Hibernate</a> - Robust and widely used, with an active community. (LGPL-2.1-only)</li>
-<li><a href="https://github.com/mybatis/mybatis-3">MyBatis</a> - Couples objects with stored procedures or SQL statements.</li>
-<li><a href="https://github.com/braisdom/ObjectiveSql">ObjectiveSql</a> - ActiveRecord ORM for rapid development and convention over configuration.</li>
-<li><a href="https://github.com/permazen/permazen">Permazen</a> - Language-natural persistence layer.</li>
-<li><a href="https://github.com/arnaudroger/SimpleFlatMapper">SimpleFlatMapper</a> - Simple database and CSV mapper.</li>
+<li><a href="https://cayenne.apache.org">Apache Cayenne</a>  - 为数据访问提供干净、静态的 API. 还包括一个用于处理数据库映射以及数据库逆向工程和生成的 GUI 建模器.</li>
+<li><a href="https://github.com/domaframework/doma">Doma</a> - 数据库访问框架，在编译时使用注释处理以及称为双向 SQL 的本机 SQL 模板验证和生成源代码.</li>
+<li><a href="https://ebean.io">Ebean</a> - 提供简单快速的数据访问.</li>
+<li><a href="https://www.eclipse.org/eclipselink/">EclipseLink</a> - 支持多种持久性标准：JPA、JAXB、JCA 和 SDO.</li>
+<li><a href="http://hibernate.org/orm/">Hibernate</a>  - 强大且广泛使用，拥有活跃的社区.  （仅限 LGPL-2.1）</li>
+<li><a href="https://github.com/mybatis/mybatis-3">MyBatis</a> - 将对象与存储过程或 SQL 语句结合起来.</li>
+<li><a href="https://github.com/braisdom/ObjectiveSql">ObjectiveSql</a> - ActiveRecord ORM 用于快速开发和约定优于配置.</li>
+<li><a href="https://github.com/permazen/permazen">Permazen</a> - 语言自然持久层.</li>
+<li><a href="https://github.com/arnaudroger/SimpleFlatMapper">SimpleFlatMapper</a> - 简单的数据库和 CSV 映射器.</li>
 </ul>
 <h3 id="paas">PaaS<a class="headerlink" href="#paas" title="Permanent link">&para;</a></h3>
-<p><em>Java platform as a service.</em></p>
+<p><em>Java 平台即服务.</em></p>
 <ul>
-<li><a href="https://aws.amazon.com/elasticbeanstalk/">AWS Elastic Beanstalk ![c]</a> - AWS-based, with support for Tomcat and Jetty.</li>
-<li><a href="https://aws.amazon.com/lambda/">AWS Lambda ![c]</a> - Serverless computation.</li>
-<li><a href="https://cloud.google.com">Google Cloud ![c]</a> - Google's cloud infrastructure.</li>
-<li><a href="https://www.heroku.com">Heroku ![c]</a> - Abstract computing environments.</li>
-<li><a href="https://azure.microsoft.com/en-us/">Microsoft Azure ![c]</a> - Microsoft's cloud infrastructure.</li>
-<li><a href="https://www.openshift.com">OpenShift ![c]</a> - Provides additionally an on-premise solution.</li>
+<li><a href="https://aws.amazon.com/elasticbeanstalk/">AWS Elastic Beanstalk ![c]</a> - 基于 AWS，支持 Tomcat 和 Jetty.</li>
+<li><a href="https://aws.amazon.com/lambda/">AWS Lambda ![c]</a> - 无服务器计算.</li>
+<li><a href="https://cloud.google.com">Google Cloud ![c]</a> - Google 的云基础架构.</li>
+<li><a href="https://www.heroku.com">Heroku ![c]</a> - 抽象计算环境.</li>
+<li><a href="https://azure.microsoft.com/en-us/">Microsoft Azure ![c]</a> - Microsoft 的云基础架构.</li>
+<li><a href="https://www.openshift.com">OpenShift ![c]</a> - 额外提供本地解决方案.</li>
 </ul>
 <h3 id="pdf">PDF<a class="headerlink" href="#pdf" title="Permanent link">&para;</a></h3>
-<p><em>Tools to help with PDF files.</em></p>
+<p><em>帮助处理 PDF 文件的工具.</em></p>
 <ul>
-<li><a href="https://xmlgraphics.apache.org/fop/">Apache FOP</a> - Creates PDFs from XSL-FO.</li>
-<li><a href="https://pdfbox.apache.org">Apache PDFBox</a> - Toolbox for creating and manipulating PDFs.</li>
-<li><a href="http://dynamicjasper.com">Dynamic Jasper</a> - Abstraction layer to JasperReports. (LGPL-3.0-only)</li>
-<li><a href="https://github.com/dynamicreports/dynamicreports">DynamicReports</a> - Simplifies JasperReports. (LGPL-3.0-only)</li>
-<li><a href="https://www.eclipse.org/birt">Eclipse BIRT</a> - Report engine for creating PDF and other formats (DOCX, XLSX, HTML, etc) using Eclipse-based visual editor.</li>
-<li><a href="https://github.com/flyingsaucerproject/flyingsaucer">flyingsaucer</a> - XML/XHTML and CSS 2.1 renderer. (LGPL-2.1-or-later)</li>
-<li><a href="https://itextpdf.com/en">iText ![c]</a> - Creates PDF files programmatically.</li>
-<li><a href="https://community.jaspersoft.com/project/jasperreports-library">JasperReports</a> - Complex reporting engine. (LGPL-3.0-only)</li>
-<li><a href="https://github.com/danfickle/openhtmltopdf">Open HTML to PDF</a> - Properly supports modern PDF standards based on flyingsaucer and Apache PDFBox.</li>
-<li><a href="https://github.com/LibrePDF/OpenPDF">OpenPDF</a> - Open-source iText fork. (LGPL-3.0-only &amp; MPL-2.0)</li>
-<li><a href="https://github.com/tabulapdf/tabula-java">Tabula</a> - Extracts tables from PDF files.</li>
+<li><a href="https://xmlgraphics.apache.org/fop/">Apache FOP</a> - 从 XSL-FO 创建 PDF.</li>
+<li><a href="https://pdfbox.apache.org">Apache PDFBox</a> - 用于创建和操作 PDF 的工具箱.</li>
+<li><a href="http://dynamicjasper.com">Dynamic Jasper</a>  - JasperReports 的抽象层.  （仅限 LGPL-3.0）</li>
+<li><a href="https://github.com/dynamicreports/dynamicreports">DynamicReports</a>  - 简化 JasperReports.  （仅限 LGPL-3.0）</li>
+<li><a href="https://www.eclipse.org/birt">Eclipse BIRT</a> - 使用基于 Eclipse 的可视化编辑器创建 PDF 和其他格式（DOCX、XLSX、HTML 等）的报告引擎.</li>
+<li><a href="https://github.com/flyingsaucerproject/flyingsaucer">flyingsaucer</a>  - XML/XHTML 和 CSS 2.1 渲染器.  （LGPL-2.1 或更高版本）</li>
+<li><a href="https://itextpdf.com/en">iText ![c]</a> - 以编程方式创建 PDF 文件.</li>
+<li><a href="https://community.jaspersoft.com/project/jasperreports-library">JasperReports</a>  - 复杂的报告引擎.  （仅限 LGPL-3.0）</li>
+<li><a href="https://github.com/danfickle/openhtmltopdf">Open HTML to PDF</a> - 正确支持基于飞碟和 Apache PDFBox 的现代 PDF 标准.</li>
+<li><a href="https://github.com/LibrePDF/OpenPDF">OpenPDF</a>  - 开源 iText 分支.  （仅限 LGPL-3.0 和 MPL-2.0）</li>
+<li><a href="https://github.com/tabulapdf/tabula-java">Tabula</a> - 从 PDF 文件中提取表格.</li>
 </ul>
 <h3 id="performance-analysis">Performance analysis<a class="headerlink" href="#performance-analysis" title="Permanent link">&para;</a></h3>
 <p><em>Tools for performance analysis, profiling and benchmarking.</em></p>
 <ul>
-<li><a href="https://fastthread.io">fastThread ![c]</a> - Analyze and visualize thread dumps with a free cloud-based upload interface.</li>
-<li><a href="https://gceasy.io">GCeasy ![c]</a> - Tool to analyze and visualize GC logs. It provides a free cloud-based upload interface.</li>
-<li><a href="https://github.com/jvm-profiling-tools/honest-profiler">honest-profiler</a> - Low-overhead, bias-free sampling profiler.</li>
-<li><a href="https://github.com/giltene/jHiccup">jHiccup</a> - Logs and records platform JVM stalls.</li>
-<li><a href="https://github.com/AdoptOpenJDK/jitwatch">JITWatch</a> - Analyze the JIT compiler optimisations made by the HotSpot JVM.</li>
-<li><a href="http://openjdk.java.net/projects/code-tools/jmh/">JMH</a> - Harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targeting the JVM. (GPL-2.0 only WITH Classpath-exception-2.0)</li>
-<li><a href="https://github.com/LatencyUtils/LatencyUtils">LatencyUtils</a> - Utilities for latency measurement and reporting.</li>
+<li><a href="https://fastthread.io">fastThread ![c]</a> - 使用基于云的免费上传界面分析和可视化线程转储.</li>
+<li><a href="https://gceasy.io">GCeasy ![c]</a> - 分析和可视化 GC 日志的工具. 它提供了一个免费的基于云的上传界面.</li>
+<li><a href="https://github.com/jvm-profiling-tools/honest-profiler">honest-profiler</a> - 低开销、无偏差的采样分析器.</li>
+<li><a href="https://github.com/giltene/jHiccup">jHiccup</a> - 记录和记录平台 JVM 停顿.</li>
+<li><a href="https://github.com/AdoptOpenJDK/jitwatch">JITWatch</a> - 分析 HotSpot JVM 对 JIT 编译器的优化.</li>
+<li><a href="http://openjdk.java.net/projects/code-tools/jmh/">JMH</a>  - 用于构建、运行和分析以 Java 和其他针对 JVM 的语言编写的 nano/micro/milli/macro 基准测试.  （仅 GPL-2.0 与 Classpath-exception-2.0）</li>
+<li><a href="https://github.com/LatencyUtils/LatencyUtils">LatencyUtils</a> - 延迟测量和报告的实用程序.</li>
 </ul>
 <h3 id="platform">Platform<a class="headerlink" href="#platform" title="Permanent link">&para;</a></h3>
-<p><em>Frameworks that are suites of multiple libraries encompassing several categories.</em></p>
+<p><em>包含多个类别的多个库套件的框架.</em></p>
 <h4 id="apache-commons">Apache Commons<a class="headerlink" href="#apache-commons" title="Permanent link">&para;</a></h4>
 <ul>
-<li><a href="http://commons.apache.org/proper/commons-bcel/">BCEL</a> - Byte Code Engineering Library - analyze, create, and manipulate Java class files.</li>
-<li><a href="http://commons.apache.org/proper/commons-beanutils/">BeanUtils</a> - Easy-to-use wrappers around the Java reflection and introspection APIs.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-beanutils2/">BeanUtils2</a> - Redesign of Commons BeanUtils.</li>
-<li><a href="http://commons.apache.org/proper/commons-bsf/">BSF</a> - Bean Scripting Framework - interface to scripting languages, including JSR-223.</li>
-<li><a href="http://commons.apache.org/proper/commons-chain/">Chain</a> - Chain of Responsibility pattern implementation.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-classscan/">ClassScan</a> - Find Class interfaces, methods, fields, and annotations without loading.</li>
-<li><a href="http://commons.apache.org/proper/commons-cli/">CLI</a> - Command-line arguments parser.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-cli2/">CLI2</a> - Redesign of Commons CLI.</li>
-<li><a href="http://commons.apache.org/proper/commons-codec/">Codec</a> - General encoding/decoding algorithms, e.g. phonetic, base64 or URL.</li>
-<li><a href="http://commons.apache.org/proper/commons-collections/">Collections</a> - Extends or augments the Java Collections Framework.</li>
-<li><a href="http://commons.apache.org/proper/commons-compress/">Compress</a> - Defines an API for working with tar, zip and bzip2 files.</li>
-<li><a href="http://commons.apache.org/proper/commons-configuration/">Configuration</a> - Reading of configuration/preferences files in various formats.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-convert/">Convert</a> - Commons-Convert aims to provide a single library dedicated to the task of converting an object of one type to another.</li>
-<li><a href="http://commons.apache.org/proper/commons-csv/">CSV</a> - Component for reading and writing comma separated value files.</li>
-<li><a href="http://commons.apache.org/proper/commons-daemon/">Daemon</a> - Alternative invocation mechanism for unix-daemon-like java code.</li>
-<li><a href="http://commons.apache.org/proper/commons-dbcp/">DBCP</a> - Database connection pooling services.</li>
-<li><a href="http://commons.apache.org/proper/commons-dbutils/">DbUtils</a> - JDBC helper library.</li>
-<li><a href="http://commons.apache.org/proper/commons-digester/">Digester</a> - XML-to-Java-object mapping utility.</li>
-<li><a href="http://commons.apache.org/proper/commons-email/">Email</a> - Library for sending e-mail from Java.</li>
-<li><a href="http://commons.apache.org/proper/commons-exec/">Exec</a> - API for dealing with external process execution and environment management in Java.</li>
-<li><a href="http://commons.apache.org/proper/commons-fileupload/">FileUpload</a> - File upload capability for your servlets and web applications.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-finder/">Finder</a> - Java library inspired by the UNIX find command.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-flatfile/">Flatfile</a> - Java library for working with flat data structures.</li>
-<li><a href="http://commons.apache.org/proper/commons-functor/">Functor</a> - Function that can be manipulated as an object, or an object representing a single, generic function.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-graph/">Graph</a> - General purpose graph APIs and algorithms.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-i18n/">I18n</a> - Adds the feature of localized message bundles that consist of one or many localized texts that belong together.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-id/">Id</a> - Id is a component used to generate identifiers.</li>
-<li><a href="http://commons.apache.org/proper/commons-imaging/">Imaging</a> - Image library.</li>
-<li><a href="http://commons.apache.org/proper/commons-io/">IO</a> - Collection of I/O utilities.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-javaflow/">Javaflow</a> - Continuation implementation to capture the state of the application.</li>
-<li><a href="http://commons.apache.org/proper/commons-jci/">JCI</a> - Java Compiler Interface.</li>
-<li><a href="http://commons.apache.org/proper/commons-jcs/">JCS</a> - Java Caching System.</li>
-<li><a href="http://commons.apache.org/proper/commons-jelly/">Jelly</a> - XML based scripting and processing engine.</li>
-<li><a href="http://commons.apache.org/proper/commons-jexl/">Jexl</a> - Expression language which extends the Expression Language of the JSTL.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-jnet/">JNet</a> - JNet allows to use dynamically register url stream handlers through the java.net API.</li>
-<li><a href="http://commons.apache.org/proper/commons-jxpath/">JXPath</a> - Utilities for manipulating Java Beans using the XPath syntax.</li>
-<li><a href="http://commons.apache.org/proper/commons-lang/">Lang</a> - 为 java.lang 中的类提供额外的功能。</li>
-<li><a href="https://commons.apache.org/proper/commons-logging/">Logging</a> - Wrapper around a variety of logging API implementations.</li>
-<li><a href="http://commons.apache.org/proper/commons-math/">Math</a> - Lightweight, self-contained mathematics and statistics components.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-monitoring/">Monitoring</a> - Monitoring aims to provide a simple but extensible monitoring solution for Java applications.</li>
+<li><a href="http://commons.apache.org/proper/commons-bcel/">BCEL</a> - 字节码工程库 - 分析、创建和操作 Java 类文件.</li>
+<li><a href="http://commons.apache.org/proper/commons-beanutils/">BeanUtils</a> - 易于使用的围绕 Java 反射和自省 API 的包装器.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-beanutils2/">BeanUtils2</a> - 重新设计 Commons BeanUtils.</li>
+<li><a href="http://commons.apache.org/proper/commons-bsf/">BSF</a> - Bean Scripting Framework - 脚本语言的接口，包括 JSR-223.</li>
+<li><a href="http://commons.apache.org/proper/commons-chain/">Chain</a> - 责任链模式实施.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-classscan/">ClassScan</a> - 无需加载即可查找类接口、方法、字段和注释.</li>
+<li><a href="http://commons.apache.org/proper/commons-cli/">CLI</a> - 命令行参数解析器.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-cli2/">CLI2</a> - 重新设计 Commons CLI.</li>
+<li><a href="http://commons.apache.org/proper/commons-codec/">Codec</a> - 通用编码/解码算法，例如语音、base64 或 URL.</li>
+<li><a href="http://commons.apache.org/proper/commons-collections/">Collections</a> - 扩展或增强 Java 集合框架.</li>
+<li><a href="http://commons.apache.org/proper/commons-compress/">Compress</a> - 定义用于处理 tar、zip 和 bzip2 文件的 API.</li>
+<li><a href="http://commons.apache.org/proper/commons-configuration/">Configuration</a> - 读取各种格式的配置/首选项文件.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-convert/">Convert</a> - Commons-Convert 旨在提供一个单一的库，专门用于将一种类型的对象转换为另一种类型的任务.</li>
+<li><a href="http://commons.apache.org/proper/commons-csv/">CSV</a> - 用于读取和写入逗号分隔值文件的组件.</li>
+<li><a href="http://commons.apache.org/proper/commons-daemon/">Daemon</a> - 类似 unix-daemon 的 java 代码的替代调用机制.</li>
+<li><a href="http://commons.apache.org/proper/commons-dbcp/">DBCP</a> - 数据库连接池服务.</li>
+<li><a href="http://commons.apache.org/proper/commons-dbutils/">DbUtils</a> - JDBC 帮助程序库.</li>
+<li><a href="http://commons.apache.org/proper/commons-digester/">Digester</a> - XML 到 Java 对象的映射实用程序.</li>
+<li><a href="http://commons.apache.org/proper/commons-email/">Email</a> - 用于从 Java 发送电子邮件的库.</li>
+<li><a href="http://commons.apache.org/proper/commons-exec/">Exec</a> - 用于处理 Java 中的外部流程执行和环境管理的 API.</li>
+<li><a href="http://commons.apache.org/proper/commons-fileupload/">FileUpload</a> - 为您的 servlet 和 Web 应用程序提供文件上传功能.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-finder/">Finder</a> - 受 UNIX find 命令启发的 Java 库.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-flatfile/">Flatfile</a> - 用于处理平面数据结构的 Java 库.</li>
+<li><a href="http://commons.apache.org/proper/commons-functor/">Functor</a> - 可以作为对象操作的函数，或表示单个通用函数的对象.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-graph/">Graph</a> - 通用图形 API 和算法.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-i18n/">I18n</a> - 添加由一个或多个本地化文本组成的本地化消息包的功能.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-id/">Id</a> - Id 是用于生成标识符的组件.</li>
+<li><a href="http://commons.apache.org/proper/commons-imaging/">Imaging</a> - 图像库.</li>
+<li><a href="http://commons.apache.org/proper/commons-io/">IO</a> - I/O 实用程序的集合.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-javaflow/">Javaflow</a> - 继续实现以捕获应用程序的状态.</li>
+<li><a href="http://commons.apache.org/proper/commons-jci/">JCI</a> - Java 编译器接口.</li>
+<li><a href="http://commons.apache.org/proper/commons-jcs/">JCS</a> - Java 缓存系统.</li>
+<li><a href="http://commons.apache.org/proper/commons-jelly/">Jelly</a> - 基于 XML 的脚本和处理引擎.</li>
+<li><a href="http://commons.apache.org/proper/commons-jexl/">Jexl</a> - 扩展了 JSTL 的表达式语言的表达式语言.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-jnet/">JNet</a> - JNet 允许通过 java.net API 使用动态注册 url 流处理程序.</li>
+<li><a href="http://commons.apache.org/proper/commons-jxpath/">JXPath</a> - 使用 XPath 语法操作 Java Bean 的实用程序.</li>
+<li><a href="http://commons.apache.org/proper/commons-lang/">Lang</a> - 为 java.lang 中的类提供额外的功能.</li>
+<li><a href="https://commons.apache.org/proper/commons-logging/">Logging</a> - 包装各种日志 API 实现.</li>
+<li><a href="http://commons.apache.org/proper/commons-math/">Math</a> - 轻量级、独立的数学和统计组件.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-monitoring/">Monitoring</a> - 监控旨在为 Java 应用程序提供一个简单但可扩展的监控解决方案.</li>
 <li><a href="http://commons.apache.org/sandbox/commons-nabla/">Nabla</a> - Nabla provides automatic differentiation classes that can generate derivative of any function implemented in the Java language.</li>
-<li><a href="http://commons.apache.org/proper/commons-net/">Net</a> - Collection of network utilities and protocol implementations.</li>
-<li><a href="http://commons.apache.org/proper/commons-ognl/">OGNL</a> - Object-graph navigation language.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-openpgp/">OpenPGP</a> - Interface to signing and verifying data using OpenPGP.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-performance/">Performance</a> - Small framework for microbenchmark clients, with implementations for Commons DBCP and Pool.</li>
-<li><a href="http://commons.apache.org/sandbox/commons-pipeline/">Pipeline</a> - Provides a set of pipeline utilities designed around work queues that run in parallel to sequentially process data objects.</li>
-<li><a href="http://commons.apache.org/proper/commons-pool/">Pool</a> - Generic object pooling component.</li>
-<li><a href="http://commons.apache.org/proper/commons-proxy/">Proxy</a> - Library for creating dynamic proxies.</li>
-<li><a href="https://commons.apache.org/proper/commons-rdf/">RDF</a> - Common implementation of RDF 1.1 that could be implemented by systems on the JVM.</li>
-<li><a href="https://commons.apache.org/proper/commons-rng/">RNG</a> - Commons Rng provides implementations of pseudo-random numbers generators.</li>
-<li><a href="http://commons.apache.org/proper/commons-scxml/">SCXML</a> - Implementation of the State Chart XML specification aimed at creating and maintaining a Java SCXML engine.</li>
-<li><a href="http://commons.apache.org/proper/commons-validator/">Validator</a> - Framework to define validators and validation rules in an xml file.</li>
-<li><a href="http://commons.apache.org/proper/commons-vfs/">VFS</a> - Virtual File System component for treating files, FTP, SMB, ZIP and such like as a single logical file system.</li>
-<li><a href="http://commons.apache.org/proper/commons-weaver/">Weaver</a> - Provides an easy way to enhance (weave) compiled bytecode.</li>
+<li><a href="http://commons.apache.org/proper/commons-net/">Net</a> - 网络实用程序和协议实现的集合.</li>
+<li><a href="http://commons.apache.org/proper/commons-ognl/">OGNL</a> - 对象图导航语言.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-openpgp/">OpenPGP</a> - 使用 OpenPGP 签署和验证数据的接口.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-performance/">Performance</a> - 用于微基准测试客户端的小型框架，具有 Commons DBCP 和 Pool 的实现.</li>
+<li><a href="http://commons.apache.org/sandbox/commons-pipeline/">Pipeline</a> - 提供一组围绕工作队列设计的管道实用程序，这些工作队列并行运行以按顺序处理数据对象.</li>
+<li><a href="http://commons.apache.org/proper/commons-pool/">Pool</a> - 通用对象池组件.</li>
+<li><a href="http://commons.apache.org/proper/commons-proxy/">Proxy</a> - 用于创建动态代理的库.</li>
+<li><a href="https://commons.apache.org/proper/commons-rdf/">RDF</a> - RDF 1.1 的通用实现，可由 JVM 上的系统实现.</li>
+<li><a href="https://commons.apache.org/proper/commons-rng/">RNG</a> - Commons Rng 提供伪随机数生成器的实现.</li>
+<li><a href="http://commons.apache.org/proper/commons-scxml/">SCXML</a> - 旨在创建和维护 Java SCXML 引擎的状态图 XML 规范的实现.</li>
+<li><a href="http://commons.apache.org/proper/commons-validator/">Validator</a> - 在 xml 文件中定义验证器和验证规则的框架.</li>
+<li><a href="http://commons.apache.org/proper/commons-vfs/">VFS</a> - 虚拟文件系统组件，用于将文件、FTP、SMB、ZIP 等视为单个逻辑文件系统.</li>
+<li><a href="http://commons.apache.org/proper/commons-weaver/">Weaver</a> - 提供一种简单的方法来增强（编织）编译的字节码.</li>
 </ul>
 <h4 id="other">Other<a class="headerlink" href="#other" title="Permanent link">&para;</a></h4>
 <ul>
-<li><a href="https://www.cuba-platform.com/">CUBA Platform</a> - High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin.</li>
-<li><a href="https://github.com/networknt/light-4j/">Light-4J</a> - Fast, lightweight and productive microservices framework with built-in <a href="https://github.com/networknt/light-oauth2/">security</a>.</li>
-<li><a href="https://github.com/OrienteerBAP/Orienteer/">Orienteer</a> - Open-source business application platform for rapid configuration/development of CRM, ERP, LMS and other applications.</li>
-<li><a href="https://spring.io/projects/">Spring</a> - Provides many packages for dependency injection, aspect-oriented programming, security, etc.</li>
+<li><a href="https://www.cuba-platform.com/">CUBA Platform</a> - 用于开发具有丰富 Web 界面的企业应用程序的高级框架，基于 Spring、EclipseLink 和 Vaadin.</li>
+<li><a href="https://github.com/networknt/light-4j/">Light-4J</a> - 内置的快速、轻量级和高效的微服务框架 <a href="https://github.com/networknt/light-oauth2/">security</a>.</li>
+<li><a href="https://github.com/OrienteerBAP/Orienteer/">Orienteer</a> - 开源业务应用平台，用于CRM、ERP、LMS等应用的快速配置/开发.</li>
+<li><a href="https://spring.io/projects/">Spring</a> - 为依赖注入、面向方面编程、安全等提供许多包.</li>
 </ul>
 <h3 id="processes">Processes<a class="headerlink" href="#processes" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that help the management of operating system processes.</em></p>
+<p><em>帮助管理操作系统进程的库.</em></p>
 <ul>
-<li><a href="https://github.com/vorburger/ch.vorburger.exec">ch.vorburger.exec</a> - 围绕 Apache Commons Exec 的便捷 API。</li>
-<li><a href="https://github.com/zeroturnaround/zt-exec">zt-exec</a> - Provides a unified API to Apache Commons Exec and ProcessBuilder.</li>
-<li><a href="https://github.com/zeroturnaround/zt-process-killer">zt-process-killer</a> - Stops processes started from Java or the system processes via PID.</li>
+<li><a href="https://github.com/vorburger/ch.vorburger.exec">ch.vorburger.exec</a> - 围绕 Apache Commons Exec 的便捷 API.</li>
+<li><a href="https://github.com/zeroturnaround/zt-exec">zt-exec</a> - 为 Apache Commons Exec 和 ProcessBuilder 提供统一的 API.</li>
+<li><a href="https://github.com/zeroturnaround/zt-process-killer">zt-process-killer</a> - 停止从 Java 启动的进程或通过 PID 启动的系统进程.</li>
 </ul>
 <h3 id="reactive-libraries">Reactive libraries<a class="headerlink" href="#reactive-libraries" title="Permanent link">&para;</a></h3>
-<p><em>Libraries for developing reactive applications.</em></p>
+<p><em>用于开发反应式应用程序的库.</em></p>
 <ul>
-<li><a href="https://akka.io">Akka</a> - Toolkit and runtime for building concurrent, distributed, fault-tolerant and event-driven applications.</li>
-<li><a href="https://github.com/reactive-streams/reactive-streams-jvm">Reactive Streams</a> - Provides a standard for asynchronous stream processing with non-blocking backpressure.</li>
-<li><a href="https://github.com/reactor/reactor-core">Reactor</a> - Library for building reactive fast-data applications.</li>
-<li><a href="https://github.com/ReactiveX/RxJava">RxJava</a> - Allows for composing asynchronous and event-based programs using observable sequences.</li>
-<li><a href="https://vertx.io">vert.x</a> - Polyglot event-driven application framework.</li>
+<li><a href="https://akka.io">Akka</a> - 用于构建并发、分布式、容错和事件驱动应用程序的工具包和运行时.</li>
+<li><a href="https://github.com/reactive-streams/reactive-streams-jvm">Reactive Streams</a> - 为具有非阻塞背压的异步流处理提供标准.</li>
+<li><a href="https://github.com/reactor/reactor-core">Reactor</a> - 用于构建反应式快速数据应用程序的库.</li>
+<li><a href="https://github.com/ReactiveX/RxJava">RxJava</a> - 允许使用可观察序列编写异步和基于事件的程序.</li>
+<li><a href="https://vertx.io">vert.x</a> - 多语言事件驱动的应用程序框架.</li>
 </ul>
 <h3 id="rest-frameworks">REST Frameworks<a class="headerlink" href="#rest-frameworks" title="Permanent link">&para;</a></h3>
-<p><em>Frameworks specifically for creating RESTful services.</em></p>
+<p><em>专门用于创建 RESTful 服务的框架.</em></p>
 <ul>
-<li><a href="https://github.com/dropwizard/dropwizard">Dropwizard</a> - Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.</li>
-<li><a href="https://elide.io">Elide</a> - Opinionated framework for JSON- or GraphQL-APIs based on a JPA data model.</li>
-<li><a href="https://jersey.github.io">Jersey</a> - JAX-RS reference implementation.</li>
-<li><a href="https://github.com/aol/micro-server">Microserver</a> - Convenient, extensible microservices plugin system for Spring &amp; Spring Boot. With more than 30 plugins and growing, it supports both micro-monolith and pure microservices styles.</li>
-<li><a href="https://www.rapidoid.org">Rapidoid</a> - Simple, secure and extremely fast framework consisting of an embedded HTTP server, GUI components and dependency injection.</li>
-<li><a href="https://github.com/linkedin/rest.li">rest.li</a> - Framework for building robust, scalable RESTful architectures using typesafe bindings and asynchronous, non-blocking IO with an end-to-end developer workflow that promotes clean practices, uniform interface design and consistent data modeling.</li>
-<li><a href="https://resteasy.github.io">RESTEasy</a> - Fully certified and portable implementation of the JAX-RS specification.</li>
-<li><a href="https://github.com/RestExpress/RestExpress">RestExpress</a> - Thin wrapper on the JBoss Netty HTTP stack that provides scaling and performance.</li>
-<li><a href="https://github.com/restlet/restlet-framework-java">Restlet Framework</a> - Pioneering framework with powerful routing and filtering capabilities, and a unified client and server API.</li>
-<li><a href="http://sparkjava.com">Spark</a> - Sinatra inspired framework.</li>
+<li><a href="https://github.com/dropwizard/dropwizard">Dropwizard</a> - 使用 Jetty、Jackson、Jersey 和 Metrics 设置现代 Web 应用程序的自以为是的框架.</li>
+<li><a href="https://elide.io">Elide</a> - 基于 JPA 数据模型的 JSON 或 GraphQL-API 的自以为是的框架.</li>
+<li><a href="https://jersey.github.io">Jersey</a> - JAX-RS 参考实现.</li>
+<li><a href="https://github.com/aol/micro-server">Microserver</a>  - 方便、可扩展的 Spring 和 Spring Boot 微服务插件系统. 拥有 30 多个插件并且还在不断增长，它同时支持微单体和纯微服务风格.</li>
+<li><a href="https://www.rapidoid.org">Rapidoid</a> - 简单、安全且极速的框架，由嵌入式 HTTP 服务器、GUI 组件和依赖注入组成.</li>
+<li><a href="https://github.com/linkedin/rest.li">rest.li</a> - 使用类型安全绑定和异步、非阻塞 IO 构建健壮、可扩展的 RESTful 架构的框架，具有端到端的开发人员工作流程，可促进干净的实践、统一的界面设计和一致的数据建模.</li>
+<li><a href="https://resteasy.github.io">RESTEasy</a> - JAX-RS 规范的完全认证和可移植的实现.</li>
+<li><a href="https://github.com/RestExpress/RestExpress">RestExpress</a> - JBoss Netty HTTP 堆栈上的精简包装器，可提供扩展性和性能.</li>
+<li><a href="https://github.com/restlet/restlet-framework-java">Restlet Framework</a> - 具有强大路由和过滤能力的开创性框架，以及统一的客户端和服务器API.</li>
+<li><a href="http://sparkjava.com">Spark</a> - Sinatra 启发的框架.</li>
 <li><a href="http://www.crnk.io">Crnk</a> - Implementation of the JSON API specification to build resource-oriented REST endpoints with sorting, filtering, paging, linking, object graphs, type-safety, bulk updates, integrations and more.</li>
-<li><a href="https://github.com/springdoc/springdoc-openapi">springdoc-openapi</a> - Automates the generation of API documentation using Spring Boot projects.</li>
-<li><a href="https://swagger.io">Swagger</a> - Standard, language-agnostic interface to REST APIs.</li>
+<li><a href="https://github.com/springdoc/springdoc-openapi">springdoc-openapi</a> - 使用 Spring Boot 项目自动生成 API 文档.</li>
+<li><a href="https://swagger.io">Swagger</a> - REST API 的标准、与语言无关的接口.</li>
 </ul>
 <h3 id="science">Science<a class="headerlink" href="#science" title="Permanent link">&para;</a></h3>
-<p><em>Libraries for scientific computing, analysis and visualization.</em></p>
+<p><em>用于科学计算、分析和可视化的库.</em></p>
 <ul>
-<li><a href="https://biojava.org/">BioJava</a> - Facilitates processing biological data by providing algorithms, file format parsers, sequencing and 3D visualization commonly used in bioinformatics.</li>
-<li><a href="https://github.com/GSI-CS-CO/chart-fx">Chart-FX</a> - Scientific charting library with focus on performance optimised real-time data visualisation at 25 Hz update rates for large data sets.</li>
-<li><a href="https://jwork.org/dmelt/">DataMelt</a> - Environment for scientific computation, data analysis and data visualization. (GPL-3.0-or-later)</li>
-<li><a href="https://github.com/Erdos-Graph-Framework/Erdos">Erdos</a> - Modular, light and easy graph framework for theoretic algorithms.</li>
-<li><a href="http://graphstream-project.org">GraphStream</a> - Library for modeling and analyzing dynamic graphs.</li>
-<li><a href="http://www.jfree.org/jfreechart/">JFreeChart</a> - 2D chart library for Swing, JavaFX and server-side applications. (LGPL-2.1-only)</li>
-<li><a href="https://github.com/jgrapht/jgrapht">JGraphT</a> - Graph library that provides mathematical graph-theory objects and algorithms.</li>
-<li><a href="https://github.com/jgraph/jgraphx">JGraphX</a> - Library for visualizing (mainly Swing) and interacting with node-edge graphs.</li>
+<li><a href="https://biojava.org/">BioJava</a> - 通过提供生物信息学中常用的算法、文件格式解析器、测序和 3D 可视化来促进处理生物数据.</li>
+<li><a href="https://github.com/GSI-CS-CO/chart-fx">Chart-FX</a> - 科学图表库，专注于以 25 Hz 更新率对大型数据集进行性能优化的实时数据可视化.</li>
+<li><a href="https://jwork.org/dmelt/">DataMelt</a>  - 科学计算、数据分析和数据可视化环境.  （GPL-3.0 或更高版本）</li>
+<li><a href="https://github.com/Erdos-Graph-Framework/Erdos">Erdos</a> - 用于理论算法的模块化、轻量级和简单的图形框架.</li>
+<li><a href="http://graphstream-project.org">GraphStream</a> - 用于建模和分析动态图的库.</li>
+<li><a href="http://www.jfree.org/jfreechart/">JFreeChart</a>  - 用于 Swing、JavaFX 和服务器端应用程序的 2D 图表库.  （仅限 LGPL-2.1）</li>
+<li><a href="https://github.com/jgrapht/jgrapht">JGraphT</a> - 提供数学图论对象和算法的图库.</li>
+<li><a href="https://github.com/jgraph/jgraphx">JGraphX</a> - 用于可视化（主要是 Swing）和与节点边图交互的库.</li>
 <li><a href="https://github.com/logic-ng/LogicNG">LogicNG</a> - Library for creating, manipulating and solving Boolean and Pseudo-Boolean formulas.</li>
-<li><a href="https://github.com/MinesJTK/jtk">Mines Java Toolkit</a> - Library for geophysical scientific computation, visualization and digital signal analysis.</li>
-<li><a href="https://github.com/zavtech/morpheus-core">Morpheus</a> - Provides a versatile two-dimensional memory efficient tabular data structure called a DataFrame to enable efficient in-memory analytics for scientific computing on the JVM.</li>
-<li><a href="https://github.com/jfree/orson-charts">Orson-Charts</a> <i>- Generates a wide variety of 3D charts that can be displayed with Swing and JavaFX or exported to PDF, SVG, PNG and JPEG.</i> <b>- 生成各种各样的 3D 图表，可以使用 Swing 和 JavaFX 显示或导出为 PDF、SVG、PNG 和 JPEG。</b> <i>(GPL-3.0-only)</i> <b>（仅限 GPL-3.0）</b></li>
-<li><a href="https://github.com/jtablesaw/tablesaw">Tablesaw</a> - Includes a data-frame, an embedded column store, and hundreds of methods to transform, summarize, or filter data.</li>
-<li><a href="https://github.com/knowm/XChart">XChart</a> - Light-weight library for plotting data. Many customizable chart types are available.</li>
+<li><a href="https://github.com/MinesJTK/jtk">Mines Java Toolkit</a> - 地球物理科学计算、可视化和数字信号分析库.</li>
+<li><a href="https://github.com/zavtech/morpheus-core">Morpheus</a> - 提供一种通用的二维内存高效表格数据结构，称为 DataFrame，以实现在 JVM 上进行科学计算的高效内存分析.</li>
+<li><a href="https://github.com/jfree/orson-charts">Orson-Charts</a>  - 生成各种各样的 3D 图表，可以使用 Swing 和 JavaFX 显示或导出为 PDF、SVG、PNG 和 JPEG.  （仅限 GPL-3.0）</li>
+<li><a href="https://github.com/jtablesaw/tablesaw">Tablesaw</a> - 包括一个数据框、一个嵌入式列存储以及数百种转换、汇总或过滤数据的方法.</li>
+<li><a href="https://github.com/knowm/XChart">XChart</a>  - 用于绘制数据的轻量级库. 许多可定制的图表类型可用.</li>
 </ul>
 <h3 id="search">Search<a class="headerlink" href="#search" title="Permanent link">&para;</a></h3>
-<p><em>Engines that index documents for search and analysis.</em></p>
+<p><em>为搜索和分析索引文档的引擎.</em></p>
 <ul>
-<li><a href="https://lucene.apache.org">Apache Lucene</a> - High-performance, full-featured, cross-platform, text search engine library.</li>
-<li><a href="https://lucene.apache.org/solr/">Apache Solr</a> - Enterprise search engine optimized for high-volume traffic.</li>
-<li><a href="https://www.elastic.co">Elasticsearch</a> - Distributed, multitenant-capable, full-text search engine with a RESTful web interface and schema-free JSON documents.</li>
-<li><a href="https://github.com/haeungun/indexer4j">Indexer4j</a> - Simple and light full text indexing and searching library.</li>
+<li><a href="https://lucene.apache.org">Apache Lucene</a> - 高性能、全功能、跨平台的文本搜索引擎库.</li>
+<li><a href="https://lucene.apache.org/solr/">Apache Solr</a> - 针对大流量优化的企业搜索引擎.</li>
+<li><a href="https://www.elastic.co">Elasticsearch</a> - 具有 RESTful Web 界面和无模式 JSON 文档的分布式、多租户功能的全文搜索引擎.</li>
+<li><a href="https://github.com/haeungun/indexer4j">Indexer4j</a> - 简单轻便的全文索引和搜索库.</li>
 </ul>
 <h3 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that handle security, authentication, authorization or session management.</em></p>
+<p><em>处理安全、身份验证、授权或会话管理的库.</em></p>
 <ul>
-<li><a href="https://shiro.apache.org">Apache Shiro</a> - Performs authentication, authorization, cryptography and session management.</li>
-<li><a href="https://www.bouncycastle.org/java.html">Bouncy Castle</a> - 通用加密库和 JCA 提供程序，提供广泛的功能，从基本助手到 PGP/SMIME 操作。</li>
-<li><a href="https://cryptomator.org">Cryptomator</a> - Multiplatform, transparent, client-side encryption of files in the cloud. (GPL-3.0-only)</li>
-<li><a href="https://github.com/hdiv/hdiv">Hdiv</a> - Runtime application that repels application security risks included in the OWASP Top 10, including SQL injection, cross-site scripting, cross-site request forgery, data tampering, and brute force attacks.</li>
-<li><a href="https://github.com/jwtk/jjwt">jjwt</a> - JSON web token for Java and Android.</li>
-<li><a href="https://github.com/BastiaanJansen/jwt-java">jwt-java</a> - Easily create and parse JSON Web Tokens and create customized JWT validators using a fluent API.</li>
-<li><a href="https://github.com/auth0/jwks-rsa-java">Jwks RSA</a> - JSON Web Key Set parser.</li>
-<li><a href="https://github.com/abstractj/kalium">Kalium</a> - Binding for the Networking and Cryptography (NaCl) library.</li>
-<li><a href="https://www.keycloak.org">Keycloak</a> - Integrated SSO and IDM for browser apps and RESTful web services.</li>
-<li><a href="https://github.com/square/keywhiz">Keywhiz</a> - System for distributing and managing secrets.</li>
-<li><a href="https://github.com/GoSimpleLLC/nbvcxz">Nbvcxz</a> - Advanced password strength estimation.</li>
-<li><a href="http://oaccframework.org">OACC</a> - Provides permission-based authorization services.</li>
-<li><a href="https://github.com/BastiaanJansen/OTP-Java">OTP-Java</a> - One-time password generator library according to RFC 4226 (HOTP) and RFC 6238 (TOTP).</li>
-<li><a href="https://github.com/pac4j/pac4j">pac4j</a> - Security engine.</li>
-<li><a href="https://github.com/Password4j/password4j">Password4j</a> - User-friendly cryptographic library that supports Argon2, Bcrypt, Scrypt, PBKDF2 and various other cryptographic hash functions.</li>
-<li><a href="https://github.com/tersesystems/securitybuilder">SecurityBuilder</a> - Fluent Builder API for JCA and JSSE classes and especially X.509 certificates.</li>
-<li><a href="https://github.com/Hakky54/sslcontext-kickstart">SSLContext-Kickstart</a> - High-level SSL context builder for configuring HTTP clients with SSL/TLS.</li>
-<li><a href="https://github.com/cossacklabs/themis">Themis</a> - Multi-platform high-level cryptographic library provides easy-to-use encryption for protecting sensitive data: secure messaging with forward secrecy, secure data storage (AES256GCM); suits for building end-to-end encrypted applications.</li>
-<li><a href="https://github.com/google/tink">Tink</a> - Provides a simple and misuse-proof API for common cryptographic tasks.</li>
+<li><a href="https://shiro.apache.org">Apache Shiro</a> - 执行身份验证、授权、加密和会话管理.</li>
+<li><a href="https://www.bouncycastle.org/java.html">Bouncy Castle</a> - 通用加密库和 JCA 提供程序，提供广泛的功能，从基本助手到 PGP/SMIME 操作.</li>
+<li><a href="https://cryptomator.org">Cryptomator</a>  - 云中文件的多平台、透明、客户端加密.  （仅限 GPL-3.0）</li>
+<li><a href="https://github.com/hdiv/hdiv">Hdiv</a> - 运行时应用程序可抵御 OWASP Top 10 中包含的应用程序安全风险，包括 SQL 注入、跨站点脚本、跨站点请求伪造、数据篡改和暴力攻击.</li>
+<li><a href="https://github.com/jwtk/jjwt">jjwt</a> - 适用于 Java 和 Android 的 JSON Web 令牌.</li>
+<li><a href="https://github.com/BastiaanJansen/jwt-java">jwt-java</a> - 使用流畅的 API 轻松创建和解析 JSON Web 令牌并创建自定义的 JWT 验证器.</li>
+<li><a href="https://github.com/auth0/jwks-rsa-java">Jwks RSA</a> - JSON Web 密钥集解析器.</li>
+<li><a href="https://github.com/abstractj/kalium">Kalium</a> - 网络和密码学 (NaCl) 库的绑定.</li>
+<li><a href="https://www.keycloak.org">Keycloak</a> - 用于浏览器应用程序和 RESTful Web 服务的集成 SSO 和 IDM.</li>
+<li><a href="https://github.com/square/keywhiz">Keywhiz</a> - 用于分发和管理秘密的系统.</li>
+<li><a href="https://github.com/GoSimpleLLC/nbvcxz">Nbvcxz</a> - 高级密码强度估计.</li>
+<li><a href="http://oaccframework.org">OACC</a> - 提供基于权限的授权服务.</li>
+<li><a href="https://github.com/BastiaanJansen/OTP-Java">OTP-Java</a> - 符合 RFC 4226 (HOTP) 和 RFC 6238 (TOTP) 的一次性密码生成器库.</li>
+<li><a href="https://github.com/pac4j/pac4j">pac4j</a> - 安全引擎.</li>
+<li><a href="https://github.com/Password4j/password4j">Password4j</a> - 用户友好的密码库，支持 Argon2、Bcrypt、Scrypt、PBKDF2 和各种其他密码散列函数.</li>
+<li><a href="https://github.com/tersesystems/securitybuilder">SecurityBuilder</a> - 适用于 JCA 和 JSSE 类，尤其是 X.509 证书的 Fluent Builder API.</li>
+<li><a href="https://github.com/Hakky54/sslcontext-kickstart">SSLContext-Kickstart</a> - 用于使用 SSL/TLS 配置 HTTP 客户端的高级 SSL 上下文构建器.</li>
+<li><a href="https://github.com/cossacklabs/themis">Themis</a>  - 多平台高级加密库提供易于使用的加密来保护敏感数据：具有前向保密的安全消息传递、安全数据存储 (AES256GCM)； 适合构建端到端加密应用程序.</li>
+<li><a href="https://github.com/google/tink">Tink</a> - 为常见的加密任务提供简单且防误用的 API.</li>
 </ul>
 <h3 id="serialization">Serialization<a class="headerlink" href="#serialization" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that handle serialization with high efficiency.</em></p>
+<p><em>高效处理序列化的库.</em></p>
 <ul>
-<li><a href="https://github.com/google/flatbuffers">FlatBuffers</a> - Memory-efficient serialization library that can access serialized data without unpacking and parsing it.</li>
-<li><a href="https://github.com/RuedigerMoeller/fast-serialization">FST</a> - JDK-compatible, high-performance object graph serialization.</li>
-<li><a href="https://github.com/EsotericSoftware/kryo">Kryo</a> - Fast and efficient object graph serialization framework.</li>
-<li><a href="https://github.com/msgpack/msgpack-java">MessagePack</a> - Efficient binary serialization format.</li>
-<li><a href="https://github.com/marcospassos/java-php-serializer">PHP Serializer</a> - Serializing objects in the PHP serialization format.</li>
+<li><a href="https://github.com/google/flatbuffers">FlatBuffers</a> - 节省内存的序列化库，无需解包和解析即可访问序列化数据.</li>
+<li><a href="https://github.com/RuedigerMoeller/fast-serialization">FST</a> - 兼容 JDK 的高性能对象图序列化.</li>
+<li><a href="https://github.com/EsotericSoftware/kryo">Kryo</a> - 快速高效的对象图序列化框架.</li>
+<li><a href="https://github.com/msgpack/msgpack-java">MessagePack</a> - 高效的二进制序列化格式.</li>
+<li><a href="https://github.com/marcospassos/java-php-serializer">PHP Serializer</a> - 以 PHP 序列化格式序列化对象.</li>
 </ul>
 <h3 id="server">Server<a class="headerlink" href="#server" title="Permanent link">&para;</a></h3>
-<p><em>Servers specifically used to deploy applications.</em></p>
+<p><em>专门用于部署应用程序的服务器.</em></p>
 <ul>
-<li><a href="https://tomcat.apache.org">Apache Tomcat</a> - Robust, all-round server for Servlet and JSP.</li>
-<li><a href="https://tomee.apache.org">Apache TomEE</a> - Tomcat plus Java EE.</li>
-<li><a href="https://www.eclipse.org/jetty/">Jetty</a> - Provides a Web server and javax.servlet container, plus support for HTTP/2, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations.</li>
-<li><a href="https://github.com/NanoHttpd/nanohttpd">nanohttpd</a> - Tiny, easily embeddable HTTP server.</li>
-<li><a href="https://www.wildfly.org">WildFly</a> - Formerly known as JBoss and developed by Red Hat with extensive Java EE support. (LGPL-2.1-only)</li>
+<li><a href="https://tomcat.apache.org">Apache Tomcat</a> - 用于 Servlet 和 JSP 的强大、全面的服务器.</li>
+<li><a href="https://tomee.apache.org">Apache TomEE</a> - Tomcat 加 Java EE.</li>
+<li><a href="https://www.eclipse.org/jetty/">Jetty</a> - 提供 Web 服务器和 javax.servlet 容器，以及对 HTTP/2、WebSocket、OSGi、JMX、JNDI、JAAS 和许多其他集成的支持.</li>
+<li><a href="https://github.com/NanoHttpd/nanohttpd">nanohttpd</a> - 小巧、易于嵌入的 HTTP 服务器.</li>
+<li><a href="https://www.wildfly.org">WildFly</a>  - 以前称为 JBoss，由 Red Hat 开发，具有广泛的 Java EE 支持.  （仅限 LGPL-2.1）</li>
 </ul>
 <h3 id="template-engine">Template Engine<a class="headerlink" href="#template-engine" title="Permanent link">&para;</a></h3>
-<p><em>Tools that substitute expressions in a template.</em></p>
+<p><em>在模板中替换表达式的工具.</em></p>
 <ul>
-<li><a href="https://freemarker.apache.org">Freemarker</a> - Library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.</li>
-<li><a href="https://jknack.github.io/handlebars.java/">Handlebars.java</a> - Logicless and semantic Mustache templates.</li>
-<li><a href="https://github.com/neuland/jade4j">Jade4J</a> - Implementation of Pug (formerly known as Jade).</li>
-<li><a href="https://github.com/verhas/jamal">Jamal</a> - Extendable template engine embedded into Maven/JavaDoc, supporting multiple extensions (Groovy, Ruby, JavaScript, JShell, PlantUml) with support for snippet handling.</li>
-<li><a href="https://github.com/casid/jte">jte</a> - Compiles to classes, and uses an easy syntax, several features to make development easier and provides fast execution and a small footprint.</li>
-<li><a href="https://github.com/jtwig/jtwig">Jtwig</a> - Modular, configurable and fully tested template engine.</li>
-<li><a href="https://pebbletemplates.io">Pebble</a> - Inspired by Twig and separates itself with its inheritance feature and its easy-to-read syntax. It ships with built-in autoescaping for security and it includes integrated support for internationalization.</li>
-<li><a href="https://github.com/fizzed/rocker">Rocker</a> - Optimized, memory efficient and speedy template engine producing statically typed, plain objects.</li>
-<li><a href="https://github.com/antlr/stringtemplate4">StringTemplate</a> - Template engine for generating source code, web pages, emails, or any other formatted text output.</li>
-<li><a href="https://www.thymeleaf.org">Thymeleaf</a> - Aims to be a substitute for JSP and works for XML files.</li>
+<li><a href="https://freemarker.apache.org">Freemarker</a> - 基于模板和不断变化的数据生成文本输出（HTML 网页、电子邮件、配置文件、源代码等）的库.</li>
+<li><a href="https://jknack.github.io/handlebars.java/">Handlebars.java</a> - 无逻辑和语义的 Mustache 模板.</li>
+<li><a href="https://github.com/neuland/jade4j">Jade4J</a> - Pug（以前称为 Jade）的实现.</li>
+<li><a href="https://github.com/verhas/jamal">Jamal</a> - 嵌入到 Maven/JavaDoc 中的可扩展模板引擎，支持多个扩展（Groovy、Ruby、JavaScript、JShell、PlantUml），并支持片段处理.</li>
+<li><a href="https://github.com/casid/jte">jte</a> - 编译为类，并使用简单的语法，多种功能使开发更容易，并提供快速执行和占用空间小.</li>
+<li><a href="https://github.com/jtwig/jtwig">Jtwig</a> - 模块化、可配置且经过全面测试的模板引擎.</li>
+<li><a href="https://pebbletemplates.io">Pebble</a>  - 受到 Twig 的启发，并以其继承特性和易于阅读的语法将自己分开. 它带有内置的安全自动转义功能，并且包括对国际化的集成支持.</li>
+<li><a href="https://github.com/fizzed/rocker">Rocker</a> - 优化、内存高效和快速的模板引擎，生成静态类型的普通对象.</li>
+<li><a href="https://github.com/antlr/stringtemplate4">StringTemplate</a> - 用于生成源代码、网页、电子邮件或任何其他格式化文本输出的模板引擎.</li>
+<li><a href="https://www.thymeleaf.org">Thymeleaf</a> - 旨在成为 JSP 的替代品并适用于 XML 文件.</li>
 </ul>
 <h3 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">&para;</a></h3>
-<p><em>Tools that test from model to the view.</em></p>
+<p><em>从模型到视图的测试工具.</em></p>
 <h4 id="asynchronous">Asynchronous<a class="headerlink" href="#asynchronous" title="Permanent link">&para;</a></h4>
-<p><em>Tools that simplify testing asynchronous services.</em></p>
+<p><em>简化测试异步服务的工具.</em></p>
 <ul>
-<li><a href="https://github.com/awaitility/awaitility">Awaitility</a> - DSL for synchronizing asynchronous operations.</li>
-<li><a href="https://github.com/jhalterman/concurrentunit">ConcurrentUnit</a> - Toolkit for testing multi-threaded and asynchronous applications.</li>
-<li><a href="http://www.icegreen.com/greenmail/">GreenMail</a> - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL. (GPL-2.0-only)</li>
-<li><a href="https://github.com/SpectoLabs/hoverfly-java">Hoverfly Java</a> - Native bindings for Hoverfly, a proxy which allows you to simulate HTTP services.</li>
-<li><a href="https://github.com/intuit/karate">Karate</a> - DSL that combines API test-automation, mocks and performance-testing making testing REST/HTTP services easy.</li>
-<li><a href="https://github.com/rest-assured/rest-assured">REST Assured</a> - DSL for easy testing of REST/HTTP services.</li>
+<li><a href="https://github.com/awaitility/awaitility">Awaitility</a> - 用于同步异步操作的 DSL.</li>
+<li><a href="https://github.com/jhalterman/concurrentunit">ConcurrentUnit</a> - 用于测试多线程和异步应用程序的工具包.</li>
+<li><a href="http://www.icegreen.com/greenmail/">GreenMail</a>  - 用于集成测试的内存电子邮件服务器. 支持 SMTP、POP3 和 IMAP，包括 SSL.  （仅限 GPL-2.0）</li>
+<li><a href="https://github.com/SpectoLabs/hoverfly-java">Hoverfly Java</a> - Hoverfly 的本机绑定，一个允许您模拟 HTTP 服务的代理.</li>
+<li><a href="https://github.com/intuit/karate">Karate</a> - 结合 API 测试自动化、模拟和性能测试的 DSL，使测试 REST/HTTP 服务变得容易.</li>
+<li><a href="https://github.com/rest-assured/rest-assured">REST Assured</a> - 用于轻松测试 REST/HTTP 服务的 DSL.</li>
 </ul>
 <h4 id="bdd">BDD<a class="headerlink" href="#bdd" title="Permanent link">&para;</a></h4>
-<p><em>Testing for the software development process that emerged from TDD and was heavily influenced by DDD and OOAD.</em></p>
+<p><em>测试源自 TDD 并深受 DDD 和 OOAD 影响的软件开发过程.</em></p>
 <ul>
-<li><a href="https://github.com/cucumber/cucumber-jvm">Cucumber</a> - Provides a way to describe features in a plain language which customers can understand.</li>
-<li><a href="https://github.com/ctco/cukes">Cukes-REST</a> - Collection of Gherkin steps for REST-service testing using Cucumber.</li>
-<li><a href="https://github.com/j8spec/j8spec">J8Spec</a> - Follows a Jasmine-like syntax.</li>
-<li><a href="https://jbehave.org">JBehave</a> - Extensively configurable framework that describes stories.</li>
-<li><a href="http://jgiven.org">JGiven</a> - Provides a fluent API which allows for simpler composition.</li>
-<li><a href="https://github.com/RichardWarburton/lambda-behave">Lamdba Behave</a> - Aims to provide a fluent API to write tests in long and descriptive sentences that read like plain English.</li>
-<li><a href="https://github.com/serenity-bdd/serenity-core">Serenity BDD</a> - Automated Acceptance testing and reporting library that works with Cucumber, JBehave and JUnit to make it easier to write high quality executable specifications.</li>
+<li><a href="https://github.com/cucumber/cucumber-jvm">Cucumber</a> - 提供一种以客户可以理解的简单语言描述功能的方法.</li>
+<li><a href="https://github.com/ctco/cukes">Cukes-REST</a> - 使用 Cucumber 进行 REST 服务测试的 Gherkin 步骤集合.</li>
+<li><a href="https://github.com/j8spec/j8spec">J8Spec</a> - 遵循类似 Jasmine 的语法.</li>
+<li><a href="https://jbehave.org">JBehave</a> - 描述故事的可广泛配置的框架.</li>
+<li><a href="http://jgiven.org">JGiven</a> - 提供流畅的 API，允许更简单的组合.</li>
+<li><a href="https://github.com/RichardWarburton/lambda-behave">Lamdba Behave</a> - 旨在提供一个流利的 API 来用读起来像普通英语的长而描述性的句子编写测试.</li>
+<li><a href="https://github.com/serenity-bdd/serenity-core">Serenity BDD</a> - 与 Cucumber、JBehave 和 JUnit 一起使用的自动化验收测试和报告库，可以更轻松地编写高质量的可执行规范.</li>
 </ul>
 <h4 id="fixtures">Fixtures<a class="headerlink" href="#fixtures" title="Permanent link">&para;</a></h4>
-<p><em>Everything related to the creation and handling of random data.</em></p>
+<p><em>与随机数据的创建和处理有关的一切.</em></p>
 <ul>
-<li><a href="https://github.com/keepcosmos/beanmother">Beanmother</a> - Sets up beans from YAML fixtures.</li>
-<li><a href="https://github.com/six2six/fixture-factory">Fixture Factory</a> - Generates fake objects from a template.</li>
-<li><a href="https://github.com/Devskiller/jfairy">jFairy</a> - Fake data generator.</li>
-<li><a href="https://github.com/randomizedtesting/randomizedtesting">Randomized Testing</a> - JUnit test runner and plugins for running JUnit tests with pseudo-randomness.</li>
-<li><a href="https://github.com/DiUS/java-faker">Java Faker</a> - Port of Ruby's fake data generator.</li>
+<li><a href="https://github.com/keepcosmos/beanmother">Beanmother</a> - 从 YAML 固定装置设置 bean.</li>
+<li><a href="https://github.com/six2six/fixture-factory">Fixture Factory</a> - 从模板生成假对象.</li>
+<li><a href="https://github.com/Devskiller/jfairy">jFairy</a> - 假数据生成器.</li>
+<li><a href="https://github.com/randomizedtesting/randomizedtesting">Randomized Testing</a> - JUnit 测试运行器和插件，用于以伪随机性运行 JUnit 测试.</li>
+<li><a href="https://github.com/DiUS/java-faker">Java Faker</a> - Ruby 的假数据生成器的端口.</li>
 </ul>
 <h4 id="frameworks">Frameworks<a class="headerlink" href="#frameworks" title="Permanent link">&para;</a></h4>
-<p><em>Provide environments to run tests for a specific use case.</em></p>
+<p><em>为特定用例提供运行测试的环境.</em></p>
 <ul>
-<li><a href="https://github.com/TNG/ArchUnit">ArchUnit</a> - Test library for specifying and asserting architecture rules.</li>
-<li><a href="http://jmeter.apache.org">Apache JMeter</a> - Functional testing and performance measurements.</li>
-<li><a href="http://arquillian.org">Arquillian</a> - Integration and functional testing platform for Java EE containers.</li>
-<li><a href="https://citrusframework.org">Citrus</a> - Integration testing framework that focuses on both client- and server-side messaging.</li>
-<li><a href="https://gatling.io">Gatling</a> - Load testing tool designed for ease of use, maintainability and high performance.</li>
-<li><a href="https://junit.org/junit5/">JUnit</a> - Common testing framework.</li>
-<li><a href="https://jqwik.net">jqwik</a> - Engine for property-based testing built on JUnit 5.</li>
-<li><a href="https://github.com/DiUS/pact-jvm">Pact JVM</a> - Consumer-driven contract testing.</li>
-<li><a href="http://pitest.org">PIT</a> - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test suites.</li>
+<li><a href="https://github.com/TNG/ArchUnit">ArchUnit</a> - 用于指定和断言架构规则的测试库.</li>
+<li><a href="http://jmeter.apache.org">Apache JMeter</a> - 功能测试和性能测量.</li>
+<li><a href="http://arquillian.org">Arquillian</a> - Java EE 容器的集成和功能测试平台.</li>
+<li><a href="https://citrusframework.org">Citrus</a> - 专注于客户端和服务器端消息传递的集成测试框架.</li>
+<li><a href="https://gatling.io">Gatling</a> - 负载测试工具专为易用性、可维护性和高性能而设计.</li>
+<li><a href="https://junit.org/junit5/">JUnit</a> - 通用测试框架.</li>
+<li><a href="https://jqwik.net">jqwik</a> - 基于 JUnit 5 构建的基于属性的测试引擎.</li>
+<li><a href="https://github.com/DiUS/pact-jvm">Pact JVM</a> - 消费者驱动的合同测试.</li>
+<li><a href="http://pitest.org">PIT</a> - 快速突变测试框架，用于评估现有 JUnit 或 TestNG 测试套件的故障检测能力.</li>
 </ul>
 <h4 id="matchers">Matchers<a class="headerlink" href="#matchers" title="Permanent link">&para;</a></h4>
-<p><em>Libraries that provide custom matchers.</em></p>
+<p><em>提供自定义匹配器的库.</em></p>
 <ul>
-<li><a href="https://joel-costigliola.github.io/assertj/">AssertJ</a> - Fluent assertions that improve readability.</li>
-<li><a href="http://hamcrest.org/JavaHamcrest/">Hamcrest</a> - Matchers that can be combined to create flexible expressions of intent.</li>
-<li><a href="http://jsonassert.skyscreamer.org">JSONAssert</a> - Simplifies testing JSON strings.</li>
-<li><a href="https://truth.dev">Truth</a> - Google's fluent assertion and proposition framework.</li>
-<li><a href="https://github.com/xmlunit/xmlunit">XMLUnit</a> - Simplifies testing for XML output.</li>
+<li><a href="https://joel-costigliola.github.io/assertj/">AssertJ</a> - 提高可读性的流畅断言.</li>
+<li><a href="http://hamcrest.org/JavaHamcrest/">Hamcrest</a> - 可以组合以创建灵活的意图表达的匹配器.</li>
+<li><a href="http://jsonassert.skyscreamer.org">JSONAssert</a> - 简化测试 JSON 字符串.</li>
+<li><a href="https://truth.dev">Truth</a> - 谷歌流畅的断言和命题框架.</li>
+<li><a href="https://github.com/xmlunit/xmlunit">XMLUnit</a> - 简化了 XML 输出的测试.</li>
 </ul>
 <h4 id="miscellaneous_1">Miscellaneous<a class="headerlink" href="#miscellaneous_1" title="Permanent link">&para;</a></h4>
-<p><em>Other stuff related to testing.</em></p>
+<p><em>其他与测试有关的东西.</em></p>
 <ul>
-<li><a href="https://github.com/Hakky54/console-captor">ConsoleCaptor</a> - Captures console output for unit testing purposes.</li>
-<li><a href="https://github.com/TNG/junit-dataprovider">junit-dataprovider</a> - TestNG-like data provider/runner for JUnit.</li>
-<li><a href="https://github.com/Hakky54/log-captor">LogCaptor</a> - Captures log entries for unit testing purposes.</li>
-<li><a href="https://github.com/MutabilityDetector/MutabilityDetector">Mutability Detector</a> - 报告给定类的实例是否不可变。</li>
-<li><a href="https://github.com/nidi3/raml-tester">raml-tester</a> - Tests if a request/response matches a given RAML definition.</li>
-<li><a href="https://github.com/testcontainers/testcontainers-java">TestContainers</a> - Provides throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.</li>
-<li><a href="https://www.pojo.pl">pojo-tester</a> - Automatically performs tests on basic POJO methods. (LGPL-3.0-only)</li>
+<li><a href="https://github.com/Hakky54/console-captor">ConsoleCaptor</a> - 为单元测试目的捕获控制台输出.</li>
+<li><a href="https://github.com/TNG/junit-dataprovider">junit-dataprovider</a> - JUnit 的类似 TestNG 的数据提供程序/运行程序.</li>
+<li><a href="https://github.com/Hakky54/log-captor">LogCaptor</a> - 为单元测试目的捕获日志条目.</li>
+<li><a href="https://github.com/MutabilityDetector/MutabilityDetector">Mutability Detector</a> - 报告给定类的实例是否不可变.</li>
+<li><a href="https://github.com/nidi3/raml-tester">raml-tester</a> - 测试请求/响应是否匹配给定的 RAML 定义.</li>
+<li><a href="https://github.com/testcontainers/testcontainers-java">TestContainers</a> - 提供通用数据库、Selenium Web 浏览器或任何其他可以在 Docker 容器中运行的一次性实例.</li>
+<li><a href="https://www.pojo.pl">pojo-tester</a>  - 自动执行基本 POJO 方法的测试.  （仅限 LGPL-3.0）</li>
 </ul>
 <h4 id="mocking">Mocking<a class="headerlink" href="#mocking" title="Permanent link">&para;</a></h4>
-<p><em>Tools which mock collaborators to help testing single, isolated units.</em></p>
+<p><em>模拟合作者以帮助测试单个、隔离单元的工具.</em></p>
 <ul>
-<li><a href="http://jmockit.github.io">JMockit</a> - Integration testing, API mocking and faking, and code coverage.</li>
-<li><a href="https://github.com/mockito/mockito">Mockito</a> - Mocking framework that lets you write tests with a clean and simple API.</li>
-<li><a href="https://www.mock-server.com">MockServer</a> - Allows mocking of systems integrated with HTTPS.</li>
-<li><a href="https://github.com/dreamhead/moco">Moco</a> - Concise web services for stubs and mocks.</li>
-<li><a href="https://github.com/powermock/powermock">PowerMock</a> - Mocks static methods, constructors, final classes and methods, private methods, and removal of static initializers.</li>
-<li><a href="http://wiremock.org">WireMock</a> - Stubs and mocks web services.</li>
+<li><a href="http://jmockit.github.io">JMockit</a> - 集成测试、API 模拟和伪造以及代码覆盖率.</li>
+<li><a href="https://github.com/mockito/mockito">Mockito</a> - 模拟框架，可让您使用干净简单的 API 编写测试.</li>
+<li><a href="https://www.mock-server.com">MockServer</a> - 允许模拟与 HTTPS 集成的系统.</li>
+<li><a href="https://github.com/dreamhead/moco">Moco</a> - 用于存根和模拟的简洁 Web 服务.</li>
+<li><a href="https://github.com/powermock/powermock">PowerMock</a> - 模拟静态方法、构造函数、最终类和方法、私有方法以及静态初始化程序的删除.</li>
+<li><a href="http://wiremock.org">WireMock</a> - 存根和模拟 Web 服务.</li>
 </ul>
 <h3 id="utility">Utility<a class="headerlink" href="#utility" title="Permanent link">&para;</a></h3>
-<p><em>Libraries which provide general utility functions.</em></p>
+<p><em>提供通用实用功能的库.</em></p>
 <ul>
-<li><a href="https://github.com/alibaba/arthas">Arthas</a> - Allows to troubleshoot production issues for applications without modifying code or restarting servers.</li>
-<li><a href="https://github.com/vladimir-bukhtoyarov/bucket4j">bucket4j</a> - Rate limiting library based on token-bucket algorithm.</li>
-<li><a href="https://github.com/yegor256/cactoos">cactoos</a> - Collection of object-oriented primitives.</li>
-<li><a href="http://www.crashub.org">CRaSH</a> - Provides a shell into a JVM that's running CRaSH. Used by Spring Boot and others. (LGPL-2.1-or-later)</li>
-<li><a href="https://github.com/PatMartin/Dex">Dex</a> - Java/JavaFX tool capable of powerful ETL and data visualization.</li>
-<li><a href="https://github.com/embulk/embulk">Embulk</a> - Bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.</li>
-<li><a href="https://github.com/vorburger/ch.vorburger.fswatch">fswatch</a> - Micro library to watch for directory file system changes, simplifying java.nio.file.WatchService.</li>
-<li><a href="https://github.com/gephi/gephi">Gephi</a> - Cross-platform for visualizing and manipulating large graph networks. (GPL-3.0-only)</li>
-<li><a href="https://github.com/google/guava">Guava</a> - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and more.</li>
-<li><a href="http://jade.tilab.com">JADE</a> - Framework and environment for building and debugging multi-agent systems. (LGPL-2.0-only)</li>
-<li><a href="https://java-diff-utils.github.io/java-diff-utils/">Java Diff Utils</a> - Utilities for text or data comparison and patching.</li>
-<li><a href="https://github.com/VerbalExpressions/JavaVerbalExpressions">JavaVerbalExpressions</a> - Library that helps with constructing difficult regular expressions.</li>
-<li><a href="https://www.eclipse.org/jgit/">JGit</a> - Lightweight, pure Java library implementing the Git version control system.</li>
-<li><a href="https://github.com/minio/minio-java">minio-java</a> - Provides simple APIs to access any Amazon S3-compatible object storage server.</li>
-<li><a href="https://protege.stanford.edu">Protégé</a> - Provides an ontology editor and a framework to build knowledge-based systems.</li>
-<li><a href="https://github.com/javadev/underscore-java">Underscore-java</a> - Port of Underscore.js functions.</li>
+<li><a href="https://github.com/alibaba/arthas">Arthas</a> - 允许在不修改代码或重新启动服务器的情况下解决应用程序的生产问题.</li>
+<li><a href="https://github.com/vladimir-bukhtoyarov/bucket4j">bucket4j</a> - 基于令牌桶算法的速率限制库.</li>
+<li><a href="https://github.com/yegor256/cactoos">cactoos</a> - 面向对象原语的集合.</li>
+<li><a href="http://www.crashub.org">CRaSH</a>  - 为运行 CRaSH 的 JVM 提供一个 shell. 由 Spring Boot 和其他人使用.  （LGPL-2.1 或更高版本）</li>
+<li><a href="https://github.com/PatMartin/Dex">Dex</a> - Java/JavaFX 工具，具有强大的 ETL 和数据可视化能力.</li>
+<li><a href="https://github.com/embulk/embulk">Embulk</a> - 批量数据加载器，帮助在各种数据库、存储、文件格式和云服务之间传输数据.</li>
+<li><a href="https://github.com/vorburger/ch.vorburger.fswatch">fswatch</a> - 监视目录文件系统更改的微库，简化了 java.nio.file.WatchService.</li>
+<li><a href="https://github.com/gephi/gephi">Gephi</a>  - 用于可视化和操作大型图网络的跨平台.  （仅限 GPL-3.0）</li>
+<li><a href="https://github.com/google/guava">Guava</a> - 集合、缓存、原语支持、并发库、通用注释、字符串处理、I/O 等.</li>
+<li><a href="http://jade.tilab.com">JADE</a>  - 用于构建和调试多代理系统的框架和环境.  （仅限 LGPL-2.0）</li>
+<li><a href="https://java-diff-utils.github.io/java-diff-utils/">Java Diff Utils</a> - 用于文本或数据比较和修补的实用程序.</li>
+<li><a href="https://github.com/VerbalExpressions/JavaVerbalExpressions">JavaVerbalExpressions</a> - 帮助构建困难的正则表达式的库.</li>
+<li><a href="https://www.eclipse.org/jgit/">JGit</a> - 实现 Git 版本控制系统的轻量级纯 Java 库.</li>
+<li><a href="https://github.com/minio/minio-java">minio-java</a> - 提供简单的 API 来访问任何与 Amazon S3 兼容的对象存储服务器.</li>
+<li><a href="https://protege.stanford.edu">Protégé</a> - 提供本体编辑器和框架来构建基于知识的系统.</li>
+<li><a href="https://github.com/javadev/underscore-java">Underscore-java</a> - Underscore.js 函数的端口.</li>
 </ul>
 <h3 id="version-managers">Version Managers<a class="headerlink" href="#version-managers" title="Permanent link">&para;</a></h3>
-<p><em>Utilities that help create the development shell environment and switch between different Java versions.</em></p>
+<p><em>帮助创建开发 shell 环境和在不同 Java 版本之间切换的实用程序.</em></p>
 <ul>
-<li><a href="https://github.com/shyiko/jabba">jabba</a> - Java Version Manager inspired by nvm. Supports macOS, Linux and Windows.</li>
-<li><a href="https://github.com/jenv/jenv">jenv</a> - Java Version Manager inspired by rbenv. Can configure globally or per project. Tested on Debian and macOS.</li>
-<li><a href="https://github.com/sdkman/sdkman-cli">SDKMan</a> - Java Version Manager inspired by RVM and rbenv. Supports UNIX-based platforms and Windows.</li>
+<li><a href="https://github.com/shyiko/jabba">jabba</a>  - 受 nvm 启发的 Java 版本管理器. 支持 macOS、Linux 和 Windows.</li>
+<li><a href="https://github.com/jenv/jenv">jenv</a>  - 受 rbenv 启发的 Java 版本管理器. 可以全局配置或按项目配置. 在 Debian 和 macOS 上测试.</li>
+<li><a href="https://github.com/sdkman/sdkman-cli">SDKMan</a>  - 受 RVM 和 rbenv 启发的 Java 版本管理器. 支持基于 UNIX 的平台和 Windows.</li>
 </ul>
 <h3 id="web-crawling">Web Crawling<a class="headerlink" href="#web-crawling" title="Permanent link">&para;</a></h3>
-<p><em>Libraries that analyze the content of websites.</em></p>
+<p><em>分析网站内容的图书馆.</em></p>
 <ul>
-<li><a href="https://nutch.apache.org">Apache Nutch</a> - Highly extensible, highly scalable web crawler for production environments.</li>
-<li><a href="https://github.com/yasserg/crawler4j">Crawler4j</a> - Simple and lightweight web crawler.</li>
+<li><a href="https://nutch.apache.org">Apache Nutch</a> - 用于生产环境的高度可扩展、高度可扩展的网络爬虫.</li>
+<li><a href="https://github.com/yasserg/crawler4j">Crawler4j</a> - 简单轻量级的网络爬虫.</li>
 <li><a href="https://jsoup.org">jsoup</a> - Scrapes, parses, manipulates and cleans HTML.</li>
-<li><a href="http://stormcrawler.net">StormCrawler</a> - SDK for building low-latency and scalable web crawlers.</li>
-<li><a href="https://github.com/code4craft/webmagic">webmagic</a> - Scalable crawler with downloading, url management, content extraction and persistent.</li>
+<li><a href="http://stormcrawler.net">StormCrawler</a> - 用于构建低延迟和可扩展的网络爬虫的 SDK.</li>
+<li><a href="https://github.com/code4craft/webmagic">webmagic</a> - 具有下载、网址管理、内容提取和持久性的可扩展爬虫.</li>
 </ul>
 <h3 id="web-frameworks">Web Frameworks<a class="headerlink" href="#web-frameworks" title="Permanent link">&para;</a></h3>
-<p><em>Frameworks that handle the communication between the layers of a web application.</em></p>
+<p><em>处理 Web 应用程序层之间通信的框架.</em></p>
 <ul>
-<li><a href="https://activej.io">ActiveJ</a> - Lightweight asynchronous framework built from the ground up for developing high-performance web applications.</li>
-<li><a href="https://tapestry.apache.org">Apache Tapestry</a> - Component-oriented framework for creating dynamic, robust, highly scalable web applications.</li>
-<li><a href="https://wicket.apache.org">Apache Wicket</a> - Component-based web application framework similar to Tapestry, with a stateful GUI.</li>
-<li><a href="https://github.com/lets-blade/blade">Blade</a> - Lightweight, modular framework that aims to be elegant and simple.</li>
-<li><a href="https://bootique.io">Bootique</a> - Minimally opinionated framework for runnable apps.</li>
-<li><a href="http://www.fireflysource.com">Firefly</a> - Asynchronous framework for rapid development of high-performance web application.</li>
-<li><a href="http://www.jooby.org">Jooby</a> - Scalable, fast and modular micro-framework that offers multiple programming models.</li>
-<li><a href="http://www.ninjaframework.org">Ninja</a> - Full-stack web framework.</li>
-<li><a href="http://www.pippo.ro">Pippo</a> - Small, highly modularized, Sinatra-like framework.</li>
-<li><a href="https://www.playframework.com">Play</a> - Built on Akka, it provides predictable and minimal resource consumption (CPU, memory, threads) for highly-scalable applications in Java and Scala.</li>
-<li><a href="https://www.primefaces.org">PrimeFaces</a> - JSF framework with both free and commercial/support versions and frontend components.</li>
-<li><a href="https://ratpack.io">Ratpack</a> - Set of libraries that facilitate fast, efficient, evolvable and well-tested HTTP applications.</li>
-<li><a href="https://github.com/yegor256/takes">Takes</a> - Opinionated web framework which is built around the concepts of True Object-Oriented Programming and immutability.</li>
-<li><a href="https://vaadin.com">Vaadin</a> - Event-driven framework that uses standard web components. Server-side architecture with Ajax on the client side.</li>
+<li><a href="https://activej.io">ActiveJ</a> - 从头开始​​构建的轻量级异步框架，用于开发高性能 Web 应用程序.</li>
+<li><a href="https://tapestry.apache.org">Apache Tapestry</a> - 面向组件的框架，用于创建动态、健壮、高度可扩展的 Web 应用程序.</li>
+<li><a href="https://wicket.apache.org">Apache Wicket</a> - 类似于 Tapestry 的基于组件的 Web 应用程序框架，具有状态 GUI.</li>
+<li><a href="https://github.com/lets-blade/blade">Blade</a> - 旨在优雅和简单的轻量级模块化框架.</li>
+<li><a href="https://bootique.io">Bootique</a> - 可运行应用程序的最低限度自以为是的框架.</li>
+<li><a href="http://www.fireflysource.com">Firefly</a> - 用于快速开发高性能 Web 应用程序的异步框架.</li>
+<li><a href="http://www.jooby.org">Jooby</a> - 提供多种编程模型的可扩展、快速和模块化的微框架.</li>
+<li><a href="http://www.ninjaframework.org">Ninja</a> - 全栈网络框架.</li>
+<li><a href="http://www.pippo.ro">Pippo</a> - 小型、高度模块化、类似 Sinatra 的框架.</li>
+<li><a href="https://www.playframework.com">Play</a> - 基于 Akka 构建，它为 Java 和 Scala 中高度可扩展的应用程序提供可预测和最小的资源消耗（CPU、内存、线程）.</li>
+<li><a href="https://www.primefaces.org">PrimeFaces</a> - 具有免费和商业/支持版本和前端组件的 JSF 框架.</li>
+<li><a href="https://ratpack.io">Ratpack</a> - 一组有助于快速、高效、可进化和经过良好测试的 HTTP 应用程序的库.</li>
+<li><a href="https://github.com/yegor256/takes">Takes</a> - 围绕真正面向对象编程和不变性的概念构建的自以为是的 Web 框架.</li>
+<li><a href="https://vaadin.com">Vaadin</a>  - 使用标准 Web 组件的事件驱动框架. 在客户端使用 Ajax 的服务器端架构.</li>
 </ul>
 <h3 id="workflow-orchestration-engines">Workflow Orchestration Engines<a class="headerlink" href="#workflow-orchestration-engines" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://cadenceworkflow.io">Cadence</a> - Stateful code platform from Uber.</li>
-<li><a href="https://github.com/flowable/flowable-engine">flowable</a> - Compact and efficient workflow and business process management platform.</li>
-<li><a href="https://temporal.io">Temporal</a> - Microservice orchestration platform, forked from Cadence but gRPC based.</li>
+<li><a href="https://cadenceworkflow.io">Cadence</a> - 来自 Uber 的有状态代码平台.</li>
+<li><a href="https://github.com/flowable/flowable-engine">flowable</a> - 紧凑高效的工作流程和业务流程管理平台.</li>
+<li><a href="https://temporal.io">Temporal</a> - 微服务编排平台，从 Cadence 分叉，但基于 gRPC.</li>
 </ul>
 <h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h2>
 <h3 id="related-awesome-lists">Related Awesome Lists<a class="headerlink" href="#related-awesome-lists" title="Permanent link">&para;</a></h3>
@@ -8922,19 +8925,19 @@
 <li><a href="https://github.com/s4kibs4mi/java-developer-roadmap">Java Developer Roadmap</a></li>
 </ul>
 <h3 id="communities">Communities<a class="headerlink" href="#communities" title="Permanent link">&para;</a></h3>
-<p><em>Active discussions.</em></p>
+<p><em>积极讨论.</em></p>
 <ul>
-<li><a href="https://www.reddit.com/r/java/">r/java</a> - Subreddit for the Java community.</li>
-<li><a href="https://stackoverflow.com/questions/tagged/java">Stack Overflow</a> - Question/answer platform.</li>
-<li><a href="https://virtualjug.com">VirtualJUG</a> - Virtual Java User Group.</li>
+<li><a href="https://www.reddit.com/r/java/">r/java</a> - Java 社区的 Subreddit.</li>
+<li><a href="https://stackoverflow.com/questions/tagged/java">Stack Overflow</a> - 问答平台.</li>
+<li><a href="https://virtualjug.com">VirtualJUG</a> - 虚拟 Java 用户组.</li>
 </ul>
 <h3 id="frontends">Frontends<a class="headerlink" href="#frontends" title="Permanent link">&para;</a></h3>
-<p><em>Websites that provide a frontend for this list. Please note, there won't be an official website. We don't associate with a particular website and everybody is allowed to create one.</em></p>
+<p><em>为此列表提供前端的网站. 请注意，不会有官方网站. 我们不与特定网站关联，每个人都可以创建一个.</em></p>
 <ul>
 <li><a href="https://java.libhunt.com">java.libhunt.com</a></li>
 </ul>
 <h3 id="influential-books">Influential Books<a class="headerlink" href="#influential-books" title="Permanent link">&para;</a></h3>
-<p><em>Books that made a big impact and are still worth reading.</em></p>
+<p><em>产生重大影响且仍然值得一读的书籍.</em></p>
 <ul>
 <li><a href="https://www.amazon.com/Core-Java-I-Fundamentals-10th/dp/0134177304">Core Java Volume I--Fundamentals</a></li>
 <li><a href="https://www.amazon.com/Core-Java-II-Advanced-Features-10th/dp/0134177290">Core Java, Volume II--Advanced Features</a></li>
@@ -8943,62 +8946,62 @@
 <li><a href="https://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486">Thinking in Java</a></li>
 </ul>
 <h3 id="podcasts-and-screencasts">Podcasts and Screencasts<a class="headerlink" href="#podcasts-and-screencasts" title="Permanent link">&para;</a></h3>
-<p><em>Something to look at or listen to while programming.</em></p>
+<p><em>编程时可以看或听的东西.</em></p>
 <ul>
 <li><a href="https://bootifulpodcast.fm">A Bootiful Podcast</a></li>
-<li><a href="https://inside.java/podcast">Inside Java</a> (Official)</li>
+<li><a href="https://inside.java/podcast">Inside Java</a> （官方的）</li>
 <li><a href="http://www.javaoffheap.com">Java Off Heap</a></li>
 <li><a href="https://virtualjug.com/#podcast">The Java Council</a></li>
-<li><a href="http://www.javaposse.com">The Java Posse</a> - Discontinued as of 02/2015.</li>
+<li><a href="http://www.javaposse.com">The Java Posse</a> - 自 2015 年 2 月起停产.</li>
 </ul>
 <h3 id="people">People<a class="headerlink" href="#people" title="Permanent link">&para;</a></h3>
 <h4 id="twitter">Twitter<a class="headerlink" href="#twitter" title="Permanent link">&para;</a></h4>
-<p><em>Active accounts to follow. Descriptions from Twitter.</em></p>
+<p><em>要关注的活跃帐户. 来自推特的描述.</em></p>
 <ul>
-<li><a href="https://twitter.com/AdamBien">Adam Bien</a> - Freelance author, JavaOne Rockstar speaker, consultant, Java Champion.</li>
-<li><a href="https://twitter.com/shipilev">Aleksey Shipilëv</a> - Performance geek, benchmarking czar, concurrency bug hunter.</li>
-<li><a href="https://twitter.com/agoncal">Antonio Goncalves</a> - Java Champion, JUG Leader, Devoxx France, Java EE 6/7, JCP, Author.</li>
-<li><a href="https://twitter.com/arungupta">Arun Gupta</a> - Java Champion, JavaOne Rockstar, JUG Leader, Devoxx4Kids-er, VP of Developer Advocacy at Couchbase.</li>
-<li><a href="https://twitter.com/BrianGoetz">Brian Goetz</a> - Java Language Architect at Oracle.</li>
-<li><a href="https://twitter.com/brunoborges">Bruno Borges</a> - Product Manager/Java Jock at Oracle.</li>
-<li><a href="https://twitter.com/crichardson">Chris Richardson</a> - Software architect, consultant, and serial entrepreneur, Java Champion, JavaOne Rock Star, *POJOs in Action- author.</li>
-<li><a href="https://twitter.com/edburns">Ed Burns</a> - Consulting Member of the Technical Staff at Oracle.</li>
-<li><a href="https://twitter.com/baeldung">Eugen Paraschiv</a> - Spring Security 课程的作者。</li>
-<li><a href="https://twitter.com/heinzkabutz">Heinz Kabutz</a> - Java Champion, speaker, author of The Java Specialists' Newsletter, concurrency performance expert.</li>
-<li><a href="https://twitter.com/holly_cummins">Holly Cummins</a> - Technical Lead of IBM London's Bluemix Garage, Java Champion, developer, author, JavaOne rockstar.</li>
-<li><a href="https://twitter.com/JavaFXpert">James Weaver</a> - Java/JavaFX/IoT developer, author and speaker.</li>
-<li><a href="https://twitter.com/Java_EE">Java EE</a> - Official Java EE Twitter account.</li>
-<li><a href="https://twitter.com/Oraclejavamag">Java Magazine</a> - Official Java Magazine account.</li>
-<li><a href="https://twitter.com/java">Java</a> - Official Java Twitter account.</li>
-<li><a href="https://twitter.com/javinpaul">Javin Paul</a> - Well-known Java blogger.</li>
-<li><a href="https://twitter.com/starbuxman">Josh Long</a> - Spring Advocate at Pivotal, author of O'Reilly's Cloud Native Java- and Building Microservices with Spring Boot, JavaOne Rock Star.</li>
-<li><a href="https://twitter.com/lukaseder">Lukas Eder</a> - Java Champion, speaker, Founder and CEO Data Geekery (jOOQ).</li>
-<li><a href="https://twitter.com/theNeomatrix369">Mani Sarkar</a> - Java champion, Polyglot, Software Crafter involved with @graalvm, AI/ML/DL, Data Science, Developer communities, speaker &amp; blogger. Creator of couple of awesome lists like this one.</li>
-<li><a href="https://twitter.com/mariofusco">Mario Fusco</a> - RedHatter, JUG coordinator, frequent speaker and author.</li>
-<li><a href="https://twitter.com/MkHeck">Mark Heckler</a> - Pivotal Principal Technologist and Developer Advocate, conference speaker, published author, and Java Champion, focusing on Internet of Things and the cloud.</li>
-<li><a href="https://twitter.com/mreinhold">Mark Reinhold</a> - Chief Architect, Java Platform Group, Oracle.</li>
-<li><a href="https://twitter.com/myfear">Markus Eisele</a> - Java EE evangelist, Red Hat.</li>
-<li><a href="https://twitter.com/karianna">Martijn Verburg</a> - London JUG co-leader, speaker, author, Java Champion and much more.</li>
-<li><a href="https://twitter.com/mjpt777">Martin Thompson</a> - Pasty faced performance gangster.</li>
-<li><a href="https://twitter.com/mon_beck">Monica Beckwith</a> - Performance consultant, JavaOne Rock Star.</li>
-<li><a href="https://twitter.com/OpenJDK">OpenJDK</a> - Official OpenJDK account.</li>
-<li><a href="https://twitter.com/PeterLawrey">Peter Lawrey</a> - Peter Lawrey, Java performance expert.</li>
-<li><a href="https://twitter.com/randyshoup">Randy Shoup</a> - Stitch Fix VP Engineering, speaker, JavaOne Rock Star.</li>
-<li><a href="https://twitter.com/reza_rahman">Reza Rahman</a> - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.</li>
-<li><a href="https://twitter.com/Sander_Mak">Sander Mak</a> - Java Champion, author.</li>
-<li><a href="https://twitter.com/sjmaple">Simon Maple</a> - Java Champion, VirtualJUG founder, LJC leader, RebelLabs author.</li>
-<li><a href="https://twitter.com/spencerbgibb">Spencer Gibb</a> - Software Engineer, Dad, Geek, Co-founder and Lead of Spring Cloud Core @pivotal.</li>
-<li><a href="https://twitter.com/jodastephen">Stephen Colebourne</a> - Java Champion, speaker.</li>
-<li><a href="https://twitter.com/trisha_gee">Trisha Gee</a> - Java Champion and speaker.</li>
-<li><a href="https://twitter.com/venkat_s">Venkat Subramaniam</a> - Author, University of Houston professor, MicroSoft MVP award recipient, JavaOne Rock Star, Java Champion.</li>
-<li><a href="https://twitter.com/vlad_mihalcea">Vlad Mihalcea</a> - Java Champion working on Hypersistence Optimizer, database aficionado, author of High-Performance Java Persistence book.</li>
+<li><a href="https://twitter.com/AdamBien">Adam Bien</a> - 自由作家、JavaOne Rockstar 演讲者、顾问、Java Champion.</li>
+<li><a href="https://twitter.com/shipilev">Aleksey Shipilëv</a> - 性能极客，基准测试沙皇，并发错误猎人.</li>
+<li><a href="https://twitter.com/agoncal">Antonio Goncalves</a> - Java Champion，JUG Leader，Devoxx France，Java EE 6/7，JCP，作者.</li>
+<li><a href="https://twitter.com/arungupta">Arun Gupta</a> - Java Champion、JavaOne Rockstar、JUG 领导者、Devoxx4Kids-er、Couchbase 开发者宣传副总裁.</li>
+<li><a href="https://twitter.com/BrianGoetz">Brian Goetz</a> - Oracle 的 Java 语言架构师.</li>
+<li><a href="https://twitter.com/brunoborges">Bruno Borges</a> - Oracle 的产品经理/Java Jock.</li>
+<li><a href="https://twitter.com/crichardson">Chris Richardson</a> - 软件架构师、顾问和连续创业者、Java Champion、JavaOne Rock Star、*POJOs in Action-作者.</li>
+<li><a href="https://twitter.com/edburns">Ed Burns</a> - Oracle 技术人员的咨询成员.</li>
+<li><a href="https://twitter.com/baeldung">Eugen Paraschiv</a> - Spring Security 课程的作者.</li>
+<li><a href="https://twitter.com/heinzkabutz">Heinz Kabutz</a> - Java Champion，演讲者，The Java Specialists&#39; Newsletter 的作者，并发性能专家.</li>
+<li><a href="https://twitter.com/holly_cummins">Holly Cummins</a> - IBM 伦敦 Bluemix Garage 的技术主管、Java Champion、开发人员、作家、JavaOne 摇滚明星.</li>
+<li><a href="https://twitter.com/JavaFXpert">James Weaver</a> - Java/JavaFX/IoT 开发人员、作者和演讲者.</li>
+<li><a href="https://twitter.com/Java_EE">Java EE</a> - 官方 Java EE Twitter 帐户.</li>
+<li><a href="https://twitter.com/Oraclejavamag">Java Magazine</a> - 官方 Java 杂志帐户.</li>
+<li><a href="https://twitter.com/java">Java</a> - 官方 Java Twitter 帐户.</li>
+<li><a href="https://twitter.com/javinpaul">Javin Paul</a> - 著名的 Java 博主.</li>
+<li><a href="https://twitter.com/starbuxman">Josh Long</a> - Pivotal 的 Spring Advocate，O&#39;Reilly 的 Cloud Native Java 和 Building Microservices with Spring Boot 的作者，JavaOne Rock Star.</li>
+<li><a href="https://twitter.com/lukaseder">Lukas Eder</a> - Java Champion、演讲者、创始人兼 CEO Data Geekery (jOOQ).</li>
+<li><a href="https://twitter.com/theNeomatrix369">Mani Sarkar</a>  - Java 冠军、Polyglot、参与@graalvm 的软件工匠、AI/ML/DL、数据科学、开发人员社区、演讲者和博主. 像这样的几个很棒的列表的创建者.</li>
+<li><a href="https://twitter.com/mariofusco">Mario Fusco</a> - RedHatter，JUG 协调员，经常演讲和作家.</li>
+<li><a href="https://twitter.com/MkHeck">Mark Heckler</a> - Pivotal 首席技术专家和开发人员倡导者、会议发言人、出版作者和 Java 冠军，专注于物联网和云计算.</li>
+<li><a href="https://twitter.com/mreinhold">Mark Reinhold</a> - 首席架构师，Java 平台集团，甲骨文.</li>
+<li><a href="https://twitter.com/myfear">Markus Eisele</a> - Java EE 布道者，红帽.</li>
+<li><a href="https://twitter.com/karianna">Martijn Verburg</a> - London JUG 联合领导者、演讲者、作家、Java Champion 等等.</li>
+<li><a href="https://twitter.com/mjpt777">Martin Thompson</a> - 糊状的表演流氓.</li>
+<li><a href="https://twitter.com/mon_beck">Monica Beckwith</a> - 性能顾问，JavaOne Rock Star.</li>
+<li><a href="https://twitter.com/OpenJDK">OpenJDK</a> - 官方 OpenJDK 帐户.</li>
+<li><a href="https://twitter.com/PeterLawrey">Peter Lawrey</a> - Peter Lawrey，Java 性能专家.</li>
+<li><a href="https://twitter.com/randyshoup">Randy Shoup</a> - Stitch Fix 工程副总裁，演讲者，JavaOne Rock Star.</li>
+<li><a href="https://twitter.com/reza_rahman">Reza Rahman</a> - Java EE/GlassFish/WebLogic 布道者、作家、演讲者、开源黑客.</li>
+<li><a href="https://twitter.com/Sander_Mak">Sander Mak</a> - Java Champion，作者.</li>
+<li><a href="https://twitter.com/sjmaple">Simon Maple</a> - Java Champion，VirtualJUG 创始人，LJC 负责人，RebelLabs 的作者.</li>
+<li><a href="https://twitter.com/spencerbgibb">Spencer Gibb</a> - 软件工程师，爸爸，Geek，Spring Cloud Core @pivotal 的联合创始人和负责人.</li>
+<li><a href="https://twitter.com/jodastephen">Stephen Colebourne</a> - Java Champion，演讲者.</li>
+<li><a href="https://twitter.com/trisha_gee">Trisha Gee</a> - Java Champion 和演讲者.</li>
+<li><a href="https://twitter.com/venkat_s">Venkat Subramaniam</a> - 作者，休斯顿大学教授，微软 MVP 奖获得者，JavaOne Rock Star，Java Champion.</li>
+<li><a href="https://twitter.com/vlad_mihalcea">Vlad Mihalcea</a> - 致力于 Hypersistence Optimizer 的 Java Champion，数据库爱好者，High-Performance Java Persistence 一书的作者.</li>
 </ul>
 <h4 id="other_1">Other<a class="headerlink" href="#other_1" title="Permanent link">&para;</a></h4>
 <ul>
-<li><a href="https://apexapps.oracle.com/pls/apex/f?p=119297:3::::::">Groundbreakers</a> - Oracle ACEs, Groundbreaker Ambassadors and Java Champions.</li>
+<li><a href="https://apexapps.oracle.com/pls/apex/f?p=119297:3::::::">Groundbreakers</a> - Oracle ACE、Groundbreaker 大使和 Java 冠军.</li>
 </ul>
 <h3 id="websites">Websites<a class="headerlink" href="#websites" title="Permanent link">&para;</a></h3>
-<p><em>Sites to read.</em></p>
+<p><em>要阅读的网站.</em></p>
 <ul>
 <li><a href="https://www.baeldung.com">Baeldung</a></li>
 <li><a href="https://dzone.com">Dzone</a></li>
@@ -9018,8 +9021,9 @@
 <li><a href="https://www.voxxed.com">Voxxed</a></li>
 </ul>
 <h2 id="contributing">Contributing<a class="headerlink" href="#contributing" title="Permanent link">&para;</a></h2>
-<p>Contributions are very welcome!</p>
-<p>Please have a look at the <a href="https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md">CONTRIBUTING</a> guidelines and <a href="https://github.com/akullpp/awesome-java-lint">the validation tools</a>.</p>
+<p>非常欢迎贡献！</p>
+<p>请看一下 <a href="https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md">CONTRIBUTING</a> 指导方针和 <a href="https://github.com/akullpp/awesome-java-lint">the validation tools</a>.</p>
+<p>[c]：<a href="https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg">https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg</a></p>
                 
                   
                 

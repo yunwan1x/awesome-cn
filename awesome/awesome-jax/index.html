@@ -6676,195 +6676,196 @@
 
 <!--lint ignore double-link-->
 
-<p><a href="https://github.com/google/jax">JAX</a> brings automatic differentiation and the <a href="https://www.tensorflow.org/xla">XLA compiler</a> together through a <a href="https://numpy.org/">NumPy</a>-like API for high performance machine learning research on accelerators like GPUs and TPUs.
+<p><a href="https://github.com/google/jax">JAX</a> 带来自动微分和 <a href="https://www.tensorflow.org/xla">XLA compiler</a> 一起通过一个 <a href="https://numpy.org/">NumPy</a>- 用于在 GPU 和 TPU 等加速器上进行高性能机器学习研究的 API.
 <!--lint enable double-link--></p>
-<p>This is a curated list of awesome JAX libraries, projects, and other resources. Contributions are welcome!</p>
+<p>这是一个很棒的 JAX 库、项目和其他资源的精选列表. 欢迎投稿！</p>
 <p><a name="libraries" /></p>
 <h2 id="libraries">Libraries<a class="headerlink" href="#libraries" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Neural Network Libraries<ul>
-<li><a href="https://raw.githubusercontent.com/google/flax">Flax</a> - Centered on flexibility and clarity. <img src="https://img.shields.io/github/stars/google/flax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/deepmind/dm-haiku">Haiku</a> - Focused on simplicity, created by the authors of Sonnet at DeepMind. <img src="https://img.shields.io/github/stars/deepmind/dm-haiku?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/google/objax">Objax</a> - Has an object oriented design similar to PyTorch. <img src="https://img.shields.io/github/stars/google/objax?style=social" align="center"></li>
-<li><a href="https://poets-ai.github.io/elegy/">Elegy</a> - A High Level API for Deep Learning in JAX. Supports Flax, Haiku, and Optax. <img src="https://img.shields.io/github/stars/poets-ai/elegy?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/google/trax">Trax</a> - "Batteries included" deep learning library focused on providing solutions for common workloads. <img src="https://img.shields.io/github/stars/google/trax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/deepmind/jraph">Jraph</a> - Lightweight graph neural network library. <img src="https://img.shields.io/github/stars/deepmind/jraph?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/google/neural-tangents">Neural Tangents</a> - High-level API for specifying neural networks of both finite and <em>infinite</em> width. <img src="https://img.shields.io/github/stars/google/neural-tangents?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/huggingface/transformers">HuggingFace</a> - Ecosystem of pretrained Transformers for a wide range of natural language tasks (Flax). <img src="https://img.shields.io/github/stars/huggingface/transformers?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/patrick-kidger/equinox">Equinox</a> - Callable PyTrees and filtered JIT/grad transformations =&gt; neural networks in JAX. <img src="https://img.shields.io/github/stars/patrick-kidger/equinox?style=social" align="center"></li>
+<li>神经网络库<ul>
+<li><a href="https://raw.githubusercontent.com/google/flax">Flax</a> - 以灵活性和清晰度为中心. <img src="https://img.shields.io/github/stars/google/flax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/deepmind/dm-haiku">Haiku</a> - 专注于简单，由 DeepMind 的 Sonnet 的作者创建. <img src="https://img.shields.io/github/stars/deepmind/dm-haiku?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/google/objax">Objax</a> - 具有类似于 PyTorch 的面向对象设计. <img src="https://img.shields.io/github/stars/google/objax?style=social" align="center"></li>
+<li><a href="https://poets-ai.github.io/elegy/">Elegy</a>  - JAX 中用于深度学习的高级 API. 支持 Flax、Haiku 和 Optax. <img src="https://img.shields.io/github/stars/poets-ai/elegy?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/google/trax">Trax</a> - “包括电池”深度学习库，专注于为常见工作负载提供解决方案. <img src="https://img.shields.io/github/stars/google/trax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/deepmind/jraph">Jraph</a> - 轻量级图神经网络库. <img src="https://img.shields.io/github/stars/deepmind/jraph?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/google/neural-tangents">Neural Tangents</a> - 用于指定有限和_infinite_宽度的神经网络的高级API. <img src="https://img.shields.io/github/stars/google/neural-tangents?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/huggingface/transformers">HuggingFace</a> - 用于各种自然语言任务（Flax）的预训练变形金刚生态系统. <img src="https://img.shields.io/github/stars/huggingface/transformers?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/patrick-kidger/equinox">Equinox</a> - 可调用的 PyTrees 和过滤的 JIT/grad 转换 =&gt; JAX 中的神经网络. <img src="https://img.shields.io/github/stars/patrick-kidger/equinox?style=social" align="center"></li>
 </ul>
 </li>
-<li><a href="https://raw.githubusercontent.com/pyro-ppl/numpyro">NumPyro</a> - Probabilistic programming based on the Pyro library. <img src="https://img.shields.io/github/stars/pyro-ppl/numpyro?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/deepmind/chex">Chex</a> - Utilities to write and test reliable JAX code. <img src="https://img.shields.io/github/stars/deepmind/chex?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/deepmind/optax">Optax</a> - Gradient processing and optimization library. <img src="https://img.shields.io/github/stars/deepmind/optax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/deepmind/rlax">RLax</a> - Library for implementing reinforcement learning agents. <img src="https://img.shields.io/github/stars/deepmind/rlax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/google/jax-md">JAX, M.D.</a> - Accelerated, differential molecular dynamics. <img src="https://img.shields.io/github/stars/google/jax-md?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/coax-dev/coax">Coax</a> - Turn RL papers into code, the easy way. <img src="https://img.shields.io/github/stars/coax-dev/coax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/deepmind/distrax">Distrax</a> - Reimplementation of TensorFlow Probability, containing probability distributions and bijectors. <img src="https://img.shields.io/github/stars/deepmind/distrax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/cvxgrp/cvxpylayers">cvxpylayers</a> - Construct differentiable convex optimization layers. <img src="https://img.shields.io/github/stars/cvxgrp/cvxpylayers?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/tensorly/tensorly">TensorLy</a> - Tensor learning made simple. <img src="https://img.shields.io/github/stars/tensorly/tensorly?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/netket/netket">NetKet</a> - Machine Learning toolbox for Quantum Physics. <img src="https://img.shields.io/github/stars/netket/netket?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/pyro-ppl/numpyro">NumPyro</a> - 基于 Pyro 库的概率编程. <img src="https://img.shields.io/github/stars/pyro-ppl/numpyro?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/deepmind/chex">Chex</a> - 编写和测试可靠 JAX 代码的实用程序. <img src="https://img.shields.io/github/stars/deepmind/chex?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/deepmind/optax">Optax</a> - 梯度处理和优化库. <img src="https://img.shields.io/github/stars/deepmind/optax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/deepmind/rlax">RLax</a> - 用于实施强化学习代理的库. <img src="https://img.shields.io/github/stars/deepmind/rlax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/google/jax-md">JAX, M.D.</a> - 加速的微分分子动力学. <img src="https://img.shields.io/github/stars/google/jax-md?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/coax-dev/coax">Coax</a> - 将 RL 论文转化为代码，这是一种简单的方法. <img src="https://img.shields.io/github/stars/coax-dev/coax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/deepmind/distrax">Distrax</a> - 重新实现 TensorFlow Probability，包含概率分布和双射. <img src="https://img.shields.io/github/stars/deepmind/distrax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/cvxgrp/cvxpylayers">cvxpylayers</a> - 构建可微的凸优化层. <img src="https://img.shields.io/github/stars/cvxgrp/cvxpylayers?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/tensorly/tensorly">TensorLy</a> - 张量学习变得简单. <img src="https://img.shields.io/github/stars/tensorly/tensorly?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/netket/netket">NetKet</a> - 量子物理学的机器学习工具箱. <img src="https://img.shields.io/github/stars/netket/netket?style=social" align="center"></li>
 </ul>
 <p><a name="new-libraries" /></p>
 <h3 id="new-libraries">New Libraries<a class="headerlink" href="#new-libraries" title="Permanent link">&para;</a></h3>
-<p>This section contains libraries that are well-made and useful, but have not necessarily been battle-tested by a large userbase yet.</p>
+<p>本节包含制作精良且有用的库，但尚未经过大量用户群的实战测试.</p>
 <ul>
-<li>Neural Network Libraries<ul>
-<li><a href="https://raw.githubusercontent.com/google/fedjax">FedJAX</a> - Federated learning in JAX, built on Optax and Haiku. <img src="https://img.shields.io/github/stars/google/fedjax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/mfinzi/equivariant-MLP">Equivariant MLP</a> - Construct equivariant neural network layers. <img src="https://img.shields.io/github/stars/mfinzi/equivariant-MLP?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/n2cholas/jax-resnet/">jax-resnet</a> - Implementations and checkpoints for ResNet variants in Flax. <img src="https://img.shields.io/github/stars/n2cholas/jax-resnet?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/srush/parallax">Parallax</a> - JAX 的不可变 Torch 模块。 <img src="https://img.shields.io/github/stars/srush/parallax?style=social" align="center"></li>
+<li>神经网络库<ul>
+<li><a href="https://raw.githubusercontent.com/google/fedjax">FedJAX</a> - 基于 Optax 和 Haiku 的 JAX 中的联合学习. <img src="https://img.shields.io/github/stars/google/fedjax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/mfinzi/equivariant-MLP">Equivariant MLP</a> - 构建等变神经网络层. <img src="https://img.shields.io/github/stars/mfinzi/equivariant-MLP?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/n2cholas/jax-resnet/">jax-resnet</a> - Flax 中 ResNet 变体的实现和检查点. <img src="https://img.shields.io/github/stars/n2cholas/jax-resnet?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/srush/parallax">Parallax</a> - JAX 的不可变 Torch 模块. <img src="https://img.shields.io/github/stars/srush/parallax?style=social" align="center"></li>
 </ul>
 </li>
-<li><a href="https://raw.githubusercontent.com/ElArkk/jax-unirep">jax-unirep</a> - Library implementing the <a href="https://www.nature.com/articles/s41592-019-0598-1">UniRep model</a> for protein machine learning applications. <img src="https://img.shields.io/github/stars/ElArkk/jax-unirep?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/ChrisWaites/jax-flows">jax-flows</a> - Normalizing flows in JAX. <img src="https://img.shields.io/github/stars/ChrisWaites/jax-flows?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/ExpectationMax/sklearn-jax-kernels">sklearn-jax-kernels</a> - 使用 JAX 的“scikit-learn”内核矩阵。 <img src="https://img.shields.io/github/stars/ExpectationMax/sklearn-jax-kernels?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/DifferentiableUniverseInitiative/jax_cosmo">jax-cosmo</a> - Differentiable cosmology library. <img src="https://img.shields.io/github/stars/DifferentiableUniverseInitiative/jax_cosmo?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/NeilGirdhar/efax">efax</a> - Exponential Families in JAX. <img src="https://img.shields.io/github/stars/NeilGirdhar/efax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/PhilipVinc/mpi4jax">mpi4jax</a> - Combine MPI operations with your Jax code on CPUs and GPUs. <img src="https://img.shields.io/github/stars/PhilipVinc/mpi4jax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/4rtemi5/imax">imax</a> - Image augmentations and transformations. <img src="https://img.shields.io/github/stars/4rtemi5/imax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/rolandgvc/flaxvision">FlaxVision</a> - Flax version of TorchVision. <img src="https://img.shields.io/github/stars/rolandgvc/flaxvision?style=social" align="center"></li>
-<li><a href="https://github.com/tensorflow/probability/tree/master/spinoffs/oryx">Oryx</a> - Probabilistic programming language based on program transformations.</li>
-<li><a href="https://github.com/google-research/ott">Optimal Transport Tools</a> - Toolbox that bundles utilities to solve optimal transport problems.</li>
-<li><a href="https://raw.githubusercontent.com/romanodev/deltapv">delta PV</a> - A photovoltaic simulator with automatic differentation. <img src="https://img.shields.io/github/stars/romanodev/deltapv?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/brentyi/jaxlie">jaxlie</a> - Lie theory library for rigid body transformations and optimization. <img src="https://img.shields.io/github/stars/brentyi/jaxlie?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/google/brax">BRAX</a> - Differentiable physics engine to simulate environments along with learning algorithms to train agents for these environments. <img src="https://img.shields.io/github/stars/google/brax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/matthias-wright/flaxmodels">flaxmodels</a> - Pretrained models for Jax/Flax. <img src="https://img.shields.io/github/stars/matthias-wright/flaxmodels?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/carnotresearch/cr-sparse">CR.Sparse</a> - XLA accelerated algorithms for sparse representations and compressive sensing. <img src="https://img.shields.io/github/stars/carnotresearch/cr-sparse?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/HajimeKawahara/exojax">exojax</a> - Automatic differentiable spectrum modeling of exoplanets/brown dwarfs compatible to JAX. <img src="https://img.shields.io/github/stars/HajimeKawahara/exojax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/google/jaxopt">JAXopt</a> - Hardware accelerated (GPU/TPU), batchable and differentiable optimizers in JAX. <img src="https://img.shields.io/github/stars/google/jaxopt?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/ElArkk/jax-unirep">jax-unirep</a> - 图书馆实施 <a href="https://www.nature.com/articles/s41592-019-0598-1">UniRep model</a> 用于蛋白质机器学习应用. <img src="https://img.shields.io/github/stars/ElArkk/jax-unirep?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/ChrisWaites/jax-flows">jax-flows</a> - 规范 JAX 中的流程. <img src="https://img.shields.io/github/stars/ChrisWaites/jax-flows?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/ExpectationMax/sklearn-jax-kernels">sklearn-jax-kernels</a> - 使用 JAX 的“scikit-learn”内核矩阵. <img src="https://img.shields.io/github/stars/ExpectationMax/sklearn-jax-kernels?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/DifferentiableUniverseInitiative/jax_cosmo">jax-cosmo</a> - 可微的宇宙学图书馆. <img src="https://img.shields.io/github/stars/DifferentiableUniverseInitiative/jax_cosmo?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/NeilGirdhar/efax">efax</a> - JAX 中的指数族. <img src="https://img.shields.io/github/stars/NeilGirdhar/efax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/PhilipVinc/mpi4jax">mpi4jax</a> - 将 MPI 操作与 CPU 和 GPU 上的 Jax 代码相结合. <img src="https://img.shields.io/github/stars/PhilipVinc/mpi4jax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/4rtemi5/imax">imax</a> - 图像增强和转换. <img src="https://img.shields.io/github/stars/4rtemi5/imax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/rolandgvc/flaxvision">FlaxVision</a> - TorchVision 的亚麻版本. <img src="https://img.shields.io/github/stars/rolandgvc/flaxvision?style=social" align="center"></li>
+<li><a href="https://github.com/tensorflow/probability/tree/master/spinoffs/oryx">Oryx</a> - 基于程序转换的概率编程语言.</li>
+<li><a href="https://github.com/google-research/ott">Optimal Transport Tools</a> - 捆绑实用程序以解决最佳运输问题的工具箱.</li>
+<li><a href="https://raw.githubusercontent.com/romanodev/deltapv">delta PV</a> - 具有自动微分功能的光伏模拟器. <img src="https://img.shields.io/github/stars/romanodev/deltapv?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/brentyi/jaxlie">jaxlie</a> - 用于刚体变换和优化的李理论库. <img src="https://img.shields.io/github/stars/brentyi/jaxlie?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/google/brax">BRAX</a> - 可微分物理引擎模拟环境以及学习算法来训练这些环境的代理. <img src="https://img.shields.io/github/stars/google/brax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/matthias-wright/flaxmodels">flaxmodels</a> - Jax/Flax 的预训练模型. <img src="https://img.shields.io/github/stars/matthias-wright/flaxmodels?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/carnotresearch/cr-sparse">CR.Sparse</a> - 用于稀疏表示和压缩感知的 XLA 加速算法. <img src="https://img.shields.io/github/stars/carnotresearch/cr-sparse?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/HajimeKawahara/exojax">exojax</a> - 与 JAX 兼容的系外行星/褐矮星的自动可微分光谱建模. <img src="https://img.shields.io/github/stars/HajimeKawahara/exojax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/google/jaxopt">JAXopt</a> - JAX 中的硬件加速 (GPU/TPU)、可批处理和可微优化器. <img src="https://img.shields.io/github/stars/google/jaxopt?style=social" align="center"></li>
 <li><a href="https://raw.githubusercontent.com/deepmind/dm_pix">PIX</a> - PIX is an image processing library in JAX, for JAX. <img src="https://img.shields.io/github/stars/deepmind/dm_pix?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/alonfnt/bayex">bayex</a> - Bayesian Optimization powered by JAX. <img src="https://img.shields.io/github/stars/alonfnt/bayex?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/ucl-bug/jaxdf">JaxDF</a> - Framework for differentiable simulators with arbitrary discretizations. <img src="https://img.shields.io/github/stars/ucl-bug/jaxdf?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/google/tree-math">tree-math</a> - Convert functions that operate on arrays into functions that operate on PyTrees. <img src="https://img.shields.io/github/stars/google/tree-math?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/DarshanDeshpande/jax-models">jax-models</a> - Implementations of research papers originally without code or code written with frameworks other than JAX. <img src="https://img.shields.io/github/stars/DarshanDeshpande/jax-modelsa?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/vicariousinc/PGMax">PGMax</a> - A framework for building discrete Probabilistic Graphical Models (PGM's) and running inference inference on them via JAX. <img src="https://img.shields.io/github/stars/vicariousinc/pgmax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/google/evojax">EvoJAX</a> - Hardware-Accelerated Neuroevolution <img src="https://img.shields.io/github/stars/google/evojax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/RobertTLange/evosax">evosax</a> - JAX-Based Evolution Strategies <img src="https://img.shields.io/github/stars/RobertTLange/evosax?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/SymJAX/SymJAX">SymJAX</a> - Symbolic CPU/GPU/TPU programming. <img src="https://img.shields.io/github/stars/SymJAX/SymJAX?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/rlouf/mcx">mcx</a> - Express &amp; compile probabilistic programs for performant inference. <img src="https://img.shields.io/github/stars/rlouf/mcx?style=social" align="center"></li>
-<li><a href="https://raw.githubusercontent.com/deepmind/einshape">Einshape</a> - DSL-based reshaping library for JAX and other frameworks. <img src="https://img.shields.io/github/stars/deepmind/einshape?style=social" align="center"></li>
-<li><a href="https://github.com/google-research/google-research/tree/master/alx">ALX</a> - Open-source library for distributed matrix factorization using Alternating Least Squares, more info in <a href="https://arxiv.org/abs/2112.02194"><em>ALX: Large Scale Matrix Factorization on TPUs</em></a>.</li>
-<li><a href="https://raw.githubusercontent.com/patrick-kidger/diffrax">Diffrax</a> - Numerical differential equation solvers in JAX. <img src="https://img.shields.io/github/stars/patrick-kidger/diffrax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/alonfnt/bayex">bayex</a> - 由 JAX 提供支持的贝叶斯优化. <img src="https://img.shields.io/github/stars/alonfnt/bayex?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/ucl-bug/jaxdf">JaxDF</a> - 具有任意离散化的可微分模拟器框架. <img src="https://img.shields.io/github/stars/ucl-bug/jaxdf?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/google/tree-math">tree-math</a> - 将对数组进行操作的函数转换为对 PyTree 进行操作的函数. <img src="https://img.shields.io/github/stars/google/tree-math?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/DarshanDeshpande/jax-models">jax-models</a> - 最初没有代码或使用 JAX 以外的框架编写的代码的研究论文的实现. <img src="https://img.shields.io/github/stars/DarshanDeshpande/jax-modelsa?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/vicariousinc/PGMax">PGMax</a> - 用于构建离散概率图形模型 (PGM) 并通过 JAX 在它们上运行推理推理的框架. <img src="https://img.shields.io/github/stars/vicariousinc/pgmax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/google/evojax">EvoJAX</a> - 硬件加速的神经进化 <img src="https://img.shields.io/github/stars/google/evojax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/RobertTLange/evosax">evosax</a> - 基于 JAX 的进化策略 <img src="https://img.shields.io/github/stars/RobertTLange/evosax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/SymJAX/SymJAX">SymJAX</a> - 符号 CPU/GPU/TPU 编程. <img src="https://img.shields.io/github/stars/SymJAX/SymJAX?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/rlouf/mcx">mcx</a> - 表达和编译概率程序以进行性能推理. <img src="https://img.shields.io/github/stars/rlouf/mcx?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/deepmind/einshape">Einshape</a> - 用于 JAX 和其他框架的基于 DSL 的重塑库. <img src="https://img.shields.io/github/stars/deepmind/einshape?style=social" align="center"></li>
+<li><a href="https://github.com/google-research/google-research/tree/master/alx">ALX</a> - 使用交替最小二乘法进行分布式矩阵分解的开源库，更多信息见 <a href="https://arxiv.org/abs/2112.02194"><em>ALX: Large Scale Matrix Factorization on TPUs</em></a>.</li>
+<li><a href="https://raw.githubusercontent.com/patrick-kidger/diffrax">Diffrax</a> - JAX 中的数值微分方程求解器. <img src="https://img.shields.io/github/stars/patrick-kidger/diffrax?style=social" align="center"></li>
+<li><a href="https://raw.githubusercontent.com/dfm/tinygp">tinygp</a> - JAX 中最小的高斯过程库. <img src="https://img.shields.io/github/stars/dfm/tinygp?style=social" align="center"></li>
 </ul>
 <p><a name="models-and-projects" /></p>
 <h2 id="models-and-projects">Models and Projects<a class="headerlink" href="#models-and-projects" title="Permanent link">&para;</a></h2>
 <h3 id="jax">JAX<a class="headerlink" href="#jax" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/tancik/fourier-feature-networks">Fourier Feature Networks</a> - Official implementation of <a href="https://people.eecs.berkeley.edu/~bmild/fourfeat"><em>Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains</em></a>.</li>
-<li><a href="https://github.com/AaltoML/kalman-jax">kalman-jax</a> - Approximate inference for Markov (i.e., temporal) Gaussian processes using iterated Kalman filtering and smoothing.</li>
-<li><a href="https://github.com/thomaspinder/GPJax">GPJax</a> - Gaussian processes in JAX.</li>
-<li><a href="https://github.com/Joshuaalbert/jaxns">jaxns</a> - Nested sampling in JAX.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/amortized_bo">Amortized Bayesian Optimization</a> - Code related to <a href="http://www.auai.org/uai2020/proceedings/329_main_paper.pdf"><em>Amortized Bayesian Optimization over Discrete Spaces</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/aqt">Accurate Quantized Training</a> - Tools and libraries for running and analyzing neural network quantization experiments in JAX and Flax.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/bnn_hmc">BNN-HMC</a> - Implementation for the paper <a href="https://arxiv.org/abs/2104.14421"><em>What Are Bayesian Neural Network Posteriors Really Like?</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/jax_dft">JAX-DFT</a> - One-dimensional density functional theory (DFT) in JAX, with implementation of <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.036401"><em>Kohn-Sham equations as regularizer: building prior knowledge into machine-learned physics</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/robust_loss_jax">Robust Loss</a> - Reference code for the paper <a href="https://arxiv.org/abs/1701.03077"><em>A General and Adaptive Robust Loss Function</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/symbolic_functionals">Symbolic Functionals</a> - Demonstration from <a href="https://arxiv.org/abs/2203.02540"><em>Evolving symbolic density functionals</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/trimap">TriMap</a> - Official JAX implementation of <a href="https://arxiv.org/abs/1910.00204"><em>TriMap: Large-scale Dimensionality Reduction Using Triplets</em></a>.</li>
+<li><a href="https://github.com/tancik/fourier-feature-networks">Fourier Feature Networks</a> - 正式实施 <a href="https://people.eecs.berkeley.edu/~bmild/fourfeat"><em>Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains</em></a>.</li>
+<li><a href="https://github.com/AaltoML/kalman-jax">kalman-jax</a> - 使用迭代卡尔曼滤波和平滑的马尔可夫（即时间）高斯过程的近似推断.</li>
+<li><a href="https://github.com/thomaspinder/GPJax">GPJax</a> - JAX 中的高斯过程.</li>
+<li><a href="https://github.com/Joshuaalbert/jaxns">jaxns</a> - JAX 中的嵌套采样.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/amortized_bo">Amortized Bayesian Optimization</a> - 相关代码 <a href="http://www.auai.org/uai2020/proceedings/329_main_paper.pdf"><em>Amortized Bayesian Optimization over Discrete Spaces</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/aqt">Accurate Quantized Training</a> - 用于在 JAX 和 Flax 中运行和分析神经网络量化实验的工具和库.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/bnn_hmc">BNN-HMC</a> - 论文的实施 <a href="https://arxiv.org/abs/2104.14421"><em>What Are Bayesian Neural Network Posteriors Really Like?</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/jax_dft">JAX-DFT</a> - JAX 中的一维密度泛函理论 (DFT)，实现 <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.036401"><em>Kohn-Sham equations as regularizer: building prior knowledge into machine-learned physics</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/robust_loss_jax">Robust Loss</a> - 论文的参考代码 <a href="https://arxiv.org/abs/1701.03077"><em>A General and Adaptive Robust Loss Function</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/symbolic_functionals">Symbolic Functionals</a> - 示范来自 <a href="https://arxiv.org/abs/2203.02540"><em>Evolving symbolic density functionals</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/trimap">TriMap</a> - 官方 JAX 实现 <a href="https://arxiv.org/abs/1910.00204"><em>TriMap: Large-scale Dimensionality Reduction Using Triplets</em></a>.</li>
 </ul>
 <h3 id="flax">Flax<a class="headerlink" href="#flax" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/google-research/google-research/tree/master/performer/fast_attention/jax">Performer</a> - Flax implementation of the Performer (linear transformer via FAVOR+) architecture.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/jaxnerf">JaxNeRF</a> - Implementation of <a href="http://www.matthewtancik.com/nerf"><em>NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis</em></a> with multi-device GPU/TPU support.</li>
-<li><a href="https://github.com/google/mipnerf">mip-NeRF</a> - Official implementation of <a href="https://jonbarron.info/mipnerf"><em>Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/regnerf">RegNeRF</a> - Official implementation of <a href="https://m-niemeyer.github.io/regnerf/"><em>RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs</em></a>.</li>
-<li><a href="https://github.com/google-research/big_transfer">Big Transfer (BiT)</a> - Implementation of <a href="https://arxiv.org/abs/1912.11370"><em>Big Transfer (BiT): General Visual Representation Learning</em></a>.</li>
-<li><a href="https://github.com/ikostrikov/jax-rl">JAX RL</a> - Implementations of reinforcement learning algorithms.</li>
-<li><a href="https://github.com/SauravMaheshkar/gMLP">gMLP</a> - Implementation of <a href="https://arxiv.org/abs/2105.08050"><em>Pay Attention to MLPs</em></a>.</li>
-<li><a href="https://github.com/SauravMaheshkar/MLP-Mixer">MLP Mixer</a> - Minimal implementation of <a href="https://arxiv.org/abs/2105.01601"><em>MLP-Mixer: An all-MLP Architecture for Vision</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/scalable_shampoo">Distributed Shampoo</a> - Implementation of <a href="https://arxiv.org/abs/2002.09018"><em>Second Order Optimization Made Practical</em></a>.</li>
-<li><a href="https://github.com/google-research/nested-transformer">NesT</a> - Official implementation of <a href="https://arxiv.org/abs/2105.12723"><em>Aggregating Nested Transformers</em></a>.</li>
-<li><a href="https://github.com/google-research/xmcgan_image_generation">XMC-GAN</a> - Official implementation of <a href="https://arxiv.org/abs/2101.04702"><em>Cross-Modal Contrastive Learning for Text-to-Image Generation</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/f_net">FNet</a> - Official implementation of <a href="https://arxiv.org/abs/2105.03824"><em>FNet: Mixing Tokens with Fourier Transforms</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/gfsa">GFSA</a> - Official implementation of <a href="https://arxiv.org/abs/2007.04929"><em>Learning Graph Structure With A Finite-State Automaton Layer</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/ipagnn">IPA-GNN</a> - Official implementation of <a href="https://arxiv.org/abs/2010.12621"><em>Learning to Execute Programs with Instruction Pointer Attention Graph Neural Networks</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/flax_models">Flax Models</a> - Collection of models and methods implemented in Flax.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/protein_lm">Protein LM</a> - Implements BERT and autoregressive models for proteins, as described in <a href="https://www.biorxiv.org/content/10.1101/622803v1.full"><em>Biological Structure and Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences</em></a> and <a href="https://www.biorxiv.org/content/10.1101/2020.03.07.982272v2"><em>ProGen: Language Modeling for Protein Generation</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/ptopk_patch_selection">Slot Attention</a> - Reference implementation for <a href="https://arxiv.org/abs/2104.03059"><em>Differentiable Patch Selection for Image Recognition</em></a>.</li>
-<li><a href="https://github.com/google-research/vision_transformer">Vision Transformer</a> - Official implementation of <a href="https://arxiv.org/abs/2010.11929"><em>An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale</em></a>.</li>
-<li><a href="https://github.com/matthias-wright/jax-fid">FID computation</a> - Port of <a href="https://github.com/mseitzer/pytorch-fid">mseitzer/pytorch-fid</a> to Flax.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/autoregressive_diffusion">ARDM</a> - Official implementation of <a href="https://arxiv.org/abs/2110.02037"><em>Autoregressive Diffusion Models</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/d3pm">D3PM</a> - Official implementation of <a href="https://arxiv.org/abs/2107.03006"><em>Structured Denoising Diffusion Models in Discrete State-Spaces</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/gumbel_max_causal_gadgets">Gumbel-max Causal Mechanisms</a> - Code for <a href="https://arxiv.org/abs/2111.06888"><em>Learning Generalized Gumbel-max Causal Mechanisms</em></a>, with extra code in <a href="https://github.com/GuyLor/gumbel_max_causal_gadgets_part2">GuyLor/gumbel_max_causal_gadgets_part2</a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/latent_programmer">Latent Programmer</a> - Code for the ICML 2021 paper <a href="https://arxiv.org/abs/2012.00377"><em>Latent Programmer: Discrete Latent Codes for Program Synthesis</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/snerg">SNeRG</a> - Official implementation of <a href="https://phog.github.io/snerg"><em>Baking Neural Radiance Fields for Real-Time View Synthesis</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/spin_spherical_cnns">Spin-weighted Spherical CNNs</a> - Adaptation of <a href="https://arxiv.org/abs/2006.10731"><em>Spin-Weighted Spherical CNNs</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/vdvae_flax">VDVAE</a> - Adaptation of <a href="https://arxiv.org/abs/2011.10650"><em>Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images</em></a>, original code at <a href="https://github.com/openai/vdvae">openai/vdvae</a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/musiq">MUSIQ</a> - Checkpoints and model inference code for the ICCV 2021 paper <a href="https://arxiv.org/abs/2108.05997"><em>MUSIQ: Multi-scale Image Quality Transformer</em></a></li>
-<li><a href="https://github.com/google-research/google-research/tree/master/aquadem">AQuaDem</a> - Official implementation of <a href="https://arxiv.org/abs/2110.10149"><em>Continuous Control with Action Quantization from Demonstrations</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/combiner">Combiner</a> - Official implementation of <a href="https://arxiv.org/abs/2107.05768"><em>Combiner: Full Attention Transformer with Sparse Computation Cost</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/dreamfields">Dreamfields</a> - Official implementation of the ICLR 2022 paper <a href="https://ajayj.com/dreamfields"><em>Progressive Distillation for Fast Sampling of Diffusion Models</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/gift">GIFT</a> - Official implementation of <a href="https://arxiv.org/abs/2106.06080"><em>Gradual Domain Adaptation in the Wild:When Intermediate Distributions are Absent</em></a>.</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/light_field_neural_rendering">Light Field Neural Rendering</a> - Official implementation of <a href="https://arxiv.org/abs/2112.09687"><em>Light Field Neural Rendering</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/performer/fast_attention/jax">Performer</a> - Performer（通过 FAVOR+ 的线性变压器）架构的 Flax 实现.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/jaxnerf">JaxNeRF</a> - 实施 <a href="http://www.matthewtancik.com/nerf"><em>NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis</em></a> 支持多设备 GPU/TPU.</li>
+<li><a href="https://github.com/google/mipnerf">mip-NeRF</a> - 正式实施 <a href="https://jonbarron.info/mipnerf"><em>Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/regnerf">RegNeRF</a> - 正式实施 <a href="https://m-niemeyer.github.io/regnerf/"><em>RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs</em></a>.</li>
+<li><a href="https://github.com/google-research/big_transfer">Big Transfer (BiT)</a> - 实施 <a href="https://arxiv.org/abs/1912.11370"><em>Big Transfer (BiT): General Visual Representation Learning</em></a>.</li>
+<li><a href="https://github.com/ikostrikov/jax-rl">JAX RL</a> - 强化学习算法的实现.</li>
+<li><a href="https://github.com/SauravMaheshkar/gMLP">gMLP</a> - 实施 <a href="https://arxiv.org/abs/2105.08050"><em>Pay Attention to MLPs</em></a>.</li>
+<li><a href="https://github.com/SauravMaheshkar/MLP-Mixer">MLP Mixer</a> - 最低限度的实施 <a href="https://arxiv.org/abs/2105.01601"><em>MLP-Mixer: An all-MLP Architecture for Vision</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/scalable_shampoo">Distributed Shampoo</a> - 实施 <a href="https://arxiv.org/abs/2002.09018"><em>Second Order Optimization Made Practical</em></a>.</li>
+<li><a href="https://github.com/google-research/nested-transformer">NesT</a> - 正式实施 <a href="https://arxiv.org/abs/2105.12723"><em>Aggregating Nested Transformers</em></a>.</li>
+<li><a href="https://github.com/google-research/xmcgan_image_generation">XMC-GAN</a> - 正式实施 <a href="https://arxiv.org/abs/2101.04702"><em>Cross-Modal Contrastive Learning for Text-to-Image Generation</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/f_net">FNet</a> - 正式实施 <a href="https://arxiv.org/abs/2105.03824"><em>FNet: Mixing Tokens with Fourier Transforms</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/gfsa">GFSA</a> - 正式实施 <a href="https://arxiv.org/abs/2007.04929"><em>Learning Graph Structure With A Finite-State Automaton Layer</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/ipagnn">IPA-GNN</a> - 正式实施 <a href="https://arxiv.org/abs/2010.12621"><em>Learning to Execute Programs with Instruction Pointer Attention Graph Neural Networks</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/flax_models">Flax Models</a> - 在 Flax 中实现的模型和方法的集合.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/protein_lm">Protein LM</a> - 实现蛋白质的 BERT 和自回归模型，如中所述 <a href="https://www.biorxiv.org/content/10.1101/622803v1.full"><em>Biological Structure 和 Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences</em></a> 和 <a href="https://www.biorxiv.org/content/10.1101/2020.03.07.982272v2"><em>ProGen: Language Modeling for Protein Generation</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/ptopk_patch_selection">Slot Attention</a> - 参考实现 <a href="https://arxiv.org/abs/2104.03059"><em>Differentiable Patch Selection for Image Recognition</em></a>.</li>
+<li><a href="https://github.com/google-research/vision_transformer">Vision Transformer</a> - 正式实施 <a href="https://arxiv.org/abs/2010.11929"><em>An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale</em></a>.</li>
+<li><a href="https://github.com/matthias-wright/jax-fid">FID computation</a> - 港口 <a href="https://github.com/mseitzer/pytorch-fid">mseitzer/pytorch-fid</a> 到亚麻.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/autoregressive_diffusion">ARDM</a> - 正式实施 <a href="https://arxiv.org/abs/2110.02037"><em>Autoregressive Diffusion Models</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/d3pm">D3PM</a> - 正式实施 <a href="https://arxiv.org/abs/2107.03006"><em>Structured Denoising Diffusion Models in Discrete State-Spaces</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/gumbel_max_causal_gadgets">Gumbel-max Causal Mechanisms</a> - 代码 <a href="https://arxiv.org/abs/2111.06888"><em>Learning Generalized Gumbel-max Causal Mechanisms</em></a>, 有额外的代码 <a href="https://github.com/GuyLor/gumbel_max_causal_gadgets_part2">GuyLor/gumbel_max_causal_gadgets_part2</a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/latent_programmer">Latent Programmer</a> - ICML 2021 论文的代码 <a href="https://arxiv.org/abs/2012.00377"><em>Latent Programmer: Discrete Latent Codes for Program Synthesis</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/snerg">SNeRG</a> - 正式实施 <a href="https://phog.github.io/snerg"><em>Baking Neural Radiance Fields for Real-Time View Synthesis</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/spin_spherical_cnns">Spin-weighted Spherical CNNs</a> - 适应 <a href="https://arxiv.org/abs/2006.10731"><em>Spin-Weighted Spherical CNNs</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/vdvae_flax">VDVAE</a> - 适应 <a href="https://arxiv.org/abs/2011.10650"><em>Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images</em></a>，原始代码在 <a href="https://github.com/openai/vdvae">openai/vdvae</a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/musiq">MUSIQ</a> - ICCV 2021 论文的检查点和模型推理代码 <a href="https://arxiv.org/abs/2108.05997"><em>MUSIQ: Multi-scale Image Quality Transformer</em></a></li>
+<li><a href="https://github.com/google-research/google-research/tree/master/aquadem">AQuaDem</a> - 正式实施 <a href="https://arxiv.org/abs/2110.10149"><em>Continuous Control with Action Quantization from Demonstrations</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/combiner">Combiner</a> - 正式实施 <a href="https://arxiv.org/abs/2107.05768"><em>Combiner: Full Attention Transformer with Sparse Computation Cost</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/dreamfields">Dreamfields</a> - ICLR 2022 论文的正式实施 <a href="https://ajayj.com/dreamfields"><em>Progressive Distillation for Fast Sampling of Diffusion Models</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/gift">GIFT</a> - 正式实施 <a href="https://arxiv.org/abs/2106.06080"><em>Gradual Domain Adaptation in the Wild:When Intermediate Distributions are Absent</em></a>.</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/light_field_neural_rendering">Light Field Neural Rendering</a> - 正式实施 <a href="https://arxiv.org/abs/2112.09687"><em>Light Field Neural Rendering</em></a>.</li>
 </ul>
 <h3 id="haiku">Haiku<a class="headerlink" href="#haiku" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/deepmind/alphafold">AlphaFold</a> - Implementation of the inference pipeline of AlphaFold v2.0, presented in <a href="https://www.nature.com/articles/s41586-021-03819-2"><em>Highly accurate protein structure prediction with AlphaFold</em></a>.</li>
-<li><a href="https://github.com/deepmind/deepmind-research/tree/master/adversarial_robustness">Adversarial Robustness</a> - Reference code for <a href="https://arxiv.org/abs/2010.03593"><em>Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial Examples</em></a> and <a href="https://arxiv.org/abs/2103.01946"><em>Fixing Data Augmentation to Improve Adversarial Robustness</em></a>.</li>
-<li><a href="https://github.com/deepmind/deepmind-research/tree/master/byol">Bootstrap Your Own Latent</a> - Implementation for the paper <a href="https://arxiv.org/abs/2006.07733"><em>Bootstrap your own latent: A new approach to self-supervised Learning</em></a>.</li>
-<li><a href="https://github.com/deepmind/deepmind-research/tree/master/gated_linear_networks">Gated Linear Networks</a> - GLNs are a family of backpropagation-free neural networks.</li>
-<li><a href="https://github.com/deepmind/deepmind-research/tree/master/glassy_dynamics">Glassy Dynamics</a> - Open source implementation of the paper <a href="https://www.nature.com/articles/s41567-020-0842-8"><em>Unveiling the predictive power of static structure in glassy systems</em></a>.</li>
-<li><a href="https://github.com/deepmind/deepmind-research/tree/master/mmv">MMV</a> - Code for the models in <a href="https://arxiv.org/abs/2006.16228"><em>Self-Supervised MultiModal Versatile Networks</em></a>.</li>
-<li><a href="https://github.com/deepmind/deepmind-research/tree/master/nfnets">Normalizer-Free Networks</a> - Official Haiku implementation of <a href="https://arxiv.org/abs/2102.06171"><em>NFNets</em></a>.</li>
-<li><a href="https://github.com/Information-Fusion-Lab-Umass/NuX">NuX</a> - Normalizing flows with JAX.</li>
-<li><a href="https://github.com/deepmind/deepmind-research/tree/master/ogb_lsc">OGB-LSC</a> - This repository contains DeepMind's entry to the <a href="https://ogb.stanford.edu/kddcup2021/pcqm4m/">PCQM4M-LSC</a> (quantum chemistry) and <a href="https://ogb.stanford.edu/kddcup2021/mag240m/">MAG240M-LSC</a> (academic graph)
-tracks of the <a href="https://ogb.stanford.edu/kddcup2021/">OGB Large-Scale Challenge</a> (OGB-LSC).</li>
-<li><a href="https://github.com/google-research/google-research/tree/master/persistent_es">Persistent Evolution Strategies</a> - Code used for the paper <a href="http://proceedings.mlr.press/v139/vicol21a.html"><em>Unbiased Gradient Estimation in Unrolled Computation Graphs with Persistent Evolution Strategies</em></a>.</li>
-<li><a href="https://github.com/degregat/two-player-auctions">Two Player Auction Learning</a> - JAX implementation of the paper <a href="https://arxiv.org/abs/2006.05684"><em>Auction learning as a two-player game</em></a>.</li>
-<li><a href="https://github.com/deepmind/deepmind-research/tree/master/wikigraphs">WikiGraphs</a> - Baseline code to reproduce results in <a href="https://aclanthology.org/2021.textgraphs-1.7"><em>WikiGraphs: A Wikipedia Text - Knowledge Graph Paired Datase</em></a>.</li>
+<li><a href="https://github.com/deepmind/alphafold">AlphaFold</a> - AlphaFold v2.0 推理管道的实现，见 <a href="https://www.nature.com/articles/s41586-021-03819-2"><em>Highly accurate protein structure prediction with AlphaFold</em></a>.</li>
+<li><a href="https://github.com/deepmind/deepmind-research/tree/master/adversarial_robustness">Adversarial Robustness</a> - 参考代码 <a href="https://arxiv.org/abs/2010.03593"><em>Uncovering the Limits of Adversarial Training against Norm-Bounded Adversarial Examples</em></a> 和 <a href="https://arxiv.org/abs/2103.01946"><em>Fixing Data Augmentation to Improve Adversarial Robustness</em></a>.</li>
+<li><a href="https://github.com/deepmind/deepmind-research/tree/master/byol">Bootstrap Your Own Latent</a> - 论文的实施 <a href="https://arxiv.org/abs/2006.07733"><em>Bootstrap your own latent: A new approach to self-supervised Learning</em></a>.</li>
+<li><a href="https://github.com/deepmind/deepmind-research/tree/master/gated_linear_networks">Gated Linear Networks</a> - GLN 是一系列无反向传播的神经网络.</li>
+<li><a href="https://github.com/deepmind/deepmind-research/tree/master/glassy_dynamics">Glassy Dynamics</a> - 论文的开源实现 <a href="https://www.nature.com/articles/s41567-020-0842-8"><em>Unveiling the predictive power of static structure in glassy systems</em></a>.</li>
+<li><a href="https://github.com/deepmind/deepmind-research/tree/master/mmv">MMV</a> - 模型的代码 <a href="https://arxiv.org/abs/2006.16228"><em>Self-Supervised MultiModal Versatile Networks</em></a>.</li>
+<li><a href="https://github.com/deepmind/deepmind-research/tree/master/nfnets">Normalizer-Free Networks</a> - 官方俳句实施 <a href="https://arxiv.org/abs/2102.06171"><em>NFNets</em></a>.</li>
+<li><a href="https://github.com/Information-Fusion-Lab-Umass/NuX">NuX</a> - 使用 JAX 规范化流程.</li>
+<li><a href="https://github.com/deepmind/deepmind-research/tree/master/ogb_lsc">OGB-LSC</a> - 这个存储库包含 DeepMind 对 <a href="https://ogb.stanford.edu/kddcup2021/pcqm4m/">PCQM4M-LSC</a> （量子化学）和 <a href="https://ogb.stanford.edu/kddcup2021/mag240m/">MAG240M-LSC</a> （学术图）
+的轨道 <a href="https://ogb.stanford.edu/kddcup2021/">OGB Large-Scale Challenge</a> (OGB-LSC).</li>
+<li><a href="https://github.com/google-research/google-research/tree/master/persistent_es">Persistent Evolution Strategies</a> - 用于论文的代码 <a href="http://proceedings.mlr.press/v139/vicol21a.html"><em>Unbiased Gradient Estimation in Unrolled Computation Graphs with Persistent Evolution Strategies</em></a>.</li>
+<li><a href="https://github.com/degregat/two-player-auctions">Two Player Auction Learning</a> - 论文的JAX实现 <a href="https://arxiv.org/abs/2006.05684"><em>Auction learning as a two-player game</em></a>.</li>
+<li><a href="https://github.com/deepmind/deepmind-research/tree/master/wikigraphs">WikiGraphs</a> - 重现结果的基线代码 <a href="https://aclanthology.org/2021.textgraphs-1.7"><em>WikiGraphs: A Wikipedia Text - Knowledge Graph Paired Datase</em></a>.</li>
 </ul>
 <h3 id="trax">Trax<a class="headerlink" href="#trax" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="https://github.com/google/trax/tree/master/trax/models/reformer">Reformer</a> - Implementation of the Reformer (efficient transformer) architecture.</li>
+<li><a href="https://github.com/google/trax/tree/master/trax/models/reformer">Reformer</a> - 实施改革者（高效变压器）架构.</li>
 </ul>
 <p><a name="videos" /></p>
 <h2 id="videos">Videos<a class="headerlink" href="#videos" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=iDxJxIyzSiM">NeurIPS 2020: JAX Ecosystem Meetup</a> - JAX, its use at DeepMind, and discussion between engineers, scientists, and JAX core team.</li>
-<li><a href="https://youtu.be/0mVmRHMaOJ4">Introduction to JAX</a> - Simple neural network from scratch in JAX.</li>
-<li><a href="https://youtu.be/z-WSrQDXkuM">JAX: Accelerated Machine Learning Research | SciPy 2020 | VanderPlas</a> - JAX's core design, how it's powering new research, and how you can start using it.</li>
-<li><a href="https://youtu.be/CecuWGpoztw">Bayesian Programming with JAX + NumPyro — Andy Kitchen</a> - Introduction to Bayesian modelling using NumPyro.</li>
-<li><a href="https://slideslive.com/38923687/jax-accelerated-machinelearning-research-via-composable-function-transformations-in-python">JAX: Accelerated machine-learning research via composable function transformations in Python | NeurIPS 2019 | Skye Wanderman-Milne</a> - JAX intro presentation in <a href="https://program-transformations.github.io"><em>Program Transformations for Machine Learning</em></a> workshop.</li>
-<li><a href="https://drive.google.com/file/d/1jKxefZT1xJDUxMman6qrQVed7vWI0MIn/edit">JAX on Cloud TPUs | NeurIPS 2020 | Skye Wanderman-Milne and James Bradbury</a> - Presentation of TPU host access with demo.</li>
-<li><a href="https://slideslive.com/38935810/deep-implicit-layers-neural-odes-equilibrium-models-and-beyond">Deep Implicit Layers - Neural ODEs, Deep Equilibirum Models, and Beyond | NeurIPS 2020</a> - Tutorial created by Zico Kolter, David Duvenaud, and Matt Johnson with Colab notebooks avaliable in <a href="http://implicit-layers-tutorial.org"><em>Deep Implicit Layers</em></a>.</li>
-<li><a href="http://matpalm.com/blog/ymxb_pod_slice/">Solving y=mx+b with Jax on a TPU Pod slice - Mat Kelcey</a> - A four part YouTube tutorial series with Colab notebooks that starts with Jax fundamentals and moves up to training with a data parallel approach on a v3-32 TPU Pod slice.</li>
-<li><a href="https://github.com/huggingface/transformers/blob/9160d81c98854df44b1d543ce5d65a6aa28444a2/examples/research_projects/jax-projects/README.md#talks">JAX, Flax &amp; Transformers 🤗</a> - 3 days of talks around JAX / Flax, Transformers, large-scale language modeling and other great topics.</li>
+<li><a href="https://www.youtube.com/watch?v=iDxJxIyzSiM">NeurIPS 2020: JAX Ecosystem Meetup</a> - JAX，它在 DeepMind 中的使用，以及工程师、科学家和 JAX 核心团队之间的讨论.</li>
+<li><a href="https://youtu.be/0mVmRHMaOJ4">Introduction to JAX</a> - 在 JAX 中从头开始的简单神经网络.</li>
+<li><a href="https://youtu.be/z-WSrQDXkuM">JAX: Accelerated Machine Learning Research | SciPy 2020 | VanderPlas</a> - JAX 的核心设计，它如何为新研究提供动力，以及如何开始使用它.</li>
+<li><a href="https://youtu.be/CecuWGpoztw">Bayesian Programming with JAX + NumPyro — Andy Kitchen</a> - 介绍使用 NumPyro 进行贝叶斯建模.</li>
+<li><a href="https://slideslive.com/38923687/jax-accelerated-machinelearning-research-via-composable-function-transformations-in-python">JAX: Accelerated machine-learning research via composable function transformations in Python | NeurIPS 2019 | Skye Wanderman-Milne</a> - JAX 介绍演示 <a href="https://program-transformations.github.io"><em>Program Transformations for Machine Learning</em></a> 作坊.</li>
+<li><a href="https://drive.google.com/file/d/1jKxefZT1xJDUxMman6qrQVed7vWI0MIn/edit">JAX on Cloud TPUs | NeurIPS 2020 | Skye Wanderman-Milne and James Bradbury</a> - 演示 TPU 主机访问.</li>
+<li><a href="https://slideslive.com/38935810/deep-implicit-layers-neural-odes-equilibrium-models-and-beyond">Deep Implicit Layers - Neural ODEs, Deep Equilibirum Models, and Beyond | NeurIPS 2020</a> - 由 Zico Kolter、David Duvenaud 和 Matt Johnson 使用 Colab 笔记本创建的教程 <a href="http://implicit-layers-tutorial.org"><em>Deep Implicit Layers</em></a>.</li>
+<li><a href="http://matpalm.com/blog/ymxb_pod_slice/">Solving y=mx+b with Jax on a TPU Pod slice - Mat Kelcey</a> - 包含 Colab 笔记本的四部分 YouTube 教程系列，从 Jax 基础知识开始，然后在 v3-32 TPU Pod 切片上使用数据并行方法进行训练.</li>
+<li><a href="https://github.com/huggingface/transformers/blob/9160d81c98854df44b1d543ce5d65a6aa28444a2/examples/research_projects/jax-projects/README.md#talks">JAX, Flax &amp; Transformers 🤗</a> - 3 天围绕 JAX / Flax、Transformers、大规模语言建模和其他重要主题的讲座.</li>
 </ul>
 <p><a name="papers" /></p>
 <h2 id="papers">Papers<a class="headerlink" href="#papers" title="Permanent link">&para;</a></h2>
-<p>This section contains papers focused on JAX (e.g. JAX-based library whitepapers, research on JAX, etc). Papers implemented in JAX are listed in the <a href="#projects">Models/Projects</a> section.</p>
+<p>本节包含专注于 JAX 的论文（例如基于 JAX 的库白皮书、对 JAX 的研究等）. 在 JAX 中实现的论文列在 <a href="#projects">Models/Projects</a> 部分.</p>
 <!--lint ignore awesome-list-item-->
 
 <ul>
-<li><a href="https://mlsys.org/Conferences/doc/2018/146.pdf"><strong>Compiling machine learning programs via high-level tracing</strong>. Roy Frostig, Matthew James Johnson, Chris Leary. <em>MLSys 2018</em>.</a> - White paper describing an early version of JAX, detailing how computation is traced and compiled.</li>
-<li><a href="https://arxiv.org/abs/1912.04232"><strong>JAX, M.D.: A Framework for Differentiable Physics</strong>. Samuel S. Schoenholz, Ekin D. Cubuk. <em>NeurIPS 2020</em>.</a> - Introduces JAX, M.D., a differentiable physics library which includes simulation environments, interaction potentials, neural networks, and more.</li>
-<li><a href="https://arxiv.org/abs/2010.09063"><strong>Enabling Fast Differentially Private SGD via Just-in-Time Compilation and Vectorization</strong>. Pranav Subramani, Nicholas Vadivelu, Gautam Kamath. <em>arXiv 2020</em>.</a> - Uses JAX's JIT and VMAP to achieve faster differentially private than existing libraries.
+<li><a href="https://mlsys.org/Conferences/doc/2018/146.pdf"><strong>Compiling machine learning programs via high-level tracing</strong>. Roy Frostig, Matthew James Johnson, Chris Leary. <em>MLSys 2018</em>.</a> - 描述 JAX 早期版本的白皮书，详细说明如何跟踪和编译计算.</li>
+<li><a href="https://arxiv.org/abs/1912.04232"><strong>JAX, M.D.: A Framework for Differentiable Physics</strong>. Samuel S. Schoenholz, Ekin D. Cubuk. <em>NeurIPS 2020</em>.</a> - 引入 JAX, MD，一个可微分物理库，其中包括模拟环境、交互势、神经网络等.</li>
+<li><a href="https://arxiv.org/abs/2010.09063"><strong>Enabling Fast Differentially Private SGD via Just-in-Time Compilation and Vectorization</strong>. Pranav Subramani, Nicholas Vadivelu, Gautam Kamath. <em>arXiv 2020</em>.</a> - 使用 JAX 的 JIT 和 VMAP 来实现比现有库更快的差分私有.
 <!--lint enable awesome-list-item--></li>
 </ul>
 <p><a name="tutorials-and-blog-posts" /></p>
 <h2 id="tutorials-and-blog-posts">Tutorials and Blog Posts<a class="headerlink" href="#tutorials-and-blog-posts" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="https://deepmind.com/blog/article/using-jax-to-accelerate-our-research">Using JAX to accelerate our research by David Budden and Matteo Hessel</a> - Describes the state of JAX and the JAX ecosystem at DeepMind.</li>
-<li><a href="https://roberttlange.github.io/posts/2020/03/blog-post-10/">Getting started with JAX (MLPs, CNNs &amp; RNNs) by Robert Lange</a> - Neural network building blocks from scratch with the basic JAX operators.</li>
-<li><a href="https://github.com/8bitmp3/JAX-Flax-Tutorial-Image-Classification-with-Linen">Tutorial: image classification with JAX and Flax Linen by 8bitmp3</a> - Learn how to create a simple convolutional network with the Linen API by Flax and train it to recognize handwritten digits.</li>
-<li><a href="https://medium.com/swlh/plugging-into-jax-16c120ec3302">Plugging Into JAX by Nick Doiron</a> - Compares Flax, Haiku, and Objax on the Kaggle flower classification challenge.</li>
-<li><a href="https://blog.evjang.com/2019/02/maml-jax.html">Meta-Learning in 50 Lines of JAX by Eric Jang</a> - Introduction to both JAX and Meta-Learning.</li>
-<li><a href="https://blog.evjang.com/2019/07/nf-jax.html">Normalizing Flows in 100 Lines of JAX by Eric Jang</a> - Concise implementation of <a href="https://arxiv.org/abs/1605.08803">RealNVP</a>.</li>
-<li><a href="https://blog.evjang.com/2019/11/jaxpt.html">Differentiable Path Tracing on the GPU/TPU by Eric Jang</a> - Tutorial on implementing path tracing.</li>
-<li><a href="http://matpalm.com/blog/ensemble_nets">Ensemble networks by Mat Kelcey</a> - Ensemble nets are a method of representing an ensemble of models as one single logical model.</li>
-<li><a href="http://matpalm.com/blog/ood_using_focal_loss">Out of distribution (OOD) detection by Mat Kelcey</a> - Implements different methods for OOD detection.</li>
-<li><a href="https://www.radx.in/jax.html">Understanding Autodiff with JAX by Srihari Radhakrishna</a> - Understand how autodiff works using JAX.</li>
-<li><a href="https://sjmielke.com/jax-purify.htm">From PyTorch to JAX: towards neural net frameworks that purify stateful code by Sabrina J. Mielke</a> - Showcases how to go from a PyTorch-like style of coding to a more Functional-style of coding.</li>
-<li><a href="https://github.com/dfm/extending-jax">Extending JAX with custom C++ and CUDA code by Dan Foreman-Mackey</a> - Tutorial demonstrating the infrastructure required to provide custom ops in JAX.</li>
-<li><a href="https://roberttlange.github.io/posts/2021/02/cma-es-jax/">Evolving Neural Networks in JAX by Robert Tjarko Lange</a> - Explores how JAX can power the next generation of scalable neuroevolution algorithms.</li>
-<li><a href="http://lukemetz.com/exploring-hyperparameter-meta-loss-landscapes-with-jax/">Exploring hyperparameter meta-loss landscapes with JAX by Luke Metz</a> - Demonstrates how to use JAX to perform inner-loss optimization with SGD and Momentum, outer-loss optimization with gradients, and outer-loss optimization using evolutionary strategies.</li>
-<li><a href="https://martiningram.github.io/deterministic-advi/">Deterministic ADVI in JAX by Martin Ingram</a> - Walk through of implementing automatic differentiation variational inference (ADVI) easily and cleanly with JAX.</li>
-<li><a href="http://matpalm.com/blog/evolved_channel_selection/">Evolved channel selection by Mat Kelcey</a> - Trains a classification model robust to different combinations of input channels at different resolutions, then uses a genetic algorithm to decide the best combination for a particular loss.</li>
-<li><a href="https://colab.research.google.com/github/probml/probml-notebooks/blob/main/notebooks/jax_intro.ipynb">Introduction to JAX by Kevin Murphy</a> - Colab that introduces various aspects of the language and applies them to simple ML problems.</li>
-<li><a href="https://www.jeremiecoullon.com/2020/11/10/mcmcjax3ways/">Writing an MCMC sampler in JAX by Jeremie Coullon</a> - Tutorial on the different ways to write an MCMC sampler in JAX along with speed benchmarks.</li>
-<li><a href="https://www.jeremiecoullon.com/2021/01/29/jax_progress_bar/">How to add a progress bar to JAX scans and loops by Jeremie Coullon</a> - Tutorial on how to add a progress bar to compiled loops in JAX using the <code>host_callback</code> module.</li>
-<li><a href="https://github.com/gordicaleksa/get-started-with-JAX">Get started with JAX by Aleksa Gordić</a> - A series of notebooks and videos going from zero JAX knowledge to building neural networks in Haiku.</li>
+<li><a href="https://deepmind.com/blog/article/using-jax-to-accelerate-our-research">Using JAX to accelerate our research by David Budden and Matteo Hessel</a> - 描述 JAX 的状态和 DeepMind 的 JAX 生态系统.</li>
+<li><a href="https://roberttlange.github.io/posts/2020/03/blog-post-10/">Getting started with JAX (MLPs, CNNs &amp; RNNs) by Robert Lange</a> - 使用基本的 JAX 运算符从头开始构建神经网络.</li>
+<li><a href="https://github.com/8bitmp3/JAX-Flax-Tutorial-Image-Classification-with-Linen">Tutorial: image classification with JAX and Flax Linen by 8bitmp3</a> - 学习如何使用 Flax 的 Linen API 创建一个简单的卷积网络，并训练它识别手写数字.</li>
+<li><a href="https://medium.com/swlh/plugging-into-jax-16c120ec3302">Plugging Into JAX by Nick Doiron</a> - 在 Kaggle 花卉分类挑战中比较 Flax、Haiku 和 Objax.</li>
+<li><a href="https://blog.evjang.com/2019/02/maml-jax.html">Meta-Learning in 50 Lines of JAX by Eric Jang</a> - JAX 和元学习简介.</li>
+<li><a href="https://blog.evjang.com/2019/07/nf-jax.html">Normalizing Flows in 100 Lines of JAX by Eric Jang</a> - 简洁的实现 <a href="https://arxiv.org/abs/1605.08803">RealNVP</a>.</li>
+<li><a href="https://blog.evjang.com/2019/11/jaxpt.html">Differentiable Path Tracing on the GPU/TPU by Eric Jang</a> - 实现路径跟踪的教程.</li>
+<li><a href="http://matpalm.com/blog/ensemble_nets">Ensemble networks by Mat Kelcey</a> - 集成网络是一种将模型集成表示为单个逻辑模型的方法.</li>
+<li><a href="http://matpalm.com/blog/ood_using_focal_loss">Out of distribution (OOD) detection by Mat Kelcey</a> - 实现不同的OOD检测方法.</li>
+<li><a href="https://www.radx.in/jax.html">Understanding Autodiff with JAX by Srihari Radhakrishna</a> - 了解 autodiff 如何使用 JAX 工作.</li>
+<li><a href="https://sjmielke.com/jax-purify.htm">From PyTorch to JAX: towards neural net frameworks that purify stateful code by Sabrina J. Mielke</a> - 展示如何从类似 PyTorch 的编码风格转变为更实用的编码风格.</li>
+<li><a href="https://github.com/dfm/extending-jax">Extending JAX with custom C++ and CUDA code by Dan Foreman-Mackey</a> - 演示在 JAX 中提供自定义操作所需的基础设施的教程.</li>
+<li><a href="https://roberttlange.github.io/posts/2021/02/cma-es-jax/">Evolving Neural Networks in JAX by Robert Tjarko Lange</a> - 探索 JAX 如何为下一代可扩展的神经进化算法提供动力.</li>
+<li><a href="http://lukemetz.com/exploring-hyperparameter-meta-loss-landscapes-with-jax/">Exploring hyperparameter meta-loss landscapes with JAX by Luke Metz</a> - 演示如何使用 JAX 使用 SGD 和 Momentum 执行内部损失优化，使用梯度进行外部损失优化，以及使用进化策略执行外部损失优化.</li>
+<li><a href="https://martiningram.github.io/deterministic-advi/">Deterministic ADVI in JAX by Martin Ingram</a> - 使用 JAX 轻松、干净地实现自动微分变分推理 (ADVI).</li>
+<li><a href="http://matpalm.com/blog/evolved_channel_selection/">Evolved channel selection by Mat Kelcey</a> - 训练一个对不同分辨率的不同输入通道组合具有鲁棒性的分类模型，然后使用遗传算法来确定特定损失的最佳组合.</li>
+<li><a href="https://colab.research.google.com/github/probml/probml-notebooks/blob/main/notebooks/jax_intro.ipynb">Introduction to JAX by Kevin Murphy</a> - Colab，它介绍了语言的各个方面并将它们应用于简单的 ML 问题.</li>
+<li><a href="https://www.jeremiecoullon.com/2020/11/10/mcmcjax3ways/">Writing an MCMC sampler in JAX by Jeremie Coullon</a> - 关于在 JAX 中编写 MCMC 采样器的不同方法以及速度基准的教程.</li>
+<li><a href="https://www.jeremiecoullon.com/2021/01/29/jax_progress_bar/">How to add a progress bar to JAX scans and loops by Jeremie Coullon</a> - 关于如何使用 <code>host_callback</code> 模块向 JAX 中的已编译循环添加进度条的教程.</li>
+<li><a href="https://github.com/gordicaleksa/get-started-with-JAX">Get started with JAX by Aleksa Gordić</a> - 从零 JAX 知识到在 Haiku 中构建神经网络的一系列笔记本和视频.</li>
 </ul>
 <p><a name="community" /></p>
 <h2 id="community">Community<a class="headerlink" href="#community" title="Permanent link">&para;</a></h2>
@@ -6873,7 +6874,7 @@ tracks of the <a href="https://ogb.stanford.edu/kddcup2021/">OGB Large-Scale Cha
 <li><a href="https://www.reddit.com/r/JAX/">Reddit</a></li>
 </ul>
 <h2 id="contributing">Contributing<a class="headerlink" href="#contributing" title="Permanent link">&para;</a></h2>
-<p>Contributions welcome! Read the <a href="https://github.com/n2cholas/awesome-jax/blob/master/contributing.md">contribution guidelines</a> first.</p>
+<p>欢迎投稿！ 阅读 <a href="https://github.com/n2cholas/awesome-jax/blob/master/contributing.md">contribution guidelines</a> 第一的.</p>
                 
                   
                 

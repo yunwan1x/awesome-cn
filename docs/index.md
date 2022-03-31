@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="_static/css/main.css">
 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6890694312814945" data-ad-slot="5473692530" data-ad-format="auto"  data-full-width-responsive="true"></ins>
 
-本文档采用 [mkdocs](https://github.com/mkdocs/mkdocs) 构建，构建时间: 2022-03-30 20:17 UTC 
+本文档采用 [mkdocs](https://github.com/mkdocs/mkdocs) 构建，构建时间: 2022-03-31 20:17 UTC 
 
 [![CI](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml/badge.svg)](https://github.com/yunwan1x/awesome-cn/actions/workflows/main.yml)
 
